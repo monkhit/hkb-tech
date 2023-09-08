@@ -1,0 +1,16 @@
+.navbar .megamenu {
+padding: 1rem;
+}
+
+header nav{
+background-color: #fff;
+border-bottom: 1px solid #e3e3e3;
+}
+
+header nav .navbar-brand img{
+          min-height: 45px;
+          max-height: 45px;
+}
+        
+    
+        
