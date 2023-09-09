@@ -1,3 +1,7 @@
+.color-white{
+    color: #fff;
+}
+
 #video-banner {
 position: relative;
 height: 550px;
@@ -19,33 +23,85 @@ width: 100%;
 padding: 0 30px;
 }
 
-.video-content p, h3{
-color: #fff !important;
-}
 
 .space{
 padding: 3rem;
 }
 
 #about{
+    /* background-image: url('../images/about-1.webp');
+    background-size: cover;
+    padding: 6rem 1rem; */
 background-color: #032175;
 }
 
-#about h3, p{
-color: #fff;
-}
+
 
 
 
 /* sector */
-.carousel-nav .carousel-cell.is-nav-selected {
-background: #ED2;
+#sector{
+position: relative;
 }
+
+.sector-space{
+    padding: 6rem 2rem 1rem;
+}
+
+
+.carousel-nav .carousel-cell.is-nav-selected {
+}
+
+.sector-navigation{
+position: absolute !important;
+top: 0;
+width: 100%;
+border-bottom: 1px solid #ddd;
+padding: 1rem;
+
+}
+
+
 
 .sector-navigation .carousel-cell{
 margin-right: 3rem;
 padding-right: 3rem;
-border-right: 1px solid red;
+color: #ddd;
+font-weight: 600;
+border-right: 1px solid #ddd;
+}
+
+.is-nav-selected{
+    color: #fff !important;
+}
+
+
+
+.flickity-button{
+position: absolute;
+left: 8%;
+top: 80%;
+}
+
+.flickity-prev-next-button.previous {
+    left: 4%;
+}
+
+.image-1{
+background-image: url('/assets/images/sector/sectors-1.webp');
+background-size: cover;
+}
+
+.image-2{
+background-image: url('/assets/images/sector/sectors-2.webp');
+background-size: cover;
+}
+
+
+.cases{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em 3.125em;
 }
 
 
