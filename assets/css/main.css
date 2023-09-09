@@ -87,13 +87,26 @@ top: 80%;
     left: 4%;
 }
 
+.bg-color{
+    position: relative;
+}
+
+.bg-color:after{
+    content: '';
+    background-color: rgb(224 224 224 / 21%);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .image-1{
-background-image: url('./assets/images/sector/sectors-1.webp');
+background-image: url('../images/sector/sector-1.jpg');
 background-size: cover;
 }
 
 .image-2{
-background-image: url('./assets/images/sector/sectors-2.webp');
+background-image: url('../images/sector/sector-2.jpg');
 background-size: cover;
 }
 
