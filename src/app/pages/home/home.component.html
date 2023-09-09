@@ -1,0 +1,82 @@
+<app-header></app-header>
+
+<section id="video-banner">
+  <video [muted]="'muted'" loop autoplay [src]="videoSource"></video>
+  <div class="video-content clear-fix">
+    <p>Saudi Company for Artificial Intelligence</p>
+    <h3>Lead the next generation of AI applications to unlock value globally.
+    </h3>
+
+    <!-- <span class="float-end" >
+      <p>Play Now</p>
+    </span> -->
+  </div>
+
+</section>
+
+<section id="about" class="space">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+
+      <h3>SCAI at a glance..</h3>
+
+      <p class="mb-0">SCAI is wholly owned by the Public Investment Fund (PIF) and acts as PIF’s arm in the AI and emerging technologies sector. our purpose is to support PIF’s strategy and national priorities in innovating within the technology sector and positioning Saudi Arabia as a globally competitive hub for advanced technologies. </p>
+
+
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="sector" >
+
+    <!-- NAVIGATION -->
+    <div
+      class="carousel carousel-nav sector-navigation"
+      data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "prevNextButtons": false }'>
+      <div class="carousel-cell" *ngFor="let item of sectors">{{item.name }}</div>
+    </div>
+
+    <!-- content -->
+    <div
+      class="carousel carousel-main sector-descrption"
+      data-flickity='{"pageDots": false}'
+    >
+
+      <div class="carousel-cell bg-image smart-city mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5>OUR SECTORS</h5>
+            <p>
+              We create impactful solutions to unlock value of different
+              sectors
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <p>Smart Cities</p>
+            <p>
+              We provide human-centric AI solutions that focus on fostering
+              communities across a wide variety of sectors and enhancing
+              their quality of life.
+            </p>
+            <p>
+              Our cutting-edge technology is fueled by data and
+              intelligence, helping cities make well-informed decisions that
+              benefit the environment and population. This will advance
+              cognitive, prosperous and sustainable cities nationwide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+     
+    </div>
+
+</section>
+
+
+
+
+
