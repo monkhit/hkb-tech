@@ -121,7 +121,8 @@ top: 80%;
 
 .bg-color{
     position: relative;
-    height: 100vh !important;
+    /* max-height: 100vh !important; */
+    min-height: 100vh !important;
 }
 
 .bg-color:after{
@@ -160,9 +161,19 @@ background-size: cover;
 
 }
 
+.cases_wrap{
+color: #fff;
+}
+
+
+.cases {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 #contact{
-    padding: 3rem 40px;
+    padding: 3rem 6rem;
 }
 
 
@@ -215,6 +226,7 @@ background-size: cover;
 }
 
 
+
 @media only screen and (max-width: 767px) {
     .video-content{
         left: 0;
@@ -226,4 +238,8 @@ background-size: cover;
         padding: 6rem 30px;
     }
  
+    #contact{
+        padding: 3rem 30px;
+    }
+
 }
