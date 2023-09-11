@@ -36,7 +36,7 @@ padding: 3rem 40px;
 }
 
 .height-50{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -55,7 +55,7 @@ padding: 3rem 40px;
     /* background-image: url('../images/about-1.webp');
     background-size: cover;
     padding: 6rem 1rem; */
-background-color: #032175;
+background-color: #010c2d;
 }
 
 
