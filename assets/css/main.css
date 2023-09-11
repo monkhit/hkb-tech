@@ -19,7 +19,7 @@ object-fit: cover;
 .video-content{
 position: absolute;
 
-bottom: 20%;
+bottom: 10%;
 left: 6rem;
 transform: translate(0, -50%);
 width: 50%;
@@ -55,6 +55,13 @@ padding: 3rem 40px;
     -webkit-text-fill-color: transparent;
     background: #0ED2F7;
     background: linear-gradient(0deg,#B2FEFA 0,#0ED2F7);
+    -webkit-background-clip: text;
+}
+
+.text-gradient-2{
+    -webkit-text-fill-color: transparent;
+    background: #010c2d;
+    background: linear-gradient(0deg,#010c2d 0,#0ED2F7);
     -webkit-background-clip: text;
 }
 
