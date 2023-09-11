@@ -67,10 +67,8 @@ padding: 3rem 40px;
 
 
 #about{
-    /* background-image: url('../images/about-1.webp');
-    background-size: cover;
-    padding: 6rem 1rem; */
-background-color: #010c2d;
+/* background-color: #010c2d; */
+background-image: url(../images/sector/sector-bg.gif);
 }
 
 
