@@ -43,8 +43,9 @@ padding: 3rem 40px;
 
 .text-gradient{
     -webkit-text-fill-color: transparent;
-    background: #fff;
-    background: linear-gradient(0deg,#032175 0,#fff);
+    background: #29ffc6;
+    /* background: linear-gradient(0deg,#032175 0,#fff); */
+    background: linear-gradient(0deg,#0cebeb 0,#29ffc6);
     -webkit-background-clip: text;
 /* text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); */
 
