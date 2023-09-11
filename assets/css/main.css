@@ -51,6 +51,13 @@ padding: 3rem 40px;
 
 }
 
+.text-gradient-1{
+    -webkit-text-fill-color: transparent;
+    background: #0ED2F7;
+    background: linear-gradient(0deg,#B2FEFA 0,#0ED2F7);
+    -webkit-background-clip: text;
+}
+
 
 #about{
     /* background-image: url('../images/about-1.webp');
