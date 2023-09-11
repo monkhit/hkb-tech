@@ -68,7 +68,8 @@ padding: 3rem 40px;
 
 #about{
 /* background-color: #010c2d; */
-background-image: url(../images/sector/sector-bg.gif);
+background-image: url(../images/sector/sector-bg.png);
+background-size: cover;
 }
 
 
