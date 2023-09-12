@@ -67,9 +67,9 @@ padding: 3rem 40px;
 
 
 #about{
-/* background-color: #010c2d; */
-background-image: url(../images/sector/sector-bg.png);
-background-size: cover;
+background-color: #010c2d;
+/* background-image: url(../images/sector/sector-bg.png);
+background-size: cover; */
 }
 
 
@@ -86,6 +86,10 @@ position: relative;
     padding: 6rem 6rem 1rem;
 }
 
+
+.carousel-cell{
+    font-weight: 300 !important;
+}
 
 .carousel-nav .carousel-cell.is-nav-selected {
 }
@@ -141,12 +145,12 @@ top: 80%;
 }
 
 .image-1{
-background-image: url('../images/sector/sector-1.jpg');
+background-image: url('../images/sector/sector-1.png');
 background-size: cover;
 }
 
 .image-2{
-background-image: url('../images/sector/sector-2.jpg');
+background-image: url('../images/sector/sector-2.png');
 background-size: cover;
 }
 
