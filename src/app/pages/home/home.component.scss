@@ -38,3 +38,162 @@ color: var(--secondary-color);
     -webkit-background-clip: text;
   }
 }
+
+
+
+
+/* sector */
+#sector{
+  position: relative;
+  color: #fff;
+  p{
+    font-size: 1.1rem;
+  }
+  }
+  
+
+  .bg-1{
+    background-image: url('../../../assets/images/sectors/sector-1.png');
+  }
+
+  .bg-2{
+    background-image: url('../../../assets/images/sectors/sector-2.png');
+  }
+  
+  .sector-navigation{
+  position: absolute !important;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+
+  .carousel-cell{
+    color: #a8a8a8;
+
+    &:not(:last-child){
+      border-right: 1px solid #ddd;
+      margin-right: 3rem;
+      padding-right: 3rem;
+    }
+  }
+ 
+  }
+
+  .carousel-main{
+
+    .custom-box{
+      padding: 12rem 5rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 20rem;
+      background-size: cover;
+      position: relative;
+
+      &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #71b3693b;
+      }
+    }
+
+  }
+
+  
+  .is-nav-selected{
+    color: #fff !important;
+  }
+
+  .sector-types{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+
+  // contact us
+  
+
+#contact{
+
+  .activebox{
+    background: var(--gradient-3);
+    color: var(--white);
+  }
+
+  button{
+    padding: 1rem !important;
+  }
+
+
+
+  .content-box{
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 3rem 0 2rem;
+    cursor: pointer;
+
+    &:hover{
+      background: var(--gradient-3);
+      color: #fff;
+    }
+  }
+
+  .custom-label{
+    background: #fff;
+    height: auto !important;
+    padding: 0 !important;
+    color: rgba(var(--bs-body-color-rgb),.65);
+    transform: scale(.85) translateY(-0.8rem) translateX(0.75rem) !important; 
+  }
+
+  .custom-height{
+    height: 67px;
+
+    .cust-label{
+      transform: translateY(0.4rem) translateX(.15rem);
+    }
+
+  }
+
+  
+
+}
+
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+  color: rgba(var(--bs-body-color-rgb),.65);
+  transform: scale(.85) translateY(-1.9rem) translateX(0.15rem) !important;
+}
+
+.form-floating span{
+  color: red;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .carousel-main{
+
+    .custom-box{
+      padding: 6rem 2rem;
+      display: block;
+
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+  

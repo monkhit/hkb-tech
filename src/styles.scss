@@ -7,7 +7,10 @@
 --secondary-color: #29ffc6; /* Yellow color */
 --blue: #032175;
 --white: #fff;
---gradient: linear-gradient(0deg,#B2FEFA 0,#0ED2F7); /* Define your gradient here */
+--gradient: linear-gradient(0deg,#B2FEFA 0,#0ED2F7); 
+--gradient-2:linear-gradient(0deg,#010c2d 0,#0ED2F7);
+--gradient-3:linear-gradient(0deg,#005C97 0,#363795);
+/* Define your gradient here */
 }
 
 body{
@@ -23,7 +26,26 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .button-1{
-          background-color: var(--blue) !important;
+          background: var(--gradient-3) !important;
           color: var(--white) !important;
           border: 0px !important;
+            transition: all 0.3s ease;
+
+}
+
+
+.sub-head{
+      font-size: 0.9rem;
+      font-weight: 500;    
+      margin-bottom: 0rem;
+}
+
+.text-gradient-2 {
+-webkit-text-fill-color: transparent;
+background: var(--gradient-2);
+-webkit-background-clip: text;
+      }
+
+.common-space{
+      padding: 8rem 2rem ;
 }

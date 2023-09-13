@@ -16,6 +16,7 @@ header{
     .nav-item{
       position: relative;
       margin-right: 1rem;
+      font-size: 1rem;
       &::before{
         content: "";
         position: absolute;
@@ -39,5 +40,28 @@ header{
   }
 }
 
+
+@media only screen and (max-width: 767px) {
+
+#mynavbar{
+  position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    width: 100%;
+    left: 0px;
+    padding: 1rem;
+    top: 72px;
+    margin-left: 0px !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0 !important;
+}
+
+.common-space{
+  padding: 5rem 2rem;
+}
+
+}
 
 
