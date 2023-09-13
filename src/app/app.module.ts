@@ -5,14 +5,14 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
-import { VideoPlayerComponent } from './component/video-player/video-player.component';
+import { LoaderComponent } from './component/loader/loader.component';
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
     HeaderComponent,
     HomeComponent,
-    VideoPlayerComponent
+    LoaderComponent
   ],
   imports: [
     BrowserModule,

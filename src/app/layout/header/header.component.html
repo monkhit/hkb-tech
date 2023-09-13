@@ -1,20 +1,20 @@
 <header>
   <nav class="navbar navbar-expand-sm ">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand">
         <img src="/assets/images/hkb_logo.png"/>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
+      <div class="collapse navbar-collapse ms-5" id="mynavbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item" *ngFor="let item of MenuItems">
             <a class="nav-link" href="javascript:void(0)">{{item.name}}</a>
           </li>
         </ul>
         <div class="d-flex">
-          <button class="btn btn-primary" type="button">Search</button>
+          <button class="btn button-1" type="button">Contact Us</button>
         </div>
       </div>
     </div>
