@@ -11,23 +11,24 @@ export class HomeComponent implements OnInit {
   // https://www.shutterstock.com/shutterstock/videos/1054883390/preview/stock-footage-digital-circuit-network-loop-endless-flight-through-a-huge-digital-network-of-data-and-circuitry.webm
   sectors = [
     {name:'Smart City'},
+    {name:'Energy'},
+    {name:'Esports'},
+    {name:'Biotech'},
     {name:'Fintech'},
+    {name:'Retail'},
     {name:'Insurance'},
     {name:'Manufacturing'},
     {name:'Fit Tech'},
     {name:'Banking'},
     {name:'Healthcare'},
     {name:'Life Sciences'},
-    {name:'Energy'},
     {name:'Real Estate'},
-    {name:'Retail'},
     {name:'Public Services'},
     {name:'Logistics'},
     {name:'Education'},
     {name:'Construction'},
     {name:'Gaming'},
     {name:'Tourism'},
-    {name:'Esports'},
   ]
 
   contactForm = {
@@ -46,35 +47,35 @@ export class HomeComponent implements OnInit {
 
   teamDetails = [
     {
-      name: 'Bill Kanarick',
-      designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
+      name: 'Mr. Hesham Bin Dayel',
+      designation: 'Chairman of Board of Directors',
+      image: './assets/images/team/Hesham-Bin-Dayel.png'
     },
     {
-      name: 'Bill Kanarick',
+      name: 'Dr. Khulood Almani',
       designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
+      image: './assets/images/team/Dr.-Khulood-Almani.png'
     },
-    {
-      name: 'Bill Kanarick',
-      designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
-    },
-    {
-      name: 'Bill Kanarick',
-      designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
-    },
-    {
-      name: 'Bill Kanarick',
-      designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
-    },
-    {
-      name: 'Bill Kanarick',
-      designation: 'Chief Executive Officer',
-      image: './assets/images/team/1.webp'
-    }
+    // {
+    //   name: 'Bill Kanarick',
+    //   designation: 'Chief Executive Officer',
+    //   image: './assets/images/team/1.webp'
+    // },
+    // {
+    //   name: 'Bill Kanarick',
+    //   designation: 'Chief Executive Officer',
+    //   image: './assets/images/team/1.webp'
+    // },
+    // {
+    //   name: 'Bill Kanarick',
+    //   designation: 'Chief Executive Officer',
+    //   image: './assets/images/team/1.webp'
+    // },
+    // {
+    //   name: 'Bill Kanarick',
+    //   designation: 'Chief Executive Officer',
+    //   image: './assets/images/team/1.webp'
+    // }
   ]
 
   contactDetails = [
@@ -95,6 +96,84 @@ export class HomeComponent implements OnInit {
       description: 'Got any other question? please contact us here',
       id: '3'
     },
+
+  ]
+
+
+  sectorDetails = [
+    {head : 'Our Sector',
+    staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+    title: 'Smart City',
+    description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+    type1: 'Visual Pollution Detection',
+    type2: 'Smart Traffic Management',
+    type3: 'Smart Surveillance',
+    type4: 'Situational Awareness',
+    type5: 'Crowd Management',
+    bgImage: '/assets/images/sectors/smartcity.jpeg'
+  },
+
+  {head : 'Our Sector',
+  staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+  title: 'Energy',
+  description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+  type1: 'Visual Pollution Detection',
+  type2: 'Smart Traffic Management',
+  type3: 'Smart Surveillance',
+  type4: 'Situational Awareness',
+  type5: 'Crowd Management',
+  bgImage: '/assets/images/sectors/energy.jpeg'
+},
+
+{head : 'Our Sector',
+staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+title: 'Esports',
+description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+type1: 'Visual Pollution Detection',
+type2: 'Smart Traffic Management',
+type3: 'Smart Surveillance',
+type4: 'Situational Awareness',
+type5: 'Crowd Management',
+bgImage: '/assets/images/sectors/esports.jpeg'
+},
+
+{head : 'Our Sector',
+staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+title: 'Biotech',
+description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+type1: 'Visual Pollution Detection',
+type2: 'Smart Traffic Management',
+type3: 'Smart Surveillance',
+type4: 'Situational Awareness',
+type5: 'Crowd Management',
+bgImage: '/assets/images/sectors/biotech.jpeg'
+},
+
+{head : 'Our Sector',
+staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+title: 'Fintech',
+description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+type1: 'Visual Pollution Detection',
+type2: 'Smart Traffic Management',
+type3: 'Smart Surveillance',
+type4: 'Situational Awareness',
+type5: 'Crowd Management',
+bgImage: '/assets/images/sectors/fintech.jpeg'
+},
+
+{head : 'Our Sector',
+staticContent : 'We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.',
+title: 'Retail',
+description: ' We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.',
+type1: 'Visual Pollution Detection',
+type2: 'Smart Traffic Management',
+type3: 'Smart Surveillance',
+type4: 'Situational Awareness',
+type5: 'Crowd Management',
+bgImage: '/assets/images/sectors/retail.jpeg'
+},
+
+
 
   ]
 

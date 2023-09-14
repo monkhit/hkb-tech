@@ -48,17 +48,21 @@ color: var(--secondary-color);
   color: #fff;
   p{
     font-size: 1.1rem;
+    background-color: #0505056b;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.6rem;
   }
   }
   
 
-  .bg-1{
-    background-image: url('../../../assets/images/sectors/sector-1.png');
-  }
+  // .bg-1{
+  //   background-image: url('../../../assets/images/sectors/sector-1.jpeg');
+  // }
 
-  .bg-2{
-    background-image: url('../../../assets/images/sectors/sector-2.png');
-  }
+  // .bg-2{
+  //   background-image: url('../../../assets/images/sectors/sector-2.png');
+  // }
   
   .sector-navigation{
   position: absolute !important;
@@ -96,7 +100,7 @@ color: var(--secondary-color);
         height: 100%;
         top: 0;
         left: 0;
-        background-color: #71b3693b;
+        background-color: #00000040;
       }
     }
 

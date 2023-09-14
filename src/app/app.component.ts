@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding, Inject, PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'test';
+
+
+
+
+
+  constructor() {
+  
+}
+
+  ngAfterViewInit(): void {
+
+    // setTimeout(() => {
+    //   this.loader = false
+
+    // }, 3000);
+
+    }
+
 }
