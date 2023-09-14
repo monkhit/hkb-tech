@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
-
+import industries from '../../../assets/json/industries.json'
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,7 +11,9 @@ export class HomeComponent implements OnInit {
 
   videoSource = './assets/video/intro.mp4'
   sectors: any = sectorDetails;
-  team: any = teamDetails
+  team: any = teamDetails;
+  industries: any = industries
+
 
   // https://www.shutterstock.com/shutterstock/videos/1054883390/preview/stock-footage-digital-circuit-network-loop-endless-flight-through-a-huge-digital-network-of-data-and-circuitry.webm
 

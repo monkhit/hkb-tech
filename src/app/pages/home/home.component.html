@@ -17,7 +17,7 @@
 </section>
 
 <!-- about -->
-<section id="about">
+<section id="about" class="common-space">
 <div class="container">
   <div class="row">
     <div class="col-lg-8 offset-lg-2">
@@ -30,6 +30,21 @@
     </div>
   </div>
 </div>
+</section>
+
+
+<section id="industries" class="common-space">
+  <div class="carousel" data-flickity='{"prevNextButtons": false, "contain": true, "groupCells": 1 }'>
+    <div class="carousel-cell" *ngFor="let item of industries">
+      <div class="industries-image">
+        <img [src]="item.image"/>
+        <h5>{{item.name}}</h5>
+      </div>
+    </div>
+
+    
+  
+  </div>
 </section>
 
 
