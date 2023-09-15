@@ -72,10 +72,10 @@ export class HeaderComponent implements OnInit {
   //  }
 
     MenuItems = [
-         {name: 'ABOUT',  class: 'active'},
-         {name: 'SERVICES',   class: ''},
-         {name: 'INDUSTRIES',  class: ''},
-         {name: 'PARTNER',  class: ''},
+         {name: 'ABOUT',  class: 'active', id:'about'},
+         {name: 'SERVICES',   class: '',  id:'services'},
+         {name: 'INDUSTRIES',  class: '', id:'sector'},
+         {name: 'PARTNER',  class: '', id:'team'},
          {name: 'NEWS',  class: ''},
 
     ]

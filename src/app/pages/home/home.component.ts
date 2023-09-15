@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -67,6 +68,9 @@ export class HomeComponent implements OnInit {
   activeInquiry(item:any){
     this.contactForm.selectInquries = item.id
   }
+
+
+  
 
 
   ngOnInit(): void {

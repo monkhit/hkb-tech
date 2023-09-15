@@ -2,6 +2,9 @@
   padding: 1rem;
 }
 
+
+
+
 header{
   nav{
     background-color: #fff;
@@ -17,6 +20,11 @@ header{
       position: relative;
       margin-right: 1rem;
       font-size: 1rem;
+
+      a.active{
+        font-weight: bold;
+      }
+
       &::before{
         content: "";
         position: absolute;
@@ -39,6 +47,7 @@ header{
 
   }
 }
+
 
 
 @media only screen and (max-width: 767px) {

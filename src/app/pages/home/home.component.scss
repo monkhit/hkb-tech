@@ -21,9 +21,10 @@
   }
 }
 
+// about
 #about {
   background-color: var(--primary-color);
-  // height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center;
 
@@ -40,11 +41,31 @@
   }
 }
 
-#industries {
+
+// services
+#services {
   background-color: var(--primary-color);
 
+
+  .middle-align{
+    display: flex;
+    align-items: center;
+
+    h2 {
+      color: var(--white);
+    }
+  
+    p {
+      -webkit-text-fill-color: transparent;
+      background: #fff;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+    }
+  }
+ 
+
   .carousel-cell {
-    width: 15%;
+    width: 35%;
     height: 450px;
     margin-right: 15px;
 
@@ -89,11 +110,24 @@
         z-index: 1;
 
       }
+
+  
+  
     }
 
 
 
     &:hover {
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #fff;
+        z-index: 1;
+      }
 
       img {
         transform: translateZ(0) scale(1.025);
@@ -101,17 +135,18 @@
       }
 
       .industries-image {
+
         &::before {
-          top: 0;
-          left: 0;
-          height: 100%;
+          top: 10px;
+          left: 10px;
+          height: 95%;
           transition: height .3s cubic-bezier(.455, .03, .515, .955);
         }
 
         &::after {
-          bottom: 0;
-          right: 0;
-          height: 100%;
+          bottom: 10px;
+          right: 10px;
+          height: 95%;
           transition: height .3s cubic-bezier(.455, .03, .515, .955);
         }
 
@@ -135,15 +170,14 @@
 
 
 
+
 }
 
 
 
 
 
-
-
-/* sector */
+/* sector  industries*/
 #sector {
   position: relative;
   color: #fff;
@@ -158,13 +192,7 @@
 }
 
 
-// .bg-1{
-//   background-image: url('../../../assets/images/sectors/sector-1.jpeg');
-// }
 
-// .bg-2{
-//   background-image: url('../../../assets/images/sectors/sector-2.png');
-// }
 
 .sector-navigation {
   position: absolute !important;
@@ -217,6 +245,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+
+  .sector-types-catagory{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem;
+    align-items: center;
+
+    p{
+      margin: 0;
+    }
+  }
+
 }
 
 
@@ -285,13 +325,28 @@
 
 
 @media only screen and (max-width: 767px) {
+  .common-space{
+    padding: 6rem 1rem;
+  }
 
-  #industries {
-    background-color: var(--primary-color);
+
+  #services{
+    .carousel-cell{
+      width: 80%;
+    }
+
+  }
+
   
-    .carousel-cell {
-      width: 100%;
-    }}
+
+  #sector {
+    background-color: var(--primary-color);
+
+    p{
+      display: block;
+    }
+  
+  }
 
   .carousel-main {
 
@@ -302,4 +357,9 @@
     }
   }
 
+  .sector-types {
+    display: block;
+  }
+
 }
+

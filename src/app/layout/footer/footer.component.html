@@ -1,0 +1,70 @@
+<footer class="footer-section">
+          <div class="container">
+           
+              <div class="footer-content pt-5 pb-5">
+                  <div class="row">
+                   
+                      <div class="col-xl-2 col-lg-2 col-md-6 mb-3">
+                          <div class="footer-widget">
+                              <div class="footer-widget-heading">
+                                  <h3>JUMP TO</h3>
+                              </div>
+                              <ul>
+                                  <li><a href="#">ABOUT</a></li>
+                                  <li><a href="#">SERVICES</a></li>
+                                  <li><a href="#">INDUSTRIES</a></li>
+                                  <li><a href="#">PARTNER</a></li>
+                                  <li><a href="#">NEWS</a></li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="col-xl-5 col-lg-5 col-md-6 mb-3">
+                              <div class="footer-widget">
+                                  <div class="footer-widget-heading">
+                                      <h3>INDUSTRIES</h3>
+                                  </div>
+                                  <ul>
+                                      <li style="display: inline-block;" *ngFor="let item of sectors[0].navigation"><a href="#sector">{{item}}</a></li>
+                                     
+                                  </ul>
+                              </div>
+                          </div>
+
+                          <div class="col-xl-5 col-lg-5 col-md-6 mb-3">
+                              <div class="footer-widget">
+                                  <div class="footer-widget-heading">
+                                      <h3> SERVICES</h3>
+                                  </div>
+                                  <ul>
+                                      <li  *ngFor="let item of industries"><a href="#services">{{item.name}}</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+
+
+                  </div>
+              </div>
+          </div>
+          <div class="copyright-area">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xl-6 col-lg-6 mt-3">
+                          <div class="copyright-text">
+                              <p>Copyright &copy; 2023, All Right Reserved <a [href]="siteUrl">HKB Tech</a> | Design and Developed by <a href="http://digitalmachina.io/" target="_blank">Digital Machina</a></p>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 mt-3  d-lg-block text-lg-end  text-center">
+                          <div class="footer-menu footer-social-icon">
+                              <ul>
+                                  <li><a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a></li>
+                                  <li><a href="#"><i class="fab fa-twitter twitter-bg"></i></a></li>
+
+                                 
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
