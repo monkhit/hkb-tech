@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
+import news from '../../../assets/json/news.json'
+
 
 @Component({
   selector: 'app-home',
@@ -14,6 +16,7 @@ export class HomeComponent implements OnInit {
   sectors: any = sectorDetails;
   team: any = teamDetails;
   industries: any = industries
+  news: any = news
 
 
   // https://www.shutterstock.com/shutterstock/videos/1054883390/preview/stock-footage-digital-circuit-network-loop-endless-flight-through-a-huge-digital-network-of-data-and-circuitry.webm

@@ -76,7 +76,7 @@ export class HeaderComponent implements OnInit {
          {name: 'SERVICES',   class: '',  id:'services'},
          {name: 'INDUSTRIES',  class: '', id:'sector'},
          {name: 'PARTNER',  class: '', id:'team'},
-         {name: 'NEWS',  class: ''},
+         {name: 'NEWS',  class: 'news', id:'news'},
 
     ]
          

@@ -442,8 +442,55 @@
     </div>
   </section>
 
+  <!-- news -->
+  <section id="news" class="common-space">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xl-12">
+          <!-- <p class="sub-head">TEAM</p> -->
+          <h3 class="text-gradient-2 mb-5">News</h3>
+        </div>
+
+        <div class="col-lg-4 mt-3" *ngFor="let item of news">
+          <img class="img-fluid news-image" [src]="item.image"/>
+          
+          <div class="news-section  mb-5">
+          <h5 class="mt-4">{{ item.name }}</h5>
+            <p class="mb-5">{{item.description}}</p>
+
+            <button class="btn news-button">Learn More</button>
+
+        </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
   <!-- contact -->
   <section id="contact" class="common-space">
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <p class="sub-head">CONTACT US</p>
+          <h3 class="text-gradient-2 mb-5">Get in touch</h3>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+      <div class="row">
+
+
+      </div>
+    </div>
+
+    </div> -->
+
+
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
