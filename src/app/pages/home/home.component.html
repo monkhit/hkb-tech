@@ -1,5 +1,6 @@
 <app-header></app-header>
 
+
 <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <!-- video banner -->
   <section id="video-banner">
@@ -27,12 +28,15 @@
     </div>
   </section>
 
+
+
   <!-- about -->
   <section id="about">
-    <div class="container">
+
+    <div class="container" style="z-index: 1;">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="text-center mb-4">SCAI at a glance..</h2>
+          <h2 class="text-center mb-4">About HKB Tech</h2>
 
           <p class="mb-3 text-center">
             As a subsidiary of the legacy leading Saudi company (Bin Dayel
@@ -76,7 +80,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> 
 
   <!-- services -->
   <section id="services" class="common-space">
@@ -84,8 +88,8 @@
       <div class="row">
         <div class="col-lg-3 middle-align mb-3">
           <div>
-            <h2>Our Services</h2>
-            <p>Transforming Industries with Emerging Technology Services</p>
+            <h6 class="title">Our Services</h6>
+            <p class="title-description">Transforming Industries with Emerging Technology Services</p>
           </div>
         </div>
 
@@ -429,14 +433,20 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
-          <p class="sub-head">TEAM</p>
-          <h3 class="text-gradient-2 mb-5">Our leadership</h3>
+          <h6 class="title text-body">TEAM</h6>
+          <p class="title-description">Our leadership</p>
         </div>
 
         <div class="col-xl-3 mt-3" *ngFor="let item of team">
+            <div class="team-section">
           <img class="img-fluid for-light" [src]="item.image" />
-          <h4 class="mt-3">{{ item.name }}</h4>
-          <p class="designation">{{ item.designation }}</p>
+              <div class="team-description">
+          <h5 class="mt-3">{{ item.name }}</h5>
+          <p class="designation mb-5">{{ item.designation }}</p>
+
+          <a href="#">LinkedIn</a>
+        </div>
+        </div>
         </div>
       </div>
     </div>
@@ -449,8 +459,8 @@
 
         <div class="col-xl-12">
           <!-- <p class="sub-head">TEAM</p> -->
-          <h3 class="text-gradient-2 mb-5">News</h3>
-        </div>
+          <p class="title-description">News</p>
+                </div>
 
         <div class="col-lg-4 mt-3" *ngFor="let item of news">
           <img class="img-fluid news-image" [src]="item.image"/>
@@ -473,29 +483,11 @@
   <!-- contact -->
   <section id="contact" class="common-space">
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <p class="sub-head">CONTACT US</p>
-          <h3 class="text-gradient-2 mb-5">Get in touch</h3>
-        </div>
-      </div>
-
-      <div class="card mt-3">
-      <div class="row">
-
-
-      </div>
-    </div>
-
-    </div> -->
-
-
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
-          <p class="sub-head">CONTACT US</p>
-          <h3 class="text-gradient-2">Get in touch</h3>
+          <h6 class="title text-body">CONTACT US</h6>
+          <p class="title-description">Get in touch</p>
         </div>
 
         <div class="col-xl-3">

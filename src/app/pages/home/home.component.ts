@@ -13,6 +13,8 @@ import news from '../../../assets/json/news.json'
 export class HomeComponent implements OnInit {
 
   videoSource = './assets/video/intro.mp4'
+  aboutBg = './assets/video/about.mp4'
+
   sectors: any = sectorDetails;
   team: any = teamDetails;
   industries: any = industries

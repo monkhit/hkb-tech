@@ -1,3 +1,16 @@
+.title{
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.title-description{
+  -webkit-text-fill-color: transparent;
+  background: #0078ff;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  font-size: 1.6rem;
+}
+
 $base: 0.6rem;
 
 #video-banner {
@@ -84,23 +97,42 @@ $base: 0.6rem;
 
 }
 
+
+
 // about
 #about {
+  position: relative;
   background-color: var(--primary-color);
+  background-image: url('/assets/video/bg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  padding: 6rem 2rem 0;
+  padding: 6rem 2rem 6rem;
+
+ 
+  &::after{
+    content: '';
+    background-color: #010c2ded;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 
   h2 {
-    color: var(--secondary-color);
+    -webkit-text-fill-color: transparent;
+    background: #0078ff;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
   }
 
   p {
-    -webkit-text-fill-color: transparent;
-    background: #fff;
-    background: var(--gradient);
-    -webkit-background-clip: text;
+    color: var(--white);
+    font-size: 1rem;
   }
 
   ul{
@@ -108,12 +140,11 @@ $base: 0.6rem;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
     li{
+      font-size: 1rem;
     
       list-style: none;
-          -webkit-text-fill-color: transparent;
-    background: #fff;
-    background: var(--gradient);
-    -webkit-background-clip: text;
+      color: var(--white);
+
     }
   }
 
@@ -129,16 +160,7 @@ $base: 0.6rem;
     display: flex;
     align-items: center;
 
-    h2 {
-      color: var(--white);
-    }
-  
-    p {
-      -webkit-text-fill-color: transparent;
-      background: #fff;
-      background: var(--gradient);
-      -webkit-background-clip: text;
-    }
+   
   }
  
 
@@ -281,6 +303,8 @@ $base: 0.6rem;
 
   .carousel-cell {
     color: #a8a8a8;
+    text-transform: uppercase;
+    font-size: 1rem;
 
     &:not(:last-child) {
       border-right: 1px solid #ddd;
@@ -314,6 +338,19 @@ $base: 0.6rem;
 
 }
 
+.static-content{
+  h6{
+    text-transform: uppercase;
+  }
+}
+
+.dynamic-content{
+  h5{
+    text-transform: uppercase;
+
+  }
+}
+
 
 .is-nav-selected {
   color: #fff !important;
@@ -339,6 +376,16 @@ $base: 0.6rem;
 
 
 #team{
+
+  .team-section{
+    border: 1px solid #ccc;
+  }
+
+  .team-description{
+    padding: 1rem;
+    background-color: #f2f2f2;
+  }
+
   p.designation{
     font-size: 1rem;
   }
