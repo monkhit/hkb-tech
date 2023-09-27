@@ -103,7 +103,7 @@ $base: 0.6rem;
 #about {
   position: relative;
   background-color: var(--primary-color);
-  background-image: url('/assets/video/bg.gif');
+  background-image: url('/assets/video/about.gif');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -113,7 +113,7 @@ $base: 0.6rem;
  
   &::after{
     content: '';
-    background-color: #010c2ded;
+    // background-color: #010c2ded;
     position: absolute;
     top: 0;
     left: 0;
@@ -358,12 +358,12 @@ $base: 0.6rem;
 
 .sector-types {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr;
   grid-gap: 1rem;
 
   .sector-types-catagory{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    // grid-template-columns: 1fr 3fr;
     grid-gap: 1rem;
     align-items: center;
 
@@ -389,6 +389,12 @@ $base: 0.6rem;
   p.designation{
     font-size: 1rem;
   }
+
+  .social-icon{
+    height: 40px;
+    width: 40px;
+  }
+
 }
 
 
@@ -402,6 +408,7 @@ $base: 0.6rem;
       position: relative;
       padding-bottom: 1.5rem;
       margin-bottom: 2.5rem;
+      min-height: 72px;
 
       &::before{
         content: '';
@@ -412,6 +419,12 @@ $base: 0.6rem;
         transition: width 1s ease-in-out;
 
       }
+
+     
+    }
+
+    p{
+      min-height: 115px;
     }
 
 
@@ -489,6 +502,32 @@ $base: 0.6rem;
   }
 
 }
+
+#partners{
+
+  .carousel-cell {
+    width: 15%;
+    height: 100px;
+    margin-right: 1rem;
+
+    img{
+      width: 60%;
+      display: block;
+      margin: auto;
+      filter: grayscale(100%);
+    }
+
+    &:hover{
+
+      img{
+        filter: grayscale(0%);
+      }
+
+      }
+  }
+
+}
+
 
 
 // contact us
@@ -580,6 +619,15 @@ $base: 0.6rem;
      
     }
   }
+
+  #partners{
+
+    .carousel-cell {
+      width: 30%;
+      height: auto;
+    }
+
+  }
   
 
   #sector {
@@ -602,6 +650,11 @@ $base: 0.6rem;
 
   .sector-types {
     display: block;
+.sector-types-catagory{
+  margin-bottom: 1rem;
+
+}
+
   }
 
 }

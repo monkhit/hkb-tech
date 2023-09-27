@@ -10,6 +10,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoaderComponent } from './component/loader/loader.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { NewsComponent } from './pages/news/news.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { FooterComponent } from './layout/footer/footer.component';
     HeaderComponent,
     HomeComponent,
     LoaderComponent,
-    FooterComponent
+    FooterComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

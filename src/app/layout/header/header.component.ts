@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -8,7 +9,7 @@ export class HeaderComponent implements OnInit {
 
   
     MenuItems = [
-         {name: 'ABOUT',  class: 'active', id:'about'},
+         {name: 'ABOUT',  id:'about'},
          {name: 'SERVICES',   class: '',  id:'services'},
          {name: 'INDUSTRIES',  class: '', id:'sector'},
          {name: 'PARTNER',  class: '', id:'team'},
@@ -17,14 +18,16 @@ export class HeaderComponent implements OnInit {
     ]
          
 
-     
+
+  constructor(
+  ) { }
 
 
+  onClick(event: Event) {
+    event.preventDefault(); // Prevent the default behavior (page reload)
+    // Handle navigation or other actions within your Angular component
+  }
 
-
-
-
-  constructor() { }
 
   ngOnInit(): void {
   }

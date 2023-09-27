@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener} from '@angular/core';
+import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
+import { Location } from '@angular/common';
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
@@ -11,6 +13,21 @@ import news from '../../../assets/json/news.json'
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  @HostListener('click', ['$event'])
+
+  onClick(event: Event) {
+    event.preventDefault(); // Prevent the default behavior (page navigation) 
+    const target = event.target as HTMLElement;
+    const sectionId = target.getAttribute('href')?.substring(1); // Extract the sectionId from the href
+      console.log(sectionId)
+    if (sectionId) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }
+
 
   videoSource = './assets/video/intro.mp4'
   aboutBg = './assets/video/about.mp4'
@@ -38,7 +55,6 @@ export class HomeComponent implements OnInit {
   ]  
 
   
-
   contactDetails = [
     {
       heading: 'Client Opportunities',
@@ -60,14 +76,40 @@ export class HomeComponent implements OnInit {
 
   ]
 
+  partners = [
+    {"url": "/assets/images/partners/frogparking.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/logo_digiconnect_fluves.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/5.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/4.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/Wolters-Kluwer-Enablon.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/2.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/7.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/logo_digiconnect_fluves.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/5.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+
+  ]
 
 
 
 
 
-  constructor() { 
-    console.log(this.sectors)
-  }
+
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
+
+  ) { 
+
+    window.addEventListener('popstate', () => {
+      location.reload();
+    });
+
+  
+   }
 
 
   activeInquiry(item:any){
@@ -75,10 +117,33 @@ export class HomeComponent implements OnInit {
   }
 
 
+
+
+
+
+
+  async navigate(item:any, id:any){
+
+    const navigationExtras: NavigationExtras = {
+      relativeTo: this.activatedRoute,
+      queryParams: { id: id},
+      state: {
+        details: item,
+
+      }
+    };
+
+    this.router.navigate(['/news'], navigationExtras);
+
+  }
+
+  
+
   
 
 
   ngOnInit(): void {
+   
   }
 
 }

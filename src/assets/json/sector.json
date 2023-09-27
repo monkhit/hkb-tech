@@ -1,88 +1,329 @@
 [
+  {
+    "navigation": [
+      "Smart City",
+      "Fintech",
+      "Insurance",
+      "Manufacturing",
+      "Fit Tech",
+      "Banking",
+      "Healthcare",
+      "Biotech",
+      "Energy",
+      "Real Estate",
+      "Retail",
+      "Public Services",
+      "Logistics",
+      "Education",
+      "Construction",
+      "Gaming/Esports",
+      "Tourism"
+    ]
+  },
+
+  {
+    "content": [
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Smart City",
+        "description": [
           {
-          "navigation": 
-          ["Smart City", "Energy", "Esports", "Biotech", "Fintech", "Retail", "Insurance", "Manufacturing", "Fit Tech", "Banking", "Healthcare", "Life Sciences", "Real Estate", "Public Services", "Logistics", "Education", "Construction", "Gaming","Tourism"]
+            "para": "We are dedicated to provide AI solutions centered around human well-being, enriching communities spanning a multitude of sectors and elevating their overall quality of life."
           },
-       
-       {
-          "content":  [
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Smart City",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/smartcity.jpeg"
-                    },
-                
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Energy",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/energy.jpeg"
-                    },
-                
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Esports",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/esports.jpeg"
-                    },
-                
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Biotech",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/biotech.jpeg"
-                    },
-                
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Fintech",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/fintech.jpeg"
-                    },
-                    {
-                      "head": "Our Sector",
-                      "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
-                      "title": "Retail",
-                      "description": " We expedite the journey toward a more efficient and sustainable future. Our AI-driven solutions enhance grid asset management and forecasting, optimize energy efficiency, elevate customer service, and yield remarkable business value. Come join us in crafting a greener future and harnessing the power of AI in the energy sector.",
-                      "type1": "Visual Pollution Detection",
-                      "type2": "Smart Traffic Management",
-                      "type3": "Smart Surveillance",
-                      "type4": "Situational Awareness",
-                      "type5": "Crowd Management",
-                      "bgImage": "/assets/images/sectors/retail.jpeg"
-                    }
-                  ]
-       }
- 
+          {
+            "para": "Our pioneering technology, driven by the wealth of data and intelligence, empowers cities to make judicious choices that not only enhance the environment but also positively impact the populace. This propels the advancement of intelligent, thriving, and eco-friendly cities across the nation."
+          }
+        ],
+        "type": [
+          { "type": "Efficient Traffic Management" },
+          { "type": "Waste Management" },
+          { "type": "Public Safety" },
+          { "type": "Smart Public Transportation" },
+          { "type": "Smart Parking Management" }
+        ],
+        "bgImage": "/assets/images/sectors/smartcity.jpeg"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Fintech",
+        "description": [
+          {
+            "para": "We are working at the forefront of fintech innovations. Our cutting-edge fintech services are designed to empower financial institutions and enterprises with the tools they need to thrive in the digital economy. With a focus on security, efficiency, and inclusivity, we're committed to delivering solutions that enable seamless transactions, streamline financial processes, and expand access to financial services. "
+          }
+        ],
+        "type": [
+          { "type": "Digital Payments and Wallets" },
+          { "type": "Fraud Detection " },
+          { "type": "Conversational AI" },
+          { "type": "Personalized Content" }
+        ],
+        "bgImage": "/assets/images/sectors/fintech.jpeg"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Insurance",
+        "description": [
+          {
+            "para": "We are pioneering breakthroughs in insurtech, reshaping the insurance landscape to better serve businesses. "
+          },
+          {
+            "para": "Our cutting-edge services empower insurers to provide more personalized, efficient, and accessible coverage. Leveraging advanced data analytics, artificial intelligence, and automation, we streamline underwriting, claims processing, and risk assessment, ensuring a seamless experience for policyholders. In an ever-changing world, we're committed to delivering insurance solutions that adapt to evolving risks and customer needs."
+          }
+        ],
+        "type": [
+          { "type": "Artificial Intelligence" },
+          { "type": "Data Analytics " },
+          { "type": "Robotic Process Automation " },
+          { "type": "Cyber Security " },
+          { "type": "Fraud Detection " }
+        ],
+        "bgImage": ""
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Manufacturing",
+        "description": [
+          {
+            "para": "We are at the forefront of cutting-edge technology, driving a manufacturing revolution that enhances efficiency, sustainability, and agility. Our solutions empower manufacturers to optimize operations, reduce costs, and accelerate time-to-market. With a focus on automation, robotics, and data-driven insights, we're transforming traditional factories into smart, connected systems."
+          }
+        ],
+        "type": [
+          { "type": "RPA" },
+          { "type": "Predictive Analytics " },
+          { "type": "Predictive Maintenance " },
+          { "type": "Inventory Optimization " },
+          { "type": "IOT " }
+        ],
+        "bgImage": "/assets/images/sectors/Manufacturing.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Fit Tech ",
+        "description": [
+          {
+            "para": "Welcome to the future of fitness technology, where innovation meets wellness to redefine the way we stay healthy. We are pioneering advancements in fit tech, shaping the fitness landscape to enhance personal well-being and performance. Our services empower people to achieve their fitness goals by harnessing data, AI, and wearable technology. From personalized workout plans and real-time performance tracking to smart wearables that monitor health metrics, we're revolutionizing the way we approach fitness. "
+          }
+        ],
+        "type": [
+          { "type": "Wearable Fitness Trackers" },
+          { "type": "Fitness Apps and Virtual Trainers " },
+          { "type": "Smart Equipments " },
+          { "type": "Health and Wellness Monitoring " }
+        ],
+        "bgImage": "/assets/images/sectors/Fittech.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Banking ",
+        "description": [
+          {
+            "para": "In the dynamic and rapidly evolving landscape of the financial sector, staying at the forefront requires a proactive approach to adopting the most advanced emerging technologies. As providers of cutting-edge tech services, we recognize that the banking industry is currently undergoing a substantial and transformative shift. This transformation is being driven by the relentless pace of technological innovation, and emerging technologies are indisputably leading this revolution. "
+          }
+        ],
+        "type": [
+          { "type": "Conversational AI" },
+          { "type": "Personalized Content " },
+          { "type": "Call Center Automation " },
+          { "type": "Personalized Advertisements " },
+          { "type": "Fraud Detection " },
+          { "type": "Data Security " }
+        ],
+        "bgImage": "/assets/images/sectors/Banking.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Healthcare ",
+        "description": [
+          {
+            "para": "We are at the forefront of emerging healthcare technologies, reshaping the healthcare landscape to be more accessible, personalized, and efficient. Our cutting-edge solutions empower healthcare providers and individuals alike with the tools they need to achieve better health outcomes. With our emerging technology services, we're revolutionizing healthcare delivery and management. "
+          }
+        ],
+        "type": [
+          { "type": "AI Based Medical Coding" },
+          { "type": "Conversational AI " },
+          { "type": "Data Security " },
+          { "type": "Metaverse " },
+          { "type": "Artificial Intelligence" }
+        ],
+        "bgImage": "/assets/images/sectors/Healthtech.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Biotech ",
+        "description": [
+          {
+            "para": "Life sciences, encompassing medical devices, pharmaceuticals, and biotech, must innovate swiftly to enhance patient outcomes, meet market demands, and manage costs. Digital transformation is pivotal for agility and regulatory compliance. As an emerging technology service company, we are uniquely positioned to empower the biotech industry. Our expertise in cutting-edge technologies like AI, data analytics, and bioinformatics enables us to drive innovation, and enhance research efficiency. "
+          }
+        ],
+        "type": [
+          { "type": "Genomic Data Analysis " },
+          { "type": "Drug Discovery Acceleration " }
+        ],
+        "bgImage": "/assets/images/sectors/biotech.jpeg"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Energy ",
+        "description": [
+          {
+            "para": "We are leading the charge in pioneering transformative solutions that power a greener, more efficient future for the energy sector. Our cutting-edge technologies empower utilities, businesses, and communities with innovative tools to harness renewable energy, improve grid reliability, and reduce carbon footprints. From advanced energy storage systems and smart grid management to renewable energy integration and energy efficiency solutions, we're revolutionizing the energy landscape. "
+          }
+        ],
+        "type": [
+          { "type": "Renewable Energy Integration" },
+          { "type": "Smart Grid Management " },
+          { "type": "Energy-Efficient HVAC Systems " },
+          { "type": "Predictive Maintenance " }
+        ],
+        "bgImage": "/assets/images/sectors/energy.jpeg"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Real Estate ",
+        "description": [
+          {
+            "para": "We are at the forefront of emerging real estate technologies, revolutionizing the industry to make property transactions smarter, more efficient, and more accessible. Our portfolio encompasses cutting-edge solutions for real estate professionals, and investors alike. From AI-driven property valuation tools and virtual property tours to smart home automation, we're reshaping the real estate landscape."
+          }
+        ],
+        "type": [
+          { "type": "VR - AR" },
+          { "type": "Personalized Content" },
+          { "type": "360 Customer View" },
+          { "type": "Conversational AI " },
+          { "type": "Call Center Automation " },
+          { "type": "IOT " }
+        ],
+        "bgImage": "/assets/images/sectors/Real-Estate.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Retail ",
+        "description": [
+          {
+            "para": "We are pioneers in emerging retail technologies, reshaping the industry to create seamless, personalized, and data-driven shopping experiences. Our portfolio includes cutting-edge solutions that empower retailers to thrive in the digital age. From AI-driven customer analytics and augmented reality shopping experiences to cashierless checkout systems, we're revolutionizing the retail landscape."
+          }
+        ],
+        "type": [
+          { "type": "Personalization Marketing Campaign" },
+          { "type": "Virtual Shopping Assistant" },
+          { "type": "Sentiment Analysis" },
+          { "type": "Conversational AI                         " },
+          { "type": "Inventory Management " },
+          { "type": "AR- VR                         " }
+        ],
+        "bgImage": "/assets/images/sectors/Retail.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Public Services ",
+        "description": [
+          {
+            "para": "We are at the forefront of emerging technologies, revolutionizing public services to make them more accessible, efficient, and responsive to citizen needs. Our portfolio encompasses cutting-edge solutions that empower governments, agencies, and public organizations to deliver better services to their constituents. From citizen platforms and data-driven policy decisions to smart city infrastructure and e-governance solutions, we're reshaping the public services landscape."
+          }
+        ],
+        "type": [
+          { "type": "Smart City Infrastructure" },
+          { "type": "Public Safety" },
+          { "type": "Smart Transportation" },
+          { "type": "Smart Parking " }
+        ],
+        "bgImage": ""
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Logistics ",
+        "description": [
+          {
+            "para": "Step into the future of logistics, where technology and innovation converge to transform the way goods are transported, tracked, and managed across the globe. We are at the forefront of emerging logistics technologies, revolutionizing the industry to make it more efficient, transparent, and responsive to the evolving demands of businesses and consumers. Our portfolio encompasses cutting-edge solutions that empower logistics providers, and businesses to optimize their operations. From AI-driven route optimization and real-time shipment tracking to supply chain transparency, we're reshaping the logistics landscape. "
+          }
+        ],
+        "type": [
+          { "type": "Real time Tracking " },
+          { "type": "Route Optimization" },
+          { "type": "Predictive Vehicle Management" },
+          { "type": "Supply Chain Management" }
+        ],
+        "bgImage": "/assets/images/sectors/Logistics.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Education ",
+        "description": [
+          {
+            "para": "Revolutionizing the education landscape to make it more accessible, engaging, and tailored to individual needs. Our portfolio includes cutting-edge solutions that empower educators, institutions, and learners to embrace digital transformation. From AI-driven personalized learning platforms and immersive virtual classrooms to smart content delivery, we're reimagining education in the 21st century. "
+          }
+        ],
+        "type": [
+          { "type": "Conversational AI " },
+          { "type": "Content Delivery Platform           " },
+          { "type": "Virtual and Augmented Reality" },
+          { "type": "Personalized Learning" }
+        ],
+        "bgImage": "/assets/images/sectors/Edtech.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Construction ",
+        "description": [
+          {
+            "para": "Technology and innovation converge to revolutionize the way we build, design, and manage construction projects. We are at the forefront of emerging construction technologies, reshaping the industry to make it safer, more efficient, and environmentally responsible. Our portfolio encompasses cutting-edge solutions that empower construction firms, architects, and developers to embrace digital transformation.      "
+          }
+        ],
+        "type": [
+        ],
+        "bgImage": "/assets/images/sectors/construction.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Gaming/Esports         ",
+        "description": [
+          {
+            "para": "Technology and entertainment unite to redefine how we play, compete, and connect in the digital world. Our portfolio encompasses cutting-edge solutions that empower game developers, esports organizations, and gamers to elevate their experiences. From augmented reality (AR) gaming and virtual reality (VR) esports arenas and AI-driven gameplay enhancements, we're transforming the gaming landscape.             "
+          }
+        ],
+        "type": [
+          { "type": "Augmented Reality " },
+          { "type": "Virtual Reality           " },
+          { "type": "Metaverse" },
+          { "type": "Performance Analysis" },
+          { "type": "Personalized Content   " }
+        ],
+        "bgImage": "/assets/images/sectors/Gaming.png"
+      },
+      {
+        "head": "Our Sector",
+        "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
+        "title": "Tourism ",
+        "description": [
+          {
+            "para": "Redefine how we travel, experience destinations, and connect with the beauty of our planet. We are at the forefront of emerging tourism technologies, reshaping the industry to make it more immersive, sustainable, and accessible. Our portfolio encompasses cutting-edge solutions that empower travelers, tour operators, and hospitality providers to create unforgettable experiences. From virtual travel experiences and AI-powered travel recommendations to augmented reality tour guides, we're revolutionizing the way we explore the world.             "
+          }
+        ],
+        "type": [
+          { "type": "Metaverse " },
+          { "type": "AR - VR  " },
+          { "type": "Conversational AI" },
+          { "type": "Personalized Campaign" },
+          { "type": "Personalized Content           " }
+        ],
+        "bgImage": "/assets/images/sectors/Tourism.png"
+      }
+    ]
+  }
 ]

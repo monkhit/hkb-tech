@@ -9,7 +9,7 @@
       </button>
       <div class="collapse navbar-collapse ms-5" id="mynavbar">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item" *ngFor="let item of MenuItems">
+          <li class="nav-item" *ngFor="let item of MenuItems" >
             <a [href]="'#'+item.id" class="nav-link">{{item.name}}</a>
           </li>
         </ul>

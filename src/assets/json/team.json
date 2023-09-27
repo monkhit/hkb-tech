@@ -2,11 +2,79 @@
   {
     "name": "Mr. Hesham Bin Dayel",
     "designation": "Chairman of Board of Directors",
-    "image": "./assets/images/team/Hesham-Bin-Dayel.png"
+    "image": "./assets/images/team/Hesham-Bin-Dayel.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},
+      {"icon":"./assets/images/team/twitter.png"}
+    ] 
   },
   {
     "name": "Dr. Khulood Almani",
     "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png"
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},
+      {"icon":"./assets/images/team/twitter.png"}
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"}, 
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},  
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"}, 
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},   
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
+  },
+  {
+    "name": "Dr. Khulood Almani",
+    "designation": "Chief Executive Officer",
+    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png"},    
+      {"icon":"./assets/images/team/twitter.png"}
+      
+    ] 
   }
 ]

@@ -115,7 +115,7 @@
     <!-- content -->
     <div
       class="carousel carousel-main sector-descrption"
-      data-flickity='{"pageDots": false, "prevNextButtons": false }'
+      data-flickity='{"pageDots": false, "prevNextButtons": false, "adaptiveHeight": true     }'
     >
       <div *ngFor="let item of sectors[1].content">
         <div
@@ -131,284 +131,14 @@
 
           <div class="dynamic-content">
             <h5>{{ item.title }}</h5>
-            <p>
-              {{ item.description }}
+            <p *ngFor="let item of item.description">
+              {{ item.para }}
             </p>
 
             <div class="sector-types">
-              <div class="sector-types-catagory">
-                <svg
-                  width="88"
-                  height="89"
-                  viewBox="0 0 88 89"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M51.7212 33.185V27.2837H57.9762V33.185"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M26.9634 75.3705V43.3913C26.9634 41.6753 25.573 40.2849 23.8588 40.2849H17.3996C15.6853 40.2849 14.2949 41.6753 14.2949 43.3913V75.3705"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M17.1689 40.2865V36.8264C17.1689 34.915 18.7177 33.3662 20.6291 33.3662C22.5405 33.3662 24.0893 34.915 24.0893 36.8264V40.2865"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M20.6274 33.2132V28.6372"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M37.5322 75.3703V50.9362L32.2469 45.9941L26.9634 50.9362"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M48.101 50.9362L42.8175 45.9941L37.5322 50.9362"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M48.1006 75.3704V33.3662H61.5945V75.3704"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M74.265 75.3704V49.9156L67.8638 42.073H61.5947"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M20.6274 45.9941V47.3353V50.762V52.1013"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M42.8174 52.5625V53.9036V57.3286V58.6697"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M67.1724 47.7947V49.1358V57.3286V58.6697"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                </svg>
+              <div class="sector-types-catagory" *ngFor="let item of item.type">
                 <div>
-                  <p>{{ item.type1 }}</p>
-                </div>
-              </div>
-
-              <div class="sector-types-catagory">
-                <svg
-                  width="88"
-                  height="89"
-                  viewBox="0 0 88 89"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M13.9287 13.385V75.6028"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M73.5327 13.3586V75.5394"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.731 61.748V75.3757"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.731 13.4624V29.7618"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M19.501 17.7075C19.633 15.5885 21.291 13.9429 23.2938 13.9429H32.2047C34.1742 13.9429 35.818 15.5392 35.9905 17.6213L36.5854 44.6602C36.6434 46.0787 36.3407 46.9816 35.9236 47.6821C34.9468 49.3206 33.134 50.2763 31.2279 50.2763H24.693C21.6254 50.2763 19.0945 47.8246 19.061 44.757C19.061 44.7253 19.061 44.6936 19.061 44.6602L19.5028 17.7093L19.501 17.7075Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M32.3805 34.2182V25.7544L32.6075 23.183C32.6445 22.7694 32.3541 22.4121 31.9827 22.4121H23.6315C23.2601 22.4121 22.9697 22.7694 23.0067 23.183L23.2337 25.7544V34.2182L22.9609 39.2852L23.3393 39.4119C26.3067 39.9804 29.3392 39.9804 32.3065 39.4119L32.6849 39.2852L32.3822 34.2182H32.3805Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M67.7863 71.2451C67.6543 73.3641 65.9964 75.0097 63.9935 75.0097H55.0826C53.1132 75.0097 51.4693 73.4134 51.2969 71.3313L50.702 44.2924C50.6439 42.8739 50.9466 41.971 51.3637 41.2705C52.3405 39.6319 54.1533 38.6763 56.0594 38.6763H62.5943C65.662 38.6763 68.1929 41.1279 68.2263 44.1956C68.2263 44.2273 68.2263 44.259 68.2263 44.2924L67.7845 71.2433L67.7863 71.2451Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M63.8968 61.5192V53.0554L64.1168 50.484C64.152 50.0704 63.8704 49.7131 63.5096 49.7131H55.382C55.0212 49.7131 54.7378 50.0704 54.7748 50.484L54.9948 53.0554V61.5192L54.729 66.5863L55.0968 66.713C57.985 67.2815 60.9365 67.2815 63.8229 66.713L64.1908 66.5863L63.8951 61.5192H63.8968Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.731 38.7273V52.3532"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M67.957 13.4131L67.744 18.107C67.612 20.2261 65.9541 21.8717 63.9512 21.8717H55.0403C53.0709 21.8717 51.427 20.2754 51.2546 18.1933L50.9624 13.2354"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M67.2688 30.6013C65.0143 32.0498 62.3391 32.8999 59.4597 32.8999C56.5803 32.8999 53.9051 32.0498 51.6523 30.6013"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M62.6367 26.3015C61.7197 26.8911 60.6321 27.2361 59.4617 27.2361C58.2913 27.2361 57.2036 26.8911 56.2866 26.3015"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M35.6345 60.384C33.38 61.8325 30.7048 62.6826 27.8254 62.6826C24.9461 62.6826 22.2709 61.8325 20.0181 60.384"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M31.0005 56.0842C30.0835 56.6738 28.9958 57.0188 27.8254 57.0188C26.655 57.0188 25.5674 56.6738 24.6504 56.0842"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                </svg>
-
-                <div>
-                  <p>{{ item.type2 }}</p>
-                </div>
-              </div>
-
-              <div class="sector-types-catagory">
-                <svg
-                  width="88"
-                  height="89"
-                  viewBox="0 0 88 89"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M62.5679 51.8567L67.7775 54.0955L68.7948 51.7283"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.8892 46.6331L61.5842 54.1483L64.0764 48.3455"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M39.9503 55.1303L43.8891 46.633L21.9912 37.1431L28.0474 24.0557L29.4501 21.0884L70.4176 38.5757L70.0885 39.3431L68.5643 42.3756L72.1864 43.8293L70.7591 47.154L71.2237 46.0733L74.1559 47.3317L71.6742 53.1116L68.7421 51.8514L69.3299 50.4839"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M30.0714 61.7076H17.644V54.8823H13.5186V68.3076H17.644V61.7358H30.0714"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M31.9351 60.2802C31.9351 57.8672 33.8904 55.9119 36.3034 55.9119C38.7163 55.9119 40.6717 57.8672 40.6717 60.2802C40.6717 62.6931 38.7163 64.6485 36.3034 64.6485C33.8904 64.6485 31.9351 62.6931 31.9351 60.2802Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                </svg>
-                <div>
-                  <p>{{ item.type3 }}</p>
-                </div>
-              </div>
-
-              <div class="sector-types-catagory">
-                <svg
-                  width="88"
-                  height="89"
-                  viewBox="0 0 88 89"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M74.3829 18.7654H13.6172V62.1283H74.3829V18.7654Z"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M13.6172 52.4287H60.6919H70.1871H74.3829"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M32.2873 62.1282L30.1665 70.2347H31.1503H44.0001H56.8499H58.6697L55.7129 62.1282"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M36.3389 38.4016C38.5512 36.9813 41.1753 36.1453 44.0001 36.1453C46.8249 36.1453 49.4491 36.9795 51.6614 38.4016"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M32.4194 33.5212C35.7634 31.3722 39.7322 30.1121 44.0002 30.1121C48.2682 30.1121 52.2388 31.374 55.581 33.5212"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M40.8848 42.6203C41.7841 42.0431 42.8524 41.7034 44 41.7034C45.1475 41.7034 46.2158 42.0431 47.1152 42.6203"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                </svg>
-                <div>
-                  <p>{{ item.type4 }}</p>
-                </div>
-              </div>
-
-              <div class="sector-types-catagory">
-                <svg
-                  width="88"
-                  height="89"
-                  viewBox="0 0 88 89"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22.0952 75.5025L30.1965 13.4009"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M57.1968 13.4009L65.2981 75.5025"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.6953 13.4255V28.9558"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.6953 35.1685V50.6987"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                  <path
-                    d="M43.6953 60.0161V75.5464"
-                    stroke="white"
-                    stroke-width="1"
-                  ></path>
-                </svg>
-                <div>
-                  <p>{{ item.type5 }}</p>
+                  <p>{{ item.type }}</p>
                 </div>
               </div>
             </div>
@@ -432,19 +162,22 @@
   <section id="team" class="common-space">
     <div class="container">
       <div class="row">
-        <div class="col-xl-12">
+        <div class="col-xl-12 mb-3">
           <h6 class="title text-body">TEAM</h6>
           <p class="title-description">Our leadership</p>
         </div>
 
-        <div class="col-xl-3 mt-3" *ngFor="let item of team">
+        <div class="col-xl-3 mb-4" *ngFor="let item of team">
             <div class="team-section">
           <img class="img-fluid for-light" [src]="item.image" />
               <div class="team-description">
           <h5 class="mt-3">{{ item.name }}</h5>
           <p class="designation mb-5">{{ item.designation }}</p>
+              
+          <a class="me-3 " *ngFor="let subItem of item.social" [href]="subItem.url">
+            <img class="social-icon" [src]="subItem.icon"/>
+          </a> 
 
-          <a href="#">LinkedIn</a>
         </div>
         </div>
         </div>
@@ -462,14 +195,14 @@
           <p class="title-description">News</p>
                 </div>
 
-        <div class="col-lg-4 mt-3" *ngFor="let item of news">
+        <div class="col-lg-4 mt-3" *ngFor="let item of news; let i=index">
           <img class="img-fluid news-image" [src]="item.image"/>
           
           <div class="news-section  mb-5">
           <h5 class="mt-4">{{ item.name }}</h5>
             <p class="mb-5">{{item.description}}</p>
 
-            <button class="btn news-button">Learn More</button>
+            <button (click)="navigate(item, i)" class="btn news-button">Learn More</button>
 
         </div>
 
@@ -581,6 +314,30 @@
               SEND MESSAGE
             </button>
           </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- partners -->
+  <section id="partners" class="common-space">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 middle-align mb-3">
+          <div>
+            <p class="title-description">Partners</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10">
+          <div
+            class="carousel"
+            data-flickity='{"prevNextButtons": false, "contain": true,  "autoPlay": true, "pageDots": false}'
+          >
+            <div class="carousel-cell" *ngFor="let item of partners">
+                <img [src]="item.url" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
