@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
     event.preventDefault(); // Prevent the default behavior (page navigation) 
     const target = event.target as HTMLElement;
     const sectionId = target.getAttribute('href')?.substring(1); // Extract the sectionId from the href
-      console.log(sectionId)
     if (sectionId) {
       const element = document.getElementById(sectionId);
       if (element) {
@@ -103,12 +102,9 @@ export class HomeComponent implements OnInit {
     private router: Router,
 
   ) { 
-
     window.addEventListener('popstate', () => {
       location.reload();
     });
-
-  
    }
 
 
@@ -126,14 +122,14 @@ export class HomeComponent implements OnInit {
 
     const navigationExtras: NavigationExtras = {
       relativeTo: this.activatedRoute,
-      queryParams: { id: id},
+      // queryParams: { id: id},
       state: {
         details: item,
 
       }
     };
 
-    this.router.navigate(['/news'], navigationExtras);
+    this.router.navigate(['/news-details'], navigationExtras);
 
   }
 

@@ -7,19 +7,20 @@ import { NavigationExtras, ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./news.component.scss']
 })
 export class NewsComponent implements OnInit {
+  details: any;
 
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router
   ) { 
     this.activatedRoute.queryParams.subscribe(params => {
-      console.log(this.router.getCurrentNavigation()?.extras.state)?.['details'];
-  });
-    
+      this.details = this.router.getCurrentNavigation()?.extras.state?.['details']  
+      console.log(this.details)
+    })
   }
 
   ngOnInit(): void {
-
+   
 
 
   }
