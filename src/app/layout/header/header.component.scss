@@ -49,6 +49,17 @@ header{
 }
 
 
+.language-switch{
+  width: auto;
+}
+
+.form-select:focus{
+  border-color: #ddd;
+    outline: 0;
+    box-shadow: 0 0 0 0
+}
+
+
 
 @media only screen and (max-width: 767px) {
 

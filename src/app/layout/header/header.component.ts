@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { EventsService } from 'src/app/service/events.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  language: any = null;
   
     MenuItems = [
          {name: 'ABOUT',  id:'about'},
@@ -20,16 +21,33 @@ export class HeaderComponent implements OnInit {
 
 
   constructor(
+    public events: EventsService,
   ) { }
 
 
-  onClick(event: Event) {
-    event.preventDefault(); // Prevent the default behavior (page reload)
-    // Handle navigation or other actions within your Angular component
+
+
+  switchlang(){
+    if (this.language !== localStorage.getItem('lang')){
+      this.events.publish('language:languageChanged', this.language);
+    }
+    const htmlSelect: any  = document.querySelector("html");
+    
+    if(this.language === 'en'){
+      htmlSelect.setAttribute("dir", "ltr");
+      htmlSelect.setAttribute("lang", "en");
+      
+     }else{
+      htmlSelect.setAttribute("dir", "rtl");
+      htmlSelect.setAttribute("lang", "ar");
+      
+     }
+
   }
 
 
   ngOnInit(): void {
+    this.language = localStorage.getItem('lang');
   }
 
 }

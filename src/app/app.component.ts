@@ -1,5 +1,6 @@
-import { Component, HostBinding, Inject, PLATFORM_ID } from '@angular/core';
-
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { EventsService } from './service/events.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,12 +8,42 @@ import { Component, HostBinding, Inject, PLATFORM_ID } from '@angular/core';
 })
 export class AppComponent {
 
+  language:any;
+  dirSide = 'ltr';
 
+  constructor(
+    public translate: TranslateService,
+    public events: EventsService,
 
+  ) {
+    this.initTranslate();
+    events.subscribe('language:languageChanged', (data) => {
+      this.changeLanguage();
+    });
+    events.subscribe('first:launched', (data) => {
+    });}
 
+changeLanguage() {
+  this.dirSide = this.dirSide === 'ltr' ? 'rtl' : 'ltr';
+  this.language = this.dirSide === 'ltr' ? 'en' : 'ar';
+  this.translate.setDefaultLang(this.language);
+  this.translate.use(this.language);
+  localStorage.setItem('lang', this.language);
+}
 
-  constructor() {
-  
+async initTranslate() {
+  // Set the default language for translation strings, and the current language.
+  this.language = localStorage.getItem('lang') == null ? 'en' : localStorage.getItem('lang');
+  this.language = this.language == null ? 'en' : this.language;
+  this.translate.setDefaultLang(this.language);
+  this.translate.use(this.language);
+  localStorage.setItem('lang', this.language);
+  if (this.language === 'en') {
+    this.dirSide = 'ltr';
+  } else {
+    this.dirSide = 'rtl';
+    
+  }
 }
 
   ngAfterViewInit(): void {

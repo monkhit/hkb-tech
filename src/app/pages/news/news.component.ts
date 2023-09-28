@@ -15,7 +15,7 @@ export class NewsComponent implements OnInit {
   ) { 
     this.activatedRoute.queryParams.subscribe(params => {
       this.details = this.router.getCurrentNavigation()?.extras.state?.['details']  
-      console.log(this.details)
+      window.scrollTo(0, 0);
     })
   }
 
