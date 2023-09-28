@@ -38,10 +38,17 @@ async initTranslate() {
   this.translate.setDefaultLang(this.language);
   this.translate.use(this.language);
   localStorage.setItem('lang', this.language);
+  const htmlSelect: any  = document.querySelector("html");
+
   if (this.language === 'en') {
-    this.dirSide = 'ltr';
+    htmlSelect.setAttribute("dir", "ltr");
+    htmlSelect.setAttribute("lang", "en");
+    // this.dirSide = 'ltr';
   } else {
-    this.dirSide = 'rtl';
+    // this.dirSide = 'rtl';
+    htmlSelect.setAttribute("dir", "rtl");
+    htmlSelect.setAttribute("lang", "ar");
+
     
   }
 }
