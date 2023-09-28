@@ -14,11 +14,11 @@ export class FooterComponent implements OnInit {
   industries: any = industries
   siteUrl: any;
   jumpSection = [
-    {name: 'ABOUT',  class: 'active', id:'about'},
-    {name: 'SERVICES',   class: '',  id:'services'},
-    {name: 'INDUSTRIES',  class: '', id:'sector'},
-    {name: 'PARTNER',  class: '', id:'team'},
-    {name: 'NEWS',  class: '', id:'news'},
+    {name: 'About',  class: 'active', id:'about'},
+    {name: 'Services',   class: '',  id:'services'},
+    {name: 'Industries',  class: '', id:'sector'},
+    {name: 'Partner',  class: '', id:'team'},
+    {name: 'News',  class: '', id:'news'},
   ]
   constructor() { 
     const url = window.location.href;

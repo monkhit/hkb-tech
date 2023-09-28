@@ -19,7 +19,7 @@
           Lead the next generation of AI applications to unlock value globally.
         </h3>
 
-        <a class="float-end" href="#about">
+        <a class="move-forward" href="#about">
           <div class="chevron"></div>
           <div class="chevron"></div>
           <div class="chevron"></div>
@@ -36,7 +36,7 @@
     <div class="container" style="z-index: 1;">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="text-center mb-4">About HKB Tech</h2>
+          <h2 class="text-center mb-4 ">About HKB Tech</h2>
 
           <p class="mb-3 text-center">
             As a subsidiary of the legacy leading Saudi company (Bin Dayel
@@ -95,9 +95,7 @@
 
         <div class="col-lg-9">
           <div
-            class="carousel"
-            data-flickity='{"prevNextButtons": true, "contain": true, "groupCells": 1 , "autoPlay": true, "pageDots": false}'
-          >
+            class="carousel services">
             <div class="carousel-cell" *ngFor="let item of industries">
               <div class="industries-image">
                 <img [src]="item.image" />
@@ -114,8 +112,7 @@
   <section id="sector">
     <!-- content -->
     <div
-      class="carousel carousel-main sector-descrption"
-      data-flickity='{"pageDots": false, "prevNextButtons": false, "adaptiveHeight": true     }'
+      class="carousel carousel-main"
     >
       <div *ngFor="let item of sectors[1].content">
         <div
@@ -149,9 +146,7 @@
 
     <!-- NAVIGATION -->
     <div
-      class="carousel carousel-nav sector-navigation"
-      data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false, "prevNextButtons": false }'
-    >
+      class="carousel carousel-nav sector-navigation"    >
       <div class="carousel-cell" *ngFor="let item of sectors[0].navigation">
         {{ item }}
       </div>
@@ -180,6 +175,29 @@
 
         </div>
         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- partners -->
+   <section id="partners">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mb-3">
+          <div>
+            <p class="title-description">Partners</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <div
+            class="carousel partners"
+          >
+            <div class="carousel-cell" *ngFor="let item of partners">
+                <img [src]="item.url" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -319,29 +337,28 @@
     </div>
   </section>
 
-  <!-- partners -->
-  <section id="partners" class="common-space">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-2 middle-align mb-3">
-          <div>
-            <p class="title-description">Partners</p>
-          </div>
-        </div>
+  <!-- subscribe -->
+<section id="subscribe">
+  <div class="container">
+    <div class="row">
 
-        <div class="col-lg-10">
-          <div
-            class="carousel"
-            data-flickity='{"prevNextButtons": false, "contain": true,  "autoPlay": true, "pageDots": false}'
-          >
-            <div class="carousel-cell" *ngFor="let item of partners">
-                <img [src]="item.url" />
-            </div>
-          </div>
-        </div>
+      <div class="col-lg-5">
+
       </div>
+
+      <div class="col-lg-7 text-end">
+
+        <form>
+          <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off">
+          <button class="btn btn-primary btn-lg"  type="button">Subscribe</button>
+        </form>
+
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+ 
 </div>
 
 <app-footer></app-footer>

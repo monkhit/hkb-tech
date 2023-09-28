@@ -5,7 +5,6 @@
 
 .title-description{
   -webkit-text-fill-color: transparent;
-  background: #0078ff;
   background: var(--gradient-1);
   -webkit-background-clip: text;
   font-size: 1.6rem;
@@ -17,6 +16,13 @@ $base: 0.6rem;
   position: relative;
   height: 95vh;
   max-height: 95vh;
+
+  .move-forward{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+  }
 
   video {
     width: 100%;
@@ -124,10 +130,9 @@ $base: 0.6rem;
 
 
   h2 {
-    -webkit-text-fill-color: transparent;
-    background: #0078ff;
-    background: var(--gradient-1);
+    background: linear-gradient(0deg, #6d33cc 17%, #2277f8 100%);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
   }
 
   p {
@@ -488,13 +493,13 @@ $base: 0.6rem;
 
     &:hover:before{
         border-color: transparent;
-        border-bottom-color: #363795;
-        border-width: 10px;
+        border-bottom-color: #6d33cc;
+        border-width: 0px;
         margin-left: -10px;
     }
 
     &:hover:after{
-      border-bottom-color: #363795 !important;
+      border-bottom-color: #6b37ce !important;
     }
 
     
@@ -528,6 +533,53 @@ $base: 0.6rem;
 
 }
 
+
+
+// subscribe
+
+#subscribe{
+  background: var(--gradient);
+  padding: 5rem 0;
+
+   input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 60%;
+    font-weight: 100;
+    font-size: 1rem;
+
+    &::placeholder{
+      color: #fff;
+    }
+    
+  }
+  
+  button {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    color: #6d33cc;
+    font-weight: bold;
+    background-color: var(--white);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+    border: 0;
+
+    &:hover{
+      border: 1px solid ;
+    }
+
+  }
+  
+
+
+
+}
 
 
 // contact us

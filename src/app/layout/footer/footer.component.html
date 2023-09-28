@@ -7,7 +7,7 @@
                       <div class="col-xl-2 col-lg-2 col-md-6 mb-3">
                           <div class="footer-widget">
                               <div class="footer-widget-heading">
-                                  <h3>JUMP TO</h3>
+                                  <h3>Jump to</h3>
                               </div>
                               <ul>
                                   <li *ngFor="let item of jumpSection"><a [href]="'#'+ item.id">{{item.name}}</a></li>
@@ -18,7 +18,7 @@
                       <div class="col-xl-5 col-lg-5 col-md-6 mb-3">
                               <div class="footer-widget">
                                   <div class="footer-widget-heading">
-                                      <h3>INDUSTRIES</h3>
+                                      <h3>Industries</h3>
                                   </div>
                                   <ul>
                                       <li style="display: inline-block;" *ngFor="let item of sectors[0].navigation"><a href="#sector">{{item}}</a></li>
@@ -30,7 +30,7 @@
                           <div class="col-xl-5 col-lg-5 col-md-6 mb-3">
                               <div class="footer-widget">
                                   <div class="footer-widget-heading">
-                                      <h3> SERVICES</h3>
+                                      <h3>Services</h3>
                                   </div>
                                   <ul>
                                       <li  *ngFor="let item of industries"><a href="#services">{{item.name}}</a></li>

@@ -20,6 +20,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "flickity"
+           ],
             "outputPath": "dist/test",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -36,7 +39,8 @@
             ],
             "scripts": [  
               "node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "./node_modules/flickity/dist/flickity.pkgd.min.js"
             ]
           },
           "configurations": {
@@ -103,6 +107,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/flickity/dist/flickity.min.css",
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],

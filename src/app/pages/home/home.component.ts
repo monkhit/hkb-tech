@@ -1,5 +1,7 @@
-import { Component, OnInit, HostListener} from '@angular/core';
+import { Component, OnInit, HostListener, AfterViewInit, ElementRef, NgZone} from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
+import * as flickity from 'flickity';
+import 'flickity-as-nav-for'
 import { Location } from '@angular/common';
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
@@ -13,21 +15,7 @@ import news from '../../../assets/json/news.json'
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  @HostListener('click', ['$event'])
-
-  onClick(event: Event) {
-    event.preventDefault(); // Prevent the default behavior (page navigation) 
-    const target = event.target as HTMLElement;
-    const sectionId = target.getAttribute('href')?.substring(1); // Extract the sectionId from the href
-    if (sectionId) {
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }
-
-
+ 
   videoSource = './assets/video/intro.mp4'
   aboutBg = './assets/video/about.mp4'
 
@@ -35,9 +23,6 @@ export class HomeComponent implements OnInit {
   team: any = teamDetails;
   industries: any = industries
   news: any = news
-
-
-  // https://www.shutterstock.com/shutterstock/videos/1054883390/preview/stock-footage-digital-circuit-network-loop-endless-flight-through-a-huge-digital-network-of-data-and-circuitry.webm
 
   contactForm = {
     username: '',
@@ -95,16 +80,15 @@ export class HomeComponent implements OnInit {
 
 
 
-
-
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router,
-
+    private zone: NgZone,
+    private elementRef: ElementRef
   ) { 
-    window.addEventListener('popstate', () => {
-      location.reload();
-    });
+    // window.addEventListener('popstate', () => {
+    //   location.reload();
+    // });
    }
 
 
@@ -113,6 +97,41 @@ export class HomeComponent implements OnInit {
   }
 
 
+  loadcarousel(){
+    this.zone.runOutsideAngular(() => {
+    new flickity(this.elementRef.nativeElement.querySelector('.partners'), {
+      "prevNextButtons": false, 
+      "contain": true, 
+      "autoPlay": true, 
+      "pageDots": false,
+    });
+  })
+
+    new flickity(this.elementRef.nativeElement.querySelector('.services'), {
+      "prevNextButtons": true, 
+      "contain": true, 
+      "groupCells": 1 , 
+      "autoPlay": true, 
+      "pageDots": false
+    });
+
+    new flickity(this.elementRef.nativeElement.querySelector('.sector-navigation'), {
+      "contain": true, 
+      "pageDots": false, 
+      "prevNextButtons": false,
+      "asNavFor": '.carousel-main'
+    });
+
+    new flickity(this.elementRef.nativeElement.querySelector('.carousel-main'), {
+      "pageDots": false,
+       "prevNextButtons": false, 
+       "adaptiveHeight": true
+    });
+
+    
+   
+
+  }
 
 
 
@@ -122,7 +141,6 @@ export class HomeComponent implements OnInit {
 
     const navigationExtras: NavigationExtras = {
       relativeTo: this.activatedRoute,
-      // queryParams: { id: id},
       state: {
         details: item,
 
@@ -135,6 +153,10 @@ export class HomeComponent implements OnInit {
 
   
 
+
+  ngAfterViewInit() {
+      this.loadcarousel()
+  }
   
 
 

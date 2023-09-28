@@ -1,16 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;500&display=swap');
+@import 'flickity/css/flickity.css';
 
 
 :root {
---primary-color: #010c2d; /* Blue color */
+--primary-color: #12122a; /* Blue color */
 --secondary-color: #29ffc6; /* Yellow color */
 --blue: #032175;
 --white: #fff;
---gradient-1: linear-gradient(0deg,#0078ff 0,#aa00d9); 
---gradient: linear-gradient(0deg,#B2FEFA 0,#0ED2F7); 
---gradient-2:linear-gradient(0deg,#010c2d 0,#0ED2F7);
---gradient-3:linear-gradient(0deg,#005C97 0,#363795);
+--gradient: linear-gradient(90deg,#6d33cc 0,#2277f8); 
+--gradient-1: linear-gradient(0deg, #6d33cc 17%, #2277f8 100%); 
+--gradient-3:linear-gradient(90deg,#6d33cc 0,#2277f8);
 /* Define your gradient here */
 }
 
@@ -25,15 +25,14 @@ position: relative;
 }
 
 h1,h2,h3,h4,h5,h6{
-          font-weight: 500;
+font-weight: 500;
 }
 
 .button-1{
-          background: var(--gradient-3) !important;
-          color: var(--white) !important;
-          border: 0px !important;
-            transition: all 0.3s ease;
-
+background: var(--gradient-3) !important;
+color: var(--white) !important;
+border: 0px !important;
+transition: all 0.3s ease;
 }
 
 
@@ -43,12 +42,9 @@ h1,h2,h3,h4,h5,h6{
       margin-bottom: 0rem;
 }
 
-.text-gradient-2 {
--webkit-text-fill-color: transparent;
-background: var(--gradient-2);
--webkit-background-clip: text;
-      }
+
 
 .common-space{
       padding: 8rem 2rem ;
 }
+
