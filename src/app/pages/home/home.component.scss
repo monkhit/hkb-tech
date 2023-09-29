@@ -405,7 +405,7 @@ $base: 0.6rem;
 
 // news
 
-#news{
+#blog{
 
   .news-section{
   
@@ -510,28 +510,56 @@ $base: 0.6rem;
 
 #partners{
 
-  .carousel-cell {
-    width: 15%;
-    height: 100px;
-    margin-right: 1rem;
-
     img{
-      width: 60%;
-      display: block;
       margin: auto;
-      filter: grayscale(100%);
-    }
+  filter: grayscale(100%);
+  width: 80%;
 
-    &:hover{
-
-      img{
+      &:hover{
         filter: grayscale(0%);
       }
 
-      }
+    }
+
   }
 
-}
+  //   img{
+  //     width: 60%;
+  //     display: block;
+  //     margin: auto;
+  //     filter: grayscale(100%);
+    
+
+  //   &:hover{
+
+  //     img{
+  //       filter: grayscale(0%);
+  //     }
+  //   }
+  // }
+
+  // .carousel-cell {
+  //   width: 15%;
+  //   height: 100px;
+  //   margin-right: 1rem;
+
+  //   img{
+  //     width: 60%;
+  //     display: block;
+  //     margin: auto;
+  //     filter: grayscale(100%);
+  //   }
+
+  //   &:hover{
+
+  //     img{
+  //       filter: grayscale(0%);
+  //     }
+
+  //     }
+  // }
+
+
 
 
 

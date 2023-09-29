@@ -4,11 +4,6 @@
       <a class="navbar-brand">
         <img src="/assets/images/hkb_logo.png"/>
       </a>
-<!--       
-      <select class="form-select language-switch">
-        <option>English</option>
-        <option>عربي</option>
-      </select> -->
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
@@ -16,16 +11,63 @@
 
       <div class="collapse navbar-collapse ms-5" id="mynavbar">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item" *ngFor="let item of MenuItems" >
-            <a [href]="'#'+item.id" class="nav-link">{{item.name}}</a>
+
+          <li class="nav-item"  >
+            <a href="#about" class="nav-link">ABOUT</a>
           </li>
-        </ul>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">SERVICES</a>
+
+              <ul class="dropdown-menu pt-4">
+              <div class="container ">
+                <div class="row">
+                  <a href="#services" class="col-lg-2 mb-4"*ngFor="let item of industries">
+                    {{item.name}}
+                  </a>
+                </div>
+              </div>
+            </ul>
+
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown">INDUSTRIES</a>
+  
+                <ul class="dropdown-menu pt-4">
+                <div class="container ">
+                  <div class="row">
+                    <a href="#sector" class="col-lg-2 mb-4"*ngFor="let item of sector[1].content">
+                      {{item.title}}
+                    </a>
+                  </div>
+                </div>
+              </ul>
+  
+              </li>
+
+              <li class="nav-item"  >
+                <a href="#team" class="nav-link">PARTNER</a>
+              </li>
+
+              <li class="nav-item"  >
+                <a href="#blog" class="nav-link">BLOGS</a>
+              </li>
+
+              <li class="nav-item"  >
+                <a href="#contact" class="nav-link">CONTACT US</a>
+              </li>
+    
+
+            </ul>
+            
         <div class="d-flex">
           <select [(ngModel)]="language" name="lanuage" (change)="switchlang()" class="form-select language-switch">
             <option value="en">English</option>
             <option value="ar">عربي</option>
           </select>
         </div>
+
       </div>
     </div>
   </nav>

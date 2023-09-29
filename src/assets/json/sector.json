@@ -281,10 +281,15 @@
         "title": "Construction ",
         "description": [
           {
-            "para": "Technology and innovation converge to revolutionize the way we build, design, and manage construction projects. We are at the forefront of emerging construction technologies, reshaping the industry to make it safer, more efficient, and environmentally responsible. Our portfolio encompasses cutting-edge solutions that empower construction firms, architects, and developers to embrace digital transformation.      "
+            "para": "Technology and innovation converge to revolutionize the way we build, design, and manage construction projects. We are at the forefront of emerging construction technologies, reshaping the industry to make it safer, more efficient, and environmentally responsible. Our portfolio encompasses cutting-edge solutions that empower construction firms, architects, and developers to embrace digital transformation."
           }
         ],
         "type": [
+          { "type": "Lorem Ipsum is simply " },
+          { "type": "Lorem Ipsum is simply" },
+          { "type": "Lorem Ipsum is simply" },
+          { "type": "Lorem Ipsum is simply" },
+          { "type": "Lorem Ipsum is simply" }
         ],
         "bgImage": "/assets/images/sectors/construction.png"
       },

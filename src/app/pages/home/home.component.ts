@@ -35,45 +35,48 @@ export class HomeComponent implements OnInit {
   inquires = [
     {name:'Client Opportunities', id: '1'},
     {name:'Partners Opportunities', id: '2'},
-    {name:'General Inquries', id: '3'},
   ]  
 
   
   contactDetails = [
     {
       heading: 'Client Opportunities',
-      description: 'Interested in our solutions? Learn how our solutions can help your business',
+      description: 'Interested in our services? Know how our services can help your business.',
       id: '1'
     },
 
     {
       heading: 'Partners Opportunities',
-      description: 'Want to explore collaboration opportunities? Join us in Shaping the Future',
+      description: 'Interested in partnering with us? Learn how we can collaborate.',
       id: '2'
     },
 
-    {
-      heading: 'General Inquiries',
-      description: 'Got any other question? please contact us here',
-      id: '3'
-    },
 
   ]
 
   partners = [
-    {"url": "/assets/images/partners/frogparking.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/logo_digiconnect_fluves.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/5.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/4.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/Wolters-Kluwer-Enablon.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/2.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/7.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/logo_digiconnect_fluves.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/5.png"},
     {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
     {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
+
+   
 
   ]
 
@@ -111,7 +114,7 @@ export class HomeComponent implements OnInit {
       "prevNextButtons": true, 
       "contain": true, 
       "groupCells": 1 , 
-      "autoPlay": true, 
+      "autoPlay": false, 
       "pageDots": false
     });
 

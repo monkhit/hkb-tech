@@ -14,9 +14,9 @@
 
     <div class="video-content clear-fix">
       <div class="container">
-        <p>Saudi Company for Artificial Intelligence</p>
+        <p>HKB Tech</p>
         <h3>
-          Lead the next generation of AI applications to unlock value globally.
+          Subsidiary of Bin Dayel Group
         </h3>
 
         <a class="move-forward" href="#about">
@@ -190,27 +190,31 @@
           </div>
         </div>
 
-        <div class="col-lg-12">
-          <div
+        <div class="col-lg-2 mb-5" *ngFor="let item of partners">
+          <img class="img-fluid"  [src]="item.url" /> 
+        </div>
+
+          <!-- <div
             class="carousel partners"
           >
             <div class="carousel-cell" *ngFor="let item of partners">
                 <img [src]="item.url" />
             </div>
-          </div>
-        </div>
+          </div> -->
+
+
       </div>
     </div>
   </section>
 
-  <!-- news -->
-  <section id="news" class="common-space">
+  <!-- blog -->
+  <section id="blog" class="common-space">
     <div class="container">
       <div class="row">
 
         <div class="col-xl-12">
           <!-- <p class="sub-head">TEAM</p> -->
-          <p class="title-description">News</p>
+          <p class="title-description">Blogs</p>
                 </div>
 
         <div class="col-lg-4 mt-3" *ngFor="let item of news; let i=index">

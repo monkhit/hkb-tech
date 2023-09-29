@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { EventsService } from 'src/app/service/events.service';
+import industries from '../../../assets/json/industries.json'
+import sectorDetails from '../../../assets/json/sector.json'
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -8,13 +11,15 @@ import { EventsService } from 'src/app/service/events.service';
 export class HeaderComponent implements OnInit {
 
   language: any = null;
+  industries: any = industries
+  sector: any = sectorDetails
   
     MenuItems = [
          {name: 'ABOUT',  id:'about'},
          {name: 'SERVICES',   class: '',  id:'services'},
          {name: 'INDUSTRIES',  class: '', id:'sector'},
          {name: 'PARTNER',  class: '', id:'team'},
-         {name: 'NEWS',  class: '', id:'news'},
+         {name: 'BLOGS',  class: '', id:'blog'},
          {name: 'CONTACT US',  class: '', id:'contact'},
     ]
          
@@ -48,6 +53,8 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.language = localStorage.getItem('lang');
+
+    console.log(this.sector)
   }
 
 }
