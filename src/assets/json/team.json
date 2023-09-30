@@ -4,8 +4,8 @@
     "designation": "Chairman of Board of Directors",
     "image": "./assets/images/team/Hesham-Bin-Dayel.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
     ] 
   },
   {
@@ -13,8 +13,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
     ] 
   },
   {
@@ -22,8 +22,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   },
@@ -32,8 +32,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"}, 
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   },
@@ -42,8 +42,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},  
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   },
@@ -52,8 +52,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"}, 
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   },
@@ -62,8 +62,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},   
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   },
@@ -72,8 +72,8 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"./assets/images/team/linkedin.png"},    
-      {"icon":"./assets/images/team/twitter.png"}
+      {"icon":"fa-brands fa-linkedin-in"},
+      {"icon":"fa-brands fa-x-twitter"}
       
     ] 
   }

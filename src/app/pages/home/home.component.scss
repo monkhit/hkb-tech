@@ -39,6 +39,14 @@ $base: 0.6rem;
     padding: 0 30px;
     color: var(--white);
 
+    p{
+      font-size: 1.125rem;
+    }
+
+    h3{
+      font-size: 1.5rem;
+    }
+
   }
 
   
@@ -146,8 +154,7 @@ $base: 0.6rem;
     grid-gap: 1rem;
     li{
       font-size: 1rem;
-    
-      list-style: none;
+      list-style-type: disclosure-closed;
       color: var(--white);
 
     }
@@ -287,8 +294,14 @@ $base: 0.6rem;
   position: relative;
   color: #fff;
 
+  .static-content{
+    p{
+      font-size: 1.5rem;
+    }
+  }
+
   p {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     background-color: #0505056b;
     display: inline-block;
     border-radius: 10px;
@@ -396,8 +409,13 @@ $base: 0.6rem;
   }
 
   .social-icon{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+
+    .fa-x-twitter{
+      color: #000;
+    }
+ 
   }
 
 }

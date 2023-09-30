@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { EventsService } from './service/events.service';
+import * as Aos from 'aos';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -54,6 +55,7 @@ async initTranslate() {
 }
 
   ngAfterViewInit(): void {
+    Aos.init();
 
     // setTimeout(() => {
     //   this.loader = false

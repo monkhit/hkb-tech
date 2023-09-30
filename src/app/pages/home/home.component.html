@@ -14,9 +14,9 @@
 
     <div class="video-content clear-fix">
       <div class="container">
-        <p>HKB Tech</p>
+        <p>HKB Tech Subsidiary of Bin Dayel Group</p>
         <h3>
-          Subsidiary of Bin Dayel Group
+          Lead the next generation of AI <br/> applications to unlock value globally.
         </h3>
 
         <a class="move-forward" href="#about">
@@ -51,7 +51,7 @@
             multiple industries spanning multiple sectors including:
           </p>
 
-          <ul>
+          <ul   data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine">
             <li>AI & Machine Learning</li>
             <li>Smart Cities</li>
             <li>Internet of Things (IoT)</li>
@@ -127,7 +127,7 @@
           </div>
 
           <div class="dynamic-content">
-            <h5>{{ item.title }}</h5>
+            <h2>{{ item.title }}</h2>
             <p *ngFor="let item of item.description">
               {{ item.para }}
             </p>
@@ -169,8 +169,9 @@
           <h5 class="mt-3">{{ item.name }}</h5>
           <p class="designation mb-5">{{ item.designation }}</p>
               
-          <a class="me-3 " *ngFor="let subItem of item.social" [href]="subItem.url">
-            <img class="social-icon" [src]="subItem.icon"/>
+          <a class="me-3 social-icon" *ngFor="let subItem of item.social" [href]="subItem.url">
+            <!-- <img class="social-icon" [src]="subItem.icon"/> -->
+            <i [class]="subItem.icon"></i>
           </a> 
 
         </div>
