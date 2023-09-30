@@ -1,3 +1,50 @@
+// subscribe
+
+#subscribe{
+  background: var(--gradient);
+  padding: 5rem 0;
+
+   input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 60%;
+    font-weight: 100;
+    font-size: 1rem;
+
+    &::placeholder{
+      color: #fff;
+    }
+    
+  }
+  
+  button {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    color: #6d33cc;
+    font-weight: bold;
+    background-color: var(--white);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+    border: 0;
+
+    &:hover{
+      border: 1px solid ;
+    }
+
+  }
+  
+
+
+
+}
+
+
 ul {
           margin: 0px;
           padding: 0px;

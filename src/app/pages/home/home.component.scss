@@ -40,11 +40,11 @@ $base: 0.6rem;
     color: var(--white);
 
     p{
-      font-size: 1.125rem;
+      font-size: 0.8rem;
     }
 
     h3{
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
   }
@@ -296,12 +296,12 @@ $base: 0.6rem;
 
   .static-content{
     p{
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 
   p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     background-color: #0505056b;
     display: inline-block;
     border-radius: 10px;
@@ -581,51 +581,7 @@ $base: 0.6rem;
 
 
 
-// subscribe
 
-#subscribe{
-  background: var(--gradient);
-  padding: 5rem 0;
-
-   input {
-    padding: 0.75rem;
-    border-radius: 0.25rem;
-    outline: none;
-    border: 1px solid #fff;
-    background: transparent;
-    color: #fff;
-    width: 60%;
-    font-weight: 100;
-    font-size: 1rem;
-
-    &::placeholder{
-      color: #fff;
-    }
-    
-  }
-  
-  button {
-    padding: 0.75rem;
-    border-radius: 0.25rem;
-    margin-left: 0.5rem;
-    color: #6d33cc;
-    font-weight: bold;
-    background-color: var(--white);
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    font-size: 1rem;
-    border: 0;
-
-    &:hover{
-      border: 1px solid ;
-    }
-
-  }
-  
-
-
-
-}
 
 
 // contact us
@@ -693,6 +649,27 @@ $base: 0.6rem;
 
 
 @media only screen and (max-width: 767px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  #video-banner {
+
+    .video-content {
+      padding: 0;
+    bottom: 15%;
+    }
+
+    .move-forward{
+      right: -15%;
+      bottom: 12%;
+    }
+
+
+  }
+
+
   .common-space{
     padding: 6rem 1rem;
   }
@@ -746,12 +723,42 @@ $base: 0.6rem;
     }
   }
 
-  .sector-types {
-    display: block;
-.sector-types-catagory{
-  margin-bottom: 1rem;
+  #sector {
+
+    .sector-navigation {
+
+      .carousel-cell {
+        font-size: 0.8rem;
+      }
+
+    }
+
+  .static-content{
+    p{
+      font-size: 0.8rem !important;
+    }
+
+    h6{
+      font-size: 0.9rem !important;
+    }
+  }
+
+  h2{
+    font-size: 0.9rem !important;
+  }
+
+  p{
+    font-size: 0.8rem !important;
+
+  }
 
 }
+
+  .sector-types {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+
+
 
   }
 

@@ -12,8 +12,7 @@ export class LoaderComponent implements OnInit {
   constructor() {
     setTimeout(() => {
       this.show = false;
-    }, 3000);
-    console.log(this.show)
+    }, 4000);
 
   }
 

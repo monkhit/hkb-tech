@@ -1,3 +1,34 @@
+.loader-box{
+  position: relative;
+  
+  p{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    left: -20px;
+    background: linear-gradient(0deg,#6d33cc 17%,#2277f8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    animation: fadeOut 4s ease-in-out;
+  }
+  
+}
+
+
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; /* Start with full opacity */
+  }
+  to {
+    opacity: 0; /* End with no opacity (fully transparent) */
+  }
+}
+
+
+
 
 .loderhide {
           display: none;

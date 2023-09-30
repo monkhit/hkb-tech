@@ -150,7 +150,7 @@ export class HomeComponent implements OnInit {
       }
     };
 
-    this.router.navigate(['/news-details'], navigationExtras);
+    this.router.navigate(['/blog'], navigationExtras);
 
   }
 
