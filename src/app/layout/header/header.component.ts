@@ -32,19 +32,24 @@ export class HeaderComponent implements OnInit {
 
 
 
-  switchlang(){
+  switchlang(lang:any){
+    
     if (this.language !== localStorage.getItem('lang')){
       this.events.publish('language:languageChanged', this.language);
     }
     const htmlSelect: any  = document.querySelector("html");
     
-    if(this.language === 'en'){
+    if(this.language = lang === 'en'){
       htmlSelect.setAttribute("dir", "ltr");
       htmlSelect.setAttribute("lang", "en");
-      
+      localStorage.setItem('lang', 'en')
+      this.language = localStorage.getItem('lang');
+
      }else{
       htmlSelect.setAttribute("dir", "rtl");
       htmlSelect.setAttribute("lang", "ar");
+      localStorage.setItem('lang', 'ar')
+      this.language = localStorage.getItem('lang');
       
      }
 

@@ -1,0 +1,21 @@
+
+
+.carousel-inner{
+
+  .carousel-item{
+    min-height: 300px;
+
+    div{
+    min-height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .active{
+    border: 1px solid #fff;
+  }
+
+}
+

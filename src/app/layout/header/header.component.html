@@ -61,12 +61,16 @@
 
             </ul>
             
-        <div class="d-flex">
-          <select [(ngModel)]="language" name="lanuage" (change)="switchlang()" class="form-select language-switch">
-            <option value="ar">عربي</option>
-            <option value="en">English</option>
-          </select>
-        </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item" *ngIf="language === 'en'"  (click)="switchlang('ar')">
+                <a class="nav-link">عربي</a>
+              </li>
+
+              <li class="nav-item" *ngIf="language === 'ar'" (click)="switchlang('en')">
+                <a class="nav-link">English</a>
+              </li>
+              </ul>
+        
 
       </div>
     </div>

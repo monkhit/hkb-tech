@@ -660,11 +660,23 @@ $base: 0.6rem;
   color: red;
 }
 
+.about-mobile{
+  display: none !important;
+}
+
 
 @media only screen and (max-width: 767px) {
 
   body{
     overflow-x: hidden;
+  }
+
+  .about-desktop{
+    display: none !important;
+  }
+
+  .about-mobile{
+    display: block !important;
   }
 
   .team-section{
