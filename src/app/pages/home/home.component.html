@@ -14,18 +14,19 @@
 
     <div class="video-content clear-fix">
       <div class="container">
-        <p>HKB Tech Subsidiary of Bin Dayel Group</p>
+        <p>HKB - Tech Subsidiary of Bin Dayel Group</p>
         <h3>
           Lead the wave of new technologies -<br/> synergizing localisation with globalisation
           <!-- Lead the next generation of AI <br/> applications to unlock value globally. -->
         </h3>
 
-        <a class="move-forward" href="#about">
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-          <div class="chevron"></div>
-        </a>
+       
       </div>
+      <a class="move-forward" href="#about">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+      </a>
     </div>
   </section>
 
@@ -115,9 +116,9 @@
     <div
       class="carousel carousel-main"
     >
-      <div *ngFor="let item of sectors[1].content">
+      <div *ngFor="let item of sectors[1].content; let i=index">
         <div
-          class="carousel-cell custom-box"
+          class="carousel-cell custom-box {{i}}"
           [style.background-image]="'url(' + item.bgImage + ')'"
         >
           <div class="static-content">
@@ -162,23 +163,26 @@
           <h6 class="title text-body">TEAM</h6>
           <p class="title-description">Our leadership</p>
         </div>
-
-        <div class="col-xl-4 mb-4" *ngFor="let item of team">
-            <div class="team-section">
-          <img class="img-fluid for-light" [src]="item.image" />
-              <div class="team-description">
-          <h5 class="mt-3">{{ item.name }}</h5>
-          <p class="designation mb-5">{{ item.designation }}</p>
-              
-          <a class="me-3 social-icon" *ngFor="let subItem of item.social" [href]="subItem.url">
-            <!-- <img class="social-icon" [src]="subItem.icon"/> -->
-            <i [class]="subItem.icon"></i>
-          </a> 
-
-        </div>
-        </div>
-        </div>
+    
       </div>
+
+        <!-- col-xl-2 mb-4 -->
+        <div class="team-container">
+          <div class="team-section" *ngFor="let item of team">
+        <img class="img-fluid for-light" [src]="item.image" />
+            <div class="team-description">
+        <h5 class="mt-3">{{ item.name }}</h5>
+        <p class="designation mb-5">{{ item.designation }}</p>
+            
+        <a class="me-3 social-icon" *ngFor="let subItem of item.social" [href]="subItem.url">
+          <!-- <img class="social-icon" [src]="subItem.icon"/> -->
+          <i [class]="subItem.icon"></i>
+        </a> 
+
+      </div>
+      </div>
+      </div>
+
     </div>
   </section>
 
@@ -192,7 +196,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-2 col-xl-3 col-3 mb-5" *ngFor="let item of partners">
+        <div class="col-lg-2 col-md-2 col-xl-2 col-3 mb-5" *ngFor="let item of partners">
           <img class="img-fluid"  [src]="item.url" /> 
         </div>
 
@@ -342,6 +346,11 @@
       </div>
     </div>
   </section>
+
+
+  
+  
+  
 
 
  

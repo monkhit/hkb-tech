@@ -15,7 +15,7 @@ import news from '../../../assets/json/news.json'
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
- 
+
   videoSource = './assets/video/intro.mp4'
   aboutBg = './assets/video/about.mp4'
 
@@ -127,8 +127,9 @@ export class HomeComponent implements OnInit {
 
     new flickity(this.elementRef.nativeElement.querySelector('.carousel-main'), {
       "pageDots": false,
-       "prevNextButtons": false, 
-       "adaptiveHeight": true
+       "prevNextButtons": true, 
+       "adaptiveHeight": false,
+       setGallerySize: true
     });
 
     
@@ -160,6 +161,9 @@ export class HomeComponent implements OnInit {
   ngAfterViewInit() {
       this.loadcarousel()
   }
+
+ 
+
   
 
 
