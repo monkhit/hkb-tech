@@ -680,17 +680,15 @@ $base: 0.6rem;
   }
 
   .about-mobile{
-    display: flex !important;
-  flex-wrap: nowrap;
-  overflow-x: hidden;
+    display: block !important;
   }
 
   .panel{
-    min-width: 80%;
-    border: 1px solid #ddd;
+    min-width: 100%;
+    border: 1px solid #fff3;
     padding: 1rem;
     &:not(:last-child){
-      margin-right: 1rem;
+      margin-bottom: 1rem;
 
     }
   }
