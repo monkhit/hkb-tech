@@ -186,15 +186,22 @@ export class HomeComponent implements OnInit {
     gsap.registerPlugin(ScrollTrigger);
     let sections = gsap.utils.toArray(".panel");
 
+
     let scrollTween = gsap.to(sections, {
       xPercent: -100 * (sections.length - 1),
       ease: "none", // <-- IMPORTANT!
+      duration: 1,
+      opacity:1,
+      autoAlpha:1,
       scrollTrigger: {
         trigger: ".about-mobile",
         pin: true,
         scrub: 0.1,
-        start: "top center",
-        end: "bottom top",
+        start: "top 25%",
+        pinSpacing: true, 
+        // end: "bottom 1%",
+       
+      
         //snap: directionalSnap(1 / (sections.length - 1)),
       }
     });

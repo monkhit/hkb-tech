@@ -4,8 +4,12 @@
     "designation": "Chairman of Board of Directors",
     "image": "./assets/images/team/Hesham-Bin-Dayel.png",
     "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
+      {"icon":"fa-brands fa-linkedin-in",
+      "url" : "https://shorturl.at/rzOR3"
+    },
+      {"icon":"fa-brands fa-x-twitter",
+      "url" : "https://shorturl.at/akuZ4"
+    }
     ] 
   },
   {
@@ -13,88 +17,15 @@
     "designation": "Chief Executive Officer",
     "image": "./assets/images/team/Dr.-Khulood-Almani.png",
     "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
-    ] 
-  },
-  {
-    "name": "Mr. Hesham Bin Dayel",
-    "designation": "Chairman of Board of Directors",
-    "image": "./assets/images/team/Hesham-Bin-Dayel.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
-    ] 
-  },
-  {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
-    "social": [
-      {"icon":"fa-brands fa-linkedin-in"},
-      {"icon":"fa-brands fa-x-twitter"}
-      
+      {"icon":"fa-brands fa-linkedin-in",
+      "url" : "https://shorturl.at/mKZ56"
+    },
+      {"icon":"fa-brands fa-x-twitter",
+      "url" : "https://shorturl.at/bftN9"
+    }
     ] 
   }
+  
 
  
 ]

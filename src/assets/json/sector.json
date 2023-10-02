@@ -81,7 +81,7 @@
           { "type": "Cyber Security " },
           { "type": "Fraud Detection " }
         ],
-        "bgImage": ""
+        "bgImage": "/assets/images/sectors/Insurance.png"
       },
       {
         "head": "Our Sector",
@@ -260,7 +260,7 @@
           { "type": "Smart Transportation" },
           { "type": "Smart Parking " }
         ],
-        "bgImage": ""
+        "bgImage": "/assets/images/sectors/Public-Services.png"
       },
       {
         "head": "Our Sector",
@@ -341,7 +341,7 @@
           { "type": "Performance Analysis" },
           { "type": "Personalized Content   " }
         ],
-        "bgImage": "/assets/images/sectors/Gaming.png"
+        "bgImage": "/assets/images/sectors/Esports.png"
       },
       {
         "head": "Our Sector",

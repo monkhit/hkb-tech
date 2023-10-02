@@ -29,7 +29,7 @@
   </section>
 
   <!-- about -->
-  <section id="about">
+  <section id="about" class="about">
     <div class="container" style="z-index: 1">
       <div class="row">
         <div class="col-lg-12">
@@ -128,9 +128,6 @@
 
           <p
             class="mt-5 text-center"
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
           >
             HKB Tech is aimed to expand significantly beyond, and contribute to
             the diversification of the economy helping create a new ecosystem
@@ -231,6 +228,7 @@
             <a
               class="me-3 social-icon"
               *ngFor="let subItem of item.social"
+              target="_blank"
               [href]="subItem.url"
             >
               <!-- <img class="social-icon" [src]="subItem.icon"/> -->
@@ -319,6 +317,7 @@
                 [(ngModel)]="contactForm.username"
                 name="username"
                 type="text"
+                required
                 class="form-control custom-height"
                 id="username"
                 placeholder="Enter email"
@@ -385,7 +384,7 @@
               >
             </div>
 
-            <button type="button" class="btn btn-primary btn-sm button-1">
+            <button  type="button" class="btn btn-primary btn-sm button-1">
               SEND MESSAGE
             </button>
           </form>
