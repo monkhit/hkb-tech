@@ -13,7 +13,7 @@ import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
 import news from '../../../assets/json/news.json'
-
+import { EmailService } from 'src/app/service/email-service';
 
 @Component({
   selector: 'app-home',
@@ -93,8 +93,11 @@ export class HomeComponent implements OnInit {
     private activatedRoute: ActivatedRoute,
     private router: Router,
     private zone: NgZone,
-    private elementRef: ElementRef
-  ) {  }
+    private elementRef: ElementRef,
+    private emailService: EmailService
+  ) { 
+    
+   }
 
 
   // @HostListener('wheel', ['$event'])
@@ -209,6 +212,23 @@ export class HomeComponent implements OnInit {
   
   
 
+
+  }
+
+  sendEmail(){
+
+    const emailData = {
+      to: 'monkhit2023@gmail.com',
+      subject: 'Contact Us',
+      name: this.contactForm.username,
+      email: this.contactForm.email,
+      phoneNumber: this.contactForm.phoneNumber,
+      message: this.contactForm.message
+    };
+
+    this.emailService.sendEmail(emailData).subscribe(response => {
+      console.log(response); // Handle the response here
+    });
 
   }
 

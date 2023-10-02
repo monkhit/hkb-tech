@@ -11,8 +11,8 @@
         <div class="col-lg-7 text-end">
   
           <form>
-            <input type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off">
-            <button class="btn btn-primary btn-lg"  type="button">Subscribe</button>
+            <input [(ngModel)]="email" type="email" name="email" id="email" placeholder="Enter your email address" autocomplete="off">
+            <button (click)="subscribe()" class="btn btn-primary btn-lg"  type="button">Subscribe</button>
           </form>
   
         </div>
