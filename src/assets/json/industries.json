@@ -1,27 +1,27 @@
 [
   {
     "name": "Artificial Intelligence",
-    "image": "/assets/images/industries/1.png"
+    "image": "/assets/images/industries/AI.png"
   },
   {
     "name": "Internet of Things",
-    "image": "/assets/images/industries/2.png"
+    "image": "/assets/images/industries/IOT.png"
   },
   {
     "name": "Robotic Process Automation",
-    "image": "/assets/images/industries/3.png"
+    "image": "/assets/images/industries/Robotic -process-automation.png"
   },
   {
     "name": "Metaverse",
-    "image": "/assets/images/industries/1.png"
+    "image": "/assets/images/industries/Metaverse.png"
   },
   {
     "name": "AR/VR",
-    "image": "/assets/images/industries/2.png"
+    "image": "/assets/images/industries/AR_VR.png"
   },
   {
     "name": "Data Analytics ",
-    "image": "/assets/images/industries/3.png"
+    "image": "/assets/images/industries/data-analytics.jpg"
   },
   {
     "name": "Conversational AI",

@@ -680,7 +680,19 @@ $base: 0.6rem;
   }
 
   .about-mobile{
-    display: block !important;
+    display: flex !important;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  }
+
+  .panel{
+    min-width: 300px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    &:not(:last-child){
+      margin-right: 1rem;
+
+    }
   }
 
   .team-section{

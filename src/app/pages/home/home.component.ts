@@ -1,8 +1,14 @@
-import { Component, OnInit, HostListener, AfterViewInit, ElementRef, NgZone} from '@angular/core';
+import { Component, OnInit, ElementRef, NgZone} from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
 import * as flickity from 'flickity';
 import 'flickity-as-nav-for'
-import { Location } from '@angular/common';
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import Flip from "gsap/Flip";
+import Draggable from "gsap/Draggable";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin);
+
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
@@ -145,13 +151,13 @@ export class HomeComponent implements OnInit {
     });
 
 
-    new flickity(this.elementRef.nativeElement.querySelector('.about-mobile'), {
-      "prevNextButtons": false, 
-      "contain": true, 
-      "groupCells": 1 , 
-      "autoPlay": false, 
-      "pageDots": false
-    });
+    // new flickity(this.elementRef.nativeElement.querySelector('.about-mobile'), {
+    //   "prevNextButtons": false, 
+    //   "contain": true, 
+    //   "groupCells": 1 , 
+    //   "autoPlay": false, 
+    //   "pageDots": false
+    // });
 
     
    
@@ -176,6 +182,29 @@ export class HomeComponent implements OnInit {
 
   }
 
+  aa(){
+    gsap.registerPlugin(ScrollTrigger);
+    let sections = gsap.utils.toArray(".panel");
+
+    let scrollTween = gsap.to(sections, {
+      xPercent: -100 * (sections.length - 1),
+      ease: "none", // <-- IMPORTANT!
+      scrollTrigger: {
+        trigger: ".about-mobile",
+        pin: true,
+        scrub: 0.1,
+        start: "top center",
+        end: "bottom top",
+        //snap: directionalSnap(1 / (sections.length - 1)),
+      }
+    });
+  
+  
+  
+
+
+  }
+
   
 
 
@@ -189,7 +218,8 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit(): void {
-   
+    this.aa()
+
   }
 
 }

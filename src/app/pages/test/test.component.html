@@ -1,1 +1,86 @@
-<p>test works!</p>
+
+
+
+
+
+
+    <div class="final">
+      <div>
+        <h1>Wasn't that fun?</h1>
+        <p>Here are a few caveats to keep in mind:</p>
+        <ul>
+          <li>
+            The fake-scrolling animation (just the part that's moving the
+            container horizontally) must have no easing (<code
+              >ease: "none"</code
+            >).
+          </li>
+          <li>
+            Pinning and snapping won't work on ScrollTriggers with a
+            <code>containerAnimation</code>.
+          </li>
+          <li>
+            The mapping of scroll position trigger points are based on the
+            trigger element itself not being animated horizontally (inside the
+            container). If you need to animate the trigger, you can either wrap
+            it in a &lt;div&gt; and use that as the trigger instead or just
+            factor the trigger's movement into your end position. For example,
+            if you animate it left 100px, make the <code>end</code> 100px
+            further to the left.
+          </li>
+          <li>Requires ScrollTrigger 3.8.0 or later</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div
+    class="about-mobile carousel"
+    data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine"
+  >
+    <div class="carousel-cell">
+      <div>
+        <ul>
+          <li>AI & Machine Learning</li>
+          <li>Smart Cities</li>
+          <li>Internet of Things (IoT)</li>
+          <li>Robotic Process Automation (RPA)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="carousel-cell">
+      <div>
+        <ul>
+          <li>Predictive Analytics</li>
+          <li>Computer Vision & Image Recognition</li>
+          <li>Big Data analytics & visualization</li>
+          <li>Digital Banking / FinTech</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="carousel-cell">
+      <div>
+        <ul>
+          <li>BioTech / HealthTech</li>
+          <li>Sustainability / Net Zero</li>
+          <li>CleanTech / ClimateTech / GreenTech</li>
+          <li>Renewables / Wearables</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="carousel-cell">
+      <div>
+        <ul>
+          <li>Assurance/Cybersecurity</li>
+          <li>EdTech</li>
+          <li>Fit Tech</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
