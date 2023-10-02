@@ -14,6 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoaderComponent } from './component/loader/loader.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NewsComponent } from './pages/news/news.component';
+import { TestComponent } from './pages/test/test.component';
 
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
@@ -29,7 +30,8 @@ export function createTranslateLoader(handler: HttpBackend) {
     HomeComponent,
     LoaderComponent,
     FooterComponent,
-    NewsComponent
+    NewsComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

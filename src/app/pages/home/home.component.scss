@@ -608,7 +608,7 @@ $base: 0.6rem;
   }
 
   button {
-    padding: 1rem !important;
+    padding: 0.5rem !important;
   }
 
 
@@ -669,6 +669,10 @@ $base: 0.6rem;
 
   body{
     overflow-x: hidden;
+  }
+
+  #about{
+    padding:2rem 10px;
   }
 
   .about-desktop{

@@ -7,13 +7,12 @@ import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
 import news from '../../../assets/json/news.json'
-declare var $: any; // Import jQuery
 
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss', './about-mobile.scss']
+  styleUrls: ['./home.component.scss', './about-mobile.scss'],
 })
 export class HomeComponent implements OnInit {
 
@@ -92,34 +91,18 @@ export class HomeComponent implements OnInit {
   ) {  }
 
 
-   @HostListener('wheel', ['$event'])
-   handleWheelEvent(event: WheelEvent) {
-    const carousel = $(this.elementRef.nativeElement).find('.carousel');
-    const totalItems = $(carousel).find('.carousel-item').length;
+  // @HostListener('wheel', ['$event'])
+  // handleWheelEvent(event: WheelEvent) {
+  //   // Check if the event target is not an input field (to prevent interference with form inputs)
+  //   if (!(event.target instanceof HTMLInputElement)) {
+  //     if (event.deltaY > 0) {
+  //       new flickity.next();
+  //     } else if (event.deltaY < 0) {
+  //       new flickity.previous();
+  //     }
+  //   }
+  // }
 
-    if (event.deltaY < 0) {
-      carousel.carousel('prev');
-    } else {
-
-      const currentSlide = $(carousel).find('.active').index();
-      if(currentSlide === 0){
-        console.log('asd')
-        this.moveToNextSection();
-      }
-
-      if (currentSlide === totalItems - 1) {
-        // Last slide reached, move to the next section
-        this.moveToNextSection();
-      } else {
-        carousel.carousel('next');
-      }
-    }
-  }
-
-  moveToNextSection() {
-    // Implement your logic to move to the next section here
-    // You can use Angular Router or other methods to navigate to the next section
-  }
 
  
 
@@ -159,6 +142,15 @@ export class HomeComponent implements OnInit {
        "prevNextButtons": true, 
        "adaptiveHeight": false,
        setGallerySize: true
+    });
+
+
+    new flickity(this.elementRef.nativeElement.querySelector('.about-mobile'), {
+      "prevNextButtons": false, 
+      "contain": true, 
+      "groupCells": 1 , 
+      "autoPlay": false, 
+      "pageDots": false
     });
 
     
