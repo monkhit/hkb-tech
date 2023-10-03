@@ -157,7 +157,7 @@ $base: 0.6rem;
     grid-gap: 1rem;
     li{
       font-size: 1rem;
-      list-style-type: disclosure-closed;
+      list-style-type: square;
       color: var(--white);
       margin-bottom: -1rem;
 
@@ -671,6 +671,17 @@ $base: 0.6rem;
     overflow-x: hidden;
   }
 
+  #video-banner{
+    .video-content{
+      p{
+        font-size: 0.95rem;
+      }
+      h3{
+        font-size: 1.1rem;
+      }
+    }
+  }
+
   #about{
     padding:2rem 10px;
   }
@@ -764,12 +775,19 @@ $base: 0.6rem;
   }
 
   .carousel-main {
+    
 
     .custom-box {
       padding: 6rem 2rem;
       display: block;
       background-position:30% 0;
+
+      &:last-child{
+        background-position: 65% 0;
     }
+    }
+
+
 
 
   
