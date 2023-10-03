@@ -189,7 +189,6 @@ export class HomeComponent implements OnInit {
     gsap.registerPlugin(ScrollTrigger);
     let sections = gsap.utils.toArray(".panel");
 
-
     let scrollTween = gsap.to(sections, {
       xPercent: -100 * (sections.length - 1),
       ease: "none", // <-- IMPORTANT!
@@ -197,23 +196,17 @@ export class HomeComponent implements OnInit {
       opacity:1,
       autoAlpha:1,
       scrollTrigger: {
-        trigger: ".about-mobile",
+        trigger: ".pin-space",
         pin: true,
-        scrub: 0.1,
-        start: "top 25%",
+        scrub: 1,
+        start: "top -2%",
         pinSpacing: true, 
-        // end: "bottom 1%",
-       
-      
+        end: "bottom 30% ",
         //snap: directionalSnap(1 / (sections.length - 1)),
       }
     });
-  
-  
-  
-
-
   }
+  
 
   sendEmail(){
 
@@ -232,6 +225,9 @@ export class HomeComponent implements OnInit {
 
   }
 
+
+
+
   
 
 
@@ -245,8 +241,8 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit(): void {
-    // this.aa()
-
+    this.aa()
+      
   }
 
 }
