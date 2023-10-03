@@ -692,6 +692,7 @@ $base: 0.6rem;
 
   .about-mobile{
     display: block !important;
+    background-color: var(--primary-color) !important;
    
   }
 
@@ -709,6 +710,7 @@ overflow: hidden;
     padding: 1rem;
   
   }
+
 
   .team-section{
     margin-bottom: 1rem;

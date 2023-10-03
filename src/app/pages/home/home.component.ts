@@ -199,9 +199,9 @@ export class HomeComponent implements OnInit {
         trigger: ".pin-space",
         pin: true,
         scrub: 1,
-        start: "top -2%",
+        start: "top -15%",
         pinSpacing: true, 
-        end: "bottom 30% ",
+        end: "bottom 0% ",
         //snap: directionalSnap(1 / (sections.length - 1)),
       }
     });
