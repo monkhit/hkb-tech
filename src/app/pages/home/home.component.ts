@@ -142,6 +142,7 @@ export class HomeComponent implements OnInit {
     new flickity(this.elementRef.nativeElement.querySelector('.sector-navigation'), {
       "contain": true, 
       "pageDots": false, 
+      "autoPlay": false, 
       "prevNextButtons": false,
       "asNavFor": '.carousel-main'
     });
@@ -149,6 +150,7 @@ export class HomeComponent implements OnInit {
     new flickity(this.elementRef.nativeElement.querySelector('.carousel-main'), {
       "pageDots": false,
        "prevNextButtons": true, 
+      "autoPlay": false, 
        "adaptiveHeight": false,
        setGallerySize: true
     });
@@ -192,14 +194,14 @@ export class HomeComponent implements OnInit {
     let scrollTween = gsap.to(sections, {
       xPercent: -100 * (sections.length - 1),
       ease: "none", // <-- IMPORTANT!
-      duration: 1,
+      duration: 0.1,
       opacity:1,
       autoAlpha:1,
       scrollTrigger: {
         trigger: ".pin-space",
         pin: true,
         scrub: 1,
-        start: "top -15%",
+        start: "top -18%",
         pinSpacing: true, 
         end: "bottom 0% ",
         //snap: directionalSnap(1 / (sections.length - 1)),

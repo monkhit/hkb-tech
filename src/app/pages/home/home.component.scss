@@ -706,7 +706,7 @@ overflow: hidden;
 
   .panel{
     min-width: 80%;
-    border: 1px solid #fff3;
+    border: 1px solid #ffffff73;
     padding: 1rem;
   
   }
@@ -789,11 +789,39 @@ overflow: hidden;
       padding: 6rem 2rem;
       display: block;
       background-position:30% 0;
+    }
 
-      &:last-child{
-        background-position: 65% 0;
+    .class-2{
+      background-position: 23% 0;
+
     }
-    }
+
+    .class-3{
+        background-position: 69% 0;
+
+      }
+
+      .class-7{
+        background-position: 15% 0;
+
+      }
+
+      .class-10{
+        background-position: 50% 0;
+
+      }
+
+      .class-15{
+        background-position: 76% 0;
+
+      }
+
+      .class-16{
+        background-position: 68% 0;
+
+      }
+
+
 
 
 

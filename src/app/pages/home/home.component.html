@@ -227,7 +227,7 @@
     <div class="carousel carousel-main">
       <div *ngFor="let item of sectors[1].content; let i = index">
         <div
-          class="carousel-cell custom-box {{ i }}"
+          class="carousel-cell custom-box {{ 'class-' + i }}"
           [style.background-image]="'url(' + item.bgImage + ')'"
         >
           <div class="static-content">
