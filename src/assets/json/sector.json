@@ -41,7 +41,7 @@
           { "type": "Smart Transportation" },
           { "type": "Smart Parking" }
         ],
-        "bgImage": "/assets/images/sectors/smartcity.jpeg"
+        "bgImage": "./assets/images/sectors/smartcity.jpeg"
       },
       {
         "head": "Our Sector",
@@ -61,7 +61,7 @@
           { "type": "Conversational AI" },
           { "type": "Personalized Content" }
         ],
-        "bgImage": "/assets/images/sectors/fintech.jpeg"
+        "bgImage": "./assets/images/sectors/fintech.jpeg"
       },
       {
         "head": "Our Sector",
@@ -81,7 +81,7 @@
           { "type": "Cyber Security " },
           { "type": "Fraud Detection " }
         ],
-        "bgImage": "/assets/images/sectors/Insurance.png"
+        "bgImage": "./assets/images/sectors/Insurance.png"
       },
       {
         "head": "Our Sector",
@@ -101,7 +101,7 @@
           { "type": "Predictive Maintenance " },
           { "type": "Inventory Optimization " }
         ],
-        "bgImage": "/assets/images/sectors/Manufacturing.png"
+        "bgImage": "./assets/images/sectors/Manufacturing.png"
       },
       {
         "head": "Our Sector",
@@ -122,7 +122,7 @@
           { "type": "Fitness Apps " },
           { "type": "Smart Equipments " }
         ],
-        "bgImage": "/assets/images/sectors/Fittech.png"
+        "bgImage": "./assets/images/sectors/Fittech.png"
       },
       {
         "head": "Our Sector",
@@ -142,7 +142,7 @@
           { "type": "Fraud Detection " },
           { "type": "Data Security " }
         ],
-        "bgImage": "/assets/images/sectors/Banking.png"
+        "bgImage": "./assets/images/sectors/Banking.png"
       },
       {
         "head": "Our Sector",
@@ -162,7 +162,7 @@
           { "type": "Metaverse " },
           { "type": "Artificial Intelligence" }
         ],
-        "bgImage": "/assets/images/sectors/Healthtech.png"
+        "bgImage": "./assets/images/sectors/Healthtech.png"
       },
       {
         "head": "Our Sector",
@@ -180,7 +180,7 @@
           { "type": "Genomics  " },
           { "type": "Drug Discovery  " }
         ],
-        "bgImage": "/assets/images/sectors/biotech.jpeg"
+        "bgImage": "./assets/images/sectors/biotech.jpeg"
       },
       {
         "head": "Our Sector",
@@ -200,7 +200,7 @@
           { "type": "Efficient HVAC " },
           { "type": "Predictive Maintenance " }
         ],
-        "bgImage": "/assets/images/sectors/energy.jpeg"
+        "bgImage": "./assets/images/sectors/energy.jpeg"
       },
       {
         "head": "Our Sector",
@@ -220,7 +220,7 @@
           { "type": "Conversational AI " },
           { "type": "IOT " }
         ],
-        "bgImage": "/assets/images/sectors/Real-Estate.png"
+        "bgImage": "./assets/images/sectors/Real-Estate.png"
       },
       {
         "head": "Our Sector",
@@ -240,7 +240,7 @@
           { "type": "Conversational AI" },
           { "type": "AR- VR  " }
         ],
-        "bgImage": "/assets/images/sectors/Retail.png"
+        "bgImage": "./assets/images/sectors/Retail.png"
       },
       {
         "head": "Our Sector",
@@ -260,7 +260,7 @@
           { "type": "Smart Transportation" },
           { "type": "Smart Parking " }
         ],
-        "bgImage": "/assets/images/sectors/Public-Services.png"
+        "bgImage": "./assets/images/sectors/Public-Services.png"
       },
       {
         "head": "Our Sector",
@@ -281,7 +281,7 @@
           { "type": "Vehicle Management" },
           { "type": "SCM" }
         ],
-        "bgImage": "/assets/images/sectors/Logistics.png"
+        "bgImage": "./assets/images/sectors/Logistics.png"
       },
       {
         "head": "Our Sector",
@@ -301,7 +301,7 @@
           { "type": "VR/AR" },
           { "type": "Personalized Learning" }
         ],
-        "bgImage": "/assets/images/sectors/Edtech.png"
+        "bgImage": "./assets/images/sectors/Edtech.png"
       },
       {
         "head": "Our Sector",
@@ -321,7 +321,7 @@
           { "type": "Risk Mitigation" },
           { "type": "Data Analytics" }
         ],
-        "bgImage": "/assets/images/sectors/construction.png"
+        "bgImage": "./assets/images/sectors/construction.png"
       },
       {
         "head": "Our Sector",
@@ -341,7 +341,7 @@
           { "type": "Performance Analysis" },
           { "type": "Personalized Content   " }
         ],
-        "bgImage": "/assets/images/sectors/Esports.png"
+        "bgImage": "./assets/images/sectors/Esports.png"
       },
       {
         "head": "Our Sector",
@@ -361,7 +361,7 @@
           { "type": "Conversational AI" },
           { "type": "Personalized Campaign" }
         ],
-        "bgImage": "/assets/images/sectors/Tourism.png"
+        "bgImage": "./assets/images/sectors/Tourism.png"
       }
     ]
   }

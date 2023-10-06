@@ -76,6 +76,9 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "hostinger":{
+              "baseHref": "/test"
             }
           },
           "defaultConfiguration": "production"
