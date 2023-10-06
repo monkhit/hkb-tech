@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef } from '@angular/core';
 import { EventsService } from 'src/app/service/events.service';
 import industries from '../../../assets/json/industries.json'
 import sectorDetails from '../../../assets/json/sector.json'
@@ -27,9 +27,24 @@ export class HeaderComponent implements OnInit {
 
   constructor(
     public events: EventsService,
+    private elementRef: ElementRef,
   ) { }
 
 
+
+  closeNavbar() {
+    const navbarToggler = this.elementRef.nativeElement.querySelector('.navbar-toggler');
+    const navbarCollapse = this.elementRef.nativeElement.querySelector('.navbar-collapse');
+
+    if (navbarToggler && navbarCollapse) {
+      // Check if the mobile navbar collapse is open
+      if (navbarCollapse.classList.contains('show')) {
+        // Click the navbar toggler to close the collapse
+        navbarToggler.click();
+      }
+    }
+
+ }
 
 
   switchlang(lang:any){
@@ -58,8 +73,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.language = localStorage.getItem('lang');
-
-    console.log(this.sector)
   }
 
 }

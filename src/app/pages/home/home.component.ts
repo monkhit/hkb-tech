@@ -2,12 +2,12 @@ import { Component, OnInit, ElementRef, NgZone} from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
 import * as flickity from 'flickity';
 import 'flickity-as-nav-for'
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-import Flip from "gsap/Flip";
-import Draggable from "gsap/Draggable";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin);
+// import gsap from "gsap";
+// import ScrollTrigger from "gsap/ScrollTrigger";
+// import Flip from "gsap/Flip";
+// import Draggable from "gsap/Draggable";
+// import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+// gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin);
 
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
@@ -60,35 +60,6 @@ export class HomeComponent implements OnInit {
 
   ]
 
-  partners = [
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-    {"url": "https://www.aigcom.com/wp-content/themes/Arificial%20Intelligence/assets/img/partner/SkylarkLogoTransparent.png"},
-
-   
-
-  ]
-
-
-
-
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router,
@@ -98,22 +69,6 @@ export class HomeComponent implements OnInit {
   ) { 
     
    }
-
-
-  // @HostListener('wheel', ['$event'])
-  // handleWheelEvent(event: WheelEvent) {
-  //   // Check if the event target is not an input field (to prevent interference with form inputs)
-  //   if (!(event.target instanceof HTMLInputElement)) {
-  //     if (event.deltaY > 0) {
-  //       new flickity.next();
-  //     } else if (event.deltaY < 0) {
-  //       new flickity.previous();
-  //     }
-  //   }
-  // }
-
-
- 
 
 
   activeInquiry(item:any){
@@ -156,16 +111,6 @@ export class HomeComponent implements OnInit {
     });
 
 
-    // new flickity(this.elementRef.nativeElement.querySelector('.about-mobile'), {
-    //   "prevNextButtons": false, 
-    //   "contain": true, 
-    //   "groupCells": 1 , 
-    //   "autoPlay": false, 
-    //   "pageDots": false
-    // });
-
-    
-   
 
   }
 
@@ -179,35 +124,32 @@ export class HomeComponent implements OnInit {
       relativeTo: this.activatedRoute,
       state: {
         details: item,
-
       }
     };
-
     this.router.navigate(['/blog'], navigationExtras);
-
   }
 
-  aa(){
-    gsap.registerPlugin(ScrollTrigger);
-    let sections = gsap.utils.toArray(".panel");
+  // aa(){
+  //   gsap.registerPlugin(ScrollTrigger);
+  //   let sections = gsap.utils.toArray(".panel");
 
-    let scrollTween = gsap.to(sections, {
-      xPercent: -100 * (sections.length - 1),
-      ease: "none", // <-- IMPORTANT!
-      duration: 0.1,
-      opacity:1,
-      autoAlpha:1,
-      scrollTrigger: {
-        trigger: ".pin-space",
-        pin: true,
-        scrub: 1,
-        start: "top -18%",
-        pinSpacing: true, 
-        end: "bottom 0% ",
-        //snap: directionalSnap(1 / (sections.length - 1)),
-      }
-    });
-  }
+  //   let scrollTween = gsap.to(sections, {
+  //     xPercent: -100 * (sections.length - 1),
+  //     ease: "none", // <-- IMPORTANT!
+  //     duration: 0.1,
+  //     opacity:1,
+  //     autoAlpha:1,
+  //     scrollTrigger: {
+  //       trigger: ".pin-space",
+  //       pin: true,
+  //       scrub: 1,
+  //       start: "top -18%",
+  //       pinSpacing: true, 
+  //       end: "bottom 0% ",
+  //       //snap: directionalSnap(1 / (sections.length - 1)),
+  //     }
+  //   });
+  // }
   
 
   sendEmail(){
@@ -230,7 +172,6 @@ export class HomeComponent implements OnInit {
 
 
 
-  
 
 
   ngAfterViewInit() {
@@ -243,7 +184,6 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.aa()
       
   }
 
