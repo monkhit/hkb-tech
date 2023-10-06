@@ -78,7 +78,7 @@
               "namedChunks": true
             },
             "hostinger":{
-              "baseHref": "/test"
+              "baseHref": "/test/"
             }
           },
           "defaultConfiguration": "production"
