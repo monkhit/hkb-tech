@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
   <!-- video banner -->
   <section id="video-banner">
     <video
@@ -14,10 +14,9 @@
     <div class="video-content clear-fix">
       <div class="container">
         <p>HKB Tech - Subsidiary of Bin Dayel Group</p>
-        <h3>
-          Lead the wave of new technologies -<br />
-          synergizing localisation with globalisation
-          <!-- Lead the next generation of AI <br/> applications to unlock value globally. -->
+        <h3>Lead the wave of new technologies - <br/>synergizing localisation with globalisation
+          <!-- <span>{{'VIDEO.SUBTITLE1' | translate}}</span> <br/>
+          <span>{{'VIDEO.SUBTITLE2' | translate}}</span> -->
         </h3>
       </div>
       <a class="move-forward" href="#about">
@@ -342,7 +341,7 @@
         <div class="col-xl-1">&nbsp;</div>
 
         <div class="col-xl-8">
-          <form ngform="#contactus">
+          <form #contactus="ngForm">
             <div class="form-floating mt-5 mb-5">
               <input
                 [(ngModel)]="contactForm.username"
@@ -362,6 +361,8 @@
               <input
                 name="email"
                 [(ngModel)]="contactForm.email"
+                required
+                name="email"
                 type="email"
                 class="form-control custom-height"
                 id="email"
@@ -377,7 +378,6 @@
                 [(ngModel)]="contactForm.phoneNumber"
                 type="text"
                 class="form-control custom-height"
-                id="phoneNumber"
                 placeholder="Enter password"
                 name="phoneNumber"
               />
@@ -415,7 +415,7 @@
               >
             </div>
 
-            <button (click)="sendEmail()"  type="button" class="btn btn-primary btn-sm button-1">
+            <button (click)="sendEmail()" [disabled]="contactus.form.invalid"  type="button" class="btn btn-primary btn-sm button-1">
               SEND MESSAGE
             </button>
           </form>

@@ -1,5 +1,6 @@
 import { Component, OnInit, ElementRef, NgZone} from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import * as flickity from 'flickity';
 import 'flickity-as-nav-for'
 // import gsap from "gsap";
@@ -62,6 +63,7 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
+    public translate: TranslateService,
     private router: Router,
     private zone: NgZone,
     private elementRef: ElementRef,

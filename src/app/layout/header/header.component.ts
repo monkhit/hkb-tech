@@ -48,7 +48,8 @@ export class HeaderComponent implements OnInit {
 
 
   switchlang(lang:any){
-    
+    window.location.reload();
+
     if (this.language !== localStorage.getItem('lang')){
       this.events.publish('language:languageChanged', this.language);
     }
@@ -59,7 +60,7 @@ export class HeaderComponent implements OnInit {
       htmlSelect.setAttribute("lang", "en");
       localStorage.setItem('lang', 'en')
       this.language = localStorage.getItem('lang');
-
+      
      }else{
       htmlSelect.setAttribute("dir", "rtl");
       htmlSelect.setAttribute("lang", "ar");

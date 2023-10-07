@@ -692,7 +692,7 @@ $base: 0.6rem;
   }
 
   #about {
-    padding: 2rem 10px;
+    padding:  6rem 1rem;
   }
 
   .about-desktop {
@@ -810,6 +810,11 @@ $base: 0.6rem;
       padding: 6rem 2rem;
       display: block;
       background-position: 30% 0;
+    }
+
+    .class-1 {
+      background-position: 47% 0;
+
     }
 
     .class-2 {

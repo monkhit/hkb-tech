@@ -3,8 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { NewsComponent } from './pages/news/news.component';
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'blog', component: NewsComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'blog', component: NewsComponent, pathMatch: 'full' },
+  
 
 ];
 
