@@ -33,7 +33,7 @@ export class FooterComponent implements OnInit {
   subscribe(){
 
     const emailData = {
-      to: '',
+      to: 'info@hkbt.tech',
       subject: 'Subscribe',
       email: this.email,
       name: '',
