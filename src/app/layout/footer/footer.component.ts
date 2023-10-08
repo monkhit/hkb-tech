@@ -9,7 +9,7 @@ import { EmailService } from 'src/app/service/email-service';
 })
 export class FooterComponent implements OnInit {
 
-
+  emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   sectors: any = sectorDetails;
   industries: any = industries
   siteUrl: any;
@@ -33,13 +33,17 @@ export class FooterComponent implements OnInit {
   subscribe(){
 
     const emailData = {
-      to: 'monkhit2023@gmail.com',
-      subject: 'Contact Us',
+      to: '',
+      subject: 'Subscribe',
       email: this.email,
+      name: '',
+      phoneNumber: '',
+      message: ''
     };
 
     this.emailService.sendEmail(emailData).subscribe(response => {
       console.log(response); // Handle the response here
+      this.email = ''
     });
 
   }

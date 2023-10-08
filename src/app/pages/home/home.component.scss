@@ -408,9 +408,23 @@ $base: 0.6rem;
 
 #team {
 
+  background-image: url('../../../assets/images/team/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 8rem 2rem 0;
+
+    .team-description{
+      img{
+        width: 40px;
+        margin-right:1rem ;
+      }
+    }
+
+
   .team-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 1rem;
   }
 
@@ -418,11 +432,7 @@ $base: 0.6rem;
     border: 1px solid #ccc;
   }
 
-  .team-description {
-    height: 205px;
-    padding: 1rem;
-    background-color: #f2f2f2;
-  }
+
 
   p.designation {
     font-size: 1rem;
@@ -743,6 +753,10 @@ $base: 0.6rem;
   }
 
 
+  #team{
+    padding: 6rem 1rem 0;
+  }
+
   .team-section {
     margin-bottom: 1rem;
 
@@ -898,6 +912,67 @@ $base: 0.6rem;
   }
 
 }
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+
+
+
+  #team{
+    padding: 6rem 1rem 0;
+
+    .co-founder{
+      width: 50%;
+      margin-left: auto;
+      display: block;
+    }
+
+  }
+
+  .team-section {
+    margin-bottom: 1rem;
+
+  }
+
+  .team-container {
+    display: block !important;
+  }
+
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+
+
+
+
+
+  #team{
+    padding: 6rem 1rem 0;
+
+    .co-founder{
+      width: 50%;
+      margin-left: auto;
+      display: block;
+    }
+
+  }
+
+  .team-section {
+    margin-bottom: 1rem;
+
+  }
+
+  .team-container {
+    display: block !important;
+  }
+
+
+}
+
 
 
 

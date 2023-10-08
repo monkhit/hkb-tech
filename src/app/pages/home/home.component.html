@@ -240,6 +240,25 @@
   </section>
 
   <!-- team -->
+  <section id="team">
+    <div class="team-container">
+
+      <div class="team-description">
+        <p>Dr. Khulood Almani is a prominent Saudi figure, and a globally recognized AI and technology thought leader, and a professor & expert in digital transformation in AI systems, entrepreneurship, innovation & start-ups, with over 15 years of experience in the field. She is the Founder and CEO of HKB Tech, Dr Khulood Almani leads a company that specializes in delivering cutting-edge projects in multiple industries including AI, Smart Cities, Fintech, Cybersecurity, BioTech, HealthTech, EdTech, CleanTech, and ClimateTech.</p>
+        <p><strong> Dr. Khulood Almani<br/>
+          Co-Founder & CEO <br/>
+          HKB Tech</strong></p>
+          <a href ='https://www.linkedin.com/in/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162/' target="_blank"> <img src="./assets/images/team/linkedin.png"/></a>
+          <a href ='https://twitter.com/Khulood_Almani' target="_blank"><img src="./assets/images/team/twitter.png"/></a>
+
+      </div>
+      <img class="img-fluid co-founder" src='./assets/images/team/Co-Founder.png' />
+
+      </div>
+    </section>
+
+
+  <!-- team -->
   <!-- <section id="team" class="common-space">
     <div class="container">
       <div class="row">
@@ -359,6 +378,7 @@
 
             <div class="form-floating mb-5">
               <input
+              [pattern]="emailValid"
                 name="email"
                 [(ngModel)]="contactForm.email"
                 required
@@ -377,6 +397,10 @@
               <input
                 [(ngModel)]="contactForm.phoneNumber"
                 type="text"
+                pattern="[0-9]*"
+                [maxlength]="15" 
+                [minlength]="8" 
+                required
                 class="form-control custom-height"
                 placeholder="Enter password"
                 name="phoneNumber"
@@ -407,6 +431,7 @@
                 class="form-control custom-height"
                 placeholder="Enter password"
                 rows="8"
+                required
                 id="comment"
                 name="message"
               ></textarea>

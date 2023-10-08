@@ -23,6 +23,7 @@ import { EmailService } from 'src/app/service/email-service';
 })
 export class HomeComponent implements OnInit {
 
+  emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = './assets/video/intro.mp4'
   aboutBg = './assets/video/about.mp4'
 
@@ -154,10 +155,10 @@ export class HomeComponent implements OnInit {
   // }
   
 
-  sendEmail(){
+  async sendEmail(){
 
     const emailData = {
-      to: 'monkhit2023@gmail.com',
+      to: 'info@hkbt.tech',
       subject: 'Contact Us',
       name: this.contactForm.username,
       email: this.contactForm.email,
@@ -166,7 +167,15 @@ export class HomeComponent implements OnInit {
     };
 
     this.emailService.sendEmail(emailData).subscribe(response => {
-      console.log(response); // Handle the response here
+      
+     this.contactForm = {
+        username: '',
+        email: '',
+        phoneNumber:'',
+        selectInquries:  '1',
+        message: ''
+      }
+      
     });
 
   }
