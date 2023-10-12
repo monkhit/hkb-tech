@@ -228,7 +228,7 @@
         "title": "Retail ",
         "description": [
           {
-            "para": "WWe are pioneers in emerging retail technologies, reshaping the industry to create seamless, personalized, and data-driven shopping experiences. Our portfolio includes cutting-edge solutions that empower retailers to thrive in the digital age. "
+            "para": "We are pioneers in emerging retail technologies, reshaping the industry to create seamless, personalized, and data-driven shopping experiences. Our portfolio includes cutting-edge solutions that empower retailers to thrive in the digital age. "
           },
           {
             "para": "From AI-driven customer analytics and augmented reality shopping experiences to cashierless checkout systems, we're revolutionizing the retail landscape."
@@ -248,7 +248,7 @@
         "title": "Public Services ",
         "description": [
           {
-            "para": "Our portfolio encompasses cutting-edge solutions that empower governments, agencies, and public organizations to deliver better services to their constituents.  "
+            "para": "Our portfolio encompasses cutting-edge solutions that empower governments, agencies, and public organizations to deliver better services to their citizens."
           },
           {
             "para": "From citizen platforms and data-driven policy decisions to smart city infrastructure and e-governance solutions, we're reshaping the public services landscape. "
@@ -276,7 +276,7 @@
           
         ],
         "type": [
-          { "type": "Real time Tracking " },
+          { "type": "Real Time Tracking " },
           { "type": "Route Optimization" },
           { "type": "Vehicle Management" },
           { "type": "SCM" }
