@@ -25,6 +25,9 @@ export class HomeComponent implements OnInit {
 
   emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = './assets/video/intro.mp4'
+  khulood = './assets/video/Khulood-BG.mp4'
+  hesham = './assets/video/Hesham-BG.mp4'
+
   aboutBg = './assets/video/about.mp4'
 
   sectors: any = sectorDetails;
@@ -111,6 +114,15 @@ export class HomeComponent implements OnInit {
       "autoPlay": false, 
        "adaptiveHeight": false,
        setGallerySize: true
+    });
+
+    new flickity(this.elementRef.nativeElement.querySelector('.team'), {
+      "prevNextButtons": true, 
+      "contain": false, 
+      "groupCells": 1 , 
+      "autoPlay": false, 
+      "adaptiveHeight": true,
+      "pageDots": false
     });
 
 
