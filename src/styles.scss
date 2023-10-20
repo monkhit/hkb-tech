@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;500&display=swap');
-@import 'flickity/css/flickity.css';
+// @import 'flickity/css/flickity.css';
 @import "animate.css/animate.css";
 // @import 'ngx-toastr/toastr';
+
 
 
 
@@ -51,3 +52,16 @@ transition: all 0.3s ease;
       padding: 8rem 2rem ;
 }
 
+.common-padding{
+      padding-top: 6rem;
+    }
+
+
+#news{
+
+      .flickity-prev-next-button{
+            top: 30%;
+      }
+   
+
+}

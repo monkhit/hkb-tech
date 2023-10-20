@@ -13,6 +13,7 @@ import 'flickity-as-nav-for'
 import sectorDetails from '../../../assets/json/sector.json'
 import teamDetails from '../../../assets/json/team.json'
 import industries from '../../../assets/json/industries.json'
+import blogs from '../../../assets/json/blogs.json'
 import news from '../../../assets/json/news.json'
 import { EmailService } from 'src/app/service/email-service';
 
@@ -23,6 +24,7 @@ import { EmailService } from 'src/app/service/email-service';
 })
 export class HomeComponent implements OnInit {
 
+  
   emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = './assets/video/intro.mp4'
   khulood = './assets/video/Khulood-BG.mp4'
@@ -33,7 +35,8 @@ export class HomeComponent implements OnInit {
   sectors: any = sectorDetails;
   team: any = teamDetails;
   industries: any = industries
-  news: any = news
+  blogs: any = blogs
+  news:any = news
 
   contactForm = {
     username: '',
@@ -113,16 +116,25 @@ export class HomeComponent implements OnInit {
        "prevNextButtons": true, 
       "autoPlay": false, 
        "adaptiveHeight": false,
-       setGallerySize: true
+       "setGallerySize": true
     });
 
-    new flickity(this.elementRef.nativeElement.querySelector('.team'), {
+    // new flickity(this.elementRef.nativeElement.querySelector('.team'), {
+    //   "prevNextButtons": true, 
+    //   "contain": false, 
+    //   "groupCells": 1 , 
+    //   "autoPlay": false, 
+    //   "adaptiveHeight": true,
+    //   "pageDots": false
+    // });
+
+    new flickity(this.elementRef.nativeElement.querySelector('.news'), {
       "prevNextButtons": true, 
       "contain": false, 
-      "groupCells": 1 , 
+      "groupCells":true , 
       "autoPlay": false, 
       "adaptiveHeight": true,
-      "pageDots": false
+      "pageDots": false,
     });
 
 
@@ -143,6 +155,11 @@ export class HomeComponent implements OnInit {
     };
     this.router.navigate(['/blog'], navigationExtras);
   }
+
+  openlink(url:any){
+    window.open(url, '_blank');
+  }
+
 
   // aa(){
   //   gsap.registerPlugin(ScrollTrigger);
