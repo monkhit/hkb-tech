@@ -23,7 +23,7 @@ $base: 0.6rem;
 
   .video-content {
     position: absolute;
-    bottom: 10%;
+    top: 10%;
     transform: translate(0, -50%);
     width: 100%;
     padding: 0 30px;
@@ -40,65 +40,44 @@ $base: 0.6rem;
     }
   }
 
-  .chevron {
-    cursor: pointer;
-    position: absolute;
-    width: $base * 3.5;
-    height: $base * 0.8;
-    opacity: 0;
-    transform: scale(0.3);
-    animation: move-chevron 3s ease-out infinite;
-  }
+}
 
-  .chevron:first-child {
-    animation: move-chevron 3s ease-out 1s infinite;
-  }
+#tabs{
 
-  .chevron:nth-child(2) {
-    animation: move-chevron 3s ease-out 2s infinite;
-  }
+  background-color: var(--primary-color);
+  color: var(--white);
 
-  .chevron:before,
-  .chevron:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 50%;
-    background: var(--white);
-  }
+  .nav-pills{
+    display: block !important;
+    border: 1px solid #fff;
 
-  .chevron:before {
-    left: 0;
-    transform: skewY(30deg);
-  }
+    .nav-item{
+      display: block;
+      cursor: pointer;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-  .chevron:after {
-    right: 0;
-    width: 50%;
-    transform: skewY(-30deg);
-  }
+      &:not(:last-child){
+        border-bottom: 1px solid #fff;
+      }
 
-  @keyframes move-chevron {
-    25% {
-      opacity: 1;
+      i{
+    font-size: 2rem;  
+    visibility: hidden;     
+      }
+
     }
 
-    33.3% {
-      opacity: 1;
-      transform: translateY($base * 3.8);
+    .active{
+      i{
+        visibility: visible !important;     
+      }
     }
 
-    66.6% {
-      opacity: 1;
-      transform: translateY($base * 5.2);
-    }
-
-    100% {
-      opacity: 0;
-      transform: translateY($base * 8) scale(0.5);
-    }
   }
+
 }
 
 
@@ -116,4 +95,27 @@ $base: 0.6rem;
       }
     }
   }
+
+  #tabs{
+    padding: 5rem 1rem !important;
+
+  .nav-pills{
+
+    .nav-item{
+      font-size: 0.9rem;
+    }
+
+    i{
+      display: none;
+    }
+
+
+    p{
+      font-size: 0.8rem;
+    }
+
+  }
+
+  }
+
 }

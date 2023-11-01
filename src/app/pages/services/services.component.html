@@ -13,11 +13,7 @@
     <div class="container">
       <h3>Artificial Intelligence</h3>
     </div>
-    <a class="move-forward" href="#about">
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-      <div class="chevron"></div>
-    </a>
+ 
   </div>
 </section>
 
@@ -27,30 +23,12 @@
       <div class="col-lg-6"></div>
 
       <div class="col-lg-6">
-        <h2>What is Lorem Ipsum?</h2>
+        <h2>Smart City</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+          Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization. </p>
 
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+          HKB TECH stands as a beacon of innovation, offering smart city solutions that address the multifaceted challenges faced by urban environments today. Our commitment lies in pioneering cutting-edge solutions that redefine cityscapes. From deploying Internet of Things (IoT) infrastructure to implementing advanced data analytics for informed decision-making, our expertise elevates urban living to a realm of seamless connectivity and efficient governance. With a foundation rooted in sophistication and style, our corporate ethos aligns with the vision of creating urban environments that harmonize technological advancement with the well-being of citizens. HKB TECH invites you to explore a world of smart city innovation, where cutting-edge technology meets elegant urban design, shaping the future of city living. Join us on this journey as we pioneer the evolution of smarter, more sustainable cities. Embark on this transformative journey with HKB TECH as we steer the evolution of smarter, more sustainable cities. Join us in reimagining urban landscapes that not only embrace technological advancements but also prioritize the well-being and connectivity of their inhabitants. Together, let's pave the way for the cities of the future.  </p>
       </div>
     </div>
   </div>
@@ -59,24 +37,33 @@
 <section id="tabs" class="common-space">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
 
-          <ul class="nav nav-pills nav-stacked">
-                    <li class="nav-item" *ngFor="let tab of tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ tab.title }}
-                    </li>
-                  </ul>
+      <div class="col-lg-4 col-sm-5 col-xl-5 col-5">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="nav-item" *ngFor="let tab of tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ tab.title }}
+            <i class="fa-solid fa-caret-right"></i>
+          </li>
+        </ul>
+        </div>
+
+        
+        <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
+
+          <div class="tab-content">
+            <div class="tab-pane" [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
+              <div [innerHTML]="tab.content"></div>
+            </div>
+          </div>
+
+        </div>
                   
-                  <div class="tab-content">
-                    <div class="tab-pane" [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
-                      {{ tab.content }}
-                    </div>
-                  </div>
+                  
     
 
         
       </div>
     </div>
-  </div>
-</section>
+
+  </section>
 
 <app-footer></app-footer>
