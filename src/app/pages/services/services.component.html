@@ -19,10 +19,12 @@
 
 <section id="description" class="common-space">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6"></div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-1 order-2 ">
+        <img class="img-fluid" src="../assets/services/AI.png"/>
+      </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-2 order-1">
         <h2>Smart City</h2>
         <p>
           Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization. </p>
@@ -50,8 +52,9 @@
         <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
 
           <div class="tab-content">
-            <div class="tab-pane" [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
-              <div [innerHTML]="tab.content"></div>
+            <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
+                  <p>{{tab.description}}</p> 
+                  <p class="mobile-hide">{{tab.Mobiledescription}}</p> 
             </div>
           </div>
 

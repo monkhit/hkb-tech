@@ -96,6 +96,13 @@ $base: 0.6rem;
     }
   }
 
+
+
+  .mobile-hide{
+    display: none;
+  }
+ 
+
   #tabs{
     padding: 5rem 1rem !important;
 
@@ -116,6 +123,12 @@ $base: 0.6rem;
 
   }
 
+  }
+
+  .tab-pane{
+    p{
+      font-size: 14px;
+    }
   }
 
 }
