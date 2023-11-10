@@ -347,132 +347,54 @@
 
   <!-- team -->
   <section id="team">
-    <div class="carousel">
-      <div class="carousel-cell">
-        <video
-          playsinline
-          [muted]="'muted'"
-          loop
-          autoplay
-          [src]="hesham"
-        ></video>
+      <div class="team-container bg-{{i}}" *ngFor="let item of team ; let i=index">
+        <div class="row ">
+          <div class="col-lg-9">
+            <div class="team-description">
+              <p class="title">{{ item.title }}</p>
 
-        <div class="team-container">
-          <div class="team-description">
-            <p class="title">About Chairman</p>
+              <p *ngFor="let subitem of item.description">{{ subitem.content }}</p>
 
-            <p>
-              Mr. Hesham Bin Dayel is the Chairman of the Board of Directors for
-              HKB Tech, a subsidiary of Bin Dayel Group, a leading Saudi company
-              established in 1963. He previously served as the Chief Executive
-              Officer (CEO) for Bin Dayel's industry sector for over 25 years,
-              significantly contributing to the organization's growth. Aligned
-              with Saudi Arabia's Vision 2030, HKB Tech was created to diversify
-              the economy beyond traditional sectors. This strategic initiative
-              is geared towards establishing a robust ecosystem empowered by
-              technology and knowledge, playing a vital role in Saudi Arabia's
-              economic diversification and development.
-            </p>
-            <p class="mt-3 mb-3 author">
-              <strong>
-                MR. Hesham Bin Dayel <br />
-                Chairman of the Board of Directors <br />
-                HKB Tech</strong
-              >
-            </p>
-            <a
-              href="https://www.linkedin.com/in/hesham-bin-dayel-500a91290/"
-              target="_blank"
-            >
-              <img src="./assets/images/team/linkedin.png"
-            /></a>
-            <a href=" https://twitter.com/HeshamBindayel" target="_blank"
-              ><img src="./assets/images/team/twitter.png"
-            /></a>
+              <p class="mt-3 mb-3 author" [innerHTML]="item.author"></p>
+
+                <a  *ngFor="let item of item.social" [href]="item.url" target="_blank">
+                  <img  [src]="item.icon"
+                /></a>
+            </div>
           </div>
-          <img
-            class="img-fluid co-founder"
-            src="./assets/images/team/chairman.png"
-          />
+
+          <div class="col-lg-3 mobile-right">
+            <img
+              class="img-fluid co-founder"
+              [src]="item.profile"
+            />
+          </div>
         </div>
       </div>
-
-      <div class="carousel-cell">
-        <video
-          playsinline
-          [muted]="'muted'"
-          loop
-          autoplay
-          [src]="khulood"
-        ></video>
-
-        <div class="team-container">
-          <div class="team-description">
-            <p class="title">About CEO</p>
-
-            <p>
-              Dr. Khulood Almani is a prominent Saudi figure, and a globally
-              recognized AI and technology thought leader, and a professor &
-              expert in digital transformation in AI systems, entrepreneurship,
-              innovation & start-ups, with over 15 years of experience in the
-              field. She is the Founder and CEO of HKB Tech, Dr Khulood Almani
-              leads a company that specializes in delivering cutting-edge
-              projects in multiple industries including AI, Smart Cities,
-              Fintech, Cybersecurity, BioTech, HealthTech, EdTech, CleanTech,
-              and ClimateTech.
-            </p>
-            <p class="mt-3 mb-3">
-              <strong>
-                Dr. Khulood Almani<br />
-                Founder & CEO <br />
-                HKB Tech</strong
-              >
-            </p>
-            <a
-              href="https://www.linkedin.com/in/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162/"
-              target="_blank"
-            >
-              <img src="./assets/images/team/linkedin.png"
-            /></a>
-            <a href="https://twitter.com/Khulood_Almani" target="_blank"
-              ><img src="./assets/images/team/twitter.png"
-            /></a>
-          </div>
-          <img
-            class="img-fluid co-founder"
-            src="./assets/images/team/Co-Founder.png"
-          />
-        </div>
-      </div>
-    </div>
   </section>
 
-  
   <!-- News -->
   <section id="news" class="common-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 middle-align mb-3">
           <div>
-            <p class="title-description">
-              News
-            </p>
+            <p class="title-description">News</p>
           </div>
         </div>
 
         <div class="col-lg-12 mt-3">
           <div class="carousel news" data-flickity>
-            <div class="carousel-cell" *ngFor="let item of news; let i=index" >
+            <div class="carousel-cell" *ngFor="let item of news; let i = index">
               <img class="img-fluid news-image" [src]="item.image" />
 
               <div class="news-section mb-5">
-                <h5 class="mt-4">{{item.title}}</h5>
+                <h5 class="mt-4">{{ item.title }}</h5>
 
                 <button (click)="openlink(item.url)" class="btn news-button">
                   Learn More
                 </button>
               </div>
-          
             </div>
           </div>
         </div>

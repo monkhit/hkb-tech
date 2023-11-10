@@ -1,30 +1,69 @@
 [
   {
-    "name": "Mr. Hesham Bin Dayel",
-    "designation": "Chairman of Board of Directors",
-    "image": "./assets/images/team/Hesham-Bin-Dayel.png",
+    "title": "ABOUT CHAIRMAN",
+    "description": [
+      {"content":  "Mr. Hesham Bin Dayel, is the Chairman of the Board of Directors for HKB Tech."},
+      {"content":  "He served under his late father’s legacy of the leading Saudi company (Bin Dayel Group), established in 1963, which spans multiple sectors including real estate, manufacturing, contracting, investment, and agriculture."},
+      {"content":  "Mr. Hesham Bin Dayel was the former Chief Executive Officer (CEO) of Bin Dayel industry sector, for over 25 years."},
+      {"content":  "To expand significantly beyond the real estate, manufacturing and other sectors, HKB tech (a subsidiary of Bin Dayel Group) has been established, aligning to Vision 2030, and aimed to diversify the economy and create a new ecosystem heavily enabled by technology and knowledge in Saudi Arabia."},
+      {"content":  "Predominantly, Mr. Hesham Bin Dayel has been consistently passionate about job scopes and strategy pertaining to management, industrial production, project development, and assembly lines. As an enthusiastic individual, throughout the years, Hesham was able to build an extraordinary foundation concerning his management and leadership skills, in addition to gaining an excellent reputation for his successful career path."}
+    ],
+    "profile": "./assets/images/team/chairman.png",
+    "author": "<strong> MR. Hesham Bin Dayel <br/> Chairman of the Board of Directors <br/> HKB Tech </strong>",
     "social": [
-      {"icon":"fa-brands fa-linkedin-in",
-      "url" : "https://shorturl.at/rzOR3"
+      {"icon":"./assets/images/team/linkedin.png",
+      "url" : "https://www.linkedin.com/in/hesham-bin-dayel-500a91290/"
     },
-      {"icon":"fa-brands fa-x-twitter",
-      "url" : "https://shorturl.at/akuZ4"
+      {"icon":"./assets/images/team/twitter.png",
+      "url" : "https://twitter.com/HeshamBindayel"
     }
     ] 
   },
   {
-    "name": "Dr. Khulood Almani",
-    "designation": "Chief Executive Officer",
-    "image": "./assets/images/team/Dr.-Khulood-Almani.png",
+    "title": "ABOUT CEO",
+    "description": [
+      {"content":  "Dr. Khulood Almani is a prominent Saudi figure, and a globally recognized AI and technology thought leader, and a professor & expert in digital transformation in AI systems, entrepreneurship, innovation & start-ups, with over 15 years of experience in the field. She worked for several years as a professor at King Saud University and Princess Nourah bint Abdulrahman University in Riyadh.       "},
+      {"content":  "As the Founder and CEO of HKB Tech, Dr. Khulood Almani leads a company that specializes in delivering cutting-edge projects in multiple industries including: AI, Smart cities, Fintech, Cybersecurity, BioTech, HealthTech, EdTech, CleanTech, and ClimateTech.        "},
+      {"content":  "Almani is the first Saudi to be appointed as a senator of the World Business Angels Investment Forum (WBAF), an affiliated partner of the G20 Global Partnership for Financial Inclusion, representing Saudi Arabia.        "},
+      {"content":  "She is also a Board Member of the World Smart Cities Economic Development Commission and a Board Member of the Global Science, Technology & Innovation Committee operating under the auspices of the G20-WBAF.        "},
+      {"content":  "She serves as Country Chair of the G100-WEF (Women Economic Forum), for Female CEOs & Leadership, representing Saudi Arabia.        "},
+      {"content":  "Dr. Almani is also passionate about supporting and empowering digital entrepreneurs and start-ups around the world. She is the Founder of VTA, a virtual tech accelerator (UK based) connecting innovators to resources, funding and partnerships. "},
+      {"content": "Dr. Almani is also an investor in Forward Angel Investment, with a group of investors from Saudi Arabia & the Gulf countries, providing financial and strategic support to digital entrepreneurs & start-ups worldwide. Throughout her career, she was honored with many accolades and awards locally and globally: "},
+      {"content": "Ranked first in the world among the top 32 thought leaders in the field of technology, AI, robotics & data science by the Mobile World Congress 2023 "},
+      {"content": "Featured among the top 50 global women in Tech       "},
+      {"content": "Ranked first among the 50 most powerful global thought leaders in AI in 2022 "},
+      {"content": "Awarded the Global Technology Thought Leadership Medal  "},
+      {"content": "Dr. Almani was Featured among the top 50 Global Phenomenal Brand Ambassadors to work with in 2023.  "},
+      {"content": "She was Honored to receive His Royal Highness Prince Dr. Faisal bin Mishaal bin Saud Al Saud - Governor of Qassim Region- the Digital Content Industry Award in 2023. "}
+    ],
+    "profile": "./assets/images/team/Co-Founder.png",
+    "author": "<strong> Dr. Khulood Almani <br/> Founder & CEO <br/> HKB Tech </strong>",
     "social": [
-      {"icon":"fa-brands fa-linkedin-in",
-      "url" : "https://shorturl.at/mKZ56"
+      {"icon":"./assets/images/team/linkedin.png",
+      "url" : "https://www.linkedin.com/in/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162/"
     },
-      {"icon":"fa-brands fa-x-twitter",
-      "url" : "https://shorturl.at/bftN9"
+      {"icon":"./assets/images/team/twitter.png",
+      "url" : "https://twitter.com/Khulood_Almani"
     }
     ] 
+  },
+  {
+    "title": "Prof Dr Ingrid - Partner",
+    "description": [
+      {"content":  "Prof.Dr Ingrid Vasiliu-Feltes career demonstrates transformative leadership in academia, corporate and the entrepreneurship arenas. A true globalist and futurist, Prof Dr. Vasiliu-Feltes illustrious career is a testament to her relentless commitment to responsible, sustainable innovation and dedication to excellence.       "},
+      {"content":  "With a visionary outlook, Prof Dr. Vasiliu-Feltes has held numerous distinguished global leadership roles, each contributing significantly to the advancement of science, technology, entrepreneurship, tech diplomacy and digital ethics. Most notable global leadership roles:        "},
+      {"content":  "WBAF USA Country Chair       "},
+      {"content":  "WBAF Global STI Committee, Secretary General       "},
+      {"content":  "G100 Mission Million, USA Chair       "},
+      {"content":  "EU Blockchain Observatory and Forum, Expert Advisory Panel"},
+      {"content":  "As a deep tech fusion expert, with consulting engagements that included the EU Central Bank and several Fortune 100 Companies,  she has consistently championed the integration of cutting-edge technologies, including AI, blockchain, digital twins and 5 G into business solutions. "},
+      {"content":  "As the Founder and CEO of the Institute of Science. Entrepreneurship and Investments, and passionate facilitator of the UN 2030 and 2050 agendas, Prof. Dr.  Vasiliu-Feltes represents the vanguard for frontier tech deployments such as web 3, 6G, satellite internet, and quantum-edge computing, setting the stage for a sustainable future."},
+      {"content":  "As the Founder & CEO of a boutique consultancy firm, she lends her extensive expertise in business and digital transformation, as well as smart cities design and deployment to preparing business leaders for nascent immersive realities like the metaverse or omniverse ecosystems, and novel rising economies such as the net zero economy."},
+      {"content": "Her academic background that includes dual medical and business administration degrees, as well as several executive certifications. She is an alumna of  MIT, Harvard, Stanford and Columbia University. Additionally, Dr. Vasiliu-Feltes is a recognized book and scientific journal editor, as well as a highly sought-after international keynote speaker.       "}
+    ],
+    "profile": "./assets/images/team/Ingrid.png"
   }
+  
   
 
  

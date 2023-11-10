@@ -358,55 +358,37 @@ $base: 0.6rem;
     font-size: 2rem;
   }
 
-  .carousel-cell {
-    width: 100%;
-    height: 600px;
+  .row{
+    align-items: end;
+  }
+
+  .team-container{
     position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 
     &::after{
       content: '';
-      background-color: #000000bd;
       position: absolute;
+      background-color: #00000040;
+      height: 100%;
+      width: 100%;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
     }
 
   }
 
-  .carousel.is-fullscreen .carousel-cell {
-    height: 100%;
+  .bg-0{
+    background-image: url('/assets/images/team/Hesham_BG.png');
   }
-
-  video {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+  .bg-1{
+    background-image: url('/assets/images/team/Khulood_BG.png');
   }
-
-  .team-description {
-    position: absolute;
-    left: 0;
-    top: 60px;
-    width: 50%;
-  }
-
-  .co-founder {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 30%;
-    z-index: 1;
-  }
-
-  .team-container {
-    padding: 1rem 1rem 0;
-    display: grid;
-    align-items: end;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1rem;
+  .bg-2{
+    background-image: url('/assets/images/team/Ingrid_BG.png');
   }
 
   .team-description {
@@ -414,11 +396,17 @@ $base: 0.6rem;
     color: #fff;
     border-radius: 10px;
     z-index: 1;
+    position: relative;
     img {
       width: 30px;
       margin-right: 1rem;
     }
   }
+
+
+
+
+ 
 }
 
 
@@ -636,9 +624,6 @@ $base: 0.6rem;
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    overflow-x: hidden;
-  }
 
   #video-banner {
     .video-content {
@@ -695,29 +680,20 @@ $base: 0.6rem;
   }
 
   #team {
+
+    .mobile-right{
+      text-align: right;
+    }
+
     p.title {
       font-size: 1rem;
     }
 
-    p {
-      font-size: 0.8rem;
+    .co-founder{
+      width: 50%;
     }
-
-    p.author {
-      font-size: 1rem;
-    }
-
-    .team-description {
-      width: 100%;
-      top: 0;
-    }
-
-    .co-founder {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      width: 55%;
-    }
+  
+  
   }
 
   #video-banner {
