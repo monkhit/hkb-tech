@@ -1,6 +1,8 @@
 $base: 0.6rem;
 
 #video-banner {
+  background-image: url('/assets/images/sectors/smartcity.jpeg');
+  background-size: cover;
   position: relative;
   height: 100vh;
   max-height: 100vh;
@@ -85,6 +87,7 @@ $base: 0.6rem;
 
 @media only screen and (max-width: 767px) {
   #video-banner {
+    background-position: 30% 0;
     .video-content {
       p {
         font-size: 0.95rem;
