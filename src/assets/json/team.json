@@ -61,7 +61,16 @@
       {"content":  "As the Founder & CEO of a boutique consultancy firm, she lends her extensive expertise in business and digital transformation, as well as smart cities design and deployment to preparing business leaders for nascent immersive realities like the metaverse or omniverse ecosystems, and novel rising economies such as the net zero economy."},
       {"content": "Her academic background that includes dual medical and business administration degrees, as well as several executive certifications. She is an alumna of  MIT, Harvard, Stanford and Columbia University. Additionally, Dr. Vasiliu-Feltes is a recognized book and scientific journal editor, as well as a highly sought-after international keynote speaker.       "}
     ],
-    "profile": "./assets/images/team/Ingrid.png"
+    "profile": "./assets/images/team/Ingrid.png",
+    "author": "<strong> Prof Dr Ingrid <br/> Partner <br/> HKB Tech </strong>",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png",
+      "url" : "https://www.linkedin.com/in/ingrid-vasiliu-feltes-mdmba/"
+    },
+      {"icon":"./assets/images/team/twitter.png",
+      "url" : "https://twitter.com/IngridVasiliu"
+    }
+    ] 
   }
   
   
