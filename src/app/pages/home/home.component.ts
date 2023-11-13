@@ -3,6 +3,8 @@ import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angu
 import { TranslateService } from '@ngx-translate/core';
 import * as flickity from 'flickity';
 import 'flickity-as-nav-for'
+// import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
 // import gsap from "gsap";
 // import ScrollTrigger from "gsap/ScrollTrigger";
 // import Flip from "gsap/Flip";
@@ -210,7 +212,9 @@ export class HomeComponent implements OnInit {
   }
 
 
+  async presentModal(item:any){
 
+  }
 
 
 

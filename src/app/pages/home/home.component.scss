@@ -358,39 +358,46 @@ $base: 0.6rem;
     font-size: 2rem;
   }
 
-  .row{
-    align-items: end;
+  .top-600 {
+    height: 600px;
   }
 
-  .team-container{
-    position: relative;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+  .h-600 {
+    height: 600px;
+  }
 
-    &::after{
-      content: '';
+  .row {
+    align-items: center;
+  }
+
+  .pos-abs {
+    position: absolute;
+    top: 0;
+    .mobile-right {
+      display: flex;
+      align-items: end;
+    }
+  }
+
+  .team-container {
+    position: relative;
+    background-color: #000;
+
+    &::after {
+      content: "";
       position: absolute;
-      background-color: #00000077;
+      background-color: #000000bd;
       height: 100%;
       width: 100%;
       top: 0;
       left: 0;
       right: 100%;
-
     }
-
   }
 
-  .bg-0{
-    background-image: url('/assets/images/team/Hesham_BG.png');
-  }
-  .bg-1{
-    background-image: url('/assets/images/team/Khulood_BG.png');
-  }
-  .bg-2{
-    background-image: url('/assets/images/team/Ingrid_BG.png');
+  video {
+    width: 100%;
+    object-fit: cover;
   }
 
   .team-description {
@@ -405,21 +412,14 @@ $base: 0.6rem;
     }
   }
 
-  .co-founder{
+  .co-founder {
     z-index: 1;
     position: relative;
   }
-
-
-
-
- 
 }
 
-
-
 // news
-#news{
+#news {
   background-color: var(--primary-color);
 
   .carousel-cell {
@@ -427,9 +427,7 @@ $base: 0.6rem;
     margin-right: 15px;
     height: 430px;
   }
-
 }
-
 
 .news-section {
   h5 {
@@ -444,7 +442,7 @@ $base: 0.6rem;
       position: absolute;
       width: 10%;
       bottom: 0;
-      border-bottom:  1px solid #fff;
+      border-bottom: 1px solid #fff;
       transition: width 1s ease-in-out;
     }
   }
@@ -518,12 +516,9 @@ $base: 0.6rem;
   }
 }
 
-
-#blog{
+#blog {
   background-color: var(--primary-color);
-
 }
-
 
 #partners {
   img {
@@ -631,7 +626,6 @@ $base: 0.6rem;
 }
 
 @media only screen and (max-width: 767px) {
-
   #video-banner {
     .video-content {
       p {
@@ -687,24 +681,46 @@ $base: 0.6rem;
   }
 
   #team {
+    .top-600 {
+      height: 100vh;
+    }
 
-    .mobile-right{
+    p{
+      font-size: 15px;
+    }
+
+    .pos-abs {
+      height: 100vh;
+
+      .row {
+        align-items: flex-start;
+        height: 100vh;
+      }
+    }
+
+    .mobile-right {
       text-align: right;
+      display: block !important;
+      height: auto;
+      position: absolute;
+      bottom: 0;
     }
 
     p.title {
       font-size: 1rem;
     }
 
-    .co-founder{
+    .co-founder {
       width: 75%;
     }
 
-    .bg-1{
+    .bg-1 {
       background-position: 85% 100%;
     }
-  
-  
+
+    .team-container {
+      background-attachment: scroll;
+    }
   }
 
   #video-banner {
@@ -723,7 +739,7 @@ $base: 0.6rem;
     padding: 6rem 1rem;
   }
 
-  .common-padding{
+  .common-padding {
     padding: 6rem 1rem 0;
   }
 
@@ -815,27 +831,19 @@ $base: 0.6rem;
     grid-gap: 0.5rem;
   }
 
-  #news{
-
+  #news {
     .carousel-cell {
       width: 100%;
       margin-right: 15px;
       height: 450px;
-  
     }
-
-  
-  
   }
-
-
 }
 
 // ipad
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #team {
-    padding: 6rem 1rem 0;
 
     .co-founder {
       width: 50%;

@@ -17,7 +17,8 @@
       {"icon":"./assets/images/team/twitter.png",
       "url" : "https://twitter.com/HeshamBindayel"
     }
-    ] 
+    ] ,
+    "video":"./assets/video/Hesham-BG.mp4"
   },
   {
     "title": "ABOUT CEO",
@@ -45,7 +46,8 @@
       {"icon":"./assets/images/team/twitter.png",
       "url" : "https://twitter.com/Khulood_Almani"
     }
-    ] 
+    ],
+    "video":"./assets/video/Khulood-BG.mp4"
   },
   {
     "title": "Prof Dr Ingrid - Partner",

@@ -347,28 +347,48 @@
 
   <!-- team -->
   <section id="team">
-      <div class="team-container bg-{{i}}" *ngFor="let item of team ; let i=index">
-          <div class="container-fluid">
-        <div class="row ">
-          <div class="col-lg-9">
+    <div class="team-container" *ngFor="let item of team; let i = index">
+      <video
+        class="top-600"
+        playsinline
+        [muted]="'muted'"
+        loop
+        autoplay
+        [src]="item.video"
+      ></video>
+
+      <div class="container-fluid h-600 pos-abs">
+        <div class="row h-600">
+          <div class="col-lg-9 col-md-7">
             <div class="team-description">
               <p class="title">{{ item.title }}</p>
 
-              <p *ngFor="let subitem of item.description">{{ subitem.content }}</p>
+              <p
+                [ngClass]="i > 1 ? 'd-none' : ''"
+                *ngFor="let subitem of item.description; let i = index"
+              >
+                {{ subitem.content }}
+              </p>
 
               <p class="mt-3 mb-3 author" [innerHTML]="item.author"></p>
 
-                <a  *ngFor="let item of item.social" [href]="item.url" target="_blank">
-                  <img  [src]="item.icon"
-                /></a>
+              <a
+                *ngFor="let item of item.social"
+                [href]="item.url"
+                target="_blank"
+              >
+                <img [src]="item.icon"
+              /></a>
+              <div class="mt-5">
+              <button (click)="presentModal(item)" class="btn news-button">
+                Learn More
+              </button>
+            </div>
             </div>
           </div>
 
-          <div class="col-lg-3 mobile-right">
-            <img
-              class="img-fluid co-founder"
-              [src]="item.profile"
-            />
+          <div class="col-lg-3 col-md-5 mobile-right h-600">
+            <img class="img-fluid co-founder" [src]="item.profile" />
           </div>
         </div>
       </div>
