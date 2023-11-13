@@ -13,6 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoaderComponent } from './component/loader/loader.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { IndustriesComponent } from './pages/industries/industries.component';
+import { TeamModalComponent } from './component/team-modal/team-modal.component';
 
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
@@ -29,6 +30,7 @@ export function createTranslateLoader(handler: HttpBackend) {
     LoaderComponent,
     FooterComponent,
     IndustriesComponent,
+    TeamModalComponent,
     ],
   imports: [
     BrowserModule,

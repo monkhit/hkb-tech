@@ -18,7 +18,8 @@
       "url" : "https://twitter.com/HeshamBindayel"
     }
     ] ,
-    "video":"./assets/video/Hesham-BG.mp4"
+    "video":"./assets/video/Hesham-BG.mp4",
+    "bgImage": "./assets/images/team/Hesham_BG.png"
   },
   {
     "title": "ABOUT CEO",
@@ -47,7 +48,8 @@
       "url" : "https://twitter.com/Khulood_Almani"
     }
     ],
-    "video":"./assets/video/Khulood-BG.mp4"
+    "video":"./assets/video/Khulood-BG.mp4",
+    "bgImage": "./assets/images/team/Khulood_BG.png"
   },
   {
     "title": "Prof Dr Ingrid - Partner",
@@ -72,7 +74,25 @@
       {"icon":"./assets/images/team/twitter.png",
       "url" : "https://twitter.com/IngridVasiliu"
     }
-    ] 
+    ],
+    "bgImage": "./assets/images/team/Ingrid_BG.png"
+  },
+  {
+    "title": "KEN HERRON - PARTNER",
+    "description": [
+      {"content":  "Ken Herron is the Chief Growth Officer of Singapore-based, AI-API-first company UIB. UIB develops the solutions AI needs to work with humans by making human-to-machine communications as simple and natural as human-to-human communications – giving AI the information, control, and management it needs to evolve. Ken is a mentor for graduating students at the Barcelona Technology School. He is also an author and speaker on digital transformation and leveraging new technologies to connect companies to their customers. Emotionally."}
+    ],
+    "profile": "./assets/images/team/Ken.png",
+    "author": "<strong> Ken Herron <br/> Partner <br/> HKB Tech </strong>",
+    "social": [
+      {"icon":"./assets/images/team/linkedin.png",
+      "url" : "https://www.linkedin.com/in/kenherron/"
+    },
+      {"icon":"./assets/images/team/twitter.png",
+      "url" : "https://twitter.com/IngridVasiliu"
+    }
+    ],
+    "bgImage": "./assets/images/team/Ken_BG.png"
   }
   
   

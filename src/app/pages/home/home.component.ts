@@ -3,8 +3,8 @@ import { NavigationExtras, ActivatedRoute, Router, NavigationStart } from '@angu
 import { TranslateService } from '@ngx-translate/core';
 import * as flickity from 'flickity';
 import 'flickity-as-nav-for'
-// import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { TeamModalComponent } from 'src/app/component/team-modal/team-modal.component';
 // import gsap from "gsap";
 // import ScrollTrigger from "gsap/ScrollTrigger";
 // import Flip from "gsap/Flip";
@@ -22,23 +22,22 @@ import { EmailService } from 'src/app/service/email-service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss', './about-mobile.scss'],
+  styleUrls: ['./home.component.scss', './about-mobile.scss', 'mobile.scss'],
 })
 export class HomeComponent implements OnInit {
 
   
   emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = './assets/video/intro.mp4'
-  khulood = './assets/video/Khulood-BG.mp4'
-  hesham = './assets/video/Hesham-BG.mp4'
 
-  aboutBg = './assets/video/about.mp4'
 
   sectors: any = sectorDetails;
   team: any = teamDetails;
   industries: any = industries
   blogs: any = blogs
   news:any = news
+  modalData: any;
+
 
   contactForm = {
     username: '',
@@ -76,7 +75,8 @@ export class HomeComponent implements OnInit {
     private router: Router,
     private zone: NgZone,
     private elementRef: ElementRef,
-    private emailService: EmailService
+    private emailService: EmailService,
+    private modalService: NgbModal
   ) { 
     
    }
@@ -163,28 +163,19 @@ export class HomeComponent implements OnInit {
   }
 
 
-  // aa(){
-  //   gsap.registerPlugin(ScrollTrigger);
-  //   let sections = gsap.utils.toArray(".panel");
 
-  //   let scrollTween = gsap.to(sections, {
-  //     xPercent: -100 * (sections.length - 1),
-  //     ease: "none", // <-- IMPORTANT!
-  //     duration: 0.1,
-  //     opacity:1,
-  //     autoAlpha:1,
-  //     scrollTrigger: {
-  //       trigger: ".pin-space",
-  //       pin: true,
-  //       scrub: 1,
-  //       start: "top -18%",
-  //       pinSpacing: true, 
-  //       end: "bottom 0% ",
-  //       //snap: directionalSnap(1 / (sections.length - 1)),
-  //     }
-  //   });
-  // }
-  
+  presentModal(item:any) {
+
+    this.modalData = this.modalService.open(TeamModalComponent, {
+      fullscreen: true,
+      animation: true,
+    });
+    this.modalData.componentInstance.teamDetails = item;
+
+   
+  }
+
+
 
   async sendEmail(){
 
@@ -212,9 +203,7 @@ export class HomeComponent implements OnInit {
   }
 
 
-  async presentModal(item:any){
 
-  }
 
 
 

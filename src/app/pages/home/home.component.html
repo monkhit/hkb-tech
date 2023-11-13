@@ -347,18 +347,12 @@
 
   <!-- team -->
   <section id="team">
-    <div class="team-container" *ngFor="let item of team; let i = index">
-      <video
-        class="top-600"
-        playsinline
-        [muted]="'muted'"
-        loop
-        autoplay
-        [src]="item.video"
-      ></video>
-
-      <div class="container-fluid h-600 pos-abs">
-        <div class="row h-600">
+    <div class="team-container bg-{{i}}"
+      *ngFor="let item of team; let i = index"
+      style="background-image: url({{item.bgImage}})">
+            >
+      <div class="container-fluid ">
+        <div class="row align-items-center">
           <div class="col-lg-9 col-md-7">
             <div class="team-description">
               <p class="title">{{ item.title }}</p>
@@ -387,7 +381,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-5 mobile-right h-600">
+          <div class="col-lg-3 col-md-5">
             <img class="img-fluid co-founder" [src]="item.profile" />
           </div>
         </div>
