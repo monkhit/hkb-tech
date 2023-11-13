@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input,ElementRef, ViewChild } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -8,11 +8,15 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class TeamModalComponent {
   @Input() teamDetails: any;
+  @ViewChild('team-details') myDiv !: ElementRef;
+
   teamDescription : any;
 
   constructor(
-    private ActiveModal : NgbActiveModal
-  ){ }
+    private ActiveModal : NgbActiveModal,
+
+  ){ 
+  }
 
 
 
@@ -26,8 +30,10 @@ export class TeamModalComponent {
     if(this.teamDetails){
       this.teamDescription = this.teamDetails
       console.log(this.teamDescription)
-    }
+      this.myDiv.nativeElement.scrollTop = 0;
 
+    }
+   
 
     }
 

@@ -76,7 +76,7 @@ export class HomeComponent implements OnInit {
     private zone: NgZone,
     private elementRef: ElementRef,
     private emailService: EmailService,
-    private modalService: NgbModal
+    private modalService: NgbModal,
   ) { 
     
    }
@@ -165,10 +165,10 @@ export class HomeComponent implements OnInit {
 
 
   presentModal(item:any) {
-
     this.modalData = this.modalService.open(TeamModalComponent, {
       fullscreen: true,
       animation: true,
+      scrollable: true
     });
     this.modalData.componentInstance.teamDetails = item;
 
@@ -213,7 +213,6 @@ export class HomeComponent implements OnInit {
 
  
 
-  
 
 
   ngOnInit(): void {
