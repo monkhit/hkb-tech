@@ -371,7 +371,7 @@
                 [href]="item.url"
                 target="_blank"
               >
-                <img [src]="item.icon"
+                <img *ngIf="item.url !== ''" [src]="item.icon"
               /></a>
               <div class="mt-5">
               <button (click)="presentModal(item)" class="btn news-button">
@@ -388,6 +388,32 @@
       </div>
     </div>
   </section>
+
+
+    <!-- partners -->
+<section id="partners" class="common-space">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <!-- <h6 class="title text-body">CONTACT US</h6> -->
+        <p class="title-description">Partners</p>
+      </div>
+
+      <div class="col-xl-12 mt-5 d-none d-lg-block d-sm-block">
+        <img class="img-fluid" src="./assets/images/partners/partners_logo.png"/>
+      </div>
+
+      <div class="col-xl-12 mt-5 d-block d-lg-none d-sm-none">
+        <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-1.png"/>
+        <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-2.png"/>
+        <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-3.png"/>
+      </div>
+
+      </div>
+      </div>
+
+</section>
 
   <!-- News -->
   <section id="news" class="common-padding">
@@ -442,6 +468,9 @@
       </div>
     </div>
   </section>
+
+
+
 
   <!-- contact -->
   <section id="contact" class="common-space">

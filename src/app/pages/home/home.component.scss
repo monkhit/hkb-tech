@@ -504,14 +504,15 @@ $base: 0.6rem;
 }
 
 #partners {
+
   img {
     margin: auto;
-    filter: grayscale(100%);
-    width: 80%;
+    // filter: grayscale(100%);
+    // width: 80%;
 
-    &:hover {
-      filter: grayscale(0%);
-    }
+    // &:hover {
+    //   filter: grayscale(0%);
+    // }
   }
 }
 
