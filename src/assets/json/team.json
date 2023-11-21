@@ -129,7 +129,7 @@
       }
     ],
     "profile": "./assets/images/team/Ingrid.png",
-    "author": "<strong> Prof Dr Ingrid <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> Prof Dr Ingrid <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -143,14 +143,14 @@
     "bgImage": "./assets/images/team/Ingrid_BG.png"
   },
   {
-    "title": "KEN HERRON - PARTNER",
+    "title": "KEN HERRON - ADVISORY PARTNER",
     "description": [
       {
         "content": "Ken Herron is the Chief Growth Officer of Singapore-based, AI-API-first company UIB. UIB develops the solutions AI needs to work with humans by making human-to-machine communications as simple and natural as human-to-human communications – giving AI the information, control, and management it needs to evolve. Ken is a mentor for graduating students at the Barcelona Technology School. He is also an author and speaker on digital transformation and leveraging new technologies to connect companies to their customers. Emotionally."
       }
     ],
     "profile": "./assets/images/team/Ken.png",
-    "author": "<strong> Ken Herron <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> Ken Herron <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -164,7 +164,7 @@
     "bgImage": "./assets/images/team/Ken_BG.png"
   },
   {
-    "title": "SHAREENA SANDBROOK - PARTNER",
+    "title": "SHAREENA SANDBROOK - ADVISORY PARTNER",
     "description": [
       {
         "content": "Shareena is Frogparking's CEO & Co-Founder. She has a Bachelor of Business Studies in Marketing from Massey University, A Postgraduate Diploma in Management Studies, & an Executive MBA from Waikato University. Shareena is a modern CEO with courage, smarts, and drive. Armed with a background in finance and sales, an MBA, and a black belt in Taekwondo, Shareena took Frogparking to the world in 2012. "
@@ -178,7 +178,7 @@
       }
     ],
     "profile": "./assets/images/team/Shereena.png",
-    "author": "<strong> SHAREENA SANDBROOK <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> SHAREENA SANDBROOK <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -191,38 +191,12 @@
     ],
     "bgImage": "./assets/images/team/Shareena_BG.png"
   },
+
   {
-    "title": "DON SANDBROOK - PARTNER",
+    "title": "KAHU SWANSON - ADVISORY PARTNER",
     "description": [
       {
-        "content": "Don is a successful New Zealand 'serial' entrepreneur, and Frogparking's Technical Director & Co-Founder."
-      },
-      {
-        "content": "Don has founded several New Zealand technology companies that have taken world first innovations to the global market. Don has specific expertise in creating and adapting technology to specifically solve issues for clients, using high quality components and materials, linked to simple to use cloud-based software that has a simple user interface and delivers results and insights for customers. "
-      },
-      {
-        "content": "While watching a parking warden chalking tyres in the rain, Don saw an opportunity to develop a technological solution to bring parking into the 21st century, & formed Frogparking to develop and market the technology. Don remains a key player on the board of Frogparking and has input into the design and development of all hardware products, company strategy and direction. "
-      }
-    ],
-    "profile": "./assets/images/team/Don.png",
-    "author": "<strong> DON SANDBROOK <br/> Partner <br/> HKB Tech </strong>",
-    "social": [
-      {
-        "icon": "./assets/images/team/linkedin.png",
-        "url": "https://www.linkedin.com/in/don-sandbrook-a4024620/"
-      },
-      {
-        "icon": "./assets/images/team/twitter.png",
-        "url": ""
-      }
-    ],
-    "bgImage": "./assets/images/team/Don_BG.png"
-  },
-  {
-    "title": "KAHU SWANSON - PARTNER",
-    "description": [
-      {
-        "content": "Kahu is our Chief Technical Officer. With a Bachelor of Engineering (Hons) majoring in Mechatronics, Kahu is a highly skilled and intelligent, forward thinker. Kahu has been working with Frogparking since the company was incepted in 2008. Kahu has experience developing, manufacturing and commercializing hardware products to the global market. "
+        "content": "Kahu is Frogparking’s Chief Technical Officer. With a Bachelor of Engineering (Hons) majoring in Mechatronics from Massey University in New Zealand, Kahu is a skilled and intelligent forward thinker. Kahu has been working with Frogparking since the company was incepted. Kahu has experience developing, manufacturing and commercializing hardware products to the global market."
       },
       {
         "content": ""
@@ -238,7 +212,7 @@
       }
     ],
     "profile": "./assets/images/team/Kahu.png",
-    "author": "<strong> KAHU SWANSON <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> KAHU SWANSON <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -252,20 +226,21 @@
     "bgImage": "./assets/images/team/Kahu_BG.png"
   },
   {
-    "title": "MATT ROBERTSON - PARTNER",
+    "title": "MATT ROBERTSON - ADVISORY PARTNER",
     "description": [
       {
-        "content": "Matt is Frog Parking’s Chief Financial officer and is focussed on planning and managing our finances, managing risks, working with investors and supporting the management team with financial decisions to support future growth.          "
+        "content": "Matt is Frogparking’s Chief Financial Officer and is focussed on planning and managing finances, managing risks, working with investors, and supporting the management team with financial decisions to support future growth. Matt holds a Bachelor of Business Studies (double major in Accounting & Finance), a Post Graduate Diploma in Professional Accounting, and is a Chartered Accountant (CAANZ)."
       },
       {
-        "content": "He holds a Bachelor of Business Studies (double major in Accounting & Finance), a Post Graduate Diploma in Professional Accounting, and is a Chartered Accountant (CAANZ)."
+        "content": ""
       },
+    
       {
         "content": "Matt is incharge of everything Finance. He manages financial planning, reporting, budgeting, and forecasting across the entire company. He has vast experience managing finances in public practice and in-house at some of New Zealand's largest transport and infrastructure companies.         "
       }
     ],
     "profile": "./assets/images/team/Matt.png",
-    "author": "<strong> MATT ROBERTSON <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> MATT ROBERTSON <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -280,10 +255,10 @@
   },
 
   {
-    "title": "TIM BROOKS - PARTNER",
+    "title": "TIM BROOKS - ADVISORY PARTNER",
     "description": [
       {
-        "content": "Tim is Frogparking's Technical Project and Support Manager With a Bachelor of Engineering (Hons) and a Doctor of Philosophy from Massey University, as well as over 15 years industry experience, Tim has tons of knowledge in the design, manufacturing and assembly of both hardware and software products.          "
+        "content": "Tim is Frogparking's Technical Project & Support Manager. He has a Bachelor of Engineering (Hons) and a Doctor of Philosophy from Massey University in New Zealand. With over 15 years of industry experience, Tim has tons of knowledge in the design, manufacturing, and assembly of both Frogparking’s hardware and software products. "
       },
       {
         "content": ""
@@ -296,7 +271,7 @@
       }
     ],
     "profile": "./assets/images/team/Tim.png",
-    "author": "<strong> TIM BROOKS <br/> Partner <br/> HKB Tech </strong>",
+    "author": "<strong> TIM BROOKS <br/> Advisory Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
