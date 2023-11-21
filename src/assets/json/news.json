@@ -1,52 +1,66 @@
 [
-  {"title": "Senator of the World Business Angels Investment Forum (WBAF)",
+  {
+    "title": "Dr. Khulood Almani appointed by the UN as an Ambassador for Peace",
+    "image": "./assets/images/latest-news/Peace.jpeg",
+    "url": "https://www.linkedin.com/posts/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162_un-unitednations-peace-activity-7130157423822024704-U7aF/?utm_source=share&utm_medium=member_ios"
+  },
+  {
+    "title": "Senator of the World Business Angels Investment Forum (WBAF)",
     "image": "./assets/images/latest-news/news-01.jpeg",
-    "url":"https://www.linkedin.com/posts/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162_startups-founders-entrepreneurs-activity-7089203994706755584-m609/?utm_source=share&utm_medium=member_ios "  
-},
+    "url": "https://www.linkedin.com/posts/dr-khulood-almani%F0%9F%87%B8%F0%9F%87%A6-%D8%AF-%D8%AE%D9%84%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%A7%D9%86%D8%B9-595513162_startups-founders-entrepreneurs-activity-7089203994706755584-m609/?utm_source=share&utm_medium=member_ios "
+  },
 
-{"title": "Excellence in preparing specialized content in AI, IT, and data science.",
-"image": "./assets/images/latest-news/news-02.png",
-"url":"https://twitter.com/emarahalqassim/status/1636025619271020544?s=48&t=SUDpXMbpZn8WkahHW3ujJA "  
-},
+  {
+    "title": "Excellence in preparing specialized content in AI, IT, and data science.",
+    "image": "./assets/images/latest-news/news-02.png",
+    "url": "https://twitter.com/emarahalqassim/status/1636025619271020544?s=48&t=SUDpXMbpZn8WkahHW3ujJA "
+  },
 
-{"title": "G100: Group of 100 Global Women Leaders",
-"image": "./assets/images/latest-news/news-03.png",
-"url":"https://twitter.com/khulood_almani/status/1706659133582442892?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "50 Most Powerful Women in Technology to follow for 2023",
+    "image": "./assets/images/latest-news/news-07.png",
+    "url": "https://twitter.com/khulood_almani/status/1586329693501812738?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "Sayidaty: Dr. Khulood Almani, an academic and digital transformation expert.",
-"image": "./assets/images/latest-news/news-04.png",
-"url":"https://twitter.com/sayidatynet/status/1692811592432275492?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "G100: Group of 100 Global Women Leaders",
+    "image": "./assets/images/latest-news/news-03.png",
+    "url": "https://twitter.com/khulood_almani/status/1706659133582442892?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "Aljawharamag Coverage: Dr. Khulood Almani",
-"image": "./assets/images/latest-news/news-05.png",
-"url":"https://twitter.com/aljawharamag/status/1686797828104876048?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "Sayidaty: Dr. Khulood Almani, an academic and digital transformation expert.",
+    "image": "./assets/images/latest-news/news-04.png",
+    "url": "https://twitter.com/sayidatynet/status/1692811592432275492?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "Who’s Who: Dr. Khulood Almani, senator of the World Business Angels Investment Forum at the GPFI",
-"image": "./assets/images/latest-news/news-06.png",
-"url":"https://twitter.com/khulood_almani/status/1688184285197459456?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "Aljawharamag Coverage: Dr. Khulood Almani",
+    "image": "./assets/images/latest-news/news-05.png",
+    "url": "https://twitter.com/aljawharamag/status/1686797828104876048?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "50 Most Powerful Women in Technology to follow for 2023",
-"image": "./assets/images/latest-news/news-07.png",
-"url":"https://twitter.com/khulood_almani/status/1586329693501812738?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "Who’s Who: Dr. Khulood Almani, senator of the World Business Angels Investment Forum at the GPFI",
+    "image": "./assets/images/latest-news/news-06.png",
+    "url": "https://twitter.com/khulood_almani/status/1688184285197459456?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "Board member of the WBAF-G20 World Smart Cities Economic Development Commission",
-"image": "./assets/images/latest-news/news-08.png",
-"url":"https://twitter.com/khulood_almani/status/1696154772493963761?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "Board member of the WBAF-G20 World Smart Cities Economic Development Commission",
+    "image": "./assets/images/latest-news/news-08.png",
+    "url": "https://twitter.com/khulood_almani/status/1696154772493963761?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "3rd in #CES2022's ranking of this year’s #tech influencers",
-"image": "./assets/images/latest-news/news-09.png",
-"url":"https://twitter.com/rbalsaud/status/1486704824456515591?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-},
+  {
+    "title": "3rd in #CES2022's ranking of this year’s #tech influencers",
+    "image": "./assets/images/latest-news/news-09.png",
+    "url": "https://twitter.com/rbalsaud/status/1486704824456515591?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  },
 
-{"title": "50 phenomenal brand ambassadors to work with in 2023",
-"image": "./assets/images/latest-news/news-10.png",
-"url":"https://twitter.com/getengati/status/1620431031764660224?s=48&t=SUDpXMbpZn8WkahHW3ujJA"  
-}
-  
+  {
+    "title": "50 phenomenal brand ambassadors to work with in 2023",
+    "image": "./assets/images/latest-news/news-10.png",
+    "url": "https://twitter.com/getengati/status/1620431031764660224?s=48&t=SUDpXMbpZn8WkahHW3ujJA"
+  }
 ]
