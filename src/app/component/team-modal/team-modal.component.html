@@ -24,7 +24,7 @@
                         [href]="item.url"
                         target="_blank"
                       >
-                        <img [src]="item.icon"
+                        <img *ngIf="item.url !== ''" [src]="item.icon"
                       /></a>
                 
                     </div>
