@@ -226,7 +226,7 @@
     "bgImage": "./assets/images/team/Kahu_BG.png"
   },
   {
-    "title": "MATT ROBERTSON - Project Executive Partner",
+    "title": "MATT ROBERTSON - Executive Finance Partner ",
     "description": [
       {
         "content": "Matt is Frogparking’s Chief Financial Officer and is focussed on planning and managing finances, managing risks, working with investors, and supporting the management team with financial decisions to support future growth. Matt holds a Bachelor of Business Studies (double major in Accounting & Finance), a Post Graduate Diploma in Professional Accounting, and is a Chartered Accountant (CAANZ)."
@@ -240,7 +240,7 @@
       }
     ],
     "profile": "./assets/images/team/Matt.png",
-    "author": "<strong> MATT ROBERTSON <br/> Project Executive Partner <br/> HKB Tech </strong>",
+    "author": "<strong> MATT ROBERTSON <br/> Executive Finance Partner   <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
@@ -255,7 +255,7 @@
   },
 
   {
-    "title": "TIM BROOKS - Executive Finance Partner    ",
+    "title": "TIM BROOKS -  Project Executive Partner",
     "description": [
       {
         "content": "Tim is Frogparking's Technical Project & Support Manager. He has a Bachelor of Engineering (Hons) and a Doctor of Philosophy from Massey University in New Zealand. With over 15 years of industry experience, Tim has tons of knowledge in the design, manufacturing, and assembly of both Frogparking’s hardware and software products. "
@@ -271,7 +271,7 @@
       }
     ],
     "profile": "./assets/images/team/Tim.png",
-    "author": "<strong> TIM BROOKS <br/> Executive Finance Partner <br/> HKB Tech </strong>",
+    "author": "<strong> TIM BROOKS <br/> Project Executive Partner <br/> HKB Tech </strong>",
     "social": [
       {
         "icon": "./assets/images/team/linkedin.png",
