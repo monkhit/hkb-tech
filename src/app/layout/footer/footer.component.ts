@@ -2,6 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import industriesDetails from "../../../assets/json/industries.json";
 import serviceDetails from "../../../assets/json/services.json";
 import { EmailService } from 'src/app/service/email-service';
+
+import {
+  NavigationExtras,
+  ActivatedRoute,
+  Router,
+  NavigationStart,
+} from "@angular/router";
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -24,7 +31,9 @@ export class FooterComponent implements OnInit {
   ]
 
   constructor(
-    private emailService: EmailService
+    private emailService: EmailService,
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
   ) { 
     const url = window.location.href;
     this.siteUrl = url.slice(0, url.lastIndexOf('/'))
@@ -46,6 +55,26 @@ export class FooterComponent implements OnInit {
       this.email = ''
     });
 
+  }
+
+
+
+  async navigate(item: any, id: any, type: any) {
+    console.log(item)
+    const navigationExtras: NavigationExtras = {
+      relativeTo: this.activatedRoute,
+      queryParams: {type: item.title},
+      state: {
+        details: item,
+      },
+    };
+
+    if (type === "I") {
+      this.router.navigate(["/industries"], navigationExtras);
+    }
+    else if(type === "S"){
+      this.router.navigate(["/services"], navigationExtras);
+    }
   }
 
 

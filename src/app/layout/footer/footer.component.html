@@ -44,7 +44,7 @@
                                       <h3>Industries</h3>
                                   </div>
                                   <ul>
-                                      <li style="display: inline-block;" *ngFor="let item of industries[0].navigation"><a href="#sector">{{item}}</a></li>
+                                      <li (click)="navigate(item, i, 'I')"  style="display: inline-block;" *ngFor="let item of industries[1].content; let i = index"><a>{{item.title}}</a></li>
                                      
                                   </ul>
                               </div>
@@ -56,7 +56,7 @@
                                       <h3>Services</h3>
                                   </div>
                                   <ul>
-                                      <li  *ngFor="let item of services"><a href="#services">{{item.title}}</a></li>
+                                      <li (click)="navigate(item, i, 'S')"  *ngFor="let item of services; let i = index"><a>{{item.title}}</a></li>
                                   </ul>
                               </div>
                           </div>
