@@ -41,7 +41,46 @@
           { "type": "Smart Transportation" },
           { "type": "Smart Parking" }
         ],
-        "bgImage": "./assets/images/sectors/smartcity.jpeg"
+        "bgImage": "./assets/images/sectors/smartcity.jpeg",
+        "details": [
+          {
+            "content": "Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization."
+          },
+          {
+            "content": "  Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization."
+          }
+        ],
+        "tabs": [
+          {
+            "title": "Traffic Management",
+            "content": [
+              {"description": "In the context of Smart Cities, Traffic Management emerges as a critical use case for urban development, aimed at addressing the complex challenges of urban mobility. At HKB TECH, our innovative Traffic Management solutions are strategically designed to optimize traffic flow, minimize congestion, and enhance overall urban transportation systems. Through the integration of cutting-edge technologies such as the Internet of Things (IoT), Artificial Intelligence (AI), and sophisticated data analytics, our solutions provide intelligent traffic control systems. These systems offer real-time data insights, enabling efficient and dynamic traffic management, resulting in improved safety, reduced travel times, and lowered environmental impact."},
+              {"description": "Utilizing smart sensors and predictive analytics, our approach enables adaptive signal management and dynamic traffic control. This facilitates the reduction of traffic bottlenecks and enhances the overall commuter experience within urban areas. HKB TECH's commitment to Smart City initiatives focuses on creating more sustainable, connected, and livable urban environments. By transforming traffic management through advanced technological applications, we aim to contribute to the creation of smarter and more efficient transportation systems within cities."}
+            ]
+          },
+          {
+            "title": "Waste Management",
+            "content":[
+          { "description": "In the landscape of Smart Cities, Waste Management emerges as a crucial use case for fostering sustainable urban environments. HKB TECH pioneers innovative Waste Management solutions that leverage advanced technologies to revolutionize waste handling and recycling practices. Our approach integrates smart sensors and IoT devices to enable real-time monitoring of waste levels in bins and containers throughout the city. Through this intelligent monitoring, our solutions optimize waste collection routes, reducing operational costs and environmental impact by minimizing unnecessary pickups."},
+          {"description": "Moreover, our waste management systems employ predictive analytics to forecast waste generation patterns, aiding in efficient resource allocation and planning. This proactive approach streamlines waste collection schedules and enhances recycling efforts. HKB TECH's commitment to Smart Cities aligns with the vision of creating cleaner, more sustainable urban areas. By implementing innovative Waste Management solutions, we aim to contribute to the reduction of environmental impact, cost-effective waste handling, and the promotion of recycling practices for a greener and more efficient urban ecosystem."}
+            ]   
+          },
+          {
+            "title": "Smart Transportation",
+            "content":[
+              {"description": "In the realm of Smart Cities, Smart Transportation stands as a pivotal use case for revolutionizing urban mobility and enhancing the overall transportation infrastructure. At HKB TECH, our innovative Smart Transportation solutions are engineered to address the complex challenges of urban mobility, providing efficient, sustainable, and interconnected transportation systems. Our approach integrates advanced technologies such as IoT, Artificial Intelligence, and data analytics to develop a comprehensive ecosystem for intelligent transportation. Through real-time data collection and analysis, our solutions optimize traffic flow, reduce congestion, and enhance commuter experiences."},
+              {"description": "Utilizing smart sensors and predictive analytics, our systems enable adaptive signal control, smart parking management, and dynamic route planning. This approach not only reduces traffic congestion but also minimizes travel times and environmental impact, promoting a more eco-friendly and efficient transport network. HKB TECH's commitment to Smart Cities revolves around creating more sustainable and connected urban spaces. By implementing cutting-edge Smart Transportation solutions, we aim to contribute to the development of smarter, more efficient, and eco-friendly transportation systems within cities, ultimately enhancing the quality of life for residents."}
+            ]
+          },
+
+          {
+            "title": "Smart Parking",
+            "content": [
+             { "description": "In the landscape of Smart Cities, Smart Parking solutions represent a crucial use case for addressing the challenges of urban congestion and optimizing the parking infrastructure. HKB TECH is dedicated to crafting innovative Smart Parking solutions that employ advanced technologies to transform the way cities manage parking facilities. Through the integration of IoT sensors and real-time data analytics, our Smart Parking solutions provide comprehensive insights into parking space availability and occupancy levels. This data is accessible to motorists via mobile applications or digital signage, enabling them to locate available parking spaces quickly and efficiently."},
+            { "description": "Our approach focuses on optimizing parking management systems, reducing traffic congestion, and minimizing the environmental impact caused by vehicles circling in search of parking. By facilitating smarter parking decisions, our solutions streamline traffic flow and enhance the overall urban mobility experience. HKB TECH's commitment to Smart Cities aligns to create more sustainable and convenient urban environments. With our innovative Smart Parking solutions, we aim to contribute to reduced traffic congestion, improved accessibility, and a more streamlined parking experience, ultimately enhancing the quality of life for residents and visitors in smart urban spaces."}
+            ]
+          }
+        ]
       },
       {
         "head": "Our Sector",
@@ -114,7 +153,6 @@
           {
             "para": "From personalized workout plans and real-time performance tracking to smart wearables that monitor health metrics, we're revolutionizing the way we approach fitness."
           }
-
         ],
         "type": [
           { "type": "Fitness Trackers" },
@@ -122,7 +160,56 @@
           { "type": "Fitness Apps " },
           { "type": "Smart Equipments " }
         ],
-        "bgImage": "./assets/images/sectors/Fittech.png"
+        "bgImage": "./assets/images/sectors/Fittech.png",
+        "details": [
+          {
+          "content": "Stepping into the domain of FitTech, HKBTECH takes the lead in pioneering advancements that are reshaping the fitness landscape, emphasizing personal well-being and performance.  At HKBTECH, we're committed to revolutionizing the way fitness is approached and experienced. We provide an array of innovative solutions that cater to diverse fitness needs and preferences, ensuring a holistic approach towards fitness and health."
+          },
+          {
+          "content": "Our primary focus includes offering personalized workout plans, combining scientific analysis and individual preferences, ensuring each user has a tailored fitness program. Moreover, real-time performance tracking enables users to monitor their progress, encouraging a deeper understanding of their fitness journey. We aim to enable users to make informed decisions and adjustments for their fitness goals, using the power of data and insights provided by the technology at hand."
+          },
+          {
+          "content": "The integration of smart wearables, designed to track health metrics, serves as an essential component of our FitTech solutions. These wearables provide valuable and actionable health and fitness information, supporting users in making better-informed choices to meet their fitness objectives."
+          },
+          {
+          "content": "At HKBTECH,  our FitTech solutions encompass a wide range of applications and use cases, from fitness trackers, virtual trainers, and innovative fitness apps to advanced smart equipment. These technologies and tools are designed to cater to various fitness needs and exercise preferences, aiming to enhance the fitness experience for all individuals."
+          }
+          ],
+          "tabs": [
+            {"title": "Fitness Trackers",
+            "content": [
+            {
+            "description": "Fitness trackers represent a pioneering innovation in the Fittech landscape, and HKBTECH is dedicated to leveraging these devices to reshape the fitness industry. These trackers, often in the form of wearables or smartphone applications, allow users to monitor their physical activities, health metrics, and overall well-being in real time."
+            },
+            {
+            "description": "HKBTECH's Fittech solutions introduce a range of personalized fitness trackers that seamlessly integrate into users' daily routines. Through these wearable devices or applications, individuals can monitor their steps, calories burned, heart rate, sleep patterns, and various exercise activities. These insights empower users to make informed decisions about their fitness routines and overall health."
+            },
+            {
+            "description": "With a user-friendly interface and robust analytics, these fitness trackers enable users to set goals, track their progress, and tailor fitness plans to suit individual needs. By employing cutting-edge technology and leveraging data analytics, HKBTECH's Fittech solutions offer an all-encompassing approach to personal fitness, empowering users to make proactive and healthier lifestyle choices."
+            }
+            ]},
+            
+            {"title": "Virtual Trainers",
+            "content": [
+            {"description": "In the domain of Fittech, virtual trainers stand out as an innovative solution, redefining the fitness landscape. HKBTECH, at the forefront of this technological evolution, offers a suite of personalized and interactive virtual trainers. These trainers are AI-powered applications designed to assist users in achieving their fitness goals with personalized workout plans and real-time guidance."},
+            {"description": "Through HKBTECH's Fittech solutions, users have access to virtual trainers that provide tailor-made exercise routines, catering to individual needs and preferences. These trainers leverage artificial intelligence to create workouts that adapt to the user's progress, providing guidance, motivation, and feedback during workouts. This hands-on, personalized approach helps users to maintain discipline and form while exercising."},
+            {"description": "The beauty of these virtual trainers lies in their versatility. They are equipped with diverse workout programs, offering flexibility and catering to different fitness levels and exercise objectives. Users can partake in these sessions from the comfort of their homes, accessing professional guidance and support whenever they need it. HKBTECH's virtual trainers bring the expertise of a personal fitness coach directly to the user's fingertips, creating an engaging, efficient, and accessible fitness experience."}
+            ]},
+            
+            {"title": "Fitness Apps",
+            "content": [
+            {"description": "Fitness apps are the cornerstone of modern Fittech solutions, providing comprehensive support and guidance in achieving fitness objectives. HKBTECH, as a leading provider in the fitness technology space, offers an array of fitness apps designed to elevate personal well-being and health. These apps are equipped with features that aid users in monitoring their workouts, diet, health metrics, and overall progress."},
+            {"description": "HKB TECH's fitness apps cater to a wide spectrum of user requirements, offering customized workout plans, tracking activities, and monitoring dietary habits. These apps serve as a complete fitness companion, integrating wearables and smart devices to track performance and maintain records of daily activities. Users can access real-time data analysis, allowing them to make informed decisions and adjustments to their fitness routines."},
+            {"description": "Moreover, the apps also foster community engagement, enabling users to connect with like-minded individuals, fitness enthusiasts, and experts. These platforms offer forums for discussions, fitness challenges, and motivational support, creating an engaging and supportive environment for users. With seamless navigation and user-friendly interfaces, HKBTECH's fitness apps empower individuals to take charge of their health and fitness journey, providing tools and resources for a holistic and balanced lifestyle."}
+            ]},
+            
+            {"title": "Smart Equipments",
+            "content": [
+            {"description": "Smart equipment represents a technological advancement that significantly revolutionizes the Fittech industry. HKBTECH embraces innovation by integrating smart equipment into its fitness solutions. These advanced tools are specifically designed to enhance the workout experience, ensuring personalized fitness routines and better health monitoring."},
+            {"description": "HKB TECH's smart equipment is equipped with cutting-edge technology that interfaces with fitness apps, wearables, and AI-driven platforms. These fitness tools offer real-time data and analysis, tracking performance, health metrics, and workout progress. Users benefit from more accurate measurements and insights into their fitness activities. The machines are user-friendly, providing a seamless and interactive experience, guiding individuals through their workouts while offering personalized tips and feedback."},
+            {"description": "The smart equipment is a vital part of HKB TECH's mission to provide comprehensive fitness solutions. These high-tech devices contribute to a more engaging and effective workout routine by allowing users to adjust and tailor their exercise programs to suit their fitness goals. By seamlessly integrating these tools into fitness platforms, HKBTECH empowers individuals to take control of their health and fitness journey, making exercise both more convenient and more effective."}
+            ]}
+            ]
       },
       {
         "head": "Our Sector",
@@ -176,10 +263,7 @@
             "para": "Our expertise in cutting-edge technologies like AI, data analytics, and bioinformatics enables us to drive innovation, and enhance research efficiency."
           }
         ],
-        "type": [
-          { "type": "Genomics  " },
-          { "type": "Drug Discovery  " }
-        ],
+        "type": [{ "type": "Genomics  " }, { "type": "Drug Discovery  " }],
         "bgImage": "./assets/images/sectors/biotech.jpeg"
       },
       {
@@ -273,7 +357,6 @@
           {
             "para": "Our portfolio encompasses cutting-edge solutions that empower logistics providers, and businesses to optimize their operations.  "
           }
-          
         ],
         "type": [
           { "type": "Real Time Tracking " },

@@ -328,6 +328,9 @@
                 </div>
               </div>
             </div>
+
+            <button class="btn" (click)="navigate(item, i, 'I')">Read More</button>
+
           </div>
         </div>
       </div>
@@ -456,7 +459,7 @@
             <h5 class="mt-4">{{ item.name }}</h5>
             <p class="mb-5">{{ item.description }}</p>
 
-            <button (click)="navigate(item, i)" class="btn news-button">
+            <button (click)="navigate(item, i, 'B')" class="btn news-button">
               Learn More
             </button>
           </div>

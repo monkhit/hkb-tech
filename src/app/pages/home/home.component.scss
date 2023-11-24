@@ -264,6 +264,8 @@ $base: 0.6rem;
   color: #fff;
 
   .static-content {
+    position: relative;
+    z-index: 1;
     p {
       font-size: 1.25rem;
     }
@@ -327,6 +329,8 @@ $base: 0.6rem;
 }
 
 .dynamic-content {
+  position: relative;
+  z-index: 1;
   h5 {
     text-transform: uppercase;
   }

@@ -1,17 +1,9 @@
 <app-header></app-header>
 
-<section id="video-banner">
-  <!-- <video
-    playsinline
-    [muted]="'muted'"
-    loop
-    autoplay
-    [src]="videoSource"
-  ></video> -->
-
+<section id="video-banner" style="background-image: url({{details.bgImage}});">
   <div class="video-content clear-fix">
     <div class="container">
-      <h3>Smart City </h3>
+      <h3>{{details.title}} </h3>
     </div>
  
   </div>
@@ -23,12 +15,9 @@
       
 
       <div class="col-lg-12">
-        <h2 class="mb-3">Smart City</h2>
-        <p>
-          Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization. </p>
-
-        <p>
-          HKB TECH stands as a beacon of innovation, offering smart city solutions that address the multifaceted challenges faced by urban environments today. Our commitment lies in pioneering cutting-edge solutions that redefine cityscapes. From deploying Internet of Things (IoT) infrastructure to implementing advanced data analytics for informed decision-making, our expertise elevates urban living to a realm of seamless connectivity and efficient governance. With a foundation rooted in sophistication and style, our corporate ethos aligns with the vision of creating urban environments that harmonize technological advancement with the well-being of citizens. HKB TECH invites you to explore a world of smart city innovation, where cutting-edge technology meets elegant urban design, shaping the future of city living. Join us on this journey as we pioneer the evolution of smarter, more sustainable cities. Embark on this transformative journey with HKB TECH as we steer the evolution of smarter, more sustainable cities. Join us in reimagining urban landscapes that not only embrace technological advancements but also prioritize the well-being and connectivity of their inhabitants. Together, let's pave the way for the cities of the future.  </p>
+        <h2 class="mb-3">{{details.title}}</h2>
+        <p *ngFor="let item of details.details">
+          {{item.content}}</p>
       </div>
     </div>
   </div>
@@ -45,7 +34,7 @@
 
       <div class="col-lg-4 col-sm-5 col-xl-5 col-5">
         <ul class="nav nav-pills nav-stacked">
-          <li class="nav-item" *ngFor="let tab of tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ tab.title }}
+          <li class="nav-item" *ngFor="let item of details.tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ item.title }}
             <i class="fa-solid fa-caret-right"></i>
           </li>
         </ul>
@@ -55,9 +44,10 @@
         <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
 
           <div class="tab-content">
-            <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
-                  <p>{{tab.description}}</p> 
-                  <p class="mobile-hide">{{tab.Mobiledescription}}</p> 
+            <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let item of details.tabs; let i = index">
+                <div *ngFor="let item of item.content">
+                  <p>{{item.description}}</p> 
+                </div>
             </div>
           </div>
 

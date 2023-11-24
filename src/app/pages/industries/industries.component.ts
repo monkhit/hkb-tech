@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationExtras, ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-industries',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class IndustriesComponent implements OnInit {
   videoSource = "./assets/video/intro.mp4";
   activeTab = 0;
+  details: any;
 
   tabs = [
     {
@@ -42,7 +44,18 @@ export class IndustriesComponent implements OnInit {
     },
   ];
 
-  constructor() { }
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private router: Router
+  ) {
+
+    this.activatedRoute.queryParams.subscribe(params => {
+      this.details = this.router.getCurrentNavigation()?.extras.state?.['details']  
+      // window.scrollTo(0, 0);
+    })
+    console.log(this.details)
+    
+   }
 
 
   activateTab(index: number): void {
