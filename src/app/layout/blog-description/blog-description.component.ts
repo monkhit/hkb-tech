@@ -1,14 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-news',
-  templateUrl: './news.component.html',
-  styleUrls: ['./news.component.scss']
+  selector: 'app-blog-description',
+  templateUrl: './blog-description.component.html',
+  styleUrls: ['./blog-description.component.scss']
 })
-export class NewsComponent implements OnInit {
-  details: any;
+export class BlogDescriptionComponent {
 
+  details: any;
+  
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router
@@ -19,12 +20,5 @@ export class NewsComponent implements OnInit {
     })
   }
 
-  
-
-  ngOnInit(): void {
-   
-
-
-  }
 
 }

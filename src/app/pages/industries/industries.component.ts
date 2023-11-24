@@ -20,8 +20,7 @@ export class IndustriesComponent implements OnInit {
 
     this.activatedRoute.queryParams.subscribe(params => {
       this.details = this.router.getCurrentNavigation()?.extras.state?.['details']  
-      console.log(this.router.getCurrentNavigation())
-
+      this.activeTab = 0
     })
     
    }

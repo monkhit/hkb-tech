@@ -8,13 +8,8 @@ import {
 import { TranslateService } from "@ngx-translate/core";
 import * as flickity from "flickity";
 import "flickity-as-nav-for";
-
-
 import industriesDetails from "../../../assets/json/industries.json";
 import serviceDetails from "../../../assets/json/services.json";
-
-import blogs from "../../../assets/json/blogs.json";
-import news from "../../../assets/json/news.json";
 import { EmailService } from "src/app/service/email-service";
 
 @Component({
@@ -30,38 +25,35 @@ export class HomeComponent implements OnInit {
   industries: any = industriesDetails;
   services: any = serviceDetails;
 
-  blogs: any = blogs;
-  news: any = news;
-  modalData: any;
 
-  contactForm = {
-    username: "",
-    email: "",
-    phoneNumber: "",
-    selectInquries: "1",
-    message: "",
-  };
+contactForm = {
+username: "",
+email: "",
+phoneNumber: "",
+selectInquries: "1",
+message: "",
+};
 
-  inquires = [
-    { name: "Client Opportunities", id: "1" },
-    { name: "Partners Opportunities", id: "2" },
-  ];
+inquires = [
+  { name: "Client Opportunities", id: "1" },
+  { name: "Partners Opportunities", id: "2" },
+];
 
-  contactDetails = [
-    {
-      heading: "Client Opportunities",
-      description:
-        "Interested in our services? Know how our services can help your business.",
-      id: "1",
-    },
+contactDetails = [
+{
+heading: "Client Opportunities",
+description:
+  "Interested in our services? Know how our services can help your business.",
+id: "1",
+},
 
-    {
-      heading: "Partners Opportunities",
-      description:
-        "Interested in partnering with us? Learn how we can collaborate.",
-      id: "2",
-    },
-  ];
+{
+heading: "Partners Opportunities",
+description:
+  "Interested in partnering with us? Learn how we can collaborate.",
+id: "2",
+},
+];
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -77,15 +69,7 @@ export class HomeComponent implements OnInit {
   }
 
   loadcarousel() {
-    this.zone.runOutsideAngular(() => {
-      new flickity(this.elementRef.nativeElement.querySelector(".partners"), {
-        prevNextButtons: false,
-        contain: true,
-        autoPlay: true,
-        pageDots: false,
-      });
-    });
-
+   
     new flickity(this.elementRef.nativeElement.querySelector(".services"), {
       prevNextButtons: true,
       contain: true,
@@ -116,23 +100,7 @@ export class HomeComponent implements OnInit {
       }
     );
 
-    // new flickity(this.elementRef.nativeElement.querySelector('.team'), {
-    //   "prevNextButtons": true,
-    //   "contain": false,
-    //   "groupCells": 1 ,
-    //   "autoPlay": false,
-    //   "adaptiveHeight": true,
-    //   "pageDots": false
-    // });
 
-    new flickity(this.elementRef.nativeElement.querySelector(".news"), {
-      prevNextButtons: true,
-      contain: false,
-      groupCells: true,
-      autoPlay: false,
-      adaptiveHeight: true,
-      pageDots: false,
-    });
   }
 
   async navigate(item: any, id: any, type: any) {
@@ -144,9 +112,7 @@ export class HomeComponent implements OnInit {
       },
     };
 
-    if (type === "B") {
-      this.router.navigate(["/blog"], navigationExtras);
-    } else if (type === "I") {
+    if (type === "I") {
       this.router.navigate(["/industries"], navigationExtras);
     }
     else if(type === "S"){
@@ -154,9 +120,7 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  openlink(url: any) {
-    window.open(url, "_blank");
-  }
+
 
 
 

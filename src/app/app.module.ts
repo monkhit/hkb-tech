@@ -15,7 +15,9 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { IndustriesComponent } from './pages/industries/industries.component';
 import { TeamModalComponent } from './component/team-modal/team-modal.component';
 import { TeamComponent } from './layout/team/team.component';
-
+import { NewsComponent } from './layout/news/news.component';
+import { BlogComponent } from './layout/blog/blog.component';
+import { BlogDescriptionComponent } from './layout/blog-description/blog-description.component';
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,6 +35,9 @@ export function createTranslateLoader(handler: HttpBackend) {
     IndustriesComponent,
     TeamModalComponent,
     TeamComponent,
+    NewsComponent,
+    BlogComponent,
+    BlogDescriptionComponent
     ],
   imports: [
     BrowserModule,

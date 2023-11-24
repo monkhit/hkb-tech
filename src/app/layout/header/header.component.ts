@@ -75,6 +75,9 @@ export class HeaderComponent implements OnInit {
   else if (type === "S") {
     this.router.navigate(["/services"], navigationExtras );
   }
+
+
+
 }
 
 
