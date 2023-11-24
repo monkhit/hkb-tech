@@ -8,18 +8,11 @@ import {
 import { TranslateService } from "@ngx-translate/core";
 import * as flickity from "flickity";
 import "flickity-as-nav-for";
-import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
-import { TeamModalComponent } from "src/app/component/team-modal/team-modal.component";
-// import gsap from "gsap";
-// import ScrollTrigger from "gsap/ScrollTrigger";
-// import Flip from "gsap/Flip";
-// import Draggable from "gsap/Draggable";
-// import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-// gsap.registerPlugin(ScrollTrigger, Draggable, Flip, MotionPathPlugin);
 
-import sectorDetails from "../../../assets/json/sector.json";
-import teamDetails from "../../../assets/json/team.json";
-import industries from "../../../assets/json/industries.json";
+
+import industriesDetails from "../../../assets/json/industries.json";
+import serviceDetails from "../../../assets/json/services.json";
+
 import blogs from "../../../assets/json/blogs.json";
 import news from "../../../assets/json/news.json";
 import { EmailService } from "src/app/service/email-service";
@@ -27,16 +20,16 @@ import { EmailService } from "src/app/service/email-service";
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss", "./about-mobile.scss", "mobile.scss"],
+  styleUrls: ["./home.component.scss",  "mobile.scss"],
 })
 export class HomeComponent implements OnInit {
   emailValid =
     /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = "./assets/video/intro.mp4";
 
-  sectors: any = sectorDetails;
-  team: any = teamDetails;
-  industries: any = industries;
+  industries: any = industriesDetails;
+  services: any = serviceDetails;
+
   blogs: any = blogs;
   news: any = news;
   modalData: any;
@@ -77,7 +70,6 @@ export class HomeComponent implements OnInit {
     private zone: NgZone,
     private elementRef: ElementRef,
     private emailService: EmailService,
-    private modalService: NgbModal
   ) {}
 
   activeInquiry(item: any) {
@@ -157,20 +149,16 @@ export class HomeComponent implements OnInit {
     } else if (type === "I") {
       this.router.navigate(["/industries"], navigationExtras);
     }
+    else if(type === "S"){
+      this.router.navigate(["/services"], navigationExtras);
+    }
   }
 
   openlink(url: any) {
     window.open(url, "_blank");
   }
 
-  presentModal(item: any) {
-    this.modalData = this.modalService.open(TeamModalComponent, {
-      fullscreen: true,
-      animation: true,
-      scrollable: true,
-    });
-    this.modalData.componentInstance.teamDetails = item;
-  }
+
 
   async sendEmail() {
     const emailData = {

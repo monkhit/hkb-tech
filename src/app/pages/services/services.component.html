@@ -11,7 +11,7 @@
 
   <div class="video-content clear-fix">
     <div class="container">
-      <h3>Artificial Intelligence</h3>
+      <h3>{{details.title}}</h3>
     </div>
  
   </div>
@@ -21,17 +21,13 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-1 order-2 ">
-        <img class="img-fluid" src="../assets/services/AI.png"/>
+        <img class="img-fluid" [src]="details.image"/>
       </div>
 
       <div class="col-lg-6 order-lg-2 order-1">
-        <h2 class="mb-3">Artificial Intelligence</h2>
-        <p>
-          At HKB TECH, our AI services are strategically designed to assist companies in translating AI aspirations into actionable initiatives that yield substantial value. We understand that an organization's ability to create a robust foundation for data and AI will be pivotal in adapting, competing, and attaining higher performance levels. The evolving landscape of the world emphasizes the importance of data as a primary source of valuable insights. Yet, having access to data alone is insufficient; it should be trustworthy and effectively utilized.  </p>
+        <h2 class="mb-3">{{details.title}}</h2>
+        <p *ngFor="let item of details.details">{{item.content}}</p>
 
-        <p>
-          Our approach guides companies from initial AI interest to practical application, with a focus on creating clear and responsible business cases. We aid in preparing data, people, and processes for AI adoption, ensuring a secure, cloud-based digital framework to facilitate continuous improvement, growth, efficiency, and resilience. </p>
-          <p>With our comprehensive range of services, we harness the potential of data and artificial intelligence (AI), including generative AI (GenAI), to deliver innovative solutions. Our guidance is aimed at unlocking new prospects, optimizing operational efficiency, and fostering informed decision-making for long-term prosperity.           </p>
       </div>
     </div>
   </div>
@@ -47,7 +43,7 @@
 
       <div class="col-lg-4 col-sm-5 col-xl-5 col-5">
         <ul class="nav nav-pills nav-stacked">
-          <li class="nav-item" *ngFor="let tab of tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ tab.title }}
+          <li class="nav-item" *ngFor="let item of details.tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ item.title }}
             <i class="fa-solid fa-caret-right"></i>
           </li>
         </ul>
@@ -57,8 +53,8 @@
         <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
 
           <div class="tab-content">
-            <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let tab of tabs; let i = index">
-                  <p>{{tab.description}}</p> 
+            <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let item of details.tabs; let i = index">
+                  <p>{{item.description}}</p> 
                   <!-- <p class="mobile-hide">{{tab.Mobiledescription}}</p>  -->
             </div>
           </div>

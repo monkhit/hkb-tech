@@ -357,53 +357,7 @@ $base: 0.6rem;
   }
 }
 
-#team {
-  p.title {
-    font-size: 2rem;
-  }
 
-
-
-  .team-container {
-    position: relative;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: #000000bd;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      right: 100%;
-    }
-  }
-
-
-  .team-description {
-    padding: 4rem 1rem;
-    color: #fff;
-    border-radius: 10px;
-    z-index: 1;
-    position: relative;
-    img {
-      width: 30px;
-      margin-right: 1rem;
-    }
-  }
-
-  .co-founder {
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    width: 25%;
-  }
-}
 
 // news
 #news {

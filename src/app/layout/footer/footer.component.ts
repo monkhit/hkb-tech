@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import industries from '../../../assets/json/industries.json'
-import sectorDetails from '../../../assets/json/sector.json'
+import industriesDetails from "../../../assets/json/industries.json";
+import serviceDetails from "../../../assets/json/services.json";
 import { EmailService } from 'src/app/service/email-service';
 @Component({
   selector: 'app-footer',
@@ -10,8 +10,8 @@ import { EmailService } from 'src/app/service/email-service';
 export class FooterComponent implements OnInit {
 
   emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
-  sectors: any = sectorDetails;
-  industries: any = industries
+  services: any = serviceDetails
+  industries: any = industriesDetails
   siteUrl: any;
   email= '';
 

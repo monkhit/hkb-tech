@@ -6,8 +6,8 @@ import {
   Router,
   NavigationStart,
 } from "@angular/router";
-import industries from '../../../assets/json/industries.json'
-import sectorDetails from '../../../assets/json/sector.json'
+import industriesDetails from "../../../assets/json/industries.json";
+import serviceDetails from "../../../assets/json/services.json";
 
 @Component({
   selector: 'app-header',
@@ -17,8 +17,8 @@ import sectorDetails from '../../../assets/json/sector.json'
 export class HeaderComponent implements OnInit {
 
   language: any = null;
-  services: any = industries
-  industries: any = sectorDetails
+  services: any = serviceDetails
+  industries: any = industriesDetails
   
     MenuItems = [
          {name: 'ABOUT',  id:'about'},
@@ -71,6 +71,9 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(["/blog"], navigationExtras);
   } else if (type === "I") {
     this.router.navigate(["/industries"], navigationExtras );
+  }
+  else if (type === "S") {
+    this.router.navigate(["/services"], navigationExtras );
   }
 }
 
