@@ -1,5 +1,11 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { EventsService } from 'src/app/service/events.service';
+import {
+  NavigationExtras,
+  ActivatedRoute,
+  Router,
+  NavigationStart,
+} from "@angular/router";
 import industries from '../../../assets/json/industries.json'
 import sectorDetails from '../../../assets/json/sector.json'
 
@@ -11,8 +17,8 @@ import sectorDetails from '../../../assets/json/sector.json'
 export class HeaderComponent implements OnInit {
 
   language: any = null;
-  industries: any = industries
-  sector: any = sectorDetails
+  services: any = industries
+  industries: any = sectorDetails
   
     MenuItems = [
          {name: 'ABOUT',  id:'about'},
@@ -28,6 +34,8 @@ export class HeaderComponent implements OnInit {
   constructor(
     public events: EventsService,
     private elementRef: ElementRef,
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
   ) { }
 
 
@@ -45,6 +53,26 @@ export class HeaderComponent implements OnInit {
     }
 
  }
+
+
+ async navigate(item: any, id: any, type: any) {
+  console.log(item)
+  console.log(type)
+
+  const navigationExtras: NavigationExtras = {
+    relativeTo: this.activatedRoute,
+    queryParams: {type: item.title},
+    state: {
+      details: item,
+    },
+  };
+
+  if (type === "B") {
+    this.router.navigate(["/blog"], navigationExtras);
+  } else if (type === "I") {
+    this.router.navigate(["/industries"], navigationExtras );
+  }
+}
 
 
   switchlang(lang:any){

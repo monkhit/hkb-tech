@@ -22,7 +22,7 @@
               <ul class="dropdown-menu pt-4">
               <div class="container ">
                 <div class="row">
-                  <a href="#services" class="col-lg-2 mb-4"*ngFor="let item of industries">
+                  <a href="#services" class="col-lg-2 mb-4"*ngFor="let item of services">
                     {{item.name}}
                   </a>
                 </div>
@@ -37,9 +37,12 @@
                 <ul class="dropdown-menu pt-4">
                 <div class="container ">
                   <div class="row">
-                    <a href="#sector" class="col-lg-2 mb-4"*ngFor="let item of sector[1].content">
+                    <div class="col-lg-2 mb-4" *ngFor="let item of industries[1].content; let i=index">
+                      <p (click)="navigate(item, i, 'I')" class="mb-0">{{item.title}}</p>
+                    </div>
+                    <!-- <a href="#sector" class="col-lg-2 mb-4"*ngFor="let item of industries[1].content">
                       {{item.title}}
-                    </a>
+                    </a> -->
                   </div>
                 </div>
               </ul>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationExtras, ActivatedRoute, Router } from '@angular/router';
+import sectorDetails from '../../../assets/json/sector.json'
 
 @Component({
   selector: 'app-industries',
@@ -10,6 +11,8 @@ export class IndustriesComponent implements OnInit {
   videoSource = "./assets/video/intro.mp4";
   activeTab = 0;
   details: any;
+
+  industries: any = sectorDetails
 
   tabs = [
     {
@@ -52,8 +55,10 @@ export class IndustriesComponent implements OnInit {
     this.activatedRoute.queryParams.subscribe(params => {
       this.details = this.router.getCurrentNavigation()?.extras.state?.['details']  
       // window.scrollTo(0, 0);
+      console.log(this.router.getCurrentNavigation())
+
     })
-    console.log(this.details)
+    // this.details = this.industries[1].content[8]
     
    }
 

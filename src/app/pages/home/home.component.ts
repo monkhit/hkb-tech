@@ -146,6 +146,7 @@ export class HomeComponent implements OnInit {
   async navigate(item: any, id: any, type: any) {
     const navigationExtras: NavigationExtras = {
       relativeTo: this.activatedRoute,
+      queryParams: {type: item.title},
       state: {
         details: item,
       },
