@@ -24,6 +24,7 @@
   {
     "content": [
       {
+        "id":0,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Smart City",
@@ -47,7 +48,13 @@
             "content": "Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization."
           },
           {
-            "content": "  Welcome to the forefront of urban evolution—welcome to HKB TECH's Smart City Solutions, where technological innovation converges with urban advancement to shape the cities of tomorrow. Inspired by the initiatives of the Kingdom of Saudi Arabia in this domain, we at HKB TECH are committed to redefining urban landscapes by integrating cutting-edge technology and forward-thinking strategies. We recognize the pressing need for cities to adapt, embracing the power of technology to craft intelligent, resilient, and responsive urban ecosystems. At HKB TECH, we draw inspiration from the milestones achieved by Vision 2030, channelling their accomplishments into our approach towards smart urbanization."
+            "content": " HKB TECH stands as a beacon of innovation, offering smart city solutions that address the multifaceted challenges faced by urban environments today. Our commitment lies in pioneering cutting-edge solutions that redefine cityscapes. From deploying Internet of Things (IoT) infrastructure to implementing advanced data analytics for informed decision-making, our expertise elevates urban living to a realm of seamless connectivity and efficient governance."
+          },
+          {
+            "content":"With a foundation rooted in sophistication and style, our corporate ethos aligns with the vision of creating urban environments that harmonize technological advancement with the well-being of citizens. HKB TECH invites you to explore a world of smart city innovation, where cutting-edge technology meets elegant urban design, shaping the future of city living. Join us on this journey as we pioneer the evolution of smarter, more sustainable cities."
+          },
+          {
+            "content":"Embark on this transformative journey with HKB TECH as we steer the evolution of smarter, more sustainable cities. Join us in reimagining urban landscapes that not only embrace technological advancements but also prioritize the well-being and connectivity of their inhabitants. Together, let's pave the way for the cities of the future."
           }
         ],
         "tabs": [
@@ -99,6 +106,7 @@
         ]
       },
       {
+        "id":1,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Fintech",
@@ -119,11 +127,11 @@
         "bgImage": "./assets/images/sectors/fintech.png",
         "details": [
           {
-            "content": "Step into the realm of cutting-edge financial innovation with HKBTECH's Fintech Solutions, where finance and pioneering technology converge, reshaping the landscape of financial services. Located in the thriving financial center of Saudi Arabia, we are committed to driving financial innovation in line with global leaders in the Fintech sector."
+            "content": "Step into the realm of cutting-edge financial innovation with HKB TECH's Fintech Solutions, where finance and pioneering technology converge, reshaping the landscape of financial services. Located in the thriving financial center of Saudi Arabia, we are committed to driving financial innovation in line with global leaders in the Fintech sector."
           },
           
           {
-            "content": "At HKBTECH, we understand the need to redefine finance through sophisticated technology tailored to the unique financial landscape of Saudi Arabia. Our focus is on transforming financial landscapes, mirroring the footsteps of renowned financial technology innovators. HKBTECH stands as a beacon of ingenuity, offering Fintech solutions that cater to the diverse demands of the financial realm, promising advanced developments and transformative breakthroughs."
+            "content": "At HKB TECH, we understand the need to redefine finance through sophisticated technology tailored to the unique financial landscape of Saudi Arabia. Our focus is on transforming financial landscapes, mirroring the footsteps of renowned financial technology innovators. HKB TECH stands as a beacon of ingenuity, offering Fintech solutions that cater to the diverse demands of the financial realm, promising advanced developments and transformative breakthroughs."
           }, 
           {
             "content":"From pioneering digital payment solutions to deploying robust blockchain frameworks, our expertise elevates financial services to an era of unmatched efficiency and security. Rooted in a corporate ethos exuding sophistication, our approach aligns with the vision of integrating technological advancements with the financial well-being of our clients in Saudi Arabia and beyond."
@@ -133,7 +141,7 @@
             "content":"Our team, deeply attuned to market needs, has been dedicated to supporting prominent fintech companies since the industry's inception. With a global outreach, we've partnered and collaborated with an extensive array of companies within the fintech spectrum. Our engagements span across startups, tech firms, retail/e-commerce businesses, and various financial institutions, all contributing to the forward thrust of innovation and disruption within the fintech landscape."
           },
           {
-            "content":"Join us on this journey as HKBTECH navigates the forefront of Fintech innovation, where sleek, technology-driven financial services meet the cultural and economic intricacies of Saudi Arabia, shaping the future of financial transactions. Let’s redefine financial landscapes together, embracing cutting-edge technology while fostering financial prosperity and security for our clientele in Saudi Arabia and globally."
+            "content":"Join us on this journey as HKB TECH navigates the forefront of Fintech innovation, where sleek, technology-driven financial services meet the cultural and economic intricacies of Saudi Arabia, shaping the future of financial transactions. Let’s redefine financial landscapes together, embracing cutting-edge technology while fostering financial prosperity and security for our clientele in Saudi Arabia and globally."
           }
 
         ],
@@ -141,7 +149,7 @@
           {
             "title":"Digital Payments",
             "content":[
-              {"description": "In the dynamic landscape of Fintech, Digital Payments represent a pivotal use case that is revolutionizing the way financial transactions are conducted. At HKBTECH, we are at the forefront of crafting innovative solutions to enable seamless and secure digital payment experiences."},
+              {"description": "In the dynamic landscape of Fintech, Digital Payments represent a pivotal use case that is revolutionizing the way financial transactions are conducted. At HKB TECH, we are at the forefront of crafting innovative solutions to enable seamless and secure digital payment experiences."},
               { "description": "Our Digital Payments solutions harness cutting-edge technologies to facilitate convenient, efficient, and secure financial transactions for businesses and individuals alike. Through user-friendly mobile apps, online platforms, and contactless payment systems, we ensure that customers have access to a wide array of secure payment options."},
               {"description": "By incorporating advanced encryption techniques and secure authentication processes, our solutions safeguard sensitive financial data, offering customers peace of mind during transactions. Additionally, we prioritize interoperability and accessibility, ensuring that our digital payment systems are inclusive and easily accessible across various devices and platforms."},
               {"description": "HKB TECH's commitment to Fintech revolves around reshaping the future of financial transactions by delivering comprehensive Digital Payments solutions. With a focus on security, convenience, and accessibility, our innovative approaches aim to enhance the overall digital payment experience, providing businesses and individuals with seamless, secure, and efficient financial transaction solutions."}
@@ -149,29 +157,30 @@
           {
             "title": "Fraud Detection",
             "content":[
-              { "description": "In the ever-evolving landscape of Fintech, Fraud Detection stands as a critical use case, addressing the escalating challenges of financial security. HKBTECH is dedicated to developing cutting-edge solutions aimed at combating fraudulent activities within financial systems."},
+              { "description": "In the ever-evolving landscape of Fintech, Fraud Detection stands as a critical use case, addressing the escalating challenges of financial security. HKB TECH is dedicated to developing cutting-edge solutions aimed at combating fraudulent activities within financial systems."},
               {"description": "Our Fraud Detection solutions leverage advanced algorithms, artificial intelligence, and machine learning techniques to swiftly identify and prevent fraudulent transactions in real time. Through continuous analysis of transactional data, behavioral patterns, and anomalies, our systems can swiftly flag and halt potentially fraudulent activities, ensuring the security of financial transactions."},
-              {"description": "HKBTECH's commitment to Fintech lies in ensuring the integrity and security of financial transactions. By employing sophisticated Fraud Detection solutions, we aim to fortify financial systems, providing a secure and trustworthy environment for both businesses and individuals engaging in financial transactions."} 
+              {"description": "HKB TECH's commitment to Fintech lies in ensuring the integrity and security of financial transactions. By employing sophisticated Fraud Detection solutions, we aim to fortify financial systems, providing a secure and trustworthy environment for both businesses and individuals engaging in financial transactions."} 
               ]},
             {
             "title": "Conversational AI",
             "content":[
-              { "description": "In the dynamic realm of Fintech, Conversational AI emerges as a pivotal use case, revolutionizing customer interactions and service delivery. HKBTECH is at the forefront of leveraging Conversational AI to enhance customer experiences and streamline financial services."},
+              { "description": "In the dynamic realm of Fintech, Conversational AI emerges as a pivotal use case, revolutionizing customer interactions and service delivery. HKB TECH is at the forefront of leveraging Conversational AI to enhance customer experiences and streamline financial services."},
               {"description": "Our Conversational AI solutions integrate sophisticated natural language processing and machine learning algorithms to offer intelligent, human-like interactions. These tools power chatbots, virtual assistants, and voice-enabled systems, enabling seamless communication for clients seeking financial guidance, account information, or transaction support."},
               {"description": "The utilization of Conversational AI in Fintech ensures round-the-clock customer assistance and rapid query resolution. These AI-driven interfaces offer personalized recommendations, guide users through complex processes, and swiftly address customer queries, significantly enhancing user engagement and satisfaction."},
-              { "description": "HKBTECH is committed to harnessing the potential of Conversational AI in Fintech to provide enhanced customer experiences and streamline financial services. Our solutions empower financial institutions with smart, efficient, and user-friendly conversational platforms, redefining the way customers interact with financial services."}
+              { "description": "HKB TECH is committed to harnessing the potential of Conversational AI in Fintech to provide enhanced customer experiences and streamline financial services. Our solutions empower financial institutions with smart, efficient, and user-friendly conversational platforms, redefining the way customers interact with financial services."}
               ]
               },
           {
             "title": "Personalized Content",
             "content":[
-              {"description": "In the evolving landscape of Fintech, Personalized Content stands out as a transformative tool driving customer engagement and satisfaction. HKBTECH employs this use case to tailor financial experiences and information according to individual preferences, behaviors, and needs."},
+              {"description": "In the evolving landscape of Fintech, Personalized Content stands out as a transformative tool driving customer engagement and satisfaction. HKB TECH employs this use case to tailor financial experiences and information according to individual preferences, behaviors, and needs."},
               {"description": "Through advanced analytics, machine learning, and customer data, Personalized Content in Fintech enables the delivery of customized financial information, services, and offers. This tailored approach ensures that users receive relevant content, such as investment opportunities, financial insights, or product recommendations, aligning precisely with their financial goals and circumstances."},
-              {"description": "HKBTECH’s commitment to Personalized Content in Fintech results in heightened user engagement and a more tailored experience for customers. By harnessing customer data and leveraging cutting-edge technologies, we craft bespoke financial journeys, ultimately enhancing customer satisfaction and loyalty. Our solutions empower financial institutions to present personalized content, strengthening relationships and fostering a deeper connection between customers and their financial services."}
+              {"description": "HKB TECH’s commitment to Personalized Content in Fintech results in heightened user engagement and a more tailored experience for customers. By harnessing customer data and leveraging cutting-edge technologies, we craft bespoke financial journeys, ultimately enhancing customer satisfaction and loyalty. Our solutions empower financial institutions to present personalized content, strengthening relationships and fostering a deeper connection between customers and their financial services."}
             ]}
         ]
       },
       {
+        "id":2,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Insurance",
@@ -192,16 +201,16 @@
         "bgImage": "./assets/images/sectors/Insurance.png",
         "details": [
           {
-            "content": "For HKBTECH, this represents a critical turning point in the Insurance industry, a moment to generate significant value for customers, employees, and stakeholders. Armed with extensive digital expertise, HKBTECH works with insurers to foster adaptability, facilitating the creation of seamless digital services for customers and identifying fresh revenue streams throughout their operations. This juncture isn't merely an evolution but a transformative occasion to reshape the insurance landscape for the benefit of all involved."
+            "content": "For HKB TECH, this represents a critical turning point in the Insurance industry, a moment to generate significant value for customers, employees, and stakeholders. Armed with extensive digital expertise, HKB TECH works with insurers to foster adaptability, facilitating the creation of seamless digital services for customers and identifying fresh revenue streams throughout their operations. This juncture isn't merely an evolution but a transformative occasion to reshape the insurance landscape for the benefit of all involved."
           },
           {
-            "content": "Undoubtedly, the landscape for insurers is witnessing rapid expansion in new prospects, primarily driven by technology, enabling cost reduction, operational scalability, and tailored product offerings. Technological advancements further pave the way for exploring innovative models. HKBTECH stands as a leading force in embracing these changes, leveraging technology to assist the progression of swiftly evolving insurance entities."
+            "content": "Undoubtedly, the landscape for insurers is witnessing rapid expansion in new prospects, primarily driven by technology, enabling cost reduction, operational scalability, and tailored product offerings. Technological advancements further pave the way for exploring innovative models. HKB TECH stands as a leading force in embracing these changes, leveraging technology to assist the progression of swiftly evolving insurance entities."
           },
           {
             "content": "The insurance realm finds itself amidst a pivotal phase characterized by digital upheaval and convergence. Key players in this industry are broadening their array of products and services to effectively meet the evolving demands of their clientele. This involves significant investments in customer-oriented digital innovations hosted in the cloud, as well as the establishment of ecosystems aimed at serving a wide spectrum of customer needs. Concurrently, insurers are reflecting on their societal role, emphasizing sustainability initiatives and advocating for diversity among their leadership and agents."
           },
           {
-            "content": "At HKBTECH , we specialize in resolving intricate challenges faced by the insurance industry, encompassing digital payments, fraud mitigation, enhancing customer experiences, swift market entry, operational streamlining, and conversational AL, personalized content strategies. Our approach involves a fusion of expertise in various emerging technologies including RPA, AI, ML, data analytics, among others."
+            "content": "At HKB TECH , we specialize in resolving intricate challenges faced by the insurance industry, encompassing digital payments, fraud mitigation, enhancing customer experiences, swift market entry, operational streamlining, and conversational AL, personalized content strategies. Our approach involves a fusion of expertise in various emerging technologies including RPA, AI, ML, data analytics, among others."
           }
         ],
         "tabs": [
@@ -218,7 +227,7 @@
                 "description": "Additionally, AI streamlines claims processing, enabling quicker assessments and payouts. Machine learning models can detect fraud, anomalies, and patterns in claims data, enhancing fraud detection and risk management."
               },
               {
-                "description": "HKBTECH integrates AI into insurance workflows, optimizing customer service through chatbots, automated support systems, and personalized interaction tools. This technology allows for real-time responses, improving customer satisfaction and overall operational efficiency within insurance companies. With our expertise in AI, we assist insurance companies in staying competitive, innovative, and responsive to the evolving needs of the market and customers."
+                "description": "HKB TECH integrates AI into insurance workflows, optimizing customer service through chatbots, automated support systems, and personalized interaction tools. This technology allows for real-time responses, improving customer satisfaction and overall operational efficiency within insurance companies. With our expertise in AI, we assist insurance companies in staying competitive, innovative, and responsive to the evolving needs of the market and customers."
               }
             ]
           },
@@ -235,7 +244,7 @@
                 "description": "Furthermore, RPA facilitates enhanced customer service experiences. Automated responses and workflows improve turnaround times for policy inquiries, claims updates, and general customer support, resulting in greater customer satisfaction."
               },
               {
-                "description": "HKBTECH implements RPA solutions tailored to insurance needs, ensuring seamless integration into existing systems. By embracing RPA, insurance companies experience increased productivity, reduced operational costs, and improved accuracy, thereby freeing up resources to focus on more complex, value-added tasks and customer-centric initiatives."
+                "description": "HKB TECH implements RPA solutions tailored to insurance needs, ensuring seamless integration into existing systems. By embracing RPA, insurance companies experience increased productivity, reduced operational costs, and improved accuracy, thereby freeing up resources to focus on more complex, value-added tasks and customer-centric initiatives."
               }
             ]
           },
@@ -244,7 +253,7 @@
             "title": "Cyber Security",
             "content": [
               {
-                "description": "Cybersecurity stands as a critical pillar within the insurance sector, protecting sensitive data, preventing potential cyber threats, and ensuring the safety and trust of both insurers and policyholders. At HKBTECH, we recognize the paramount importance of fortifying insurance systems against cyber risks."
+                "description": "Cybersecurity stands as a critical pillar within the insurance sector, protecting sensitive data, preventing potential cyber threats, and ensuring the safety and trust of both insurers and policyholders. At HKB TECH, we recognize the paramount importance of fortifying insurance systems against cyber risks."
               },
               {
                 "description": "Our cybersecurity solutions are tailored to safeguard sensitive customer information, financial data, and proprietary company details. We deploy robust security measures such as encryption protocols, multi-factor authentication, and intrusion detection systems to shield against potential breaches and attacks. With the rising sophistication of cyber threats, our proactive security measures adapt and evolve, keeping pace with emerging risks."
@@ -258,7 +267,7 @@
             "title": "Fraud Detection",
             "content": [
               {
-                "description": "In the landscape of insurance, the battle against fraudulent activities remains an ongoing challenge. HKBTECH offers robust fraud detection solutions designed to identify and mitigate fraudulent behavior within insurance processes."
+                "description": "In the landscape of insurance, the battle against fraudulent activities remains an ongoing challenge. HKB TECH offers robust fraud detection solutions designed to identify and mitigate fraudulent behavior within insurance processes."
               },
               {
                 "description": "Employing advanced technologies such as machine learning algorithms and predictive analytics, our fraud detection systems are adept at analyzing large volumes of data to uncover irregular patterns, anomalies, and inconsistencies. By examining historical data and real-time information, these systems can pinpoint potentially fraudulent claims or activities, allowing for swift intervention and mitigation."
@@ -274,6 +283,8 @@
         ]
       },
       {
+        "id":3,
+
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Manufacturing",
@@ -300,7 +311,7 @@
             "content": "Simultaneously with the digitalization of manufacturing, we are witnessing a significant shift among manufacturers towards As-A-Service business models, aiming to capture long-term customer value. These manufacturers are increasingly orienting themselves towards Direct-to-Consumer (D2C) models to better cater to emerging demands. The emphasis on sustainability is also leading to a complete rethink of the entire value chain."
           }, 
           {
-            "content":"At HKBTECH, we are a unique fusion of innovation and experience, possessing the expertise to help you envision the future of manufacturing. Supercharge your competitive edge by harnessing our capabilities and transformative potential."
+            "content":"At HKB TECH, we are a unique fusion of innovation and experience, possessing the expertise to help you envision the future of manufacturing. Supercharge your competitive edge by harnessing our capabilities and transformative potential."
           }, 
           {
             "content":"Propelled by the rise of cutting-edge technologies and the ever-changing inclinations of customers, we are ushering in a fresh phase of industrial revitalization. Looking towards the global rebound after the pandemic and into the future, a fusion of technological progress, changes in the economy, shifts in society, and transformations in the B2B customer realm are converging, introducing both larger-scale challenges and opportunities."
@@ -312,7 +323,7 @@
             "title": "RPA",
             "content": [
               {
-                "description": "In the realm of manufacturing, Robotic Process Automation (RPA) stands as a transformative force, enhancing operational efficiency and streamlining workflows. HKBTECH offers RPA solutions that revolutionize manufacturing processes by automating repetitive tasks, thus freeing up human resources to focus on more strategic, high-value initiatives."
+                "description": "In the realm of manufacturing, Robotic Process Automation (RPA) stands as a transformative force, enhancing operational efficiency and streamlining workflows. HKB TECH offers RPA solutions that revolutionize manufacturing processes by automating repetitive tasks, thus freeing up human resources to focus on more strategic, high-value initiatives."
               },
               {
                 "description": "RPA in manufacturing optimizes various functions such as inventory management, supply chain operations, and production line processes. These solutions enable seamless integration and automation of disparate systems, enhancing data accuracy and operational speed. By employing bots to handle routine tasks like data entry, invoice processing, and order management, RPA significantly reduces errors and accelerates process completion, fostering greater efficiency and productivity."
@@ -326,7 +337,7 @@
             "title": "Predictive Analytics",
             "content": [
               {
-                "description": "In the manufacturing landscape, Predictive Analytics emerges as a powerful tool driving innovation and operational efficiency. HKBTECH's utilization of Predictive Analytics transforms manufacturing operations by leveraging data to foresee potential issues, forecast trends, and optimize decision-making processes."
+                "description": "In the manufacturing landscape, Predictive Analytics emerges as a powerful tool driving innovation and operational efficiency. HKB TECH's utilization of Predictive Analytics transforms manufacturing operations by leveraging data to foresee potential issues, forecast trends, and optimize decision-making processes."
               },
               {
                 "description": "By analyzing historical and real-time data, Predictive Analytics predicts potential equipment failures, reduces downtime, and optimizes maintenance schedules. This proactive approach saves costs, prevents unexpected breakdowns, and enhances overall equipment efficiency, resulting in increased productivity."
@@ -343,13 +354,13 @@
             "title": "Predictive Maintenance",
             "content": [
               {
-                "description": "Predictive Maintenance in the realm of manufacturing stands as a groundbreaking advancement facilitated by HKBTECH. Through the utilization of cutting-edge technology and data analytics, Predictive Maintenance aims to revolutionize the traditional industrial model. By adopting a proactive approach, this strategy allows manufacturers to predict potential machine failures before they occur, thereby preventing unexpected downtime and costly repairs."
+                "description": "Predictive Maintenance in the realm of manufacturing stands as a groundbreaking advancement facilitated by HKB TECH. Through the utilization of cutting-edge technology and data analytics, Predictive Maintenance aims to revolutionize the traditional industrial model. By adopting a proactive approach, this strategy allows manufacturers to predict potential machine failures before they occur, thereby preventing unexpected downtime and costly repairs."
               },
               {
                 "description": "HKB TECH's implementation of Predictive Maintenance analyzes historical and real-time data from machinery, thereby enabling early identification of irregular patterns or signs of potential malfunctions. This insight empowers manufacturing units to schedule maintenance tasks precisely when required, optimizing the lifespan of equipment and reducing unnecessary service."
               },
               {
-                "description": "This advanced method of maintenance offers substantial benefits, including reduced downtime, increased productivity, minimized maintenance costs, and improved safety. By predicting potential issues before they disrupt operations, HKBTECH's Predictive Maintenance ensures seamless and uninterrupted production, which is critical for a more efficient, competitive, and successful manufacturing environment."
+                "description": "This advanced method of maintenance offers substantial benefits, including reduced downtime, increased productivity, minimized maintenance costs, and improved safety. By predicting potential issues before they disrupt operations, HKB TECH's Predictive Maintenance ensures seamless and uninterrupted production, which is critical for a more efficient, competitive, and successful manufacturing environment."
               }
             ]
           },
@@ -357,22 +368,23 @@
             "title": "Inventory Optimization",
             "content": [
               {
-                "description": "Inventory Optimization stands as a fundamental strategy within manufacturing, and HKBTECH is at the forefront of revolutionizing this domain. By leveraging advanced data analytics and technological solutions, our approach to Inventory Optimization focuses on enhancing efficiency and reducing waste in the manufacturing process."
+                "description": "Inventory Optimization stands as a fundamental strategy within manufacturing, and HKB TECH is at the forefront of revolutionizing this domain. By leveraging advanced data analytics and technological solutions, our approach to Inventory Optimization focuses on enhancing efficiency and reducing waste in the manufacturing process."
               },
               {
-                "description": "Through sophisticated algorithms and predictive analysis, HKBTECH ensures that inventory levels are maintained optimally, aligning precisely with demand forecasts. By fine-tuning inventory stocking and replenishment based on real-time market demands and historical patterns, this strategy minimizes overstocking while preventing stockouts, ensuring the right balance of supply and demand."
+                "description": "Through sophisticated algorithms and predictive analysis, HKB TECH ensures that inventory levels are maintained optimally, aligning precisely with demand forecasts. By fine-tuning inventory stocking and replenishment based on real-time market demands and historical patterns, this strategy minimizes overstocking while preventing stockouts, ensuring the right balance of supply and demand."
               },
               {
                 "description": "The benefits of Inventory Optimization are multifold: minimized excess stock, reduced storage costs, increased turnover rates, and an overall improvement in the production process. By implementing this approach, manufacturing companies can streamline operations, meet customer demands more accurately, and significantly reduce unnecessary expenses associated with surplus inventory."
               },
               {
-                "description": "HKBTECH's Inventory Optimization solution is designed to maximize efficiency, productivity, and profitability in the manufacturing sector, providing a competitive edge through a streamlined, data-driven approach to inventory management."
+                "description": "HKB TECH's Inventory Optimization solution is designed to maximize efficiency, productivity, and profitability in the manufacturing sector, providing a competitive edge through a streamlined, data-driven approach to inventory management."
               }
             ]
           }
         ]
       },
       {
+        "id":4,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Fit Tech ",
@@ -393,7 +405,7 @@
         "bgImage": "./assets/images/sectors/Fittech.png",
         "details": [
           {
-            "content": "Stepping into the domain of FitTech, HKBTECH takes the lead in pioneering advancements that are reshaping the fitness landscape, emphasizing personal well-being and performance.  At HKBTECH, we're committed to revolutionizing the way fitness is approached and experienced. We provide an array of innovative solutions that cater to diverse fitness needs and preferences, ensuring a holistic approach towards fitness and health."
+            "content": "Stepping into the domain of FitTech, HKB TECH takes the lead in pioneering advancements that are reshaping the fitness landscape, emphasizing personal well-being and performance.  At HKB TECH, we're committed to revolutionizing the way fitness is approached and experienced. We provide an array of innovative solutions that cater to diverse fitness needs and preferences, ensuring a holistic approach towards fitness and health."
           },
           {
             "content": "Our primary focus includes offering personalized workout plans, combining scientific analysis and individual preferences, ensuring each user has a tailored fitness program. Moreover, real-time performance tracking enables users to monitor their progress, encouraging a deeper understanding of their fitness journey. We aim to enable users to make informed decisions and adjustments for their fitness goals, using the power of data and insights provided by the technology at hand."
@@ -402,7 +414,7 @@
             "content": "The integration of smart wearables, designed to track health metrics, serves as an essential component of our FitTech solutions. These wearables provide valuable and actionable health and fitness information, supporting users in making better-informed choices to meet their fitness objectives."
           },
           {
-            "content": "At HKBTECH,  our FitTech solutions encompass a wide range of applications and use cases, from fitness trackers, virtual trainers, and innovative fitness apps to advanced smart equipment. These technologies and tools are designed to cater to various fitness needs and exercise preferences, aiming to enhance the fitness experience for all individuals."
+            "content": "At HKB TECH,  our FitTech solutions encompass a wide range of applications and use cases, from fitness trackers, virtual trainers, and innovative fitness apps to advanced smart equipment. These technologies and tools are designed to cater to various fitness needs and exercise preferences, aiming to enhance the fitness experience for all individuals."
           }
         ],
         "tabs": [
@@ -410,13 +422,13 @@
             "title": "Fitness Trackers",
             "content": [
               {
-                "description": "Fitness trackers represent a pioneering innovation in the Fittech landscape, and HKBTECH is dedicated to leveraging these devices to reshape the fitness industry. These trackers, often in the form of wearables or smartphone applications, allow users to monitor their physical activities, health metrics, and overall well-being in real time."
+                "description": "Fitness trackers represent a pioneering innovation in the Fittech landscape, and HKB TECH is dedicated to leveraging these devices to reshape the fitness industry. These trackers, often in the form of wearables or smartphone applications, allow users to monitor their physical activities, health metrics, and overall well-being in real time."
               },
               {
-                "description": "HKBTECH's Fittech solutions introduce a range of personalized fitness trackers that seamlessly integrate into users' daily routines. Through these wearable devices or applications, individuals can monitor their steps, calories burned, heart rate, sleep patterns, and various exercise activities. These insights empower users to make informed decisions about their fitness routines and overall health."
+                "description": "HKB TECH's Fittech solutions introduce a range of personalized fitness trackers that seamlessly integrate into users' daily routines. Through these wearable devices or applications, individuals can monitor their steps, calories burned, heart rate, sleep patterns, and various exercise activities. These insights empower users to make informed decisions about their fitness routines and overall health."
               },
               {
-                "description": "With a user-friendly interface and robust analytics, these fitness trackers enable users to set goals, track their progress, and tailor fitness plans to suit individual needs. By employing cutting-edge technology and leveraging data analytics, HKBTECH's Fittech solutions offer an all-encompassing approach to personal fitness, empowering users to make proactive and healthier lifestyle choices."
+                "description": "With a user-friendly interface and robust analytics, these fitness trackers enable users to set goals, track their progress, and tailor fitness plans to suit individual needs. By employing cutting-edge technology and leveraging data analytics, HKB TECH's Fittech solutions offer an all-encompassing approach to personal fitness, empowering users to make proactive and healthier lifestyle choices."
               }
             ]
           },
@@ -425,13 +437,13 @@
             "title": "Virtual Trainers",
             "content": [
               {
-                "description": "In the domain of Fittech, virtual trainers stand out as an innovative solution, redefining the fitness landscape. HKBTECH, at the forefront of this technological evolution, offers a suite of personalized and interactive virtual trainers. These trainers are AI-powered applications designed to assist users in achieving their fitness goals with personalized workout plans and real-time guidance."
+                "description": "In the domain of Fittech, virtual trainers stand out as an innovative solution, redefining the fitness landscape. HKB TECH, at the forefront of this technological evolution, offers a suite of personalized and interactive virtual trainers. These trainers are AI-powered applications designed to assist users in achieving their fitness goals with personalized workout plans and real-time guidance."
               },
               {
-                "description": "Through HKBTECH's Fittech solutions, users have access to virtual trainers that provide tailor-made exercise routines, catering to individual needs and preferences. These trainers leverage artificial intelligence to create workouts that adapt to the user's progress, providing guidance, motivation, and feedback during workouts. This hands-on, personalized approach helps users to maintain discipline and form while exercising."
+                "description": "Through HKB TECH's Fittech solutions, users have access to virtual trainers that provide tailor-made exercise routines, catering to individual needs and preferences. These trainers leverage artificial intelligence to create workouts that adapt to the user's progress, providing guidance, motivation, and feedback during workouts. This hands-on, personalized approach helps users to maintain discipline and form while exercising."
               },
               {
-                "description": "The beauty of these virtual trainers lies in their versatility. They are equipped with diverse workout programs, offering flexibility and catering to different fitness levels and exercise objectives. Users can partake in these sessions from the comfort of their homes, accessing professional guidance and support whenever they need it. HKBTECH's virtual trainers bring the expertise of a personal fitness coach directly to the user's fingertips, creating an engaging, efficient, and accessible fitness experience."
+                "description": "The beauty of these virtual trainers lies in their versatility. They are equipped with diverse workout programs, offering flexibility and catering to different fitness levels and exercise objectives. Users can partake in these sessions from the comfort of their homes, accessing professional guidance and support whenever they need it. HKB TECH's virtual trainers bring the expertise of a personal fitness coach directly to the user's fingertips, creating an engaging, efficient, and accessible fitness experience."
               }
             ]
           },
@@ -440,13 +452,13 @@
             "title": "Fitness Apps",
             "content": [
               {
-                "description": "Fitness apps are the cornerstone of modern Fittech solutions, providing comprehensive support and guidance in achieving fitness objectives. HKBTECH, as a leading provider in the fitness technology space, offers an array of fitness apps designed to elevate personal well-being and health. These apps are equipped with features that aid users in monitoring their workouts, diet, health metrics, and overall progress."
+                "description": "Fitness apps are the cornerstone of modern Fittech solutions, providing comprehensive support and guidance in achieving fitness objectives. HKB TECH, as a leading provider in the fitness technology space, offers an array of fitness apps designed to elevate personal well-being and health. These apps are equipped with features that aid users in monitoring their workouts, diet, health metrics, and overall progress."
               },
               {
                 "description": "HKB TECH's fitness apps cater to a wide spectrum of user requirements, offering customized workout plans, tracking activities, and monitoring dietary habits. These apps serve as a complete fitness companion, integrating wearables and smart devices to track performance and maintain records of daily activities. Users can access real-time data analysis, allowing them to make informed decisions and adjustments to their fitness routines."
               },
               {
-                "description": "Moreover, the apps also foster community engagement, enabling users to connect with like-minded individuals, fitness enthusiasts, and experts. These platforms offer forums for discussions, fitness challenges, and motivational support, creating an engaging and supportive environment for users. With seamless navigation and user-friendly interfaces, HKBTECH's fitness apps empower individuals to take charge of their health and fitness journey, providing tools and resources for a holistic and balanced lifestyle."
+                "description": "Moreover, the apps also foster community engagement, enabling users to connect with like-minded individuals, fitness enthusiasts, and experts. These platforms offer forums for discussions, fitness challenges, and motivational support, creating an engaging and supportive environment for users. With seamless navigation and user-friendly interfaces, HKB TECH's fitness apps empower individuals to take charge of their health and fitness journey, providing tools and resources for a holistic and balanced lifestyle."
               }
             ]
           },
@@ -455,19 +467,20 @@
             "title": "Smart Equipments",
             "content": [
               {
-                "description": "Smart equipment represents a technological advancement that significantly revolutionizes the Fittech industry. HKBTECH embraces innovation by integrating smart equipment into its fitness solutions. These advanced tools are specifically designed to enhance the workout experience, ensuring personalized fitness routines and better health monitoring."
+                "description": "Smart equipment represents a technological advancement that significantly revolutionizes the Fittech industry. HKB TECH embraces innovation by integrating smart equipment into its fitness solutions. These advanced tools are specifically designed to enhance the workout experience, ensuring personalized fitness routines and better health monitoring."
               },
               {
                 "description": "HKB TECH's smart equipment is equipped with cutting-edge technology that interfaces with fitness apps, wearables, and AI-driven platforms. These fitness tools offer real-time data and analysis, tracking performance, health metrics, and workout progress. Users benefit from more accurate measurements and insights into their fitness activities. The machines are user-friendly, providing a seamless and interactive experience, guiding individuals through their workouts while offering personalized tips and feedback."
               },
               {
-                "description": "The smart equipment is a vital part of HKB TECH's mission to provide comprehensive fitness solutions. These high-tech devices contribute to a more engaging and effective workout routine by allowing users to adjust and tailor their exercise programs to suit their fitness goals. By seamlessly integrating these tools into fitness platforms, HKBTECH empowers individuals to take control of their health and fitness journey, making exercise both more convenient and more effective."
+                "description": "The smart equipment is a vital part of HKB TECH's mission to provide comprehensive fitness solutions. These high-tech devices contribute to a more engaging and effective workout routine by allowing users to adjust and tailor their exercise programs to suit their fitness goals. By seamlessly integrating these tools into fitness platforms, HKB TECH empowers individuals to take control of their health and fitness journey, making exercise both more convenient and more effective."
               }
             ]
           }
         ]
       },
       {
+        "id":5,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Banking ",
@@ -516,7 +529,7 @@
             "title": "Automation",
             "content": [
               {
-                "description": " In the banking sector, automation stands as a pivotal technological advancement. HKBTECH leverages automation to streamline various operational tasks, enabling banks to improve efficiency, accuracy, and customer service. Through the automation of routine processes, such as transaction processing, document verification, and data entry, banks can reduce manual errors, cut processing times, and enhance productivity."
+                "description": " In the banking sector, automation stands as a pivotal technological advancement. HKB TECH leverages automation to streamline various operational tasks, enabling banks to improve efficiency, accuracy, and customer service. Through the automation of routine processes, such as transaction processing, document verification, and data entry, banks can reduce manual errors, cut processing times, and enhance productivity."
               },
               {
                 "description": "The automation solutions provided by HKB TECH facilitate faster loan approvals, simplified customer onboarding, and efficient transaction processing. By integrating artificial intelligence and machine learning, the automation platform enhances data analysis, enabling banks to derive valuable insights, manage risks, and make informed decisions promptly."
@@ -530,7 +543,7 @@
             "title": "Fraud Detection",
             "content": [
               {
-                "description": "Fraud detection is a critical use case within the banking industry, and HKBTECH is at the forefront of combating fraudulent activities through innovative technologies. Our advanced fraud detection solutions employ a combination of artificial intelligence, machine learning, and predictive analytics to proactively identify, prevent, and mitigate potential threats."
+                "description": "Fraud detection is a critical use case within the banking industry, and HKB TECH is at the forefront of combating fraudulent activities through innovative technologies. Our advanced fraud detection solutions employ a combination of artificial intelligence, machine learning, and predictive analytics to proactively identify, prevent, and mitigate potential threats."
               },
               {
                 "description": "Through cutting-edge algorithms and pattern recognition, our systems analyze vast volumes of banking transactions, swiftly identifying unusual activities or suspicious patterns. By employing anomaly detection, our solutions identify potential instances of fraud before they escalate, allowing banks to take prompt actions."
@@ -539,7 +552,7 @@
                 "description": "Furthermore, our predictive models constantly evolve, learning from new data and adapting to emerging fraud tactics, ensuring a comprehensive shield against evolving threats. The deployment of such state-of-the-art technology helps banks minimize financial losses and safeguard customer assets, maintaining the trust and confidence of their customers"
               },
               {
-                "description": "HKBTECH's fraud detection solutions are designed to constantly refine and adapt, keeping pace with the ever-changing landscape of fraudulent activities, providing banks with the necessary tools to stay one step ahead in the fight against financial crimes."
+                "description": "HKB TECH's fraud detection solutions are designed to constantly refine and adapt, keeping pace with the ever-changing landscape of fraudulent activities, providing banks with the necessary tools to stay one step ahead in the fight against financial crimes."
               }
             ]
           },
@@ -547,19 +560,20 @@
             "title": "Data Security",
             "content": [
               {
-                "description": "Data security is a paramount concern for the banking industry, and HKBTECH offers cutting-edge solutions to ensure the protection of sensitive financial information. We understand the critical importance of safeguarding customer data, and our comprehensive data security measures are designed to meet the rigorous standards of the modern banking landscape."
+                "description": "Data security is a paramount concern for the banking industry, and HKB TECH offers cutting-edge solutions to ensure the protection of sensitive financial information. We understand the critical importance of safeguarding customer data, and our comprehensive data security measures are designed to meet the rigorous standards of the modern banking landscape."
               },
               {
                 "description": "Employing robust encryption techniques, secure firewalls, multi-layer authentication, and access controls, our solutions shield banking systems from unauthorized access and potential breaches. Moreover, we ensure compliance with the highest industry standards, including GDPR, HIPAA, and other relevant data security regulations, to maintain the privacy and confidentiality of all customer information."
               },
               {
-                "description": "HKBTECH's data security solutions focus on continuous monitoring, threat detection, and real-time response mechanisms to identify and counter any potential security threats swiftly. By leveraging state-of-the-art technology and proactive security measures, we provide banks with the confidence that their customers' sensitive financial information remains well-protected, fostering trust and reliability in the banking sector."
+                "description": "HKB TECH's data security solutions focus on continuous monitoring, threat detection, and real-time response mechanisms to identify and counter any potential security threats swiftly. By leveraging state-of-the-art technology and proactive security measures, we provide banks with the confidence that their customers' sensitive financial information remains well-protected, fostering trust and reliability in the banking sector."
               }
             ]
           }
         ]
       },
       {
+        "id":6,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Healthcare ",
@@ -580,7 +594,7 @@
         "bgImage": "./assets/images/sectors/Healthtech.png",
         "details": [
           {
-            "content": "Amidst growing competition and evolving regulations, healthcare organizations in Saudi Arabia are confronting significant challenges, particularly in the wake of the pandemic. As they adapt to the impact of COVID-19, the focus shifts to enhancing access to care and reducing patient costs. Simultaneously, there's a critical need to streamline and expedite clinical research while leveraging shared knowledge to ensure a superior patient experience. At HKBTECH, we assist healthcare clients in this rapidly changing environment, specializing in areas such as insurance, health and social care, and life sciences. Together, we address your core challenges, keeping you ahead in the competitive landscape, minimizing inefficiencies, and ensuring a promising future for both your organization and the patients you serve."
+            "content": "Amidst growing competition and evolving regulations, healthcare organizations in Saudi Arabia are confronting significant challenges, particularly in the wake of the pandemic. As they adapt to the impact of COVID-19, the focus shifts to enhancing access to care and reducing patient costs. Simultaneously, there's a critical need to streamline and expedite clinical research while leveraging shared knowledge to ensure a superior patient experience. At HKB TECH, we assist healthcare clients in this rapidly changing environment, specializing in areas such as insurance, health and social care, and life sciences. Together, we address your core challenges, keeping you ahead in the competitive landscape, minimizing inefficiencies, and ensuring a promising future for both your organization and the patients you serve."
           },
           {
             "content": "Our tailored, cloud-based solutions empower our clients to address these pivotal needs. These solutions boost resource capacity, elevate workforce productivity, integrate data for personalized multi-channel services, and enhance the overall quality of care and treatments."
@@ -608,7 +622,7 @@
             "title": "Data Security",
             "content": [
               {
-                "description": " In the healthcare sector, data security is paramount due to the sensitive and confidential nature of patient information. HKBTECH emphasizes robust data security practices to safeguard electronic health records and sensitive medical data. Our solutions focus on employing cutting-edge encryption, access controls, and compliance protocols to fortify healthcare data against unauthorized access, breaches, or cyber threats."
+                "description": " In the healthcare sector, data security is paramount due to the sensitive and confidential nature of patient information. HKB TECH emphasizes robust data security practices to safeguard electronic health records and sensitive medical data. Our solutions focus on employing cutting-edge encryption, access controls, and compliance protocols to fortify healthcare data against unauthorized access, breaches, or cyber threats."
               },
               {
                 "description": "We ensure that patient information remains secure across all data touchpoints, from storage to transmission. Our systems implement stringent authentication measures, encryption algorithms, and user-access controls to protect sensitive data, preventing unauthorized access or potential data breaches."
@@ -636,7 +650,7 @@
             "title": "Artificial Intelligence",
             "content": [
               {
-                "description": "Artificial Intelligence (AI) represents a groundbreaking advancement in healthcare. HKBTECH acknowledges the significant potential of AI applications to transform medical services, streamline processes, and improve patient outcomes. AI offers predictive analytics, enabling early diagnosis and treatment suggestions by analyzing vast patient datasets, thus enhancing personalized patient care."
+                "description": "Artificial Intelligence (AI) represents a groundbreaking advancement in healthcare. HKB TECH acknowledges the significant potential of AI applications to transform medical services, streamline processes, and improve patient outcomes. AI offers predictive analytics, enabling early diagnosis and treatment suggestions by analyzing vast patient datasets, thus enhancing personalized patient care."
               },
               {
                 "description": "The integration of AI in healthcare also enhances operational efficiency, automating routine tasks, managing patient records securely, and optimizing administrative workflows. Furthermore, AI-powered technologies provide invaluable support for medical professionals in making well-informed decisions, reducing errors, and increasing accuracy in diagnostics and treatment plans."
@@ -649,6 +663,7 @@
         ]
       },
       {
+        "id":7,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Biotech ",
@@ -705,6 +720,7 @@
         ]
       },
       {
+        "id":8,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Energy ",
@@ -742,7 +758,7 @@
             "title": "Renewable Energy",
             "content": [
               {
-                "description": " In the dynamic energy sector, renewable energy stands as a game-changer, pivoting the focus toward cleaner and sustainable energy solutions. HKBTECH is leading the charge by leveraging renewable energy sources, aligning with the global pursuit of a sustainable future."
+                "description": " In the dynamic energy sector, renewable energy stands as a game-changer, pivoting the focus toward cleaner and sustainable energy solutions. HKB TECH is leading the charge by leveraging renewable energy sources, aligning with the global pursuit of a sustainable future."
               },
               {
                 "description": "We focus on innovative strategies harnessing solar, wind, hydro, geothermal, and bioenergy solutions. With an emphasis on advanced technology, our initiatives aim to optimize energy production from natural sources while minimizing environmental impact."
@@ -770,13 +786,13 @@
             "title": "Efficient HVAC",
             "content": [
               {
-                "description": "  Efficient HVAC (Heating, Ventilation, and Air Conditioning) systems are instrumental in the energy landscape, playing a key role in reducing energy consumption while maintaining indoor comfort. HKBTECH focuses on implementing advanced solutions in HVAC technology to enhance energy efficiency in various infrastructures, from residential buildings to commercial and industrial spaces."
+                "description": "  Efficient HVAC (Heating, Ventilation, and Air Conditioning) systems are instrumental in the energy landscape, playing a key role in reducing energy consumption while maintaining indoor comfort. HKB TECH focuses on implementing advanced solutions in HVAC technology to enhance energy efficiency in various infrastructures, from residential buildings to commercial and industrial spaces."
               },
               {
                 "description": "Utilizing innovative sensors, smart thermostats, and connected systems, our HVAC solutions optimize energy usage by adjusting cooling and heating levels based on occupancy and environmental conditions. This smart system offers precise climate control while reducing overall energy consumption, thereby lowering operational costs and environmental impact."
               },
               {
-                "description": "With our HVAC technology, businesses and homeowners benefit from improved energy savings, reduced carbon footprint, and enhanced comfort. The integration of efficient HVAC systems aligns with HKBTECH's commitment to sustainable and eco-friendly practices, providing cutting-edge solutions that strike a balance between energy efficiency and comfortable living or working spaces."
+                "description": "With our HVAC technology, businesses and homeowners benefit from improved energy savings, reduced carbon footprint, and enhanced comfort. The integration of efficient HVAC systems aligns with HKB TECH's commitment to sustainable and eco-friendly practices, providing cutting-edge solutions that strike a balance between energy efficiency and comfortable living or working spaces."
               }
             ]
           },
@@ -784,7 +800,7 @@
             "title": "Predictive Maintenance",
             "content": [
               {
-                "description": "  Predictive maintenance is pivotal in the energy sector, revolutionizing the way equipment and assets are managed. HKBTECH harnesses the power of predictive maintenance to pre-emptively address potential breakdowns, optimize operational performance, and reduce downtime, all critical aspects in the energy industry."
+                "description": "  Predictive maintenance is pivotal in the energy sector, revolutionizing the way equipment and assets are managed. HKB TECH harnesses the power of predictive maintenance to pre-emptively address potential breakdowns, optimize operational performance, and reduce downtime, all critical aspects in the energy industry."
               },
               {
                 "description": "Using predictive analytics, IoT sensors, and machine learning algorithms, our solutions forecast potential equipment malfunctions or failures. This early detection allows for proactive maintenance and repairs, preventing critical issues, optimizing equipment lifespan, and ensuring operational continuity."
@@ -800,6 +816,7 @@
         ]
       },
       {
+        "id":9,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Real Estate ",
@@ -823,7 +840,7 @@
             "content": "In line with Saudi Vision 2030, the real estate, engineering, and construction sectors are intersecting with significant global shifts such as urbanization, energy transition, climate adaptation, and advancements in smart mobility. Concurrently, substantial investments by governments globally in infrastructure and transportation pave the way for abundant opportunities for growth, awaiting those poised to capitalize on them."
           },
           {
-            "content": "AT HKBTECH we are backed by decades of experience, our approach harmonizes industry-specific expertise, technological innovation, and functional proficiency. We offer integrated solutions geared towards differentiation, adaptability, and sustained growth. Whether optimizing operations, fortifying resilient supply chains, or enhancing worker safety through emerging technologies, our services are dedicated to fostering sustainable businesses capable of scaling and accelerating growth."
+            "content": "AT HKB TECH we are backed by decades of experience, our approach harmonizes industry-specific expertise, technological innovation, and functional proficiency. We offer integrated solutions geared towards differentiation, adaptability, and sustained growth. Whether optimizing operations, fortifying resilient supply chains, or enhancing worker safety through emerging technologies, our services are dedicated to fostering sustainable businesses capable of scaling and accelerating growth."
           },
           {
             "content": "Aligning with Saudi Vision 2030, our strategic direction prioritizes the transformative elements laid out in the Vision. By infusing forward-thinking strategies and solutions, we empower our clients to not just meet the current market needs but to anticipate and proactively address the demands of the future. Collaboratively, we work towards ensuring our clients are not just prepared for, but positioned to excel within the dynamic landscape that characterizes the real estate and construction sectors, thereby contributing to the vision’s objectives of sustainable growth and development in Saudi Arabia."
@@ -833,9 +850,7 @@
           {
             "title": "VR-AR",
             "content": [
-              {
-                "description": " Augmented Reality (AR) and Virtual Reality (VR) have revolutionized the real estate industry by offering immersive and interactive experiences to potential buyers and tenants. HKB TECH leverages AR and VR technologies, enhancing the way real estate is showcased and experienced."
-              },
+             
               {
                 "description": " Augmented Reality (AR) and Virtual Reality (VR) have revolutionized the real estate industry by offering immersive and interactive experiences to potential buyers and tenants. HKB TECH leverages AR and VR technologies, enhancing the way real estate is showcased and experienced."
               },
@@ -851,13 +866,13 @@
             "title": "360 Customer View",
             "content": [
               {
-                "description": "   In the real estate landscape, acquiring a comprehensive view of customers is pivotal. HKBTECH utilizes cutting-edge technology to construct a 360-degree customer view, enabling a holistic understanding of clients and their preferences."
+                "description": "   In the real estate landscape, acquiring a comprehensive view of customers is pivotal. HKB TECH utilizes cutting-edge technology to construct a 360-degree customer view, enabling a holistic understanding of clients and their preferences."
               },
               {
-                "description": "By aggregating customer data from multiple touchpoints, HKBTECH provides a unified customer profile, amalgamating information such as property preferences, inquiries, past transactions, and feedback. This comprehensive data pool empowers real estate agents to personalize their approaches, tailor property recommendations, and anticipate customer needs accurately."
+                "description": "By aggregating customer data from multiple touchpoints, HKB TECH provides a unified customer profile, amalgamating information such as property preferences, inquiries, past transactions, and feedback. This comprehensive data pool empowers real estate agents to personalize their approaches, tailor property recommendations, and anticipate customer needs accurately."
               },
               {
-                "description": "The 360 customer view ensures a seamless and tailored experience for clients throughout their real estate journey. It enables more efficient interactions and assists in building long-term relationships by offering personalized services and custom-tailored property suggestions. HKBTECH's approach leverages the amalgamation of customer data, enhancing the quality of service and elevating the customer experience, ultimately contributing to increased customer satisfaction and loyalty within the real estate sector."
+                "description": "The 360 customer view ensures a seamless and tailored experience for clients throughout their real estate journey. It enables more efficient interactions and assists in building long-term relationships by offering personalized services and custom-tailored property suggestions. HKB TECH's approach leverages the amalgamation of customer data, enhancing the quality of service and elevating the customer experience, ultimately contributing to increased customer satisfaction and loyalty within the real estate sector."
               }
             ]
           },
@@ -865,7 +880,7 @@
             "title": "Conversational AI",
             "content": [
               {
-                "description": "  In the real estate realm, Conversational AI is revolutionizing customer interactions. HKBTECH integrates Conversational AI, empowering real estate businesses with intelligent chatbots and virtual assistants to enhance customer service, streamline inquiries, and provide instant responses 24/7."
+                "description": "  In the real estate realm, Conversational AI is revolutionizing customer interactions. HKB TECH integrates Conversational AI, empowering real estate businesses with intelligent chatbots and virtual assistants to enhance customer service, streamline inquiries, and provide instant responses 24/7."
               },
               {
                 "description": "These AI-driven chatbots simulate natural conversations and swiftly address customer queries, providing information on property listings, general inquiries, and scheduling property viewings. They can assist clients in navigating the real estate website, offer virtual tours, and even gather initial client requirements, expediting the overall customer service process."
@@ -879,7 +894,7 @@
             "title": "IOT",
             "content": [
               {
-                "description": "  Within the real estate industry, the Internet of Things (IoT) is revolutionizing property management and enhancing the overall living experience. HKBTECH integrates IoT technology, offering a range of innovative solutions to optimize real estate operations and ensure enhanced comfort and security for tenants."
+                "description": "  Within the real estate industry, the Internet of Things (IoT) is revolutionizing property management and enhancing the overall living experience. HKB TECH integrates IoT technology, offering a range of innovative solutions to optimize real estate operations and ensure enhanced comfort and security for tenants."
               },
               {
                 "description": "IoT devices such as smart sensors and connected devices are employed in properties, allowing for real-time monitoring of various aspects, including energy usage, temperature control, security, and water management. These devices enable landlords and property managers to efficiently manage resources, reducing energy consumption and operational costs while maintaining tenant comfort."
@@ -892,6 +907,7 @@
         ]
       },
       {
+        "id":10,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Retail ",
@@ -927,7 +943,7 @@
             "title": "Virtual Shopping",
             "content": [
               {
-                "description": " Virtual shopping has transformed the retail landscape, providing a dynamic and immersive way for customers to engage with products and make purchases. HKBTECH integrates Virtual Shopping into the retail industry, offering an innovative and interactive experience for consumers."
+                "description": " Virtual shopping has transformed the retail landscape, providing a dynamic and immersive way for customers to engage with products and make purchases. HKB TECH integrates Virtual Shopping into the retail industry, offering an innovative and interactive experience for consumers."
               },
               {
                 "description": "Through the implementation of Virtual Shopping, customers can explore products and services in a digitally simulated environment. This technology allows individuals to visualize, interact, and experience merchandise or services before making a purchase, similar to an in-store experience. It provides an engaging, personalized, and convenient shopping experience, eliminating the constraints of physical store locations."
@@ -941,7 +957,7 @@
             "title": "Sentiment Analysis",
             "content": [
               {
-                "description": "   Sentiment Analysis has revolutionized the retail sector, empowering businesses to understand and respond to customer sentiments, opinions, and preferences. HKBTECH incorporates Sentiment Analysis into the retail landscape, utilizing advanced algorithms to analyze customer feedback, reviews, and social media interactions."
+                "description": "   Sentiment Analysis has revolutionized the retail sector, empowering businesses to understand and respond to customer sentiments, opinions, and preferences. HKB TECH incorporates Sentiment Analysis into the retail landscape, utilizing advanced algorithms to analyze customer feedback, reviews, and social media interactions."
               },
               {
                 "description": "By employing this technology, retailers gain valuable insights into consumer feelings, helping them comprehend customer satisfaction levels, sentiments toward products, and overall brand perception. This allows for the enhancement of customer experiences and the identification of areas needing improvement. Understanding sentiment trends helps in shaping marketing strategies, product development, and service offerings more effectively."
@@ -955,13 +971,13 @@
             "title": "Conversational AI",
             "content": [
               {
-                "description": "  Conversational AI is transforming the retail landscape, allowing customers to engage with brands in a more intuitive and personalized manner. HKBTECH's implementation of Conversational AI offers retailers the ability to incorporate chatbots and virtual assistants across various touchpoints."
+                "description": "  Conversational AI is transforming the retail landscape, allowing customers to engage with brands in a more intuitive and personalized manner. HKB TECH's implementation of Conversational AI offers retailers the ability to incorporate chatbots and virtual assistants across various touchpoints."
               },
               {
                 "description": "These AI-driven virtual assistants enhance customer interactions, providing instant support, answering queries, and guiding customers through their shopping journey. By emulating human-like conversations, these chatbots offer personalized recommendations, gather customer feedback, and assist in product searches. They create a seamless and interactive shopping experience, facilitating 24/7 support, and boosting customer satisfaction."
               },
               {
-                "description": "The Conversational AI platform from HKBTECH enables retailers to streamline customer service, reduce response times, and offer tailored product suggestions. The technology also empowers retailers to gather valuable insights into customer behavior, preferences, and purchasing patterns, aiding in the development of more targeted marketing strategies and product offerings. This fosters stronger customer relationships and augments overall customer experience within the retail environment."
+                "description": "The Conversational AI platform from HKB TECH enables retailers to streamline customer service, reduce response times, and offer tailored product suggestions. The technology also empowers retailers to gather valuable insights into customer behavior, preferences, and purchasing patterns, aiding in the development of more targeted marketing strategies and product offerings. This fosters stronger customer relationships and augments overall customer experience within the retail environment."
               }
             ]
           },
@@ -969,7 +985,7 @@
             "title": "AR- VR",
             "content": [
               {
-                "description": "  Augmented Reality (AR) and Virtual Reality (VR) are revolutionizing the retail sector, transforming the way customers interact with products and brands. HKBTECH integrates AR and VR technologies into the retail landscape, offering immersive experiences to consumers."
+                "description": "  Augmented Reality (AR) and Virtual Reality (VR) are revolutionizing the retail sector, transforming the way customers interact with products and brands. HKB TECH integrates AR and VR technologies into the retail landscape, offering immersive experiences to consumers."
               },
               {
                 "description": "AR enhances the shopping experience by enabling customers to visualize products in their environment using smartphones or dedicated AR devices. Shoppers can virtually try on clothing or accessories, see how furniture looks in their homes, or test cosmetics, resulting in more confident purchase decisions. VR, on the other hand, creates simulated environments where customers can experience a virtual store, walk through product displays, or take part in engaging activities like product demonstrations or interactive brand experiences."
@@ -982,6 +998,7 @@
         ]
       },
       {
+        "id":11,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Public Services ",
@@ -1002,7 +1019,7 @@
         "bgImage": "./assets/images/sectors/Public-Services.png",
         "details": [
           {
-            "content": "In alignment with Saudi Arabia's Vision 2030, our company, HKBTECH, is dedicated to assisting governments and public sector organizations in addressing contemporary challenges, encompassing digital transformation, social equity, climate sustainability, and post-pandemic recovery. We acknowledge the pivotal role of the public sector in delivering essential services while enhancing their citizen-centric, efficient, and interconnected nature. During crises, we anticipate government leadership in response and addressing global challenges such as the UN's Sustainable Development Goals, despite often constrained resources."
+            "content": "In alignment with Saudi Arabia's Vision 2030, our company, HKB TECH, is dedicated to assisting governments and public sector organizations in addressing contemporary challenges, encompassing digital transformation, social equity, climate sustainability, and post-pandemic recovery. We acknowledge the pivotal role of the public sector in delivering essential services while enhancing their citizen-centric, efficient, and interconnected nature. During crises, we anticipate government leadership in response and addressing global challenges such as the UN's Sustainable Development Goals, despite often constrained resources."
           },
           {
             "content": "Through our focus on digital solutions for the public sector, we are inline with vision 2030  to optimize their operations, achieving more with limited resources. Our approach revolves around leveraging powerful technology tools to assist organizations in attaining their goals and enhancing outcomes, always placing the end-user at the forefront of our initiatives."
@@ -1047,13 +1064,13 @@
             "title": "Smart Transportation",
             "content": [
               {
-                "description": "In the Public Services sector, Smart Transportation serves as a fundamental aspect to ensure efficient and sustainable urban mobility. HKBTECH provides innovative technology solutions to revolutionize transportation systems within cities. By implementing IoT, AI, and data analytics, our services focus on enhancing traffic management, reducing congestion, and improving the overall commuting experience for citizens."
+                "description": "In the Public Services sector, Smart Transportation serves as a fundamental aspect to ensure efficient and sustainable urban mobility. HKB TECH provides innovative technology solutions to revolutionize transportation systems within cities. By implementing IoT, AI, and data analytics, our services focus on enhancing traffic management, reducing congestion, and improving the overall commuting experience for citizens."
               },
               {
                 "description": "Our Smart Transportation solutions aim to integrate traffic management systems, real-time data analytics, and AI-based predictive models to optimize traffic flow, reduce travel times, and minimize environmental impact. Additionally, our initiatives encompass smart parking systems, integrated public transit networks, and innovative mobility solutions to support diverse commuting needs."
               },
               {
-                "description": "HKBTECH's endeavors in Smart Transportation are dedicated to creating more efficient, safe, and environmentally friendly transportation systems. By leveraging cutting-edge technology, we contribute to the development of smart cities, enabling smoother, more sustainable, and well-connected transportation infrastructures for the benefit of communities and the environment."
+                "description": "HKB TECH's endeavors in Smart Transportation are dedicated to creating more efficient, safe, and environmentally friendly transportation systems. By leveraging cutting-edge technology, we contribute to the development of smart cities, enabling smoother, more sustainable, and well-connected transportation infrastructures for the benefit of communities and the environment."
               }
             ]
           },
@@ -1074,6 +1091,7 @@
         ]
       },
       {
+        "id":12,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Logistics ",
@@ -1108,13 +1126,13 @@
             "title": "Real time Tracking",
             "content": [
               {
-                "description": " Real-time tracking in logistics is the linchpin of operational efficiency and customer satisfaction. HKBTECH integrates cutting-edge technology into logistics operations, providing real-time tracking solutions that bring transparency and reliability to the supply chain process."
+                "description": " Real-time tracking in logistics is the linchpin of operational efficiency and customer satisfaction. HKB TECH integrates cutting-edge technology into logistics operations, providing real-time tracking solutions that bring transparency and reliability to the supply chain process."
               },
               {
                 "description": "Our innovative approach involves leveraging GPS, IoT sensors, and sophisticated tracking software to offer precise, real-time visibility across the entire logistics chain. This not only enables stakeholders to monitor the movement and location of goods but also enhances accountability and facilitates prompt decision-making."
               },
               {
-                "description": "Real-time tracking significantly optimizes inventory management, delivery schedules, and route planning, empowering companies to identify and resolve issues swiftly. This technology ensures precise ETAs for deliveries, minimizes loss or theft, and provides customers with real-time updates on their shipments. HKBTECH's real-time tracking solutions pave the way for efficient supply chain management, streamlining processes, reducing costs, and bolstering customer confidence through enhanced service reliability and transparency."
+                "description": "Real-time tracking significantly optimizes inventory management, delivery schedules, and route planning, empowering companies to identify and resolve issues swiftly. This technology ensures precise ETAs for deliveries, minimizes loss or theft, and provides customers with real-time updates on their shipments. HKB TECH's real-time tracking solutions pave the way for efficient supply chain management, streamlining processes, reducing costs, and bolstering customer confidence through enhanced service reliability and transparency."
               }
             ]
           },
@@ -1122,7 +1140,7 @@
             "title": "Route Optimization",
             "content": [
               {
-                "description": "Route optimization in logistics is pivotal for cost-effective and time-efficient transportation. HKBTECH introduces advanced route optimization solutions, integrating technology to revolutionize supply chain efficiency and delivery management."
+                "description": "Route optimization in logistics is pivotal for cost-effective and time-efficient transportation. HKB TECH introduces advanced route optimization solutions, integrating technology to revolutionize supply chain efficiency and delivery management."
               },
               {
                 "description": "Using sophisticated algorithms and AI-driven software, our route optimization tools analyze multiple variables such as distance, traffic conditions, fuel consumption, and delivery timeframes. By doing so, we devise the most optimal routes that minimize transit time, reduce fuel consumption, and enhance the overall delivery process."
@@ -1136,13 +1154,13 @@
             "title": "Vehicle Management",
             "content": [
               {
-                "description": "Vehicle management plays a crucial role in optimizing logistics operations, and HKBTECH provides innovative solutions that enhance fleet efficiency, monitoring, and maintenance."
+                "description": "Vehicle management plays a crucial role in optimizing logistics operations, and HKB TECH provides innovative solutions that enhance fleet efficiency, monitoring, and maintenance."
               },
               {
                 "description": "Our vehicle management system integrates advanced technologies, such as IoT sensors and telematics, to provide real-time insights into a fleet's performance. This system offers comprehensive data on each vehicle, including fuel consumption, location tracking, maintenance schedules, and driver behavior. These insights enable logistics companies to effectively manage and maintain their vehicles, ensuring they remain in optimal condition while on the road."
               },
               {
-                "description": "The solutions offered by HKB TECH not only streamline the vehicle management process but also facilitate predictive maintenance and schedule repairs, reducing unexpected downtime and enhancing the overall operational efficiency of the fleet. Additionally, the system's analytical capabilities provide valuable data that aids in making informed decisions, optimizing routes, and maximizing cost-efficiency within the logistics network. HKBTECH's vehicle management solutions are designed to support logistics companies in achieving smoother, safer, and more efficient transportation services."
+                "description": "The solutions offered by HKB TECH not only streamline the vehicle management process but also facilitate predictive maintenance and schedule repairs, reducing unexpected downtime and enhancing the overall operational efficiency of the fleet. Additionally, the system's analytical capabilities provide valuable data that aids in making informed decisions, optimizing routes, and maximizing cost-efficiency within the logistics network. HKB TECH's vehicle management solutions are designed to support logistics companies in achieving smoother, safer, and more efficient transportation services."
               }
             ]
           },
@@ -1150,19 +1168,20 @@
             "title": "SCM",
             "content": [
               {
-                "description": "Supply Chain Management (SCM) is the backbone of efficient logistics operations, and HKBTECH offers cutting-edge solutions to enhance SCM processes, driving better connectivity and visibility across the entire supply chain."
+                "description": "Supply Chain Management (SCM) is the backbone of efficient logistics operations, and HKB TECH offers cutting-edge solutions to enhance SCM processes, driving better connectivity and visibility across the entire supply chain."
               },
               {
-                "description": "Our SCM solutions are designed to optimize the flow of goods, information, and finances from supplier to end-consumer. HKBTECH employs advanced technologies such as IoT, blockchain, and data analytics to provide end-to-end visibility and real-time tracking, enabling companies to make informed decisions swiftly and effectively."
+                "description": "Our SCM solutions are designed to optimize the flow of goods, information, and finances from supplier to end-consumer. HKB TECH employs advanced technologies such as IoT, blockchain, and data analytics to provide end-to-end visibility and real-time tracking, enabling companies to make informed decisions swiftly and effectively."
               },
               {
-                "description": "We address supply chain challenges by enhancing transparency, minimizing manual interventions, and improving collaboration among stakeholders. Through our SCM solutions, we streamline procurement, inventory management, and demand forecasting, facilitating a seamless flow of products through the entire supply chain. HKBTECH empowers logistics companies with a more responsive, efficient, and adaptive supply chain, ensuring products are delivered promptly, reducing inventory holding costs, and enhancing customer satisfaction through reliable and streamlined operations. Our cutting-edge SCM solutions lay the groundwork for a more resilient and efficient logistics network."
+                "description": "We address supply chain challenges by enhancing transparency, minimizing manual interventions, and improving collaboration among stakeholders. Through our SCM solutions, we streamline procurement, inventory management, and demand forecasting, facilitating a seamless flow of products through the entire supply chain. HKB TECH empowers logistics companies with a more responsive, efficient, and adaptive supply chain, ensuring products are delivered promptly, reducing inventory holding costs, and enhancing customer satisfaction through reliable and streamlined operations. Our cutting-edge SCM solutions lay the groundwork for a more resilient and efficient logistics network."
               }
             ]
           }
         ]
       },
       {
+        "id":13,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Education ",
@@ -1189,7 +1208,7 @@
             "content": "Amid soaring student expectations, colleges, universities, and educational bodies are leveraging digital technologies to enhance learning experiences and outcomes. Leaders in education recognize the imminent revolution in learning models. Emerging technologies like virtual and augmented reality are set to provide immersive and interactive ways to grasp concepts, simplify complexities, foster collaborative research, and animate learning in digital environments."
           },
           {
-            "content": "The surge in online learning, especially during the pandemic, highlighted the crucial need for further advancements. Every stakeholder now anticipates a more enriched experience. Institutions, whether colleges, universities, or corporations, must be equipped to empower faculty and students with advanced cloud-based computing solutions. Achieving this superior educational experience entails not only curriculum enhancements but also necessitates a robust platform and a proficiently trained staff to create and support such an environment. HKBTECH offers a comprehensive array of emerging tech solutions through Cloud-based services, content delivery, personalized learning, and conversational AI. Tailored for academic computing, classroom instruction, and the specific learning needs of students and faculty, our solutions are designed to be adaptable, enabling educational institutions to optimize and personalize the offerings to suit their unique environments and requirements."
+            "content": "The surge in online learning, especially during the pandemic, highlighted the crucial need for further advancements. Every stakeholder now anticipates a more enriched experience. Institutions, whether colleges, universities, or corporations, must be equipped to empower faculty and students with advanced cloud-based computing solutions. Achieving this superior educational experience entails not only curriculum enhancements but also necessitates a robust platform and a proficiently trained staff to create and support such an environment. HKB TECH offers a comprehensive array of emerging tech solutions through Cloud-based services, content delivery, personalized learning, and conversational AI. Tailored for academic computing, classroom instruction, and the specific learning needs of students and faculty, our solutions are designed to be adaptable, enabling educational institutions to optimize and personalize the offerings to suit their unique environments and requirements."
           }
         ],
         "tabs": [
@@ -1197,13 +1216,13 @@
             "title": "Conversational AI",
             "content": [
               {
-                "description": " Conversational AI in education is revolutionizing traditional learning methods by providing personalized and interactive experiences for students. HKBTECH's Conversational AI solutions in the education sector focus on enhancing student engagement, learning outcomes, and overall academic experiences."
+                "description": " Conversational AI in education is revolutionizing traditional learning methods by providing personalized and interactive experiences for students. HKB TECH's Conversational AI solutions in the education sector focus on enhancing student engagement, learning outcomes, and overall academic experiences."
               },
               {
                 "description": "This technology offers chatbots and virtual assistants that aid students in understanding complex concepts, providing 24/7 support for academic queries and guidance. The AI tools are tailored to each student's learning pace and style, offering customized learning pathways and supplementary educational materials. Additionally, these solutions enable institutions to automate administrative tasks, facilitating smoother operations and freeing up educators' time to focus on teaching."
               },
               {
-                "description": "HKBTECH's Conversational AI helps schools, colleges, and universities create immersive and interactive learning environments, encouraging active student participation and improving their learning outcomes. With AI-driven solutions, educational institutions can engage students more effectively, address their concerns promptly, and deliver a more personalized and efficient learning experience tailored to individual needs. This not only enhances student satisfaction but also significantly improves the overall quality of education."
+                "description": "HKB TECH's Conversational AI helps schools, colleges, and universities create immersive and interactive learning environments, encouraging active student participation and improving their learning outcomes. With AI-driven solutions, educational institutions can engage students more effectively, address their concerns promptly, and deliver a more personalized and efficient learning experience tailored to individual needs. This not only enhances student satisfaction but also significantly improves the overall quality of education."
               }
             ]
           },
@@ -1212,7 +1231,7 @@
             "title": "Content Delivery",
             "content": [
               {
-                "description": "Content delivery in education has undergone a transformative shift, and HKBTECH's solutions have been pivotal in this evolution. We offer robust content delivery systems that efficiently disseminate educational materials to students and instructors in real-time. Our platforms ensure seamless access to diverse content formats, including video lectures, e-books, interactive modules, and assessments. These solutions support remote learning, enabling students to access course materials from any location, fostering a dynamic and flexible learning environment."
+                "description": "Content delivery in education has undergone a transformative shift, and HKB TECH's solutions have been pivotal in this evolution. We offer robust content delivery systems that efficiently disseminate educational materials to students and instructors in real-time. Our platforms ensure seamless access to diverse content formats, including video lectures, e-books, interactive modules, and assessments. These solutions support remote learning, enabling students to access course materials from any location, fostering a dynamic and flexible learning environment."
               },
               {
                 "description": "HKB TECH's content delivery systems are optimized for speed, reliability, and security, empowering educational institutions to manage, distribute, and update educational content effectively. This approach enhances accessibility, engagement, and the overall learning experience for students and educators within the educational sector."
@@ -1223,10 +1242,10 @@
             "title": "VR/AR",
             "content": [
               {
-                "description": "Virtual and Augmented Reality (VR/AR) applications have revolutionized education, transforming conventional learning experiences into immersive and interactive environments. HKBTECH offers cutting-edge VR/AR solutions that provide students with hands-on, experiential learning. By simulating real-life scenarios, these technologies enable students to delve deeper into subjects like history, science, and geography, making learning engaging and memorable."
+                "description": "Virtual and Augmented Reality (VR/AR) applications have revolutionized education, transforming conventional learning experiences into immersive and interactive environments. HKB TECH offers cutting-edge VR/AR solutions that provide students with hands-on, experiential learning. By simulating real-life scenarios, these technologies enable students to delve deeper into subjects like history, science, and geography, making learning engaging and memorable."
               },
               {
-                "description": "With VR/AR, complex concepts are visualized, allowing students to interact with the content directly. These tools also foster creativity and critical thinking. HKBTECH's VR/AR solutions are designed to enhance the educational journey, offering a new dimension to learning, empowering educators to create compelling and dynamic lessons, and ensuring students' active participation in the learning process."
+                "description": "With VR/AR, complex concepts are visualized, allowing students to interact with the content directly. These tools also foster creativity and critical thinking. HKB TECH's VR/AR solutions are designed to enhance the educational journey, offering a new dimension to learning, empowering educators to create compelling and dynamic lessons, and ensuring students' active participation in the learning process."
               }
             ]
           },
@@ -1234,7 +1253,7 @@
             "title": "Personalized Learning",
             "content": [
               {
-                "description": "Personalized learning, facilitated by HKBTECH, reshapes the educational landscape by tailoring educational experiences to individual student needs. By leveraging intelligent data analytics, our system evaluates students' strengths, weaknesses, and learning pace, enabling adaptive curriculum adjustments. This approach ensures that each student progresses at their optimal speed. Personalized learning offers custom-tailored educational content, addressing diverse learning styles and optimizing engagement. With interactive modules and content adapted to each student's proficiency level, it fosters a more enriching and impactful learning environment."
+                "description": "Personalized learning, facilitated by HKB TECH, reshapes the educational landscape by tailoring educational experiences to individual student needs. By leveraging intelligent data analytics, our system evaluates students' strengths, weaknesses, and learning pace, enabling adaptive curriculum adjustments. This approach ensures that each student progresses at their optimal speed. Personalized learning offers custom-tailored educational content, addressing diverse learning styles and optimizing engagement. With interactive modules and content adapted to each student's proficiency level, it fosters a more enriching and impactful learning environment."
               },
               {
                 "description": "HKB TECH's personalized learning solution integrates cutting-edge technology with educational methodologies, providing educators with insights to enhance the learning journey and ensuring students receive a customized and effective educational experience."
@@ -1244,6 +1263,7 @@
         ]
       },
       {
+        "id":14,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Construction ",
@@ -1264,7 +1284,7 @@
         "bgImage": "./assets/images/sectors/construction.png",
         "details": [
           {
-            "content": "In today's rapidly evolving construction landscape, technology plays a pivotal role in enhancing operational efficiency and mitigating potential risks. At HKBTECH, our Construction Solutions are anchored in cutting-edge technology, particularly focusing on predictive analytics, risk mitigation, data analytics, and AI-based planning methodologies."
+            "content": "In today's rapidly evolving construction landscape, technology plays a pivotal role in enhancing operational efficiency and mitigating potential risks. At HKB TECH, our Construction Solutions are anchored in cutting-edge technology, particularly focusing on predictive analytics, risk mitigation, data analytics, and AI-based planning methodologies."
           },
           {
             "content": "Our predictive analytics tools offer invaluable insights to foresee potential project challenges, allowing for proactive risk management and preemptive decision-making. Leveraging advanced data analytics, we process and interpret vast amounts of project-related data, providing a clear understanding of project dynamics and enabling efficient resource allocation."
@@ -1278,10 +1298,10 @@
             "title": "AI Based Planning",
             "content": [
               {
-                "description": " AI-based planning, an innovation by HKBTECH, transforms construction processes, ensuring efficiency and precision in project execution. By harnessing AI algorithms, we optimize project planning, budgeting, and resource allocation. Integrating historical project data and predictive analytics, AI-based planning forecasts potential challenges, streamlining schedules, and cost estimates. This technology enables preemptive identification of potential bottlenecks, offering agile, data-driven solutions to prevent delays and budget overruns. AI-based planning optimizes construction workflows, providing real-time insights, and fostering informed decision-making. The system's machine learning capabilities continuously adapt, enhancing accuracy in scheduling, procurement, and risk assessment."
+                "description": " AI-based planning, an innovation by HKB TECH, transforms construction processes, ensuring efficiency and precision in project execution. By harnessing AI algorithms, we optimize project planning, budgeting, and resource allocation. Integrating historical project data and predictive analytics, AI-based planning forecasts potential challenges, streamlining schedules, and cost estimates. This technology enables preemptive identification of potential bottlenecks, offering agile, data-driven solutions to prevent delays and budget overruns. AI-based planning optimizes construction workflows, providing real-time insights, and fostering informed decision-making. The system's machine learning capabilities continuously adapt, enhancing accuracy in scheduling, procurement, and risk assessment."
               },
               {
-                "description": "HKBTECH's AI-based planning not only revolutionizes construction project management but also significantly reduces unforeseen setbacks, ensuring projects are delivered on time and within budget, thereby enhancing overall project success rates."
+                "description": "HKB TECH's AI-based planning not only revolutionizes construction project management but also significantly reduces unforeseen setbacks, ensuring projects are delivered on time and within budget, thereby enhancing overall project success rates."
               }
             ]
           },
@@ -1289,7 +1309,7 @@
             "title": "Predictive Analytics",
             "content": [
               {
-                "description": "Predictive analytics in the construction industry is a game-changer, revolutionizing how we plan and execute projects. At HKBTECH, we leverage cutting-edge predictive analytics to enhance decision-making and project management in construction. This technology harnesses historical data and complex algorithms to forecast potential challenges and outcomes throughout a construction project's lifecycle."
+                "description": "Predictive analytics in the construction industry is a game-changer, revolutionizing how we plan and execute projects. At HKB TECH, we leverage cutting-edge predictive analytics to enhance decision-making and project management in construction. This technology harnesses historical data and complex algorithms to forecast potential challenges and outcomes throughout a construction project's lifecycle."
               },
               {
                 "description": "By analyzing patterns and trends, predictive analytics anticipates project hurdles, enabling proactive measures to circumvent delays and cost overruns. It provides a forward-looking approach, offering insights into resource allocation, risk assessment, and scheduling efficiency, minimizing the impact of unexpected disruptions."
@@ -1300,7 +1320,7 @@
             "title": "Risk Mitigation",
             "content": [
               {
-                "description": "In the realm of construction, risk mitigation plays a pivotal role in successful project management. At HKBTECH, we prioritize risk mitigation by leveraging advanced technologies and strategies to identify, analyze, and proactively manage potential risks inherent in construction projects. Our approach involves a comprehensive assessment of various factors like financial, environmental, regulatory, and operational risks."
+                "description": "In the realm of construction, risk mitigation plays a pivotal role in successful project management. At HKB TECH, we prioritize risk mitigation by leveraging advanced technologies and strategies to identify, analyze, and proactively manage potential risks inherent in construction projects. Our approach involves a comprehensive assessment of various factors like financial, environmental, regulatory, and operational risks."
               },
               {
                 "description": "Through our methodologies, we implement a robust risk mitigation plan that addresses vulnerabilities throughout the project lifecycle. By employing predictive analysis, advanced data modeling, and scenario planning, we forecast potential risks and develop contingency plans to minimize their impact on project timelines and costs. HKB TECH’s risk mitigation strategy focuses on preemptive risk identification and the implementation of risk response strategies. We ensure the seamless execution of projects by effectively managing and mitigating risks that could impact construction progress, enabling clients to navigate uncertainties, ensure safety, maintain project schedules, and deliver successful, cost-effective projects."
@@ -1311,7 +1331,7 @@
             "title": "Data Analytics",
             "content": [
               {
-                "description": "Data analytics stands as a cornerstone in the construction landscape. HKBTECH employs advanced data analytics to drive insights that optimize construction processes and enhance project outcomes. Leveraging a suite of tools and techniques, we gather, interpret, and analyze data from various sources to improve decision-making and operational efficiency throughout the project lifecycle."
+                "description": "Data analytics stands as a cornerstone in the construction landscape. HKB TECH employs advanced data analytics to drive insights that optimize construction processes and enhance project outcomes. Leveraging a suite of tools and techniques, we gather, interpret, and analyze data from various sources to improve decision-making and operational efficiency throughout the project lifecycle."
               },
               {
                 "description": "Our data analytics approach involves extracting pertinent information to inform critical project parameters such as project planning, resource allocation, risk assessment, and performance monitoring. By utilizing predictive analytics and machine learning, we anticipate potential issues and trends, allowing for proactive responses, mitigating risks, and streamlining construction processes."
@@ -1321,6 +1341,7 @@
         ]
       },
       {
+        "id":15,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Gaming/Esports         ",
@@ -1347,7 +1368,7 @@
             "content": "HKB TECH recognizes the limitless potential for growth in this arena. We are committed to harnessing cutting-edge technologies to further propel this expansion. Our focus lies in creating bespoke gaming and esports solutions, designed to meet the evolving needs of this burgeoning market. Through advanced technologies such as AR, VR, AI, and immersive gaming experiences, we aim to redefine the gaming landscape, offering innovative platforms that cater to the diverse preferences of gamers while fostering a vibrant gaming community in Saudi Arabia and beyond."
           },
           {
-            "content": "With a keen eye on the uncharted territories of gaming growth, HKBTECH is dedicated to crafting tailor-made gaming and esports solutions that capitalize on the region's gaming fervor and the transformative power of emerging technologies."
+            "content": "With a keen eye on the uncharted territories of gaming growth, HKB TECH is dedicated to crafting tailor-made gaming and esports solutions that capitalize on the region's gaming fervor and the transformative power of emerging technologies."
           }
         ],
         "tabs": [
@@ -1355,10 +1376,10 @@
             "title": "AR/VR",
             "content": [
               {
-                "description": " AR and VR technologies have revolutionized the gaming and esports domain, offering immersive experiences beyond traditional gameplay. HKBTECH integrates AR and VR into the gaming ecosystem, offering unparalleled experiences that blend reality and virtuality. These technologies transport gamers into lifelike environments, adding layers of interaction, improving gameplay, and enhancing the competitive landscape."
+                "description": " AR and VR technologies have revolutionized the gaming and esports domain, offering immersive experiences beyond traditional gameplay. HKB TECH integrates AR and VR into the gaming ecosystem, offering unparalleled experiences that blend reality and virtuality. These technologies transport gamers into lifelike environments, adding layers of interaction, improving gameplay, and enhancing the competitive landscape."
               },
               {
-                "description": "For esports, AR and VR redefine the spectating experience, allowing audiences to participate in highly realistic digital environments and competitions. HKBTECH utilizes these technologies to provide gaming and esports platforms with innovative, interactive, and engaging experiences, catering to the growing demands of tech-savvy gamers and enthusiastic audiences. The integration of AR and VR by HKBTECH transforms the gaming industry by fostering engaging experiences, heightened interactivity, and dynamic competitive landscapes."
+                "description": "For esports, AR and VR redefine the spectating experience, allowing audiences to participate in highly realistic digital environments and competitions. HKB TECH utilizes these technologies to provide gaming and esports platforms with innovative, interactive, and engaging experiences, catering to the growing demands of tech-savvy gamers and enthusiastic audiences. The integration of AR and VR by HKB TECH transforms the gaming industry by fostering engaging experiences, heightened interactivity, and dynamic competitive landscapes."
               }
             ]
           },
@@ -1366,10 +1387,10 @@
             "title": "Metaverse",
             "content": [
               {
-                "description": "The metaverse has redefined the gaming and esports landscape by offering a connected, immersive, and expansive virtual universe where users can interact, socialize, and engage in diversified gaming experiences. HKBTECH is tapping into the potential of the metaverse, crafting innovative gaming environments that transcend traditional gaming realms. This next-gen technology facilitates interactive worlds, encouraging cross-game experiences and social connections."
+                "description": "The metaverse has redefined the gaming and esports landscape by offering a connected, immersive, and expansive virtual universe where users can interact, socialize, and engage in diversified gaming experiences. HKB TECH is tapping into the potential of the metaverse, crafting innovative gaming environments that transcend traditional gaming realms. This next-gen technology facilitates interactive worlds, encouraging cross-game experiences and social connections."
               },
               {
-                "description": "In the esports arena, HKBTECH is exploring the metaverse's potential to host competitive gaming tournaments, offer immersive spectating experiences, and create virtual arenas for global participation. By integrating the metaverse into gaming and esports, HKBTECH is revolutionizing user experiences, fostering interconnected gameplay, and engaging communities within an expansive virtual world."
+                "description": "In the esports arena, HKB TECH is exploring the metaverse's potential to host competitive gaming tournaments, offer immersive spectating experiences, and create virtual arenas for global participation. By integrating the metaverse into gaming and esports, HKB TECH is revolutionizing user experiences, fostering interconnected gameplay, and engaging communities within an expansive virtual world."
               }
             ]
           },
@@ -1377,7 +1398,7 @@
             "title": "Performance Analysis",
             "content": [
               {
-                "description": "Performance analysis in gaming/esports is pivotal for elevating players' skills and strategizing. HKBTECH integrates cutting-edge data analytics, creating comprehensive performance analysis tools. By leveraging in-game data, AI, and machine learning, we provide thorough analysis of player metrics, gameplay patterns, and strategy effectiveness."
+                "description": "Performance analysis in gaming/esports is pivotal for elevating players' skills and strategizing. HKB TECH integrates cutting-edge data analytics, creating comprehensive performance analysis tools. By leveraging in-game data, AI, and machine learning, we provide thorough analysis of player metrics, gameplay patterns, and strategy effectiveness."
               },
               {
                 "description": "Our services offer real-time and post-game analysis, providing insights into individual or team performances, allowing gamers to understand their strengths and weaknesses. Through this analysis, gamers can refine strategies, improve gaming tactics, and enhance overall performance. The goal is to empower gamers to make data-informed decisions and boost their gameplay, fostering growth and success in the gaming and esports realm."
@@ -1388,16 +1409,17 @@
             "title": "Personalized Content",
             "content": [
               {
-                "description": "Personalized content in gaming/esports is a game-changer. HKBTECH employs tailored content strategies utilizing AI and data insights to create customized gaming experiences. Through personalized recommendations, game suggestions, and unique in-game features, players receive a tailored gaming journey."
+                "description": "Personalized content in gaming/esports is a game-changer. HKB TECH employs tailored content strategies utilizing AI and data insights to create customized gaming experiences. Through personalized recommendations, game suggestions, and unique in-game features, players receive a tailored gaming journey."
               },
               {
-                "description": "We focus on individual player preferences, allowing gamers to enjoy customized challenges and content, enhancing engagement and overall gaming satisfaction. Our personalized content approach not only provides a more immersive gaming experience but also encourages extended player retention and loyalty. At HKBTECH, we believe that personalized content plays a significant role in shaping the gaming experience and fostering a stronger bond between players and games."
+                "description": "We focus on individual player preferences, allowing gamers to enjoy customized challenges and content, enhancing engagement and overall gaming satisfaction. Our personalized content approach not only provides a more immersive gaming experience but also encourages extended player retention and loyalty. At HKB TECH, we believe that personalized content plays a significant role in shaping the gaming experience and fostering a stronger bond between players and games."
               }
             ]
           }
         ]
       },
       {
+        "id":16,
         "head": "Our Sector",
         "staticContent": "We specialize in the development of innovative solutions designed to unleash the full potential and value within a wide range of sectors and industries.",
         "title": "Tourism ",
@@ -1436,7 +1458,7 @@
                 "description": " HKB TECH is pioneering the integration of the Metaverse in the tourism sector, redefining travel experiences. Our technology offers virtual, interconnected worlds that enable travelers to immerse themselves in destinations before their trips. This innovation complements physical travel, providing an engaging and informative preview of various cultural, historical, and scenic highlights at the destinations."
               },
               {
-                "description": "The Metaverse doesn't replace physical travel but serves as an extension, allowing travelers to virtually explore and engage with potential destinations. HKBTECH is committed to leveraging technology to bring innovative and interactive experiences to travelers, bridging the gap between the virtual and the physical world in the tourism industry."
+                "description": "The Metaverse doesn't replace physical travel but serves as an extension, allowing travelers to virtually explore and engage with potential destinations. HKB TECH is committed to leveraging technology to bring innovative and interactive experiences to travelers, bridging the gap between the virtual and the physical world in the tourism industry."
               }
             ]
           },
@@ -1444,10 +1466,10 @@
             "title": "AR-VR",
             "content": [
               {
-                "description": "The emergence of Augmented Reality (AR) and Virtual Reality (VR) in the tourism sector marks an exciting development. HKBTECH is at the forefront of implementing AR and VR to revolutionize travel experiences. These technologies offer immersive and interactive experiences, allowing tourists to virtually explore destinations before visiting."
+                "description": "The emergence of Augmented Reality (AR) and Virtual Reality (VR) in the tourism sector marks an exciting development. HKB TECH is at the forefront of implementing AR and VR to revolutionize travel experiences. These technologies offer immersive and interactive experiences, allowing tourists to virtually explore destinations before visiting."
               },
               {
-                "description": "By integrating AR and VR, we provide travelers with a sneak peek into the culture, attractions, and historical landmarks of various places. Through AR, users can engage with detailed information about sites, while VR offers simulated travel experiences. HKBTECH is dedicated to enhancing the way people discover and interact with destinations, providing a unique and informative way for tourists to explore and engage with various locations around the world before their actual travels."
+                "description": "By integrating AR and VR, we provide travelers with a sneak peek into the culture, attractions, and historical landmarks of various places. Through AR, users can engage with detailed information about sites, while VR offers simulated travel experiences. HKB TECH is dedicated to enhancing the way people discover and interact with destinations, providing a unique and informative way for tourists to explore and engage with various locations around the world before their actual travels."
               }
             ]
           },
@@ -1455,10 +1477,10 @@
             "title": "Conversational AI",
             "content": [
               {
-                "description": "Conversational AI is a transformative technology for the tourism sector, optimizing travelers' planning experiences. At HKBTECH, this tool is harnessed to provide personalized and immediate support throughout the journey. Through the use of chatbots and voice assistants, tourists gain easy access to information about accommodations, local attractions, travel advice, and personalized suggestions."
+                "description": "Conversational AI is a transformative technology for the tourism sector, optimizing travelers' planning experiences. At HKB TECH, this tool is harnessed to provide personalized and immediate support throughout the journey. Through the use of chatbots and voice assistants, tourists gain easy access to information about accommodations, local attractions, travel advice, and personalized suggestions."
               },
               {
-                "description": "Conversational AI significantly improves customer service by promptly addressing inquiries and simplifying the travel process. With these conversational interfaces, HKBTECH is dedicated to delivering a more engaging and customized travel experience for each individual, aiming to elevate overall satisfaction and streamline travelers' experiences."
+                "description": "Conversational AI significantly improves customer service by promptly addressing inquiries and simplifying the travel process. With these conversational interfaces, HKB TECH is dedicated to delivering a more engaging and customized travel experience for each individual, aiming to elevate overall satisfaction and streamline travelers' experiences."
               }
             ]
           },
@@ -1466,7 +1488,7 @@
             "title": "Personalized Campaign",
             "content": [
               {
-                "description": "In the tourism industry, tailoring experiences to meet individual needs is paramount. At HKBTECH, our focus is on constructing highly personalized campaigns for travelers. We harness vast arrays of customer data, analyzing their preferences and behaviors, using sophisticated algorithms and analytics. These campaigns are customized to suit specific interests, providing tailored suggestions for destinations, accommodations, activities, and exclusive offers. By delving into customer insights, our goal is to ensure that each traveler receives a uniquely relevant marketing approach. The emphasis on personalized campaigns aims to enhance engagement, elevate customer satisfaction, and ultimately deliver a highly customized and enjoyable travel experience. Our commitment to personalized campaigns reflects our dedication to creating a more personalized and memorable journey for each traveler."
+                "description": "In the tourism industry, tailoring experiences to meet individual needs is paramount. At HKB TECH, our focus is on constructing highly personalized campaigns for travelers. We harness vast arrays of customer data, analyzing their preferences and behaviors, using sophisticated algorithms and analytics. These campaigns are customized to suit specific interests, providing tailored suggestions for destinations, accommodations, activities, and exclusive offers. By delving into customer insights, our goal is to ensure that each traveler receives a uniquely relevant marketing approach. The emphasis on personalized campaigns aims to enhance engagement, elevate customer satisfaction, and ultimately deliver a highly customized and enjoyable travel experience. Our commitment to personalized campaigns reflects our dedication to creating a more personalized and memorable journey for each traveler."
               }
             ]
           }

@@ -1,6 +1,5 @@
 
 #video-banner {
-  background-image: url('/assets/images/sectors/smartcity.jpeg');
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -135,6 +134,34 @@
     p{
       font-size: 14px;
     }
+  }
+
+  .class-1 {
+    background-position: 47% 0 !important;
+  }
+
+  .class-2 {
+    background-position: 23% 0 !important;
+  }
+
+  .class-3 {
+    background-position: 69% 0 !important;
+  }
+
+  .class-7 {
+    background-position: 15% 0 !important;
+  }
+
+  .class-10 {
+    background-position: 50% 0 !important;
+  }
+
+  .class-15 {
+    background-position: 76% 0 !important;
+  }
+
+  .class-16 {
+    background-position: 68% 0 !important;
   }
 
 }

@@ -56,9 +56,9 @@ export class HeaderComponent implements OnInit {
 
 
  async navigate(item: any, id: any, type: any) {
-  console.log(item)
-  console.log(type)
-
+  const navbarToggler = this.elementRef.nativeElement.querySelector('.navbar-toggler');
+  navbarToggler.click();
+  
   const navigationExtras: NavigationExtras = {
     relativeTo: this.activatedRoute,
     queryParams: {type: item.title},

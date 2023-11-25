@@ -2,120 +2,99 @@
   padding: 1rem;
 }
 
-
-
-
-header{
-  nav{
+header {
+  nav {
     background-color: #fff;
     border-bottom: 1px solid #e3e3e3;
-    .navbar-brand{
-      img{
+    .navbar-brand {
+      img {
         min-height: 55px;
         max-height: 55px;
       }
     }
 
-    .nav-item{
+    .nav-item {
       position: relative;
       margin-right: 1rem;
       font-size: 1rem;
       font-weight: bold;
 
-      a.nav-link{
+      a.nav-link {
         color: #000 !important;
-
       }
 
-      a.active{
+      a.active {
         font-weight: bold;
       }
 
-      &::before{
+      &::before {
         content: "";
         position: absolute;
-        background:var(--primary-color);
+        background: var(--primary-color);
         width: 50%;
         height: 3px;
         left: 20%;
         bottom: 0;
         transform: scaleX(0);
-        transition: .5s ease-out;
+        transition: 0.5s ease-out;
       }
 
-      &:hover::before{
+      &:hover::before {
         transform: scaleX(1);
       }
-
     }
-
-    
-
   }
 
-  .dropdown-menu{
+  .dropdown-menu {
     position: fixed;
     width: 100%;
     top: 69px;
     border-radius: 0;
     will-change: max-height;
-    -webkit-transition: 400ms cubic-bezier(0.02,0.01,0.47,1);
-    transition: 400ms cubic-bezier(0.02,0.01,0.47,1);
-  box-shadow: 0 10px 10px -10px #000;
-  cursor: pointer;
+    -webkit-transition: 400ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: 400ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    box-shadow: 0 10px 10px -10px #000;
+    cursor: pointer;
 
-
-
-  a{
-    font-weight: bold;
-    text-decoration: none;
-    &:hover{
-      text-decoration: underline;
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
+  .nav-link {
+    i {
+      transition: transform 0.2s;
+    }
   }
 
-  .nav-link  {
-    i{
-      transition: transform 0.2s;
+  .nav-link.show {
+    .rotate-icon {
+      transform: rotate(180deg);
+    }
+  }
 
-    } 
-}
-
-.nav-link.show{
-  .rotate-icon {
-    transform: rotate(180deg);
-}
-}
-
-
-
-
-  .dropdown-toggle::after{
+  .dropdown-toggle::after {
     border: 0;
   }
-
-
 }
 
-
-.language-switch{
+.language-switch {
   width: auto;
 }
 
-.form-select:focus{
+.form-select:focus {
   border-color: #ddd;
-    outline: 0;
-    box-shadow: 0 0 0 0
+  outline: 0;
+  box-shadow: 0 0 0 0;
 }
 
-
-
-@media only screen and (max-width: 767px)  {
-
-#mynavbar{
-  position: absolute;
+@media only screen and (max-width: 767px) {
+  #mynavbar {
+    position: absolute;
     background-color: rgb(255, 255, 255);
     z-index: 1;
     width: 100%;
@@ -126,51 +105,44 @@ header{
     height: auto;
     overflow-y: scroll;
     max-height: 80vh;
-    -webkit-transition: 400ms cubic-bezier(0.02,0.01,0.47,1);
-    transition: 400ms cubic-bezier(0.02,0.01,0.47,1);
+    -webkit-transition: 400ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: 400ms cubic-bezier(0.02, 0.01, 0.47, 1);
     box-shadow: 0 10px 10px -10px #000;
-}
+  }
 
-.nav-item{
+  .nav-item {
+    &::before {
+      height: 0 !important;
+    }
+  }
 
-  &::before{
-    height: 0 !important;
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0 !important;
+  }
+
+  .common-space {
+    padding: 5rem 2rem;
+  }
+
+  .dropdown-menu {
+    position: relative !important;
+    border: 0;
+    top: 0 !important;
+    box-shadow: 0 0 0 0 #fff !important;
   }
 }
 
-.navbar-toggler:focus{
-  box-shadow: 0 0 0 0 !important;
-}
-
-.common-space{
-  padding: 5rem 2rem;
-}
-
-.dropdown-menu{
-  position: relative !important;
-  border: 0;
-  top: 0 !important;
-  box-shadow: 0 0 0 0 #fff !important;
-
-
-}
-
-}
-
 @media (max-width: 1024px) {
-          .nav-item{
-            a{
-              font-size: 0.8rem;
-            }
-          }
+  .nav-item {
+    a {
+      font-size: 0.8rem;
+    }
+  }
 
-          .navbar-brand{
-            img{
-              min-height: 45px;
-              max-height: 45px;
-            }
-          }
-        }
-
-
-
+  .navbar-brand {
+    img {
+      min-height: 45px;
+      max-height: 45px;
+    }
+  }
+}
