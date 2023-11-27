@@ -27,6 +27,8 @@ export class HeaderComponent implements OnInit {
         //  {name: 'PARTNER',  class: '', id:'team'},
          {name: 'BLOGS',  class: '', id:'blog'},
          {name: 'CONTACT US',  class: '', id:'contact'},
+         {name: 'Smart City',  class: '', id:'contact'},
+
     ]
          
 
