@@ -18,6 +18,7 @@ import { TeamComponent } from './layout/team/team.component';
 import { NewsComponent } from './layout/news/news.component';
 import { BlogComponent } from './layout/blog/blog.component';
 import { BlogDescriptionComponent } from './layout/blog-description/blog-description.component';
+import { SmartCityComponent } from './pages/smart-city/smart-city.component';
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -37,7 +38,8 @@ export function createTranslateLoader(handler: HttpBackend) {
     TeamComponent,
     NewsComponent,
     BlogComponent,
-    BlogDescriptionComponent
+    BlogDescriptionComponent,
+    SmartCityComponent
     ],
   imports: [
     BrowserModule,

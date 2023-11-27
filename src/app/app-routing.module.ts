@@ -6,6 +6,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { TermsComponent } from './pages/terms/terms.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { IndustriesComponent } from './pages/industries/industries.component';
+import { SmartCityComponent } from './pages/smart-city/smart-city.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -14,6 +15,8 @@ const routes: Routes = [
   { path: 'terms', component: TermsComponent, },
   { path: 'services', component: ServicesComponent, },
   { path: 'industries', component: IndustriesComponent, },
+  { path: 'smart-city', component: SmartCityComponent, },
+
 
 ];
 
@@ -29,4 +32,4 @@ const routes: Routes = [
 
 
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent, PrivacyPolicyComponent, TermsComponent, BlogDescriptionComponent, ServicesComponent, IndustriesComponent]
+export const routingComponents = [HomeComponent, PrivacyPolicyComponent, TermsComponent, BlogDescriptionComponent, ServicesComponent, IndustriesComponent, SmartCityComponent]
