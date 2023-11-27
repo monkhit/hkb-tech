@@ -5,6 +5,7 @@ import { LoadingBarModule } from "@ngx-loading-bar/core";
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { CountUpModule } from 'ngx-countup';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient, HttpBackend } from '@angular/common/http';
 import { AppComponent } from './app.component';
@@ -48,6 +49,7 @@ export function createTranslateLoader(handler: HttpBackend) {
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
+    CountUpModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
       loader: {

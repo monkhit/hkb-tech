@@ -99,3 +99,59 @@ $base: 0.6rem;
       }
     }
   }
+
+  #smartCity{
+    position: relative;
+
+    .smartCity-bg{
+      background-image: url('https://miskglobalforum.com/wp-content/uploads/2023/10/about-image-1-1.jpg');
+      min-height: 600px;
+      background-size: cover;
+      background-position: top center;
+      display: flex;
+      align-items: center;
+    }
+
+    .smartCity-bg--content{
+      width: 50%;
+      position: relative;
+      right: 40%;
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 2rem;
+      box-shadow: 0 0 32px 0 rgba(0,0,0,.19);
+    }
+
+  }
+
+  #urbanMobility{
+    background-image: url('https://miskglobalforum.com/wp-content/uploads/2023/10/DJI_02221-sm-1.jpg');
+    color: #fff;
+  }
+
+  #forefront{
+
+    .forefront-border{
+      background: linear-gradient(to bottom right,#8C2B4B 0%,#3F297A 42%,#0F655B 86%);
+      padding: 5px;
+      margin-top: -5rem;
+    }
+
+    .forefront-box{
+      padding: 1.5rem;
+      background-color: #fff;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+
+  }
+
+  .layout-change{
+
+    .smartCity-bg--content{
+      left: 85% !important;
+      right: unset !important;
+    }
+
+  }
