@@ -29,6 +29,7 @@
     "flickity": "^3.0.0",
     "flickity-as-nav-for": "^3.0.0",
     "jquery": "^3.7.1",
+    "ngx-countup": "^13.1.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
