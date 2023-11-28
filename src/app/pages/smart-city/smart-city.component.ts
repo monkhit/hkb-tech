@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-smart-city',
@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./smart-city.component.scss']
 })
 export class SmartCityComponent {
+
   videoSource = "./assets/video/intro.mp4";
+
+  ngOnInit() {
+
+
+
+  }
+
 
 }

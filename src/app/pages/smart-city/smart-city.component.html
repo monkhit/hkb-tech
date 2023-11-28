@@ -12,17 +12,14 @@
 
     <div class="video-content clear-fix">
       <div class="container">
-        <p>HKB Tech</p>
-        <h3>
-          Lead the wave of new technologies - <br />synergizing localisation
-          with globalisation
-        </h3>
+        <h1>HKB Tech</h1>
+        <h3 class="tw" #tw2> Smart City </h3>
       </div>
-      <a class="move-forward" href="#about">
+      <!-- <a class="move-forward" href="#about">
         <div class="chevron"></div>
         <div class="chevron"></div>
         <div class="chevron"></div>
-      </a>
+      </a> -->
     </div>
   </section>
 
@@ -32,7 +29,7 @@
 
         <div class="col-xl-8 offset-xl-4">
           <div class="smartCity-bg">
-              <div class="smartCity-bg--content">
+              <div class="smartCity-bg--content" data-aos="fade-right">
                 <h2>About MGF </h2>
                 <p>The Misk Global Forum (MGF) is the biggest youth forum in the region, an annual flagship event hosted by Misk Foundation, dedicated to empowering and connecting young leaders, innovators, and entrepreneurs globally. MGF serves as a dynamic platform for fostering vibrant discussions, exchanging ideas, and creating networking opportunities to nurture youth potential, encourage collaboration, and catalyze positive global change.</p>
               </div>
@@ -65,7 +62,7 @@
       <div class="row">
         <div class="col-lg-12">
 
-          <div class="forefront-border">
+          <div class="forefront-border" data-aos="fade-up" data-aos-duration="1000">
 
           <div class="forefront-box">
 
@@ -94,7 +91,7 @@
 
         <div class="col-xl-9">
           <div class="smartCity-bg">
-              <div class="smartCity-bg--content">
+              <div class="smartCity-bg--content" data-aos="fade-left" data-aos-duration="1500">
                 <h2>About MGF </h2>
                 <p>The Misk Global Forum (MGF) is the biggest youth forum in the region, an annual flagship event hosted by Misk Foundation, dedicated to empowering and connecting young leaders, innovators, and entrepreneurs globally. MGF serves as a dynamic platform for fostering vibrant discussions, exchanging ideas, and creating networking opportunities to nurture youth potential, encourage collaboration, and catalyze positive global change.</p>
               </div>
@@ -106,9 +103,55 @@
     </div>
   </section>
 
-  <div class="common-space ">
-    <h1 [countUp]="345" [options]="{ enableScrollSpy: true }">0 +</h1>
 
-</div>
+  <section id="counter" class="common-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
 
+          <div class="counter-box">
+
+            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2000">
+              <span class="counter-box--values_count" [countUp]="345" [options]="{ enableScrollSpy: true }">0 </span> <br/>
+              <span>Editions</span> 
+            </div>
+
+            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2300">
+              <span class="counter-box--values_count" [countUp]="112" [options]="{ enableScrollSpy: true }">0 </span>
+              <span class="counter-box--values_count">K+</span> <br/>
+              <span>Attendees</span>
+            </div>
+
+            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2200">
+              <span class="counter-box--values_count" [countUp]="130" [options]="{ enableScrollSpy: true }">0 </span>
+              <span class="counter-box--values_count">K+</span> <br/>
+              <span>Nationalities</span>
+            </div>
+
+            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2300">
+              <span class="counter-box--values_count" [countUp]="70" [options]="{ enableScrollSpy: true }">0 </span>
+              <span class="counter-box--values_count">+</span> <br/>
+              <span>Partners</span>
+            </div>
+
+            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2400">
+              <span class="counter-box--values_count" [countUp]="780" [options]="{ enableScrollSpy: true }">0 </span>
+              <span class="counter-box--values_count">+</span> <br/>
+              <span>Speakers</span>
+            </div>
+
+
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <app-case-study></app-case-study>
+  <app-partners></app-partners>
   <app-footer></app-footer>
