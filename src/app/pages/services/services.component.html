@@ -2,12 +2,23 @@
 
 <section id="video-banner">
   <video
+    class="d-xl-block d-lg-block d-sm-block d-xs-none d-none"
     playsinline
     [muted]="'muted'"
     loop
     autoplay
-    [src]="details.video"
+    [src]="details?.video"
   ></video>
+
+
+  <video
+  class="d-xl-none d-lg-none d-sm-none d-xs-block d-block"
+  playsinline
+  [muted]="'muted'"
+  loop
+  autoplay
+  [src]="details?.mobileVideourl"
+></video>
 
   <div class="video-content clear-fix">
     <div class="container">
