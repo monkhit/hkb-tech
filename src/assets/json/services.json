@@ -1,7 +1,8 @@
 [
   {
-   "title": "Artificial Intelligence",
-   "video": "/assets/services/AI-video.mp4",
+    "title": "Artificial Intelligence",
+    "video": "/assets/services/AI-video.mp4",
+    "mobileVideourl": "/assets/services/AI-video.mp4",
     "image": "/assets/images/industries/AI.png",
     "details": [
       {
@@ -31,8 +32,9 @@
     ]
   },
   {
-   "title": "Internet of Things",
-   "video": "/assets/services/IoT.mp4",
+    "title": "Internet of Things",
+    "video": "/assets/services/IoT.mp4",
+    "mobileVideourl": "/assets/services/IoT.mp4",
     "image": "/assets/images/industries/IOT.png",
     "details": [
       {
@@ -62,8 +64,9 @@
     ]
   },
   {
-   "title": "Robotic Process Automation",
-   "video": "/assets/services/Robotic-Process-Automation.mp4",
+    "title": "Robotic Process Automation",
+    "video": "/assets/services/Robotic-Process-Automation.mp4",
+    "mobileVideourl": "/assets/services/Process-Automation.mp4",
     "image": "/assets/images/industries/Robotic -process-automation.png",
     "details": [
       {
@@ -90,8 +93,9 @@
     ]
   },
   {
-   "title": "Metaverse",
-   "video": "/assets/services/Metaverse.mp4",
+    "title": "Metaverse",
+    "video": "/assets/services/Metaverse.mp4",
+    "mobileVideourl": "/assets/services/Metaverse.mp4",
     "image": "/assets/images/industries/Metaverse.png",
     "details": [
       {
@@ -118,8 +122,9 @@
     ]
   },
   {
-   "title": "AR/VR",
-   "video": "/assets/services/AR-VR.mp4",
+    "title": "AR/VR",
+    "mobileVideourl": "/assets/services/mobile-AR-VR.mp4",
+    "video": "/assets/services/AR-VR.mp4",
     "image": "/assets/images/industries/AR_VR.png",
     "details": [
       {
@@ -146,8 +151,9 @@
     ]
   },
   {
-   "title": "Data Analytics ",
-   "video": "/assets/services/Data-Analytics.mp4",
+    "title": "Data Analytics ",
+    "video": "/assets/services/Data-Analytics.mp4",
+    "mobileVideourl": "/assets/services/Analytics.mp4",
     "image": "/assets/images/industries/data-analytics.png",
     "details": [
       {
@@ -174,8 +180,9 @@
     ]
   },
   {
-   "title": "Conversational AI",
-   "video": "/assets/services/Conv-AI-Temporary-Video.mp4",
+    "title": "Conversational AI",
+    "video": "/assets/services/Conv-AI-Temporary-Video.mp4",
+    "mobileVideourl": "/assets/services/Conv-AI-Temporary-Video.mp4",
     "image": "/assets/images/industries/1.png",
     "details": [
       {
@@ -202,8 +209,9 @@
     ]
   },
   {
-   "title": "Application Services",
-   "video": "/assets/services/Application-Services.mp4",
+    "title": "Application Services",
+    "video": "/assets/services/Application-Services.mp4",
+    "mobileVideourl": "/assets/services/mobile-Application-services.mp4",
     "image": "/assets/images/industries/Application-Services.png",
     "details": [
       {
@@ -230,8 +238,9 @@
     ]
   },
   {
-   "title": "Sustainability/ Net Zero",
-   "video": "/assets/services/Net-Zero-Temp-Video.mp4",
+    "title": "Sustainability/ Net Zero",
+    "video": "/assets/services/Net-Zero-Temp-Video.mp4",
+    "mobileVideourl": "/assets/services/mobile-Net-zero.mp4",
     "image": "/assets/images/industries/net-zero.png",
     "details": [
       {
