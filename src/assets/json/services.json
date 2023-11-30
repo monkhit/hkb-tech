@@ -66,7 +66,7 @@
   {
     "title": "Robotic Process Automation",
     "video": "/assets/services/Robotic-Process-Automation.mp4",
-    "mobileVideourl": "/assets/services/Process-Automation.mp4",
+    "mobileVideourl": "/assets/services/Robotic-Process-Automation.mp4",
     "image": "/assets/images/industries/Robotic -process-automation.png",
     "details": [
       {
@@ -76,7 +76,7 @@
     "tabs": [
       {
         "title": "Technology Transformation",
-        "description": " HKB TECH introduces a myriad of transformative initiatives within the realm of technology, especially focusing on the robust landscape of Robotic Process Automation (RPA). These encompass a broad spectrum of innovations such as automating workflow processes, data-driven decision-making strategies, and AI-fueled predictive analytics. Implementing RPA brings forth heightened efficiency, precision, and adaptability within diverse operational contexts. Our RPA solutions optimize business processes, nurture adaptive systems, and expedite automation across multiple sectors, paving the way for a future driven by advanced technological transformation."
+        "description": " HKB TECH introduces a myriad of transformative initiatives within the realm of technology, especially focusing on the robust landscape of Robotic Process Automation (RPA). These encompass a broad spectrum of innovations such as automating workflow processes, Analytics-driven decision-making strategies, and AI-fueled predictive analytics. Implementing RPA brings forth heightened efficiency, precision, and adaptability within diverse operational contexts. Our RPA solutions optimize business processes, nurture adaptive systems, and expedite automation across multiple sectors, paving the way for a future driven by advanced technological transformation."
       },
       {
         "title": "Business Process Automation",
@@ -153,7 +153,7 @@
   {
     "title": "Data Analytics ",
     "video": "/assets/services/Data-Analytics.mp4",
-    "mobileVideourl": "/assets/services/Analytics.mp4",
+    "mobileVideourl": "/assets/services/Data-Analytics.mp4",
     "image": "/assets/images/industries/data-analytics.png",
     "details": [
       {
