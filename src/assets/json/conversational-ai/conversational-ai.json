@@ -1,0 +1,64 @@
+{
+    "title": "Conversational AI",
+    "Dpage":true,
+    "video": "/assets/services/Conv-AI-Temporary-Video.mp4",
+    "mobileVideourl": "/assets/services/Conv-AI-Temporary-Video.mp4",
+    "image": "/assets/images/industries/1.png",
+    "details": [
+      {
+        "content": "At HKB TECH, Conversational AI solutions redefine customer engagement and business operations. Our advanced systems utilize sophisticated natural language processing, machine learning, and AI algorithms to power chatbots and virtual assistants, delivering efficient, human-like conversational experiences across various touchpoints. These tools seamlessly integrate into business workflows, handling diverse customer inquiries, facilitating support, and enhancing user interactions. Through the creation of intuitive, personalized interactions, our Conversational AI technology not only elevates customer engagement but also automates routine tasks, optimizing processes, reducing response times, and ensuring round-the-clock availability. HKB TECH’s solutions empower businesses to connect with customers more effectively, improving overall satisfaction and operational efficiency."
+      }
+    ],
+    "tabs": [
+      {
+        "title": "GPT-based Chatbots",
+        "description": " Leverage the cutting-edge prowess of our GPT-driven chatbots at HKB TECH to revolutionize customer interactions, automate various tasks, and offer widespread assistance within your business ecosystem. Through their exceptional natural language processing abilities, these chatbots deliver advanced customer engagement, supporting multiple facets of your organization across various departments. Engage users effectively, drive efficiency, and enhance support mechanisms using these highly intuitive and intelligent chatbots."
+      },
+      {
+        "title": "Customized AI Voice Assistants",
+        "description": "At HKB TECH, we specialize in the development of custom AI voice assistants tailored to precisely understand and promptly respond to user queries. Our intelligent assistants are designed to offer immediate and reliable support, transforming the way your business engages with customers and employees. Through adept query comprehension and rapid responses, these AI voice assistants reshape communication dynamics within your enterprise, ensuring seamless and efficient interactions."
+      },
+      {
+        "title": "Social Media-focused Chatbots",
+        "description": "At HKB TECH, our expertise lies in crafting personalized conversational and messaging bots uniquely designed for integration across diverse social media platforms such as Facebook and Twitter. We offer specialized chatbot development services meticulously aligned with your specific requirements, enabling seamless interactions and engagement across various social media networks. Our tailored solutions ensure effective integration and engagement across multiple platforms, empowering your business to optimize social media-driven communication through custom-designed chatbots."
+      },
+      {
+        "title": "Transactional Chatbots",
+        "description": "HKB TECH offers transactional chatbots dedicated to processing orders, making reservations, and managing payments. Specifically designed for e-commerce and customer service platforms, these chatbots efficiently handle transactional interactions, ensuring seamless processing of orders and payments. Tailored for specific functionalities, these bots optimize the efficiency of transactional activities, enhancing e-commerce experiences and streamlining customer service operations."
+      }
+    ],
+    "industries":[
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},
+      {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"}
+    ]
+  }
