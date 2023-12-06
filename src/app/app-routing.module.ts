@@ -7,6 +7,7 @@ import { TermsComponent } from './pages/terms/terms.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { IndustriesComponent } from './pages/industries/industries.component';
 import { SmartCityComponent } from './pages/smart-city/smart-city.component';
+import { ConversationalAiComponent } from './pages/conversational-ai/conversational-ai.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent, },
   { path: 'industries', component: IndustriesComponent, },
   { path: 'smart-city', component: SmartCityComponent, },
+  { path: 'conversational-ai', component: ConversationalAiComponent, },
+
 
 
 ];

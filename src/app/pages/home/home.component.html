@@ -299,7 +299,7 @@
   </section>
 
   <!-- industries -->
-  <section id="sector">
+  <section id="sector" *ngIf="industries">
     <!-- content -->
     <div class="carousel carousel-main">
       <div *ngFor="let item of industries[1].content; let i = index">

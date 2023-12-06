@@ -1,157 +1,272 @@
 <app-header></app-header>
 
-  <!-- video banner -->
-  <section id="video-banner">
-    <video
-      playsinline
-      [muted]="'muted'"
-      loop
-      autoplay
-      [src]="videoSource"
-    ></video>
+<!-- video banner -->
+<section id="video-banner">
+  <video
+    playsinline
+    [muted]="'muted'"
+    loop
+    autoplay
+    [src]="videoSource"
+  ></video>
 
-    <div class="video-content clear-fix">
-      <div class="container">
-        <h1>HKB Tech</h1>
-        <h3 class="tw" #tw2> Smart City </h3>
-      </div>
-      <!-- <a class="move-forward" href="#about">
+  <div class="video-content clear-fix">
+    <div class="container">
+      <h1>
+        {{ translate.getDefaultLang() === "ar" ? webContent?.titleAr : webContent?.titleEn }}
+      </h1>
+      <h3 class="tw" #tw2>Smart City</h3>
+    </div>
+    <!-- <a class="move-forward" href="#about">
         <div class="chevron"></div>
         <div class="chevron"></div>
         <div class="chevron"></div>
       </a> -->
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section id="smartCity" class="common-space">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-xl-8 offset-xl-4">
-          <div class="smartCity-bg">
-              <div class="smartCity-bg--content" data-aos="fade-right">
-                <h2>About MGF </h2>
-                <p>The Misk Global Forum (MGF) is the biggest youth forum in the region, an annual flagship event hosted by Misk Foundation, dedicated to empowering and connecting young leaders, innovators, and entrepreneurs globally. MGF serves as a dynamic platform for fostering vibrant discussions, exchanging ideas, and creating networking opportunities to nurture youth potential, encourage collaboration, and catalyze positive global change.</p>
-              </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-
-  <section id="urbanMobility" class="common-space">
-  <div class="container-fluid">
+<section id="smartCity" class="common-space">
+  <div class="container">
     <div class="row">
 
-      <div class="col-lg-6"></div>
-
-      <div class="col-lg-6">
-        <p>Our theme this year is The Big Now, encouraging young individuals to think ambitiously and act promptly, channeling their energy towards proactive problem-solving.</p>
-        <p>Big represents ambitious thinking, and Now highlights timely action. Within this overarching theme, we’re emphasizing the sub-themes: Think Big, Act Now, urging young leaders to dream big, set bold goals, and take immediate and purposeful action to bring their visions to life.</p>
-        <p>It’s about embracing the potential of the present moment to drive impactful change for a better tomorrow.</p>
+      <div class="d-xl-none d-lg-none d-sm-none col-12">
+        <img class="img-fluid" src="https://miskglobalforum.com/wp-content/uploads/2023/10/about-image-1-1.jpg"/>
       </div>
 
+      <div class="col-xl-8 offset-xl-4">
+        <div class="smartCity-bg">
+          <div class="smartCity-bg--content" data-aos="fade-right">
+            <h2>Smart City</h2>
+            <p>
+              Welcome to the forefront of urban evolution—welcome to HKB TECH's
+              Smart City Solutions, where technological innovation converges
+              with urban advancement to shape the cities of tomorrow. Inspired
+              by the initiatives of the Kingdom of Saudi Arabia in this domain,
+              we at HKB TECH are committed to redefining urban landscapes by
+              integrating cutting-edge technology and forward-thinking
+              strategies.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </section>
+</section>
 
-  <section id="forefront">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
+<section id="urbanMobility" class="common-space">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <img src="./assets/images/smart-city/Urban-mobility.png" />
+      </div>
 
-          <div class="forefront-border" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col-lg-6">
+        <p>
+          Frogparking is a world-leading provider of comprehensive parking
+          management solutions. Currently, we hold the unique position as the
+          only company capable of delivering a complete customized end-to-end
+          package, from access to exit. Our agile global team is committed to
+          crafting aesthetically pleasing parking solutions, whilst constantly
+          developing and using cutting-edge technology. We hold several
+          pioneering achievements; the first to introduce outdoor solar sensors,
+          incorporate LiDAR technology into indoor sensors, and to develop a
+          self-resetting barrier arm. With a rich fifteen-year history, we
+          confidently endorse our products, knowing their ability to withstand
+          the test of time. Beyond their innovative nature, our products are not
+          only reliable but also enjoy a trusted reputation. We pride ourselves
+          on helping our customers increase yield, reach revenue potential and
+          support their overall organizational goals.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section id="forefront">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div
+          class="forefront-border"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="forefront-box">
-
             <div class="forefront-box-one">
-              <h3>Think BIG</h3>
-              <p>Embracing ambitious thinking and encouraging innovative ideas & aspirations that dare to challenge the norms. To envision a world that knows no limits, tackling the most pressing global challenges with big visionary Thinking.</p>
+              <h3>HKB TECH at Forefront</h3>
+              <p>
+                With a foundation rooted in sophistication and style, our
+                corporate ethos aligns with the vision of creating urban
+                environments that harmonize technological advancement with the
+                well-being of citizens. HKB TECH invites you to explore a world
+                of smart city innovation, where cutting-edge technology meets
+                elegant urban design, shaping the future of city living. Join us
+                on this journey as we pioneer the evolution of smarter, more
+                sustainable cities.
+              </p>
             </div>
 
             <div class="forefront-box-two">
-              <h3>Act NOW</h3>
-              <p>Showcasing the power of conclusive impact and immediate action. A call to seize the present and craft the future we envision. By acting now, we are transforming dreams and ideas into reality.</p>
+              <h3>Smart City Initiatives</h3>
+              <p>
+                Embark on this transformative journey with HKB TECH as we steer
+                the evolution of smarter, more sustainable cities. Join us in
+                reimagining urban landscapes that not only embrace technological
+                advancements but also prioritize the well-being and connectivity
+                of their inhabitants. Together, let's pave the way for the
+                cities of the future.
+              </p>
             </div>
-
           </div>
-        </div>
-
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<section id="smartCity" class="common-space layout-change">
+  <div class="container">
+    <div class="row">
 
-  <section id="smartCity" class="common-space layout-change">
-    <div class="container">
-      <div class="row">
+      <div class="d-xl-none d-lg-none d-sm-none col-12">
+        <img class="img-fluid" src="https://miskglobalforum.com/wp-content/uploads/2023/10/about-image-1-1.jpg"/>
+      </div>
 
-        <div class="col-xl-9">
-          <div class="smartCity-bg">
-              <div class="smartCity-bg--content" data-aos="fade-left" data-aos-duration="1500">
-                <h2>About MGF </h2>
-                <p>The Misk Global Forum (MGF) is the biggest youth forum in the region, an annual flagship event hosted by Misk Foundation, dedicated to empowering and connecting young leaders, innovators, and entrepreneurs globally. MGF serves as a dynamic platform for fostering vibrant discussions, exchanging ideas, and creating networking opportunities to nurture youth potential, encourage collaboration, and catalyze positive global change.</p>
-              </div>
+      <div class="col-xl-9">
+        <div class="smartCity-bg">
+          <div
+            class="smartCity-bg--content"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <h2>Smart City</h2>
+            <p>
+              HKB TECH stands as a beacon of innovation, offering smart city
+              solutions that address the multifaceted challenges faced by urban
+              environments today. Our commitment lies in pioneering cutting-edge
+              solutions that redefine cityscapes. From deploying Internet of
+              Things (IoT) infrastructure to implementing advanced data
+              analytics for informed decision-making, our expertise elevates
+              urban living to a realm of seamless connectivity and efficient
+              governance.
+            </p>
           </div>
         </div>
-
-
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<section id="counter" class="common-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="counter-box">
+          <div
+            class="counter-box--values text-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <span
+              class="counter-box--values_count"
+              [countUp]="50"
+              [options]="{ enableScrollSpy: true }"
+              >0
+            </span>
+            <span class="counter-box--values_count">%</span> <br />
+            <span>Increase in revenue with applied surge pricing</span>
+          </div>
 
-  <section id="counter" class="common-space">
+          <div
+            class="counter-box--values text-center"
+            data-aos="fade-up"
+            data-aos-duration="2300"
+          >
+            <span
+              class="counter-box--values_count"
+              [countUp]="31"
+              [options]="{ enableScrollSpy: true }"
+              >0
+            </span>
+            <span class="counter-box--values_count">%</span> <br />
+            <span>Reduction in overall maintenance costs</span>
+          </div>
+
+          <div
+            class="counter-box--values text-center"
+            data-aos="fade-up"
+            data-aos-duration="2200"
+          >
+            <span
+              class="counter-box--values_count"
+              [countUp]="31"
+              [options]="{ enableScrollSpy: true }"
+              >0
+            </span>
+            <span class="counter-box--values_count">%</span> <br />
+            <span>Reduction in vehicle cruising </span>
+          </div>
+
+          <div
+            class="counter-box--values text-center"
+            data-aos="fade-up"
+            data-aos-duration="2300"
+          >
+            <span
+              class="counter-box--values_count"
+              [countUp]="28"
+              [options]="{ enableScrollSpy: true }"
+              >0
+            </span>
+            <span class="counter-box--values_count">%</span> <br />
+            <span>Increase in utilization (during peak times)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tabs" class="common-space">
     <div class="container">
       <div class="row">
+  
         <div class="col-lg-12">
-
-          <div class="counter-box">
-
-            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2000">
-              <span class="counter-box--values_count" [countUp]="345" [options]="{ enableScrollSpy: true }">0 </span> <br/>
-              <span>Editions</span> 
-            </div>
-
-            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2300">
-              <span class="counter-box--values_count" [countUp]="112" [options]="{ enableScrollSpy: true }">0 </span>
-              <span class="counter-box--values_count">K+</span> <br/>
-              <span>Attendees</span>
-            </div>
-
-            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2200">
-              <span class="counter-box--values_count" [countUp]="130" [options]="{ enableScrollSpy: true }">0 </span>
-              <span class="counter-box--values_count">K+</span> <br/>
-              <span>Nationalities</span>
-            </div>
-
-            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2300">
-              <span class="counter-box--values_count" [countUp]="70" [options]="{ enableScrollSpy: true }">0 </span>
-              <span class="counter-box--values_count">+</span> <br/>
-              <span>Partners</span>
-            </div>
-
-            <div class="counter-box--values text-center" data-aos="fade-up" data-aos-duration="2400">
-              <span class="counter-box--values_count" [countUp]="780" [options]="{ enableScrollSpy: true }">0 </span>
-              <span class="counter-box--values_count">+</span> <br/>
-              <span>Speakers</span>
-            </div>
-
-
-
+          <h2 class="mb-4">Use Cases we excel </h2>
+        </div>
+  
+  
+        <div class="col-lg-4 col-sm-5 col-xl-5 col-5">
+          <ul class="nav nav-pills nav-stacked">
+            <li class="nav-item" *ngFor="let item of webContent.tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ item.title }}
+              <i class="fa-solid fa-caret-right"></i>
+            </li>
+          </ul>
           </div>
-
-
-
-
+  
+          
+          <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
+  
+            <div class="tab-content">
+              <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let item of webContent.tabs; let i = index">
+                  <div *ngFor="let item of item.content">
+                    <p>{{item.description}}</p> 
+                  </div>
+              </div>
+            </div>
+  
+          </div>
+                    
+                    
+      
+  
+          
         </div>
       </div>
-    </div>
-  </section>
+  
+    </section>
 
-  <app-case-study></app-case-study>
-  <app-partners></app-partners>
-  <app-footer></app-footer>
+<app-partners></app-partners>
+
+<app-case-study [casestudyPageParent]="caseStudyPage"></app-case-study>
+<app-footer></app-footer>

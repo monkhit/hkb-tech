@@ -8,8 +8,9 @@ import {
 import { TranslateService } from "@ngx-translate/core";
 import * as flickity from "flickity";
 import "flickity-as-nav-for";
-import industriesDetails from "../../../assets/json/industries.json";
-import serviceDetails from "../../../assets/json/services.json";
+import { CommonserviceService } from "src/app/service/commonservice.service";
+import industriesDetails from "../../../assets/json/industries/industries.json";
+// import serviceDetails from "../../../assets/json/services/services.json";
 import { EmailService } from "src/app/service/email-service";
 
 @Component({
@@ -22,9 +23,11 @@ export class HomeComponent implements OnInit {
     /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
   videoSource = "./assets/video/intro.mp4";
 
-  industries: any = industriesDetails;
-  services: any = serviceDetails;
+  // industries: any = industriesDetails;
+  // services: any =  serviceDetails;
 
+  services: any;
+  industries: any
 
 contactForm = {
 username: "",
@@ -56,6 +59,7 @@ id: "2",
 ];
 
   constructor(
+    private serviceProvider: CommonserviceService,
     private activatedRoute: ActivatedRoute,
     public translate: TranslateService,
     private router: Router,
@@ -121,8 +125,27 @@ id: "2",
   }
 
 
+  async getServices(){
+  const url ='../assets/json/services/services.json'
+  this.serviceProvider.getWebService(url).subscribe({
+    next: async (response: any) => {
+      // console.log(response);
+      this.services = response
+      localStorage.setItem('Servcies', JSON.stringify(response))
+    }
+    })
+}
 
-
+async getindustries(){
+  const url ='../assets/json/industries/industries.json'
+  this.serviceProvider.getWebService(url).subscribe({
+    next: async (response: any) => {
+      this.industries = response
+      
+      localStorage.setItem('Industries', JSON.stringify(response))
+    }
+    })
+}
 
   async sendEmail() {
     const emailData = {
@@ -145,9 +168,15 @@ id: "2",
     });
   }
 
+
   ngAfterViewInit() {
-    this.loadcarousel();
+    setTimeout(async() => {
+      this.loadcarousel();
+    }, 1000);
   }
 
-  ngOnInit(): void {}
+ async ngOnInit()  {
+  await this.getServices()
+  await this.getindustries()
+ }
 }
