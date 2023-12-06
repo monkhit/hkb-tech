@@ -1,31 +1,118 @@
 {
-    "title": "Conversational AI",
+    "titleEn": "Conversational and Generative AI",
+    "titleAr": "Conversational and Generative AI",
     "Dpage":true,
     "video": "/assets/services/Conv-AI-Temporary-Video.mp4",
     "mobileVideourl": "/assets/services/Conv-AI-Temporary-Video.mp4",
     "image": "/assets/images/industries/1.png",
     "details": [
       {
-        "content": "At HKB TECH, Conversational AI solutions redefine customer engagement and business operations. Our advanced systems utilize sophisticated natural language processing, machine learning, and AI algorithms to power chatbots and virtual assistants, delivering efficient, human-like conversational experiences across various touchpoints. These tools seamlessly integrate into business workflows, handling diverse customer inquiries, facilitating support, and enhancing user interactions. Through the creation of intuitive, personalized interactions, our Conversational AI technology not only elevates customer engagement but also automates routine tasks, optimizing processes, reducing response times, and ensuring round-the-clock availability. HKB TECH’s solutions empower businesses to connect with customers more effectively, improving overall satisfaction and operational efficiency."
+        "contentEn": "Since its launch, OpenAI’s generative AI platform ChatGPT has taken the world by storm and brought new people to HKB Tech – not just to learn about ChatGPT, but also how HKB Tech together with its partner UIB make generative AI, conversational AI, and digital avatars easier for companies and government entities to use to decrease costs, increase revenues, and delight users. UIB’s technologies make human-to-machine communication as simple as human-to-human communication. HKB Tech sells solutions with UIB’s two flagship platforms, the UIB UnificationEngine® omnichannel Messaging Service Platform (MSP) and the UIB Unified AI® chatbot builder platform.",
+        "contentAr": "Since its launch, OpenAI’s generative AI platform ChatGPT has taken the world by storm and brought new people to HKB Tech – not just to learn about ChatGPT, but also how HKB Tech together with its partner UIB make generative AI, conversational AI, and digital avatars easier for companies and government entities to use to decrease costs, increase revenues, and delight users. UIB’s technologies make human-to-machine communication as simple as human-to-human communication. HKB Tech sells solutions with UIB’s two flagship platforms, the UIB UnificationEngine® omnichannel Messaging Service Platform (MSP) and the UIB Unified AI® chatbot builder platform."
+      },
+      {
+        "contentEn": "With UnificationEngine, people can talk and text on over 50 popular platforms, including the WhatsApp Business Platform, Facebook Messenger, Apple Messages for Business, Google’s Business Messages, Instagram, X, and more. With Unified AI, companies and government entities can launch chatbots, virtual assistants, and digital avatars for support, sales, scheduling, and dozens of other use cases across every industry vertical in 130+ languages, including Arabic. ",
+        "contentAr": "With UnificationEngine, people can talk and text on over 50 popular platforms, including the WhatsApp Business Platform, Facebook Messenger, Apple Messages for Business, Google’s Business Messages, Instagram, X, and more. With Unified AI, companies and government entities can launch chatbots, virtual assistants, and digital avatars for support, sales, scheduling, and dozens of other use cases across every industry vertical in 130+ languages, including Arabic. "
       }
     ],
     "tabs": [
       {
-        "title": "GPT-based Chatbots",
-        "description": " Leverage the cutting-edge prowess of our GPT-driven chatbots at HKB TECH to revolutionize customer interactions, automate various tasks, and offer widespread assistance within your business ecosystem. Through their exceptional natural language processing abilities, these chatbots deliver advanced customer engagement, supporting multiple facets of your organization across various departments. Engage users effectively, drive efficiency, and enhance support mechanisms using these highly intuitive and intelligent chatbots."
+        "title": "Customer Service and Support",
+        "description": [
+          { "content": " Customers message questions 24x7x365 in natural language text and speech in any language using their favorite messaging apps."},
+          { "content": "Companies instantly answer questions in their brands’ voice, forwarding new questions to live agents to reply and train the AI."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Minimizes costs"},
+          {"listItem": "Increases revenues"},
+          {"listItem": "Optimizes staff"},
+          {"listItem": "Delights customers"}
+        ]
       },
       {
-        "title": "Customized AI Voice Assistants",
-        "description": "At HKB TECH, we specialize in the development of custom AI voice assistants tailored to precisely understand and promptly respond to user queries. Our intelligent assistants are designed to offer immediate and reliable support, transforming the way your business engages with customers and employees. Through adept query comprehension and rapid responses, these AI voice assistants reshape communication dynamics within your enterprise, ensuring seamless and efficient interactions."
+        "title": "In-store online Conversational Commerce",
+        "description": [
+          { "content": " Prospective and existing customers who know exactly what they want (and don’t!) effortlessly ask questions with zero sales pressure or time constraints."},
+          { "content": "Shares documents, videos, images, and text with live agent handover (as needed) to answer unique questions and FAQs to move customers through the sales conversion funnel."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Lowers expenditure"},
+          {"listItem": "Optimizes sales cycle time"},
+          {"listItem": "Increases staff efficiency"},
+          {"listItem": "Delights shoppers"}
+        ]
       },
       {
-        "title": "Social Media-focused Chatbots",
-        "description": "At HKB TECH, our expertise lies in crafting personalized conversational and messaging bots uniquely designed for integration across diverse social media platforms such as Facebook and Twitter. We offer specialized chatbot development services meticulously aligned with your specific requirements, enabling seamless interactions and engagement across various social media networks. Our tailored solutions ensure effective integration and engagement across multiple platforms, empowering your business to optimize social media-driven communication through custom-designed chatbots."
+        "title": "Identity Authentication",
+        "description": [
+          { "content": "Customers authenticate their identity via chat 24x7x365 in natural language text and speech in any language using their favorite messaging apps."},
+          { "content": "Companies securely complete transactions (including purchases), provide services, and answer questions after verifying the user’s identity."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Minimizes costs"},
+          {"listItem": "Increases revenues"},
+          {"listItem": "Increases security"},
+          {"listItem": "Delights customers"}
+        ]
       },
       {
-        "title": "Transactional Chatbots",
-        "description": "HKB TECH offers transactional chatbots dedicated to processing orders, making reservations, and managing payments. Specifically designed for e-commerce and customer service platforms, these chatbots efficiently handle transactional interactions, ensuring seamless processing of orders and payments. Tailored for specific functionalities, these bots optimize the efficiency of transactional activities, enhancing e-commerce experiences and streamlining customer service operations."
+        "title": "Customer, FRANCHISE/Broker, and Employee Onboarding",
+        "description": [
+          { "content": "New people experience one-on-one, bespoke learning at their own pace, including stopping, starting, and asking for needed help at any time."},
+          { "content": "Virtual assistant/chatbot uses the most effective combination of documents, videos, audios, images, and text with live agent handover (as needed)."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Cuts costs"},
+          {"listItem": "Increases accuracy"},
+          {"listItem": "Optimizes staff"},
+          {"listItem": "Delights new customers and agents"}
+        ]
+      },
+      {
+        "title": "Applications and Forms Processing",
+        "description": [
+          { "content": "Customers and employees can enter all of the required information, including scanning documents and sending photos and videos, needed to complete the process."},
+          { "content": "Can explain exactly what is needed for each step of the process at the user’s pace, confirming when information is successfully received."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Saves costs"},
+          {"listItem": "Lesser time to resolve enquiries"},
+          {"listItem": "Optimizes staff"},
+          {"listItem": "Reduces customers’ stress and anxiety"}
+        ]
+      },
+      {
+        "title": "Emergency and Non-Emergency Broadcasting",
+        "description": [
+          { "content": "Users receive push messages and can ask questions of the organization's knowledge base i.e., safety, prevention, preparation. etc. for seasonal accidents, natural disasters, and pandemics."},
+          { "content": "Send out rich media information when and where it’s needed most for scheduled and unplanned events i.e., hurricane season, flu season, earthquake, etc."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Reduces accidents and injuries"},
+          {"listItem": "Less dependency on external staff"},
+          {"listItem": "Optimizes costs"}
+        ]
+      },
+      {
+        "title": "Facilities Management and Building Controls",
+        "description": [
+          { "content": "Queries on devices, incidents, cleaning, maintenance, repairs, availability, status, supplies, schedules, etc."},
+          { "content": "Scheduled, sensor-/camera- triggered, and real-time alerts and notifications are received by staff members and connected devices and facilities."}
+        ],
+        "subtitle": "Impact achieved:",
+        "list": [
+          {"listItem": "Improved communications result in improved efficiency"},
+          {"listItem": "Increased staff productivity / utilization"},
+          {"listItem": "Streamlined building maintenance and operations"}
+        ]
       }
+     
     ],
     "industries":[
       {"title": "Gaming", "icon": "./assets/images/conversational-ai/house.png"},

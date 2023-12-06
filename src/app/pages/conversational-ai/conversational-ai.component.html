@@ -13,7 +13,7 @@
   
     <div class="video-content clear-fix">
       <div class="container">
-        <h3>{{aiDetail?.title}}</h3>
+        <h3>{{translate.getDefaultLang() === 'ar' ? aiDetail.titleAr : aiDetail.titleEn}}</h3>
       </div>
    
     </div>
@@ -29,7 +29,8 @@
   
         <div class="col-lg-6 order-lg-2 order-1">
           <h2 class="mb-3">{{aiDetail.title}}</h2>
-          <p *ngFor="let item of aiDetail.details">{{item.content}}</p>
+          <p *ngFor="let item of aiDetail.details">{{translate.getDefaultLang() === 'ar' ? item.contentAr : item.contentEn}}
+          </p>
   
         </div>
       </div>
@@ -58,8 +59,13 @@
   
             <div class="tab-content">
               <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let item of aiDetail.tabs; let i = index">
-                    <p>{{item.description}}</p> 
-                    <!-- <p class="mobile-hide">{{tab.Mobiledescription}}</p>  -->
+                    <p *ngFor="let item of item.description">{{item.content}}</p> 
+
+                    <h5>{{item.subtitle}}</h5>
+                    <ul>
+                      <li *ngFor="let item of item.list">{{item.listItem}}</li>
+                    </ul>
+
               </div>
             </div>
   
@@ -81,9 +87,13 @@
                 <p class="title-description">Industries we support</p>
               </div>
 
-              <div class="col-xl-2 mt-3" *ngFor="let item of aiDetail.industries">
-                <img class="img-fluid" [src]="item.icon"/>
+              <div class="col-xl-2 col-sm-4 col-6 mt-3" *ngFor="let item of aiDetail.industries">
+                  <div class="card">
+                    <div class="card-content text-center p-4">
+                <img [src]="item.icon"/>
                 <p class="mb-0 mt-2">{{item.title}}</p>
+              </div>
+              </div>
             </div>
 
               
@@ -185,6 +195,187 @@
             </div>
       
       </section>
+
+      <!-- contact -->
+<section id="contact" class="common-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <h6 class="title text-body">CONTACT US</h6>
+        <p class="title-description">Get in touch</p>
+      </div>
+
+      <div class="col-xl-12">
+        <form #contactus="ngForm">
+          <div class="form-floating mt-5 mb-5">
+            <input
+              [(ngModel)]="contactForm.username"
+              name="username"
+              type="text"
+              required
+              class="form-control custom-height"
+              id="username"
+              placeholder="Enter email"
+            />
+            <label class="cust-label" for="username"
+              >Company Name <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mb-5">
+            <input
+              [pattern]="emailValid"
+              name="email"
+              [(ngModel)]="contactForm.email"
+              required
+              name="email"
+              type="email"
+              class="form-control custom-height"
+              id="email"
+              placeholder="Enter password"
+            />
+            <label class="cust-label" for="pwd"
+              >Company Email ID <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mb-5">
+            <input
+              [(ngModel)]="contactForm.phoneNumber"
+              type="text"
+              pattern="[0-9]*"
+              [maxlength]="15"
+              [minlength]="8"
+              required
+              class="form-control custom-height"
+              placeholder="Enter password"
+              name="phoneNumber"
+            />
+            <label class="cust-label" for="pwd"
+              >WhatsApp Number <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mt-5 mb-5">
+            <input
+              [(ngModel)]="contactForm.username"
+              name="username"
+              type="text"
+              required
+              class="form-control custom-height"
+              id="username"
+              placeholder="Enter email"
+            />
+            <label class="cust-label" for="username"
+              >First Name <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mt-5 mb-5">
+            <input
+              [(ngModel)]="contactForm.username"
+              name="username"
+              type="text"
+              required
+              class="form-control custom-height"
+              id="username"
+              placeholder="Enter email"
+            />
+            <label class="cust-label" for="username"
+              >Last name <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mt-5 mb-5">
+            <input
+              [(ngModel)]="contactForm.username"
+              name="username"
+              type="text"
+              required
+              class="form-control custom-height"
+              id="username"
+              placeholder="Enter email"
+            />
+            <label class="cust-label" for="username"
+              >Country <span>*</span></label
+            >
+          </div>
+
+        
+          <div class="form-floating mb-5">
+            <textarea
+              [(ngModel)]="contactForm.message"
+              class="form-control custom-height"
+              placeholder="Enter password"
+              rows="5"
+              required
+              id="comment"
+              name="message"
+            ></textarea>
+            <label class="cust-label" for="comment"
+              >What are you looking today? <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mb-5">
+            <textarea
+              [(ngModel)]="contactForm.message"
+              class="form-control custom-height"
+              placeholder="Enter password"
+              rows="5"
+              required
+              id="comment"
+              name="message"
+            ></textarea>
+            <label class="cust-label" for="comment"
+              >What you want to achieve? <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mb-5">
+            <textarea
+              [(ngModel)]="contactForm.message"
+              class="form-control custom-height"
+              placeholder="Enter password"
+              rows="5"
+              required
+              id="comment"
+              name="message"
+            ></textarea>
+            <label class="cust-label" for="comment"
+              >What do you want to launch? <span>*</span></label
+            >
+          </div>
+
+          <div class="form-floating mb-5">
+            <textarea
+              [(ngModel)]="contactForm.message"
+              class="form-control custom-height"
+              placeholder="Enter password"
+              rows="5"
+              required
+              id="comment"
+              name="message"
+            ></textarea>
+            <label class="cust-label" for="comment"
+              >What’s your approved budget?<span>*</span></label
+            >
+          </div>
+
+          <button
+            [disabled]="contactus.form.invalid"
+            type="button"
+            class="btn btn-primary btn-sm button-1"
+          >
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <app-case-study [casestudyPageParent]="caseStudyPage"></app-case-study>
 

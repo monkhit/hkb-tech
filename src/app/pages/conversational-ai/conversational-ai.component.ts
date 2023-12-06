@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonserviceService } from 'src/app/service/commonservice.service';
+import { TranslateService } from "@ngx-translate/core";
 
 @Component({
   selector: 'app-conversational-ai',
@@ -12,8 +13,23 @@ export class ConversationalAiComponent {
   activeTab = 0;
   caseStudyPage= 'AI';
 
+  emailValid =/^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
+  contactForm = {
+    username: "",
+    email: "",
+    phoneNumber: "",
+    selectInquries: "1",
+    message: "",
+    };
+    
+    inquires = [
+      { name: "Client Opportunities", id: "1" },
+      { name: "Partners Opportunities", id: "2" },
+    ];
+
   constructor(
-    private serviceProvider: CommonserviceService
+    private serviceProvider: CommonserviceService,
+    public translate: TranslateService,
   ) {}
 
   async getaiDetail(){
