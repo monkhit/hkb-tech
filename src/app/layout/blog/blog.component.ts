@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import blogs from "../../../assets/json/blogs.json";
+import { CommonserviceService } from 'src/app/service/commonservice.service';
 import {
   NavigationExtras,
   ActivatedRoute,
   Router,
   NavigationStart,
 } from "@angular/router";
+
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -13,11 +14,25 @@ import {
 })
 
 export class BlogComponent {
-  blogs: any = blogs;
+  blogs: any;
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private router: Router ) {}
+    private router: Router,
+    private serviceProvider: CommonserviceService
+    ) {}
+
+
+    
+  async getBlog(){
+    const url ='../assets/json/blog/blogs.json'
+    this.serviceProvider.getWebService(url).subscribe({
+      next: async (response: any) => {
+        this.blogs = response;
+      }
+      })
+  }
+
 
     async navigate(item: any, id: any, type: any) {
       const navigationExtras: NavigationExtras = {
@@ -31,6 +46,11 @@ export class BlogComponent {
 
     
     }
+
+
+    async ngOnInit() {
+      await this.getBlog()
+     }
 
 
 }

@@ -1,5 +1,5 @@
 import { Component, ElementRef, NgZone } from '@angular/core';
-import news from "../../../assets/json/news.json";
+import { CommonserviceService } from 'src/app/service/commonservice.service';
 import * as flickity from "flickity";
 
 @Component({
@@ -9,12 +9,24 @@ import * as flickity from "flickity";
 })
 export class NewsComponent {
 
-  news: any = news;
+
+  news: any ;
 
   constructor(
-    private zone: NgZone,
     private elementRef: ElementRef,
+    private serviceProvider: CommonserviceService
   ) {}
+
+
+  async getNews(){
+    const url ='../assets/json/news/news.json'
+    this.serviceProvider.getWebService(url).subscribe({
+      next: async (response: any) => {
+        this.news = response;
+        // console.log(response)
+      }
+      })
+  }
 
 
   openlink(url: any) {
@@ -33,8 +45,15 @@ export class NewsComponent {
     });
   }
 
+
   ngAfterViewInit() {
-    this.loadcarousel();
+    setTimeout(async() => {
+      await this.loadcarousel();
+    }, 1000);
   }
+
+  async ngOnInit() {
+     await this.getNews()
+    }
 
 }

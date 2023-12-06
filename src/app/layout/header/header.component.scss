@@ -93,6 +93,16 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
+
+  .navbar-toggler{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+
+ 
+
+  }
+
   #mynavbar {
     position: absolute;
     background-color: rgb(255, 255, 255);

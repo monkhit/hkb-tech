@@ -1,35 +1,52 @@
-import { Component } from '@angular/core';
-import caseStudy from "../../../assets/json/caseStudy.json";
+import { Component, Input } from '@angular/core';
+import { CommonserviceService } from 'src/app/service/commonservice.service';
+import { TranslateService } from '@ngx-translate/core';
 import {
   NavigationExtras,
   ActivatedRoute,
   Router,
   NavigationStart,
 } from "@angular/router";
+import { resolve } from 'dns';
+
 @Component({
   selector: 'app-case-study',
   templateUrl: './case-study.component.html',
   styleUrls: ['./case-study.component.scss']
 })
 export class CaseStudyComponent {
-  caseStudy: any = caseStudy;
+
+  @Input() casestudyPageParent: any;
+  caseStudy: any;
 
   constructor(
+    private serviceProvider:  CommonserviceService,
+    public translate: TranslateService,
     private activatedRoute: ActivatedRoute,
-    private router: Router ) {}
+    private router: Router 
+    ) {}
 
 
-    
-    async navigate(item: any, id: any, type: any) {
-      const navigationExtras: NavigationExtras = {
-        relativeTo: this.activatedRoute,
-        queryParams: {type: item.title},
-        state: {
-          details: item,
-        },
-      };
-      this.router.navigate(["/blog-description"], navigationExtras);
 
-    
+    async getcaseStudy(page:any){
+      const url = page === 'SMARTCITY' ? '../assets/json/smart-city/casestudy-SmartCity.json' : '../assets/json/conversational-ai/casestudy-ai.json'
+
+      this.serviceProvider.getWebService(url).subscribe({
+        next: async (response: any) => {
+          this.caseStudy = response
+        }
+
+        })
     }
+
+    
+  async ngOnInit() {
+    await this.getcaseStudy(this.casestudyPageParent)
+  }
+
+
+    async navigate(item: any) {
+      window.open(item.url, "_blank");
+    }
+
 }

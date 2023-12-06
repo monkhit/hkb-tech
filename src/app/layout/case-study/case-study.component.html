@@ -10,10 +10,10 @@
           <img class="img-fluid news-image" [src]="item.image" />
 
           <div class="news-section mb-5">
-            <h5 class="mt-4">{{ item.name }}</h5>
-            <p class="mb-5">{{ item.description }}</p>
+            <h5 class="mt-4">{{ item.title }}</h5>
+            <p *ngIf="item.description !== ''" class="mb-5">{{ item.description }}</p>
 
-            <button (click)="navigate(item, i, 'B')" class="btn news-button">
+            <button (click)="navigate(item)" class="btn news-button">
               Learn More
             </button>
           </div>

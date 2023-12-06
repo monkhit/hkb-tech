@@ -6,8 +6,7 @@ import {
   Router,
   NavigationStart,
 } from "@angular/router";
-import industriesDetails from "../../../assets/json/industries.json";
-import serviceDetails from "../../../assets/json/services.json";
+import { CommonserviceService } from 'src/app/service/commonservice.service';
 
 @Component({
   selector: 'app-header',
@@ -17,18 +16,18 @@ import serviceDetails from "../../../assets/json/services.json";
 export class HeaderComponent implements OnInit {
 
   language: any = null;
-  services: any = serviceDetails
-  industries: any = industriesDetails
+
+
+  services: any;
+  industries: any 
   
     MenuItems = [
          {name: 'ABOUT',  id:'about'},
          {name: 'SERVICES',   class: '',  id:'services'},
          {name: 'INDUSTRIES',  class: '', id:'sector'},
-        //  {name: 'PARTNER',  class: '', id:'team'},
          {name: 'BLOGS',  class: '', id:'blog'},
          {name: 'CONTACT US',  class: '', id:'contact'},
          {name: 'Smart City',  class: '', id:'contact'},
-
     ]
          
 
@@ -38,6 +37,7 @@ export class HeaderComponent implements OnInit {
     private elementRef: ElementRef,
     private activatedRoute: ActivatedRoute,
     private router: Router,
+    private serviceProvider: CommonserviceService
   ) { }
 
 
@@ -58,6 +58,7 @@ export class HeaderComponent implements OnInit {
 
 
  async navigate(item: any, id: any, type: any) {
+  console.log(item)
   const navbarToggler = this.elementRef.nativeElement.querySelector('.navbar-toggler');
   navbarToggler.click();
   
@@ -75,7 +76,15 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(["/industries"], navigationExtras );
   }
   else if (type === "S") {
-    this.router.navigate(["/services"], navigationExtras );
+
+    if(item.Dpage === true){
+    this.router.navigate(["/conversational-ai"], navigationExtras );
+    }
+    else{
+      this.router.navigate(["/services"], navigationExtras );
+    }
+
+
   }
 
 
@@ -108,8 +117,11 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  ngOnInit(): void {
+  async ngOnInit() {
     this.language = localStorage.getItem('lang');
+    this.services = await this.serviceProvider.getlocalStorage('Servcies')
+    this.industries = await this.serviceProvider.getlocalStorage('Industries')
+
   }
 
 }

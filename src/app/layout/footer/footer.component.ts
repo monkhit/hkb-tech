@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import industriesDetails from "../../../assets/json/industries.json";
-import serviceDetails from "../../../assets/json/services.json";
 import { EmailService } from 'src/app/service/email-service';
+import { CommonserviceService } from 'src/app/service/commonservice.service';
 
 import {
   NavigationExtras,
@@ -17,8 +16,8 @@ import {
 export class FooterComponent implements OnInit {
 
   emailValid = /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,25})$/;
-  services: any = serviceDetails
-  industries: any = industriesDetails
+  services: any;
+  industries: any 
   siteUrl: any;
   email= '';
 
@@ -34,6 +33,8 @@ export class FooterComponent implements OnInit {
     private emailService: EmailService,
     private activatedRoute: ActivatedRoute,
     private router: Router,
+    private serviceProvider: CommonserviceService
+
   ) { 
     const url = window.location.href;
     this.siteUrl = url.slice(0, url.lastIndexOf('/'))
@@ -81,7 +82,10 @@ export class FooterComponent implements OnInit {
 
  
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    this.services = await this.serviceProvider.getlocalStorage('Servcies')
+    this.industries = await this.serviceProvider.getlocalStorage('Industries')
+
   }
 
 }
