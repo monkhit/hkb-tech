@@ -7,7 +7,6 @@ import {
   Router,
   NavigationStart,
 } from "@angular/router";
-import { resolve } from 'dns';
 
 @Component({
   selector: 'app-case-study',

@@ -36,7 +36,7 @@
     font-size: 1.6rem;
   }
 
-  #news {
+  #news, #blog {
     .flickity-prev-next-button {
       top: 30%;
     }

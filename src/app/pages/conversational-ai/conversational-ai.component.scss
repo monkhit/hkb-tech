@@ -74,7 +74,10 @@
 }
 
 #counter {
-  background-image: url("https://miskglobalforum.com/wp-content/uploads/2023/10/DJI_02221-sm-1.jpg");
+  background-image: url("../../../assets/images/smart-city/4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
 
   .counter-box {
     display: flex;
@@ -90,6 +93,57 @@
       span.counter-box--values_count {
         font-size: 2.5rem;
       }
+    }
+  }
+}
+
+#industries {
+  .card {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+
+    img{
+      width: 50%;
+    }
+
+  }
+}
+
+#contact {
+  .activebox {
+    background: var(--gradient-3);
+    color: var(--white);
+  }
+
+  button {
+    padding: 0.5rem !important;
+  }
+
+  .content-box {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 3rem 0 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--gradient-3);
+      color: #fff;
+    }
+  }
+
+  .custom-label {
+    background: #fff;
+    height: auto !important;
+    padding: 0 !important;
+    color: rgba(var(--bs-body-color-rgb), 0.65);
+    transform: scale(0.85) translateY(-0.8rem) translateX(0.75rem) !important;
+  }
+
+  .custom-height {
+    height: 67px;
+
+    .cust-label {
+      transform: translateY(0.4rem) translateX(0.15rem);
     }
   }
 }
@@ -114,6 +168,14 @@
   #tabs {
     padding: 5rem 1rem !important;
 
+    h5 {
+      font-size: 1rem;
+    }
+
+    li {
+      font-size: 0.8rem;
+    }
+
     .nav-pills {
       .nav-item {
         font-size: 0.9rem;
@@ -123,7 +185,8 @@
         display: none;
       }
 
-      p {
+      p,
+      li {
         font-size: 0.8rem;
       }
     }

@@ -46,7 +46,7 @@
           <h2 class="mb-4">Use Cases we excel </h2>
         </div>
   
-        <div class="col-lg-4 col-sm-5 col-xl-5 col-5">
+        <div class="col-lg-4 col-sm-5 col-xl-5 col-6">
           <ul class="nav nav-pills nav-stacked">
             <li class="nav-item" *ngFor="let item of aiDetail.tabs; let i = index" [class.active]="i === activeTab"  (click)="activateTab(i)">{{ item.title }}
               <i class="fa-solid fa-caret-right"></i>
@@ -55,7 +55,7 @@
           </div>
   
           
-          <div class="col-lg-8 col-sm-7 col-xl-7 col-7">
+          <div class="col-lg-8 col-sm-7 col-xl-7 col-6">
   
             <div class="tab-content">
               <div class="tab-pane"  [class.active]="i === activeTab" *ngFor="let item of aiDetail.tabs; let i = index">
@@ -90,7 +90,7 @@
               <div class="col-xl-2 col-sm-4 col-6 mt-3" *ngFor="let item of aiDetail.industries">
                   <div class="card">
                     <div class="card-content text-center p-4">
-                <img [src]="item.icon"/>
+                <img class="img-fluid" [src]="item.icon"/>
                 <p class="mb-0 mt-2">{{item.title}}</p>
               </div>
               </div>
@@ -172,7 +172,7 @@
         </div>
       </section>
 
-      <section id="partners" class="common-space">
+      <section id="partners" class="common-space" style="padding-bottom: 10px;">
 
         <div class="container">
           <div class="row">
@@ -181,14 +181,12 @@
               <p class="title-description">Trusted by Globally Recognized Innovation Leaders</p>
             </div>
       
-            <div class="col-xl-12 mt-5 d-none d-lg-block d-sm-block">
-              <img class="img-fluid" src="./assets/images/partners/partners_logo.png"/>
+            <div class="col-xl-12 mt-3 d-none d-lg-block d-sm-block">
+              <img class="img-fluid" src="./assets/images/conversational-ai/partners.png"/>
             </div>
       
             <div class="col-xl-12 mt-5 d-block d-lg-none d-sm-none">
-              <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-1.png"/>
-              <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-2.png"/>
-              <img class="img-fluid" src="./assets/images/partners/partners_logo-mobile-3.png"/>
+              <img class="img-fluid" src="./assets/images/conversational-ai/partners-mobile.png"/>
             </div>
       
             </div>
@@ -196,16 +194,54 @@
       
       </section>
 
+      <section id="schedule-demo" class="common-space" style="padding-top: 1rem;">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-xl-12">
+              <p class="title-description">Schedule my live demo</p>
+            </div>
+            
+            <div class="col-lg-8 mt-5 mb-5">
+              <img class="img-fluid" src="./assets/images/conversational-ai/book.png"/>
+            </div>
+
+            <div class="col-lg-4 mt-5 mb-5 text-center">
+              <a href="conversational-ai?type=Conversational%20AI#contact" class="btn btn-primary btn-lg button-1">Book a Demo</a>
+            </div>
+            
+            
+          </div>
+        </div>
+      </section>
+
+
+      <app-case-study [casestudyPageParent]="caseStudyPage"></app-case-study>
+
+
       <!-- contact -->
 <section id="contact" class="common-space">
   <div class="container">
     <div class="row">
-      <div class="col-xl-12">
+      <div class="col-xl-12 ">
         <h6 class="title text-body">CONTACT US</h6>
         <p class="title-description">Get in touch</p>
       </div>
 
-      <div class="col-xl-12">
+      <div class="col-xl-5 ">
+
+        <div
+        class="content-box activebox mt-5 mb-5">
+        <h4>Experience our Conversational AI firsthand</h4>
+        <p>Book a demo now!</p>
+      </div>
+        
+      </div>
+
+      <div class="col-xl-1 d-block d-lg-none d-sm-none d-none">&nbsp;</div>
+
+
+      <div class="col-xl-6">
         <form #contactus="ngForm">
           <div class="form-floating mt-5 mb-5">
             <input
@@ -251,52 +287,52 @@
               placeholder="Enter password"
               name="phoneNumber"
             />
-            <label class="cust-label" for="pwd"
+            <label class="cust-label" for="phoneNumber"
               >WhatsApp Number <span>*</span></label
             >
           </div>
 
           <div class="form-floating mt-5 mb-5">
             <input
-              [(ngModel)]="contactForm.username"
-              name="username"
+              [(ngModel)]="contactForm.firstName"
+              name="firstName"
               type="text"
               required
               class="form-control custom-height"
-              id="username"
+              id="firstName"
               placeholder="Enter email"
             />
-            <label class="cust-label" for="username"
+            <label class="cust-label" for="firstName"
               >First Name <span>*</span></label
             >
           </div>
 
           <div class="form-floating mt-5 mb-5">
             <input
-              [(ngModel)]="contactForm.username"
-              name="username"
+              [(ngModel)]="contactForm.lastName"
+              name="lastName"
               type="text"
               required
               class="form-control custom-height"
-              id="username"
+              id="lastName"
               placeholder="Enter email"
             />
-            <label class="cust-label" for="username"
+            <label class="cust-label" for="lastName"
               >Last name <span>*</span></label
             >
           </div>
 
           <div class="form-floating mt-5 mb-5">
             <input
-              [(ngModel)]="contactForm.username"
-              name="username"
+              [(ngModel)]="contactForm.country"
+              name="country"
               type="text"
               required
               class="form-control custom-height"
-              id="username"
-              placeholder="Enter email"
+              id="country"
+              placeholder="Enter country"
             />
-            <label class="cust-label" for="username"
+            <label class="cust-label" for="country"
               >Country <span>*</span></label
             >
           </div>
@@ -304,65 +340,66 @@
         
           <div class="form-floating mb-5">
             <textarea
-              [(ngModel)]="contactForm.message"
+              [(ngModel)]="contactForm.today"
               class="form-control custom-height"
               placeholder="Enter password"
-              rows="5"
+              rows="8"
               required
-              id="comment"
+              id="today"
               name="message"
             ></textarea>
-            <label class="cust-label" for="comment"
+            <label class="cust-label" for="today"
               >What are you looking today? <span>*</span></label
             >
           </div>
 
           <div class="form-floating mb-5">
             <textarea
-              [(ngModel)]="contactForm.message"
+              [(ngModel)]="contactForm.achieve"
               class="form-control custom-height"
               placeholder="Enter password"
-              rows="5"
+              rows="8"
               required
-              id="comment"
+              id="achieve"
               name="message"
             ></textarea>
-            <label class="cust-label" for="comment"
+            <label class="cust-label" for="achieve"
               >What you want to achieve? <span>*</span></label
             >
           </div>
 
           <div class="form-floating mb-5">
             <textarea
-              [(ngModel)]="contactForm.message"
+              [(ngModel)]="contactForm.launch"
               class="form-control custom-height"
               placeholder="Enter password"
-              rows="5"
+              rows="8"
               required
-              id="comment"
+              id="launch"
               name="message"
             ></textarea>
-            <label class="cust-label" for="comment"
+            <label class="cust-label" for="launch"
               >What do you want to launch? <span>*</span></label
             >
           </div>
 
           <div class="form-floating mb-5">
             <textarea
-              [(ngModel)]="contactForm.message"
+              [(ngModel)]="contactForm.budget"
               class="form-control custom-height"
               placeholder="Enter password"
-              rows="5"
+              rows="8"
               required
-              id="comment"
+              id="budget"
               name="message"
             ></textarea>
-            <label class="cust-label" for="comment"
+            <label class="cust-label" for="budget"
               >What’s your approved budget?<span>*</span></label
             >
           </div>
 
           <button
+            (click)="sendEmail()"
             [disabled]="contactus.form.invalid"
             type="button"
             class="btn btn-primary btn-sm button-1"
@@ -377,7 +414,6 @@
 
 
 
-<app-case-study [casestudyPageParent]="caseStudyPage"></app-case-study>
 
 <app-footer></app-footer>
 

@@ -24,6 +24,7 @@ import { PartnersComponent } from './layout/partners/partners.component';
 import { CaseStudyComponent } from './layout/case-study/case-study.component';
 import { ScrollTopComponent } from './component/scroll-top/scroll-top.component';
 import { ConversationalAiComponent } from './pages/conversational-ai/conversational-ai.component';
+import { TypewritterDirective } from './dirrective/typewritter.directive';
 export function createTranslateLoader(handler: HttpBackend) {
   const http = new HttpClient(handler);
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -48,7 +49,8 @@ export function createTranslateLoader(handler: HttpBackend) {
     PartnersComponent,
     CaseStudyComponent,
     ScrollTopComponent,
-    ConversationalAiComponent
+    ConversationalAiComponent,
+    TypewritterDirective
     ],
   imports: [
     BrowserModule,

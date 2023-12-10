@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { CommonserviceService } from 'src/app/service/commonservice.service';
+
+
 @Component({
   selector: 'app-smart-city',
   templateUrl: './smart-city.component.html',
@@ -8,10 +10,15 @@ import { CommonserviceService } from 'src/app/service/commonservice.service';
 })
 export class SmartCityComponent {
 
+  typewriterText = 'HKB Tech';
+  typewritersubText= 'Smart City'
+
   videoSource = "./assets/images/smart-city/Smart-City.mp4";
   caseStudyPage= 'SMARTCITY';
   webContent: any;
   activeTab = 0;
+
+
 
   constructor(
     public translate: TranslateService,
@@ -19,7 +26,6 @@ export class SmartCityComponent {
   ) {
 
   }
-
 
   async getwebContent(){
     const url ='../assets/json/smart-city/smartcity-home.json'
@@ -36,12 +42,22 @@ export class SmartCityComponent {
     this.activeTab = index;
   }
 
+//   getTyped(){
+//     const options: Typed.Options = {
+//       strings: ['Hello, this is a typewriter effect in Angular!'],
+//       typeSpeed: 50, // typing speed in milliseconds
+//       showCursor: true, // display cursor
+//       cursorChar: '|', // cursor character
+//   }
+//   const typed = new Typed(this.typewriterElement.nativeElement, options);
+// }
 
 
  
 
  async ngOnInit() {
   await this.getwebContent()
+  // this.getTyped()
   }
 
 

@@ -12,10 +12,9 @@
 
   <div class="video-content clear-fix">
     <div class="container">
-      <h1>
-        {{ translate.getDefaultLang() === "ar" ? webContent?.titleAr : webContent?.titleEn }}
-      </h1>
-      <h3 class="tw" #tw2>Smart City</h3>
+
+      <h1 appTypewritter [text]="typewriterText" [speed]="100"></h1>
+      <h3 appTypewritter [text]="typewritersubText" [speed]="150"></h3>
     </div>
     <!-- <a class="move-forward" href="#about">
         <div class="chevron"></div>
@@ -30,13 +29,13 @@
     <div class="row">
 
       <div class="d-xl-none d-lg-none d-sm-none col-12">
-        <img class="img-fluid" src="https://miskglobalforum.com/wp-content/uploads/2023/10/about-image-1-1.jpg"/>
+        <img class="img-fluid" src="./assets/images/smart-city/1.png"/>
       </div>
 
       <div class="col-xl-8 offset-xl-4">
         <div class="smartCity-bg">
           <div class="smartCity-bg--content" data-aos="fade-right">
-            <h2>Smart City</h2>
+            <h2 >Smart City</h2>
             <p>
               Welcome to the forefront of urban evolution—welcome to HKB TECH's
               Smart City Solutions, where technological innovation converges
@@ -55,9 +54,10 @@
 
 <section id="urbanMobility" class="common-space">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6 text-center">
-        <img src="./assets/images/smart-city/Urban-mobility.png" />
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-center mb-4">
+        <img class="img-fluid" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic" data-aos-duration="2000" src="./assets/images/smart-city/Urban-mobility.png" />
       </div>
 
       <div class="col-lg-6">
@@ -129,7 +129,7 @@
     <div class="row">
 
       <div class="d-xl-none d-lg-none d-sm-none col-12">
-        <img class="img-fluid" src="https://miskglobalforum.com/wp-content/uploads/2023/10/about-image-1-1.jpg"/>
+        <img class="img-fluid" src="./assets/images/smart-city/3.png"/>
       </div>
 
       <div class="col-xl-9">
@@ -161,6 +161,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
+        <h2 class="text-center mb-3">Smart Parking in numbers</h2>
+
         <div class="counter-box">
           <div
             class="counter-box--values text-center"
@@ -227,7 +229,7 @@
   </div>
 </section>
 
-<section id="tabs" class="common-space">
+<section id="tabs" class="common-space" *ngIf="webContent">
     <div class="container">
       <div class="row">
   
@@ -266,7 +268,7 @@
   
     </section>
 
-<app-partners></app-partners>
+<!-- <app-partners></app-partners> -->
 
 <app-case-study [casestudyPageParent]="caseStudyPage"></app-case-study>
 <app-footer></app-footer>

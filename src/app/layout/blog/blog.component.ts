@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { CommonserviceService } from 'src/app/service/commonservice.service';
 import {
   NavigationExtras,
@@ -6,6 +6,7 @@ import {
   Router,
   NavigationStart,
 } from "@angular/router";
+import * as flickity from "flickity";
 
 @Component({
   selector: 'app-blog',
@@ -17,11 +18,24 @@ export class BlogComponent {
   blogs: any;
 
   constructor(
+    private elementRef: ElementRef,
     private activatedRoute: ActivatedRoute,
     private router: Router,
     private serviceProvider: CommonserviceService
     ) {}
 
+
+      
+  loadcarousel() {
+    new flickity(this.elementRef.nativeElement.querySelector(".blog"), {
+      prevNextButtons: true,
+      contain: false,
+      groupCells: true,
+      autoPlay: false,
+      adaptiveHeight: true,
+      pageDots: false,
+    });
+  }
 
     
   async getBlog(){
@@ -45,6 +59,13 @@ export class BlogComponent {
       this.router.navigate(["/blog-description"], navigationExtras);
 
     
+    }
+
+
+    ngAfterViewInit() {
+      setTimeout(async() => {
+        await this.loadcarousel();
+      }, 1000);
     }
 
 
