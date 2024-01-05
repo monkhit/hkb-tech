@@ -17,7 +17,7 @@ export class TypewritterDirective {
     setTimeout(() => {
       this.startTyping();
 
-    }, 4100);
+    }, 500);
   }
 
   private startTyping() {

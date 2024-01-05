@@ -87,6 +87,10 @@ export class HeaderComponent implements OnInit {
 
   }
 
+  else if(type === "C"){
+    this.router.navigate(["/smart-city"] );
+  }
+
 
 
 }
